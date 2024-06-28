@@ -1,0 +1,65 @@
+.include RING.sub
+.include TSMC_180nm.txt
+.include NAND.sub
+.include enable.sub
+.include adder.sub
+.include subtractor.sub
+.include comparator.sub
+.include and.sub
+.include make_XOR.sub
+.include make_OR.sub
+.include make_AND.sub
+.include make_XNOR.sub
+.param SUPPLY = 1.8
+.param LAMBDA = 0.18u
+.param wn1 = {10*LAMBDA}
+.param wn2 = {10*LAMBDA}
+.param ln1 = {2*LAMBDA}
+.param ln2 = {2*LAMBDA}
+.param wp1 = wn1
+.param wp2 = wn1
+.param lp1 = {LAMBDA}
+.param lp2 = {LAMBDA}
+.global gnd
+Vdd vdd gnd 'SUPPLY'
+V_in_a_dc bit1_a gnd DC=1.8V
+V_in_b_dc bit1_b gnd DC=1.8V
+V_in_c_dc bit1_c gnd DC=1.8V
+V_in_d_dc bit1_d gnd DC=1.8V
+V_in_e_dc bit2_a gnd DC=1.8v
+V_in_f_dc bit2_b gnd DC=0V
+V_in_g_dc bit2_c gnd DC=0V
+V_in_h_dc bit2_d gnd DC=1.8V
+V_in_i_dc select0 gnd DC 1.8V
+V_in_j_dc select1 gnd DC 1.8V
+X1 select0 sc0 vdd gnd RING
+X2 select1 sc1 vdd gnd RING
+X3 sc0 sc1 d0 vdd gnd make_AND
+X4 sc1 select0 d1 vdd gnd make_AND
+X5 select1 sc0 d2 vdd gnd make_AND
+X6 select1 select0 d3 vdd gnd make_AND
+X7 d0 bit1_a bit1_b bit1_c bit1_d bit2_a bit2_b bit2_c bit2_d f1_a f1_b f1_c f1_d f2_a f2_b f2_c f2_d vdd gnd enable
+X8 d1 bit1_a bit1_b bit1_c bit1_d bit2_a bit2_b bit2_c bit2_d g1_a g1_b g1_c g1_d g2_a g2_b g2_c g2_d vdd gnd enable
+X9 d2 bit1_a bit1_b bit1_c bit1_d bit2_a bit2_b bit2_c bit2_d h1_a h1_b h1_c h1_d h2_a h2_b h2_c h2_d vdd gnd enable
+X10 d3 bit1_a bit1_b bit1_c bit1_d bit2_a bit2_b bit2_c bit2_d i1_a i1_b i1_c i1_d i2_a i2_b i2_c i2_d vdd gnd enable
+X11 f1_a f1_b f1_c f1_d f2_a f2_b f2_c f2_d mk1 mk2 mk3 mk4 mk5 vdd gnd adder
+X12 g1_a g1_b g1_c g1_d g2_a g2_b g2_c g2_d mt1 mt2 mt3 mt4 mt5 vdd gnd subtractor
+X13 h1_a h1_b h1_c h1_d h2_a h2_b h2_c h2_d equal greater lesser vdd gnd comparator
+X14 i1_a i1_b i1_c i1_d i2_a i2_b i2_c i2_d rm1 rm2 rm3 rm4 vdd gnd and
+.tran 1n 500n
+.control
+run
+set color0 = rgb:f/f/e
+set color1 = black
+plot   v(rm1)+6 v(rm2)+4 v(rm3)+2 v(rm4)
+hardcopy image.ps    v(rm1)+6 v(rm2)+4 v(rm3)+2 v(rm4)
+plot   v(equal)+4 v(greater)+2 v(lesser)
+hardcopy image1.ps   v(equal)+4 v(greater)+2 v(lesser)
+plot   v(mt1)+8 v(mt2)+6 v(mt3)+4 v(mt4)+2 v(mt5)
+hardcopy image2.ps  v(mt1)+8 v(mt2)+6 v(mt3)+4 v(mt4)+2 v(mt5)
+plot   v(mk1)+8 v(mk2)+6 v(mk3)+4 v(mk4)+2 v(mk5)
+hardcopy image3.ps  v(mk1)+8 v(mk2)+6 v(mk3)+4 v(mk4)+2 v(mk5)
+plot   v(bit1_a)+6 v(bit1_b)+4 v(bit1_c)+2 v(bit1_d)
+hardcopy image4.ps   v(bit1_a)+6 v(bit1_b)+4 v(bit1_c)+2 v(bit1_d)
+.end
+.endc

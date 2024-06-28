@@ -1,0 +1,50 @@
+*50ns and 70 ns
+.include RING.sub
+.include TSMC_180nm.txt
+.include NAND.sub
+.include make_XOR.sub
+.include make_OR.sub
+.include make_AND.sub
+.include make_XNOR.sub
+.subckt subtractor bit1_a bit1_b bit1_c bit1_d bit2_a bit2_b bit2_c bit2_d pl5 rt2 tm2 p2 h2 vdd gnd
+V_in_i_dc carry gnd DC 1.8V
+X29 bit2_a b2_a vdd gnd RING   
+X30 bit2_b b2_b vdd gnd RING
+X31 bit2_c b2_c vdd gnd RING
+X32 bit2_d b2_d vdd gnd RING
+X1 bit1_d b2_d h1 vdd gnd make_XOR
+X2 h1 carry h2 vdd gnd make_XOR
+//h2=So
+X3 bit1_d b2_d g1 vdd gnd make_AND
+X4 bit1_d carry g2 vdd gnd make_AND
+X5 carry b2_d g3 vdd gnd make_AND
+X6 g1 g2 g4 vdd gnd make_OR
+X7 g4 g3 g5 vdd gnd make_OR
+//g5 is C1
+X8 bit1_c b2_c p1 vdd gnd make_XOR
+X9 p1 g5 p2 vdd gnd make_XOR
+//p2=S1
+X10 bit1_c b2_c ta1 vdd gnd make_AND
+X11 bit1_c g5 ta2 vdd gnd make_AND
+X12 g5 b2_c ta3 vdd gnd make_AND
+X13 ta1 ta2 ta4 vdd gnd make_OR
+X14 ta4 ta3 ta5 vdd gnd make_OR
+//ta5 is C2
+X15 bit1_b b2_b tm1 vdd gnd make_XOR
+X16 tm1 ta5 tm2 vdd gnd make_XOR
+//tm2=S2
+X17 bit1_b b2_b tr1 vdd gnd make_AND
+X18 bit1_b ta5 tr2 vdd gnd make_AND
+X19 ta5 b2_b tr3 vdd gnd make_AND
+X20 tr1 tr2 tr4 vdd gnd make_OR
+X21 tr4 tr3 tr5 vdd gnd make_OR
+//tr5 is C3
+X22 bit1_a b2_a rt1 vdd gnd make_XOR
+X23 rt1 tr5 rt2 vdd gnd make_XOR
+//rt2 is S3
+X24 bit1_a b2_a pl1 vdd gnd make_AND
+X25 bit1_a tr5 pl2 vdd gnd make_AND
+X26 tr5 b2_a pl3 vdd gnd make_AND
+X27 pl1 pl2 pl4 vdd gnd make_OR
+X28 pl4 pl3 pl5 vdd gnd make_OR
+.ends subtractor

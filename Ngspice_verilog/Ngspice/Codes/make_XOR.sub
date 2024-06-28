@@ -1,0 +1,8 @@
+.include RING.sub
+.include NAND.sub
+.subckt make_XOR input1_n input2_n output_inal vdd gnd
+X1 input1_n input2_n r1 vdd gnd NAND
+X2 input1_n r1 r2 vdd gnd NAND
+X3 input2_n r1 r3 vdd gnd NAND
+X4 r2 r3 output_inal vdd gnd NAND
+.ends make_XOR

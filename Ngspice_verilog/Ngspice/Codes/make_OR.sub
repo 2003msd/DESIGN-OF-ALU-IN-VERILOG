@@ -1,0 +1,7 @@
+.include RING.sub
+.include NAND.sub
+.subckt  make_OR input1_node input2_node output_node vdd gnd
+X1 input1_node input1_node intermediate1 vdd gnd NAND
+X2 input2_node input2_node intermediate2 vdd gnd NAND
+X3 intermediate1 intermediate2 output_node vdd gnd NAND
+.ends make_OR

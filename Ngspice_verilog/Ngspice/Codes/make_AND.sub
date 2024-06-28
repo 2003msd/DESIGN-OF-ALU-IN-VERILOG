@@ -1,0 +1,6 @@
+.include RING.sub
+.include NAND.sub
+.subckt  make_AND input1_node input2_node output_node vdd gnd
+X1 input1_node input2_node intermediate vdd gnd NAND
+X2 intermediate output_node vdd gnd RING
+.ends make_AND

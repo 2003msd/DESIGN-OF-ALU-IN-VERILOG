@@ -1,0 +1,46 @@
+*50ns and 70 ns
+.include RING.sub
+.include TSMC_180nm.txt
+.include NAND.sub
+.param SUPPLY = 1.8
+.param LAMBDA = 0.18u
+.param wn1 = {10*LAMBDA}
+.param wn2 = {10*LAMBDA}
+.param ln1 = {2*LAMBDA}
+.param ln2 = {2*LAMBDA}
+.param wp1 = wn1
+.param wp2 = wn1
+.param lp1 = {LAMBDA}
+.param lp2 = {LAMBDA}
+.global gnd
+Vdd node_x gnd 'SUPPLY'
+V_in_a bit1_a gnd PULSE(0 1.8 0ns 100ps 100ps 20ns 40ns)
+V_in_b bit1_b gnd PULSE(0 1.8 0ns 100ps 100ps 20ns 40ns)
+V_in_c bit1_c gnd PULSE(0 1.8 0ns 100ps 100ps 20ns 40ns)
+V_in_d bit1_d gnd PULSE(0 1.8 0ns 100ps 100ps 20ns 40ns)
+V_in_e bit2_a gnd PULSE(0 1.8 0ns 100ps 100ps 20ns 40ns)
+V_in_f bit2_b gnd PULSE(0 1.8 0ns 100ps 100ps 20ns 40ns)  
+V_in_g bit2_c gnd PULSE(0 1.8 0ns 100ps 100ps 20ns 40ns)
+V_in_h bit2_d gnd PULSE(0 1.8 0ns 100ps 100ps 20ns 40ns)
+C1 node_out gnd 0.5f
+X1 bit1_a bit2_a result_1 node_x gnd NAND
+X2 bit1_b bit2_b result_2 node_x gnd NAND
+X3 bit1_c bit2_c result_3 node_x gnd NAND
+X4 bit1_d bit2_d result_4 node_x gnd NAND
+X5 result_1 r_1 node_x gnd RING
+X6 result_2 r_2 node_x gnd RING
+X7 result_3 r_3 node_x gnd RING
+X8 result_4 r_4 node_x gnd RING
+.tran 1n 500n
+.control
+run
+set color0 = rgb:f/f/e
+set color1 = black
+plot  v(bit1_a)+6 v(bit1_b)+4 v(bit1_c)+2 v(bit1_d)  
+hardcopy image.ps v(bit1_a)+6 v(bit1_b)+4 v(bit1_c)+2 v(bit1_d)
+plot  v(bit2_a)+6 v(bit2_b)+4 v(bit2_c)+2 v(bit2_d)
+hardcopy image1.ps  v(bit2_a)+6 v(bit2_b)+4 v(bit2_c)+2 v(bit2_d)
+plot v(r_1)+6 v(r_2)+4 v(r_3)+2 v(r_4)
+hardcopy image2.ps v(r_1)+6 v(r_2)+4 v(r_3)+2 v(r_4)c
+.end
+.endc

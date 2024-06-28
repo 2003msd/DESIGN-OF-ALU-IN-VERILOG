@@ -1,0 +1,118 @@
+*50ns and 70 ns
+.include RING.sub
+.include TSMC_180nm.txt
+.include NAND.sub
+.include make_XOR.sub
+.include make_OR.sub
+.include make_AND.sub
+.include make_XNOR.sub
+.param SUPPLY = 1.8
+.param LAMBDA = 0.18u
+.param wn1 = {10*LAMBDA}
+.param wn2 = {10*LAMBDA}
+.param ln1 = {2*LAMBDA}
+.param ln2 = {2*LAMBDA}
+.param wp1 = wn1
+.param wp2 = wn1
+.param lp1 = {LAMBDA}
+.param lp2 = {LAMBDA}
+.global gnd
+Vdd node_x gnd 'SUPPLY'
+V_in_a_dc bit1_a gnd DC 1.8V
+V_in_b_dc bit1_b gnd DC 0V
+V_in_c_dc bit1_c gnd DC 0V
+V_in_d_dc bit1_d gnd DC 0V
+V_in_e_dc bit2_a gnd DC 1.8V
+V_in_f_dc bit2_b gnd DC 0V
+V_in_g_dc bit2_c gnd DC 0V
+V_in_h_dc bit2_d gnd DC 0V
+
+X1 bit1_a bit2_a e1 node_x gnd NAND
+X2 e1 bit1_a e2 node_x gnd NAND
+X3 e1 bit2_a e3 node_x gnd NAND
+X4 e2 e3 e4 node_x gnd NAND
+X5 e4 e4 e_final node_x gnd NAND
+//gap
+X6 bit1_b bit2_b f1 node_x gnd NAND
+X7 f1 bit1_b f2 node_x gnd NAND
+X8 f1 bit2_b f3 node_x gnd NAND
+X9 f2 f3 f4 node_x gnd NAND
+X10 f4 f4 f_final node_x gnd NAND
+//gap
+X11 bit1_c bit2_c g1 node_x gnd NAND
+X12 g1 bit1_c g2 node_x gnd NAND
+X13 g1 bit2_c g3 node_x gnd NAND
+X14 g2 g3 g4 node_x gnd NAND
+X15 g4 g4 g_final node_x gnd NAND
+//gap
+X16 bit1_d bit2_d h1 node_x gnd NAND
+X17 h1 bit1_d h2 node_x gnd NAND
+X18 h1 bit2_d h3 node_x gnd NAND
+X19 h2 h3 h4 node_x gnd NAND
+X20 h4 h4 h_final node_x gnd NAND
+//gap
+X21 e_final f_final r1 node_x gnd NAND
+X22 r1 r1_final node_x gnd RING
+X23 g_final h_final r2 node_x gnd NAND
+X24 r2 r2_final node_x gnd RING
+X25 r1_final r2_final answer node_x gnd NAND
+X26 answer answer_final node_x gnd RING
+//answer_final =equality
+//done
+//A>B
+X27 bit2_a bit2_a_complement node_x gnd RING
+X28 bit1_a bit2_a_complement term1 node_x gnd make_AND
+//term1
+X29 bit1_a bit2_a t1 node_x gnd make_XNOR
+X30 t1 bit1_b t2 node_x gnd make_AND
+X101 bit2_b bit2_b_complement node_x gnd RING
+X31 t2 bit2_b_complement term2 node_x gnd make_AND
+//term2
+X32 bit1_b bit2_b hm1 node_x gnd make_XNOR
+X33 hm1 t1 interp1 node_x gnd make_AND
+X34 bit2_c bit2_c_complement node_x gnd RING
+X35 bit1_c bit2_c_complement interp2 node_x gnd make_AND
+X36 interp1 interp2 term3 node_x gnd make_AND
+//term3
+X37 bit1_c bit2_c fr1 node_x gnd make_XNOR
+X38 interp1 fr1 fr2 node_x gnd make_AND
+X39 fr2 bit1_d fr3 node_x gnd make_AND
+X40 bit2_d bit2_d_complement node_x gnd RING
+X41 fr3 bit2_d_complement term4 node_x gnd make_AND
+//term 4
+X42 term1 term2 final_1 node_x gnd make_OR
+X43 term3 term4 final_2 node_x gnd make_OR
+X44 final_1 final_2 final_3 node_x gnd make_OR
+//final_3 is the answer
+//*****
+X45 bit1_a cm1 node_x gnd RING
+X46 bit2_a cm1 part1 node_x gnd make_AND
+//part1
+X47 bit1_b cm2 node_x gnd RING
+X48 t1 cm2 cm3 node_x gnd make_AND
+X49 bit2_b cm3 part2 node_x gnd make_AND
+//part2
+X50 bit1_c com1 node_x gnd RING
+X51 interp1 com1 com2 node_x gnd make_AND
+X52 bit2_c com2 part3 node_x gnd make_AND
+//part3
+X53 bit1_d cp1 node_x gnd RING
+X54 fr2 cp1 cp2 node_x gnd make_AND
+X55 bit2_d cp2 part4 node_x gnd make_AND
+//part 4
+X56 part1 part2 thub_1 node_x gnd make_OR
+X57 part3 part4 thub_2 node_x gnd make_OR
+X58 thub_1 thub_2 thub_3 node_x gnd make_OR
+//thub_3 is the answer
+C1 term1 gnd 0.5f
+.tran 1n 800n
+.control
+run
+set color0 = rgb:f/f/e
+set color1 = black
+ plot  v(bit1_a)+14 v(bit1_b)+12 v(bit1_c)+10 v(bit1_d)+8 v(bit2_a)+6 v(bit2_b)+4 v(bit2_c)+2 v(bit2_d)
+ hardcopy image.ps v(bit1_a)+14 v(bit1_b)+12 v(bit1_c)+10 v(bit1_d)+8 v(bit2_a)+6 v(bit2_b)+4 v(bit2_c)+2 v(bit2_d) 
+ plot  v(thub_3)+4 v(final_3)+2 v(answer_final)
+ hardcopy image1.ps  v(thub_3)+4 v(final_3)+2 v(answer_final)
+.end
+.endc

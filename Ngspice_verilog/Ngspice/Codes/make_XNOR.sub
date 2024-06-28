@@ -1,0 +1,9 @@
+//.include RING.sub
+.include NAND.sub
+.subckt make_XNOR input1_node input2_node output_final vdd gnd
+X1 input1_node input2_node rs vdd gnd NAND
+X2 rs input1_node iner1 vdd gnd NAND
+X3 rs input2_node iner2 vdd gnd NAND
+X4 iner1 iner2 iner3 vdd gnd NAND
+X5 iner3 iner3 output_final vdd gnd NAND
+.ends make_XNOR

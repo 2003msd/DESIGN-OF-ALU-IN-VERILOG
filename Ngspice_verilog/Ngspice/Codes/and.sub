@@ -1,0 +1,14 @@
+*50ns and 70 ns
+.include RING.sub
+.include TSMC_180nm.txt
+.include NAND.sub
+.subckt and bit1_a bit1_b bit1_c bit1_d bit2_a bit2_b bit2_c bit2_d r_1 r_2 r_3 r_4 vdd gnd
+X1 bit1_a bit2_a result_1 vdd gnd NAND
+X2 bit1_b bit2_b result_2 vdd gnd NAND
+X3 bit1_c bit2_c result_3 vdd gnd NAND
+X4 bit1_d bit2_d result_4 vdd gnd NAND
+X5 result_1 r_1 vdd gnd RING
+X6 result_2 r_2 vdd gnd RING
+X7 result_3 r_3 vdd gnd RING
+X8 result_4 r_4 vdd gnd RING
+.ends and

@@ -1,0 +1,87 @@
+*50ns and 70 ns
+.include RING.sub
+.include TSMC_180nm.txt
+.include NAND.sub
+.include make_XOR.sub
+.include make_OR.sub
+.include make_AND.sub
+.include make_XNOR.sub
+.subckt comparator bit1_a bit1_b bit1_c bit1_d bit2_a bit2_b bit2_c bit2_d answer_final final_3 thub_3 vdd gnd
+X1 bit1_a bit2_a e1 vdd gnd NAND
+X2 e1 bit1_a e2 vdd gnd NAND
+X3 e1 bit2_a e3 vdd gnd NAND
+X4 e2 e3 e4 vdd gnd NAND
+X5 e4 e4 e_final vdd gnd NAND
+//gap
+X6 bit1_b bit2_b f1 vdd gnd NAND
+X7 f1 bit1_b f2 vdd gnd NAND
+X8 f1 bit2_b f3 vdd gnd NAND
+X9 f2 f3 f4 vdd gnd NAND
+X10 f4 f4 f_final vdd gnd NAND
+//gap
+X11 bit1_c bit2_c g1 vdd gnd NAND
+X12 g1 bit1_c g2 vdd gnd NAND
+X13 g1 bit2_c g3 vdd gnd NAND
+X14 g2 g3 g4 vdd gnd NAND
+X15 g4 g4 g_final vdd gnd NAND
+//gap
+X16 bit1_d bit2_d h1 vdd gnd NAND
+X17 h1 bit1_d h2 vdd gnd NAND
+X18 h1 bit2_d h3 vdd gnd NAND
+X19 h2 h3 h4 vdd gnd NAND
+X20 h4 h4 h_final vdd gnd NAND
+//gap
+X21 e_final f_final r1 vdd gnd NAND
+X22 r1 r1_final vdd gnd RING
+X23 g_final h_final r2 vdd gnd NAND
+X24 r2 r2_final vdd gnd RING
+X25 r1_final r2_final answer vdd gnd NAND
+X26 answer answer_final vdd gnd RING
+//answer_final =equality
+//done
+//A>B
+X27 bit2_a bit2_a_complement vdd gnd RING
+X28 bit1_a bit2_a_complement term1 vdd gnd make_AND
+//term1
+X29 bit1_a bit2_a t1 vdd gnd make_XNOR
+X30 t1 bit1_b t2 vdd gnd make_AND
+X101 bit2_b bit2_b_complement vdd gnd RING
+X31 t2 bit2_b_complement term2 vdd gnd make_AND
+//term2
+X32 bit1_b bit2_b hm1 vdd gnd make_XNOR
+X33 hm1 t1 interp1 vdd gnd make_AND
+X34 bit2_c bit2_c_complement vdd gnd RING
+X35 bit1_c bit2_c_complement interp2 vdd gnd make_AND
+X36 interp1 interp2 term3 vdd gnd make_AND
+//term3
+X37 bit1_c bit2_c fr1 vdd gnd make_XNOR
+X38 interp1 fr1 fr2 vdd gnd make_AND
+X39 fr2 bit1_d fr3 vdd gnd make_AND
+X40 bit2_d bit2_d_complement vdd gnd RING
+X41 fr3 bit2_d_complement term4 vdd gnd make_AND
+//term 4
+X42 term1 term2 final_1 vdd gnd make_OR
+X43 term3 term4 final_2 vdd gnd make_OR
+X44 final_1 final_2 final_3 vdd gnd make_OR
+//final_3 is the answer
+//*****
+X45 bit1_a cm1 vdd gnd RING
+X46 bit2_a cm1 part1 vdd gnd make_AND
+//part1
+X47 bit1_b cm2 vdd gnd RING
+X48 t1 cm2 cm3 vdd gnd make_AND
+X49 bit2_b cm3 part2 vdd gnd make_AND
+//part2
+X50 bit1_c com1 vdd gnd RING
+X51 interp1 com1 com2 vdd gnd make_AND
+X52 bit2_c com2 part3 vdd gnd make_AND
+//part3
+X53 bit1_d cp1 vdd gnd RING
+X54 fr2 cp1 cp2 vdd gnd make_AND
+X55 bit2_d cp2 part4 vdd gnd make_AND
+//part 4
+X56 part1 part2 thub_1 vdd gnd make_OR
+X57 part3 part4 thub_2 vdd gnd make_OR
+X58 thub_1 thub_2 thub_3 vdd gnd make_OR
+//thub_3 is the answer
+.ends comparator

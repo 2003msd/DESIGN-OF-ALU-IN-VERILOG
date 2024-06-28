@@ -1,0 +1,19 @@
+*50ns and 70 ns
+.include RING.sub
+.include TSMC_180nm.txt
+.include NAND.sub
+.include make_XOR.sub
+.include make_OR.sub
+.include make_AND.sub
+.include make_XNOR.sub
+
+.subckt enable d bit1_a bit1_b bit1_c bit1_d bit2_a bit2_b bit2_c bit2_d n1_a n1_b n1_c n1_d n2_a n2_b n2_c n2_d vdd gnd
+X1 d bit1_a n1_a vdd gnd make_AND
+X2 d bit1_b n1_b vdd gnd make_AND
+X3 d bit1_c n1_c vdd gnd make_AND
+X4 d bit1_d n1_d vdd gnd make_AND
+X5 d bit2_a n2_a vdd gnd make_AND
+X6 d bit2_b n2_b vdd gnd make_AND
+X7 d bit2_c n2_c vdd gnd make_AND
+X8 d bit2_d n2_d vdd gnd make_AND
+.ends enable
