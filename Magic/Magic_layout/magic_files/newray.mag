@@ -1,0 +1,176 @@
+magic
+tech scmos
+timestamp 1699818737
+<< metal1 >>
+rect 77 509 103 510
+rect -168 501 -113 507
+rect -253 500 -113 501
+rect -47 500 103 509
+rect -253 483 -152 500
+rect 77 499 103 500
+rect -253 -160 -242 483
+rect 88 469 103 499
+rect 88 465 116 469
+rect 73 458 117 462
+rect 73 436 82 458
+rect 158 456 315 461
+rect 67 361 82 436
+rect 302 438 315 456
+rect 302 434 328 438
+rect 232 427 326 431
+rect 232 395 242 427
+rect 370 426 413 430
+rect -181 350 82 361
+rect -181 -110 -167 350
+rect -67 349 80 350
+rect -82 245 -73 246
+rect -82 236 -49 245
+rect 22 237 92 244
+rect -82 221 -73 236
+rect -98 212 -73 221
+rect 81 217 92 237
+rect -98 35 -90 212
+rect 81 209 125 217
+rect 118 206 125 209
+rect 118 202 136 206
+rect 80 195 142 199
+rect 80 191 129 195
+rect 179 194 202 198
+rect 81 170 93 191
+rect -77 163 95 170
+rect -77 162 -18 163
+rect -76 85 -72 162
+rect -76 81 9 85
+rect 110 57 133 59
+rect 227 57 242 395
+rect 110 55 149 57
+rect 116 48 149 55
+rect 222 49 257 57
+rect -98 31 8 35
+rect -98 30 -11 31
+rect 249 -39 257 49
+rect 247 -46 272 -39
+rect 263 -47 272 -46
+rect 263 -51 282 -47
+rect 263 -56 283 -54
+rect 242 -58 283 -56
+rect 242 -64 274 -58
+rect 330 -59 439 -55
+rect -181 -111 -100 -110
+rect -181 -115 -21 -111
+rect -181 -116 -100 -115
+rect 82 -138 147 -137
+rect 242 -138 254 -64
+rect 82 -141 152 -138
+rect 106 -147 152 -141
+rect 235 -146 254 -138
+rect -253 -161 -41 -160
+rect -253 -165 -22 -161
+rect -253 -166 -175 -165
+rect 428 -175 438 -59
+rect 427 -204 438 -175
+rect 427 -208 484 -204
+rect 473 -227 484 -208
+rect 473 -231 498 -227
+rect 463 -238 502 -234
+rect -66 -294 -40 -290
+rect 463 -302 472 -238
+rect 543 -239 585 -235
+rect 463 -310 497 -302
+rect 62 -320 123 -316
+rect 117 -327 123 -320
+rect 117 -336 144 -327
+rect 213 -336 316 -327
+rect -71 -344 -38 -340
+rect 304 -408 315 -336
+rect 302 -417 357 -408
+rect 350 -430 357 -417
+rect 350 -434 370 -430
+rect 357 -440 371 -437
+rect 491 -438 497 -310
+rect 305 -441 371 -440
+rect 305 -443 360 -441
+rect 415 -442 498 -438
+rect -83 -500 -52 -496
+rect 305 -521 316 -443
+rect 54 -526 130 -522
+rect 100 -531 130 -526
+rect 196 -530 316 -521
+rect -82 -550 -48 -546
+use xor  xor_3
+timestamp 1638744199
+transform 1 0 -35 0 1 -495
+box -21 -86 90 26
+use xor  xor_2
+timestamp 1638744199
+transform 1 0 -28 0 1 -289
+box -21 -86 90 26
+use notg  notg_3
+timestamp 1698946751
+transform 1 0 150 0 1 -516
+box -37 -59 63 62
+use notg  notg_2
+timestamp 1698946751
+transform 1 0 160 0 1 -321
+box -37 -59 63 62
+use and  and_1
+timestamp 1638582313
+transform 1 0 363 0 1 -429
+box 0 -34 56 24
+use xor  xor_1
+timestamp 1638744199
+transform 1 0 -7 0 1 -110
+box -21 -86 90 26
+use notg  notg_1
+timestamp 1698946751
+transform 1 0 177 0 1 -132
+box -37 -59 63 62
+use and  and_2
+timestamp 1638582313
+transform 1 0 491 0 1 -226
+box 0 -34 56 24
+use xor  xor_0
+timestamp 1638744199
+transform 1 0 21 0 1 86
+box -21 -86 90 26
+use and  and_0
+timestamp 1638582313
+transform 1 0 277 0 1 -46
+box 0 -34 56 24
+use notg  notg_0
+timestamp 1698946751
+transform 1 0 164 0 1 63
+box -37 -59 63 62
+use notg  notg_4
+timestamp 1698946751
+transform 1 0 -33 0 1 251
+box -37 -59 63 62
+use and  and_3
+timestamp 1638582313
+transform 1 0 129 0 1 207
+box 0 -34 56 24
+use notg  notg_5
+timestamp 1698946751
+transform 1 0 -97 0 1 514
+box -37 -59 63 62
+use and  and_5
+timestamp 1638582313
+transform 1 0 320 0 1 439
+box 0 -34 56 24
+use and  and_4
+timestamp 1638582313
+transform 1 0 108 0 1 470
+box 0 -34 56 24
+<< labels >>
+rlabel metal1 -25 82 -25 82 1 num1_a
+rlabel metal1 -31 33 -31 33 1 num2_a
+rlabel metal1 -46 -113 -46 -113 1 num1_b
+rlabel metal1 -48 -163 -48 -163 1 num2_b
+rlabel metal1 -64 -292 -64 -292 3 num1_c
+rlabel metal1 -69 -342 -69 -342 3 num2_c
+rlabel metal1 -78 -498 -78 -498 3 num1_d
+rlabel metal1 -82 -550 -48 -546 1 num2_d
+rlabel metal1 580 -237 580 -237 7 equal
+rlabel metal1 201 196 201 196 1 et1
+rlabel metal1 411 428 411 428 1 et2
+<< end >>

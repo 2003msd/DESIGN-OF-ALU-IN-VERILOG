@@ -1,0 +1,657 @@
+* SPICE3 file created from computer.ext - technology: scmos
+
+.option scale=1u
+
+M1000 and_5/a_15_6# and_5/in1 vdd and_5/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=5819 ps=2336
+M1001 vdd xnor1 and_5/a_15_6# and_5/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 and_5/a_15_n26# and_5/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=2870 ps=1518
+M1003 tem2 and_5/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1004 tem2 and_5/a_15_6# vdd and_5/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1005 and_5/a_15_6# xnor1 and_5/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1006 xnor1 xor_0/out gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1007 xnor1 xor_0/out vdd notg_0/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1008 and_7/a_15_6# xnor1 vdd and_7/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1009 vdd xnor2 and_7/a_15_6# and_7/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 and_7/a_15_n26# xnor1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1011 and_8/in2 and_7/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1012 and_8/in2 and_7/a_15_6# vdd and_7/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1013 and_7/a_15_6# xnor2 and_7/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1014 and_6/a_15_6# and_6/in1 vdd and_6/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1015 vdd num1_c and_6/a_15_6# and_6/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 and_6/a_15_n26# and_6/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1017 and_8/in1 and_6/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1018 and_8/in1 and_6/a_15_6# vdd and_6/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1019 and_6/a_15_6# num1_c and_6/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1020 xnor2 xor_1/out gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1021 xnor2 xor_1/out vdd notg_1/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1022 xnor3 xor_2/out gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1023 xnor3 xor_2/out vdd notg_2/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1024 and_8/a_15_6# and_8/in1 vdd and_8/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1025 vdd and_8/in2 and_8/a_15_6# and_8/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 and_8/a_15_n26# and_8/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1027 tem3 and_8/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1028 tem3 and_8/a_15_6# vdd and_8/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1029 and_8/a_15_6# and_8/in2 and_8/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1030 xnor4 xor_3/out gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1031 xnor4 xor_3/out vdd notg_3/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1032 and_9/a_15_6# and_9/in1 vdd and_9/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1033 vdd num1_d and_9/a_15_6# and_9/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 and_9/a_15_n26# and_9/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1035 and_9/out and_9/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1036 and_9/out and_9/a_15_6# vdd and_9/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1037 and_9/a_15_6# num1_d and_9/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1038 and_3/in1 num2_a gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1039 and_3/in1 num2_a vdd notg_4/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1040 and_4/in1 num2_b gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1041 and_4/in1 num2_b vdd notg_5/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1042 and_6/in1 num2_c gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1043 and_6/in1 num2_c vdd notg_6/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1044 and_9/in1 num2_d gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1045 and_9/in1 num2_d vdd notg_7/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1046 lesser or_3/out gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1047 lesser or_3/out vdd notg_8/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1048 or_0/a_15_6# tem4 vdd or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1049 or_0/a_15_n26# tem3 or_0/a_15_6# or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1050 or_0/a_15_n26# tem4 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1051 or_2/in1 or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1052 or_2/in1 or_0/a_15_n26# vdd or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1053 gnd tem3 or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 or_1/a_15_6# tem1 vdd or_1/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1055 or_1/a_15_n26# tem2 or_1/a_15_6# or_1/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1056 or_1/a_15_n26# tem1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1057 or_2/in2 or_1/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1058 or_2/in2 or_1/a_15_n26# vdd or_1/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1059 gnd tem2 or_1/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 or_2/a_15_6# or_2/in1 vdd or_2/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1061 or_2/a_15_n26# or_2/in2 or_2/a_15_6# or_2/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1062 or_2/a_15_n26# or_2/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1063 greater or_2/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1064 greater or_2/a_15_n26# vdd or_2/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1065 gnd or_2/in2 or_2/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1066 or_3/a_15_6# greater vdd or_3/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1067 or_3/a_15_n26# equality or_3/a_15_6# or_3/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1068 or_3/a_15_n26# greater gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1069 or_3/out or_3/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1070 or_3/out or_3/a_15_n26# vdd or_3/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1071 gnd equality or_3/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1072 xor_0/a_66_6# num1_a xor_0/out xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1073 xor_0/a_15_n12# num1_a gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1074 xor_0/out num1_a xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1075 xor_0/a_15_n12# num1_a vdd xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1076 vdd xor_0/a_15_n62# xor_0/a_66_6# xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1077 xor_0/a_15_n62# num2_a vdd xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1078 xor_0/a_46_n62# num2_a gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1079 gnd xor_0/a_15_n12# xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1080 xor_0/a_15_n62# num2_a gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1081 xor_0/a_46_6# xor_0/a_15_n12# vdd xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1082 xor_0/a_66_n62# xor_0/a_15_n62# xor_0/out Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1083 xor_0/out num2_a xor_0/a_46_6# xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1084 xor_1/a_66_6# num1_b xor_1/out xor_1/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1085 xor_1/a_15_n12# num1_b gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1086 xor_1/out num1_b xor_1/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1087 xor_1/a_15_n12# num1_b vdd xor_1/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1088 vdd xor_1/a_15_n62# xor_1/a_66_6# xor_1/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1089 xor_1/a_15_n62# num2_b vdd xor_1/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1090 xor_1/a_46_n62# num2_b gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1091 gnd xor_1/a_15_n12# xor_1/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1092 xor_1/a_15_n62# num2_b gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1093 xor_1/a_46_6# xor_1/a_15_n12# vdd xor_1/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1094 xor_1/a_66_n62# xor_1/a_15_n62# xor_1/out Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1095 xor_1/out num2_b xor_1/a_46_6# xor_1/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1096 and_10/a_15_6# and_8/in2 vdd and_10/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1097 vdd xnor3 and_10/a_15_6# and_10/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1098 and_10/a_15_n26# and_8/in2 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1099 and_11/in2 and_10/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1100 and_11/in2 and_10/a_15_6# vdd and_10/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1101 and_10/a_15_6# xnor3 and_10/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1102 xor_2/a_66_6# num1_c xor_2/out xor_2/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1103 xor_2/a_15_n12# num1_c gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1104 xor_2/out num1_c xor_2/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1105 xor_2/a_15_n12# num1_c vdd xor_2/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1106 vdd xor_2/a_15_n62# xor_2/a_66_6# xor_2/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1107 xor_2/a_15_n62# num2_c vdd xor_2/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1108 xor_2/a_46_n62# num2_c gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1109 gnd xor_2/a_15_n12# xor_2/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1110 xor_2/a_15_n62# num2_c gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1111 xor_2/a_46_6# xor_2/a_15_n12# vdd xor_2/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1112 xor_2/a_66_n62# xor_2/a_15_n62# xor_2/out Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1113 xor_2/out num2_c xor_2/a_46_6# xor_2/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1114 and_11/a_15_6# and_9/out vdd and_11/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1115 vdd and_11/in2 and_11/a_15_6# and_11/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1116 and_11/a_15_n26# and_9/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1117 tem4 and_11/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1118 tem4 and_11/a_15_6# vdd and_11/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1119 and_11/a_15_6# and_11/in2 and_11/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1120 xor_3/a_66_6# num1_d xor_3/out xor_3/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1121 xor_3/a_15_n12# num1_d gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1122 xor_3/out num1_d xor_3/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1123 xor_3/a_15_n12# num1_d vdd xor_3/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1124 vdd xor_3/a_15_n62# xor_3/a_66_6# xor_3/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1125 xor_3/a_15_n62# num2_d vdd xor_3/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1126 xor_3/a_46_n62# num2_d gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1127 gnd xor_3/a_15_n12# xor_3/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1128 xor_3/a_15_n62# num2_d gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1129 xor_3/a_46_6# xor_3/a_15_n12# vdd xor_3/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1130 xor_3/a_66_n62# xor_3/a_15_n62# xor_3/out Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1131 xor_3/out num2_d xor_3/a_46_6# xor_3/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1132 and_0/a_15_6# xnor1 vdd and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1133 vdd xnor2 and_0/a_15_6# and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1134 and_0/a_15_n26# xnor1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1135 and_2/in1 and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1136 and_2/in1 and_0/a_15_6# vdd and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1137 and_0/a_15_6# xnor2 and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1138 and_1/a_15_6# xnor3 vdd and_1/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1139 vdd xnor4 and_1/a_15_6# and_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1140 and_1/a_15_n26# xnor3 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1141 and_2/in2 and_1/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1142 and_2/in2 and_1/a_15_6# vdd and_1/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1143 and_1/a_15_6# xnor4 and_1/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1144 and_2/a_15_6# and_2/in1 vdd and_2/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1145 vdd and_2/in2 and_2/a_15_6# and_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1146 and_2/a_15_n26# and_2/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1147 equality and_2/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1148 equality and_2/a_15_6# vdd and_2/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1149 and_2/a_15_6# and_2/in2 and_2/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1150 and_3/a_15_6# and_3/in1 vdd and_3/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1151 vdd num1_a and_3/a_15_6# and_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1152 and_3/a_15_n26# and_3/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1153 tem1 and_3/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1154 tem1 and_3/a_15_6# vdd and_3/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1155 and_3/a_15_6# num1_a and_3/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1156 and_4/a_15_6# and_4/in1 vdd and_4/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1157 vdd num1_b and_4/a_15_6# and_4/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1158 and_4/a_15_n26# and_4/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1159 and_5/in1 and_4/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1160 and_5/in1 and_4/a_15_6# vdd and_4/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1161 and_4/a_15_6# num1_b and_4/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+C0 vdd and_3/w_0_0# 3.38fF
+C1 vdd xor_0/w_2_0# 1.13fF
+C2 num2_b xor_1/w_2_n50# 2.62fF
+C3 gnd num2_a 6.90fF
+C4 and_5/w_0_0# tem2 1.13fF
+C5 vdd xor_3/w_32_0# 2.26fF
+C6 or_2/w_0_0# greater 1.13fF
+C7 lesser notg_8/w_n19_1# 6.34fF
+C8 vdd and_9/in1 1.62fF
+C9 and_1/w_0_0# and_2/in2 1.13fF
+C10 xor_2/a_15_n62# xor_2/w_2_n50# 1.13fF
+C11 tem1 tem2 14.10fF
+C12 num2_d xor_3/a_15_n62# 0.72fF
+C13 gnd tem1 59.62fF
+C14 xor_1/a_15_n62# xor_1/w_32_0# 2.62fF
+C15 and_11/a_15_6# and_11/w_0_0# 3.75fF
+C16 or_1/a_15_n26# tem2 0.24fF
+C17 xor_3/w_2_0# xor_3/a_15_n12# 1.13fF
+C18 num2_a xor_0/w_2_n50# 2.62fF
+C19 num2_d xor_3/w_32_0# 2.62fF
+C20 notg_5/w_n19_1# and_4/in1 6.34fF
+C21 vdd and_2/w_0_0# 3.38fF
+C22 num1_b num2_b 0.24fF
+C23 notg_4/w_n19_1# and_3/in1 6.34fF
+C24 xnor2 and_7/w_0_0# 2.62fF
+C25 num1_d and_9/w_0_0# 2.62fF
+C26 vdd or_2/w_0_0# 2.26fF
+C27 vdd and_4/in1 5.94fF
+C28 vdd and_5/w_0_0# 3.38fF
+C29 notg_7/w_n19_1# and_9/in1 6.34fF
+C30 or_1/w_0_0# or_2/in2 1.13fF
+C31 vdd tem1 54.36fF
+C32 or_2/in1 or_2/w_0_0# 2.62fF
+C33 num1_a and_3/in1 0.24fF
+C34 xor_0/out num1_a 0.24fF
+C35 tem3 and_8/w_0_0# 1.13fF
+C36 vdd and_8/w_0_0# 3.38fF
+C37 xor_2/w_2_0# num1_c 2.62fF
+C38 gnd num2_b 0.96fF
+C39 or_2/a_15_n26# or_2/w_0_0# 3.75fF
+C40 xnor1 and_5/in1 0.24fF
+C41 xor_3/w_32_0# xor_3/a_15_n62# 2.62fF
+C42 num1_b xor_1/w_2_0# 2.62fF
+C43 gnd num1_d 0.72fF
+C44 num1_d and_9/a_15_6# 0.24fF
+C45 vdd notg_2/w_n19_1# 5.64fF
+C46 num2_a xor_0/a_15_n62# 0.72fF
+C47 xor_0/out xor_0/a_15_n12# 0.24fF
+C48 gnd xnor4 1.44fF
+C49 vdd xor_1/a_15_n12# 0.48fF
+C50 and_2/w_0_0# and_2/in2 2.62fF
+C51 xor_2/a_15_n12# xor_2/w_2_0# 1.13fF
+C52 xor_2/a_15_n62# xor_2/out 0.24fF
+C53 xor_1/w_32_0# xor_1/a_15_n12# 7.94fF
+C54 and_5/in1 and_4/w_0_0# 1.13fF
+C55 notg_5/w_n19_1# num2_b 8.30fF
+C56 num1_d xor_3/out 0.24fF
+C57 and_11/a_15_6# and_11/in2 0.24fF
+C58 and_6/in1 num1_c 0.24fF
+C59 and_5/w_0_0# and_5/a_15_6# 3.75fF
+C60 vdd xor_3/w_2_n50# 1.13fF
+C61 tem4 and_11/w_0_0# 1.13fF
+C62 num2_b xor_1/w_32_0# 2.62fF
+C63 num1_d vdd 26.95fF
+C64 xor_0/w_32_0# num1_a 2.62fF
+C65 xnor1 and_7/w_0_0# 2.62fF
+C66 tem4 or_0/w_0_0# 2.62fF
+C67 tem1 and_8/in2 7.61fF
+C68 or_1/w_0_0# tem2 2.62fF
+C69 gnd xnor2 34.11fF
+C70 num2_d xor_3/w_2_n50# 2.62fF
+C71 tem1 and_3/w_0_0# 1.13fF
+C72 and_8/in2 and_8/w_0_0# 2.62fF
+C73 xor_0/w_32_0# xor_0/a_15_n12# 7.94fF
+C74 num1_d num2_d 0.24fF
+C75 num1_a and_3/a_15_6# 0.24fF
+C76 xnor4 notg_3/w_n19_1# 6.34fF
+C77 vdd notg_8/w_n19_1# 5.64fF
+C78 and_11/w_0_0# and_9/out 2.62fF
+C79 vdd notg_1/w_n19_1# 5.64fF
+C80 num1_b xor_1/out 0.24fF
+C81 and_6/w_0_0# and_8/in1 1.13fF
+C82 vdd and_11/w_0_0# 3.38fF
+C83 gnd and_8/in1 9.54fF
+C84 and_1/w_0_0# xnor4 2.62fF
+C85 vdd xor_1/w_2_0# 1.13fF
+C86 gnd xor_2/a_15_n62# 0.96fF
+C87 and_6/in1 and_6/w_0_0# 2.62fF
+C88 and_0/w_0_0# and_0/a_15_6# 3.75fF
+C89 tem3 or_0/w_0_0# 2.62fF
+C90 vdd or_0/w_0_0# 2.26fF
+C91 vdd and_10/w_0_0# 3.38fF
+C92 vdd xnor2 21.55fF
+C93 vdd xor_2/w_2_0# 1.13fF
+C94 vdd or_1/w_0_0# 2.26fF
+C95 gnd num1_a 3.87fF
+C96 xor_3/w_2_n50# xor_3/a_15_n62# 1.13fF
+C97 xor_0/out xor_0/w_32_0# 1.13fF
+C98 tem3 or_0/a_15_n26# 0.24fF
+C99 and_1/w_0_0# and_1/a_15_6# 3.75fF
+C100 and_11/in2 tem2 20.25fF
+C101 gnd xnor3 108.54fF
+C102 xnor3 equality 29.70fF
+C103 vdd notg_4/w_n19_1# 5.64fF
+C104 gnd and_11/in2 4.95fF
+C105 or_2/in1 or_0/w_0_0# 1.13fF
+C106 num1_b and_4/w_0_0# 2.62fF
+C107 xor_3/a_15_n12# xor_3/out 0.24fF
+C108 num1_d xor_3/w_32_0# 2.62fF
+C109 xor_1/a_15_n62# num2_b 0.72fF
+C110 num1_d and_9/in1 0.24fF
+C111 xor_2/a_15_n62# num2_c 0.72fF
+C112 equality or_3/w_0_0# 2.62fF
+C113 greater or_3/w_0_0# 2.62fF
+C114 gnd xnor1 35.37fF
+C115 xor_2/out num1_c 0.24fF
+C116 vdd xor_3/a_15_n12# 0.48fF
+C117 vdd num1_a 1.44fF
+C118 xor_2/a_15_n62# xor_2/w_32_0# 2.62fF
+C119 and_9/out and_11/in2 0.24fF
+C120 vdd xnor3 89.82fF
+C121 tem3 and_11/in2 41.85fF
+C122 vdd and_11/in2 39.60fF
+C123 and_0/w_0_0# xnor2 2.62fF
+C124 and_2/a_15_6# and_2/in2 0.24fF
+C125 xor_2/a_15_n12# xor_2/out 0.24fF
+C126 xor_1/w_32_0# xor_1/out 1.13fF
+C127 vdd xor_0/a_15_n12# 0.48fF
+C128 vdd xor_3/w_2_0# 1.13fF
+C129 vdd xor_2/w_2_n50# 1.13fF
+C130 and_10/w_0_0# and_8/in2 2.62fF
+C131 xor_2/w_2_n50# num2_c 2.62fF
+C132 vdd and_5/in1 2.34fF
+C133 vdd or_3/w_0_0# 2.26fF
+C134 and_8/in2 and_8/a_15_6# 0.24fF
+C135 and_1/w_0_0# xnor3 2.62fF
+C136 vdd xnor1 26.32fF
+C137 and_8/in2 and_8/in1 0.24fF
+C138 notg_0/w_n19_1# xnor1 6.34fF
+C139 gnd or_2/in2 2.02fF
+C140 and_4/a_15_6# and_4/w_0_0# 3.75fF
+C141 and_6/in1 notg_6/w_n19_1# 6.34fF
+C142 and_2/w_0_0# and_2/a_15_6# 3.75fF
+C143 vdd and_4/w_0_0# 3.71fF
+C144 gnd xor_2/out 2.83fF
+C145 and_6/w_0_0# num1_c 2.62fF
+C146 notg_0/w_n19_1# xor_0/out 8.30fF
+C147 gnd num1_c 7.61fF
+C148 xnor3 and_2/in2 4.59fF
+C149 vdd and_7/w_0_0# 3.38fF
+C150 num1_a and_3/w_0_0# 2.62fF
+C151 xor_0/w_2_0# num1_a 2.62fF
+C152 xnor3 and_8/in2 0.24fF
+C153 xor_3/w_32_0# xor_3/a_15_n12# 7.94fF
+C154 xnor2 and_7/a_15_6# 0.24fF
+C155 gnd num1_b 8.82fF
+C156 and_9/a_15_6# and_9/w_0_0# 3.75fF
+C157 num2_a notg_4/w_n19_1# 8.30fF
+C158 vdd or_2/in2 2.83fF
+C159 or_1/w_0_0# tem1 2.62fF
+C160 xor_0/out xor_0/a_15_n62# 0.24fF
+C161 xor_0/w_2_0# xor_0/a_15_n12# 1.13fF
+C162 xnor1 and_5/a_15_6# 0.24fF
+C163 and_0/w_0_0# xnor1 2.62fF
+C164 vdd xor_1/w_2_n50# 1.13fF
+C165 or_1/w_0_0# or_1/a_15_n26# 3.75fF
+C166 xor_1/a_15_n62# xor_1/out 0.24fF
+C167 xor_1/w_2_0# xor_1/a_15_n12# 1.13fF
+C168 vdd num1_c 17.01fF
+C169 and_8/a_15_6# and_8/w_0_0# 3.75fF
+C170 num1_c num2_c 0.24fF
+C171 vdd xor_0/w_32_0# 2.26fF
+C172 or_2/in1 or_2/in2 0.24fF
+C173 num1_b and_4/a_15_6# 0.24fF
+C174 xor_2/w_32_0# xor_2/out 1.13fF
+C175 and_8/w_0_0# and_8/in1 2.62fF
+C176 num1_a num2_a 0.24fF
+C177 and_6/a_15_6# num1_c 0.24fF
+C178 and_9/out and_9/w_0_0# 1.13fF
+C179 gnd tem2 75.38fF
+C180 vdd num1_b 9.86fF
+C181 or_2/a_15_n26# or_2/in2 0.24fF
+C182 xor_2/w_32_0# num1_c 2.62fF
+C183 vdd xor_2/a_15_n12# 0.48fF
+C184 or_3/a_15_n26# or_3/w_0_0# 3.75fF
+C185 vdd and_9/w_0_0# 3.38fF
+C186 gnd equality 114.03fF
+C187 num1_b xor_1/w_32_0# 2.62fF
+C188 and_0/a_15_6# xnor2 0.24fF
+C189 and_3/w_0_0# and_3/in1 2.62fF
+C190 xnor4 and_1/a_15_6# 0.24fF
+C191 greater equality 0.24fF
+C192 and_0/w_0_0# and_2/in1 1.13fF
+C193 and_2/in1 and_2/in2 0.24fF
+C194 tem1 and_11/in2 15.39fF
+C195 xor_2/a_15_n12# xor_2/w_32_0# 7.94fF
+C196 and_8/in2 and_7/w_0_0# 1.13fF
+C197 xor_0/w_32_0# xor_0/a_15_n62# 2.62fF
+C198 and_5/w_0_0# and_5/in1 2.62fF
+C199 xnor1 and_5/w_0_0# 2.62fF
+C200 xnor3 notg_2/w_n19_1# 6.34fF
+C201 gnd and_9/out 4.68fF
+C202 vdd tem2 72.00fF
+C203 vdd and_6/w_0_0# 3.38fF
+C204 gnd tem3 4.50fF
+C205 tem3 tem4 0.24fF
+C206 gnd vdd 350.24fF
+C207 vdd tem4 61.20fF
+C208 xnor1 tem1 5.26fF
+C209 gnd num2_c 0.96fF
+C210 notg_1/w_n19_1# xnor2 6.34fF
+C211 xor_1/a_15_n12# xor_1/out 0.24fF
+C212 and_6/w_0_0# and_6/a_15_6# 3.75fF
+C213 vdd greater 1.08fF
+C214 and_10/a_15_6# and_10/w_0_0# 3.75fF
+C215 and_4/w_0_0# and_4/in1 2.62fF
+C216 notg_8/w_n19_1# or_3/out 8.30fF
+C217 and_2/w_0_0# and_2/in1 2.62fF
+C218 gnd num2_d 0.96fF
+C219 xor_1/a_15_n62# xor_1/w_2_n50# 1.13fF
+C220 vdd notg_5/w_n19_1# 5.64fF
+C221 vdd xor_0/w_2_n50# 1.13fF
+C222 and_7/w_0_0# and_7/a_15_6# 3.75fF
+C223 or_2/w_0_0# or_2/in2 2.62fF
+C224 gnd xor_0/a_15_n62# 0.96fF
+C225 vdd tem3 58.50fF
+C226 xor_3/out notg_3/w_n19_1# 8.30fF
+C227 or_0/a_15_n26# or_0/w_0_0# 3.75fF
+C228 xnor3 xnor4 0.24fF
+C229 and_3/w_0_0# and_3/a_15_6# 3.75fF
+C230 num1_d xor_3/w_2_0# 2.62fF
+C231 vdd num2_c 15.79fF
+C232 and_9/in1 and_9/w_0_0# 2.62fF
+C233 vdd xor_1/w_32_0# 2.26fF
+C234 vdd notg_0/w_n19_1# 5.64fF
+C235 vdd notg_3/w_n19_1# 5.64fF
+C236 vdd xor_2/w_32_0# 2.26fF
+C237 xor_0/a_15_n62# xor_0/w_2_n50# 1.13fF
+C238 gnd and_2/in2 1.80fF
+C239 num2_d vdd 33.75fF
+C240 xor_2/w_32_0# num2_c 2.62fF
+C241 notg_1/w_n19_1# xor_1/out 8.30fF
+C242 xor_0/w_32_0# num2_a 2.62fF
+C243 and_8/in2 tem2 12.87fF
+C244 xnor3 and_10/a_15_6# 0.24fF
+C245 and_11/w_0_0# and_11/in2 2.62fF
+C246 gnd xor_3/a_15_n62# 0.96fF
+C247 vdd and_1/w_0_0# 3.38fF
+C248 gnd and_8/in2 138.51fF
+C249 num1_b and_4/in1 0.24fF
+C250 vdd notg_7/w_n19_1# 5.64fF
+C251 xnor3 and_10/w_0_0# 2.62fF
+C252 gnd and_9/in1 5.08fF
+C253 and_11/in2 and_10/w_0_0# 1.13fF
+C254 notg_2/w_n19_1# xor_2/out 8.30fF
+C255 gnd xor_1/a_15_n62# 0.96fF
+C256 xor_3/a_15_n62# xor_3/out 0.24fF
+C257 vdd and_0/w_0_0# 3.38fF
+C258 num2_d notg_7/w_n19_1# 8.30fF
+C259 xor_3/w_32_0# xor_3/out 1.13fF
+C260 or_3/a_15_n26# equality 0.24fF
+C261 vdd notg_6/w_n19_1# 5.64fF
+C262 and_2/w_0_0# equality 1.13fF
+C263 notg_6/w_n19_1# num2_c 8.30fF
+C264 vdd and_8/in2 103.19fF
+C265 or_3/out or_3/w_0_0# 1.13fF
+C266 xnor1 xnor2 2.28fF
+C267 vdd Gnd 23515.11fF
+C268 gnd Gnd 2092.68fF
+C269 and_4/a_15_6# Gnd 14.65fF
+C270 and_4/in1 Gnd 29.78fF
+C271 tem1 Gnd 27.05fF
+C272 and_3/a_15_6# Gnd 14.65fF
+C273 and_3/in1 Gnd 38.67fF
+C274 equality Gnd 20.48fF
+C275 and_2/a_15_6# Gnd 14.65fF
+C276 and_2/in1 Gnd 20.10fF
+C277 and_2/in2 Gnd 21.98fF
+C278 and_1/a_15_6# Gnd 14.65fF
+C279 xnor3 Gnd 48.71fF
+C280 and_0/a_15_6# Gnd 14.65fF
+C281 xnor1 Gnd 55.14fF
+C282 xor_3/a_15_n62# Gnd 4.00fF
+C283 num2_d Gnd 1837.15fF
+C284 num1_d Gnd 2578.77fF
+C285 xor_3/a_15_n12# Gnd 7.61fF
+C286 and_11/a_15_6# Gnd 14.65fF
+C287 and_9/out Gnd 15.78fF
+C288 xor_2/a_15_n62# Gnd 4.00fF
+C289 num2_c Gnd 1281.98fF
+C290 num1_c Gnd 1271.28fF
+C291 xor_2/a_15_n12# Gnd 7.61fF
+C292 and_11/in2 Gnd 2436.84fF
+C293 and_10/a_15_6# Gnd 14.65fF
+C294 and_8/in2 Gnd 29.87fF
+C295 xor_1/out Gnd 45.04fF
+C296 xor_1/a_15_n62# Gnd 4.00fF
+C297 num2_b Gnd 743.13fF
+C298 num1_b Gnd 785.34fF
+C299 xor_1/a_15_n12# Gnd 7.61fF
+C300 xor_0/out Gnd 43.82fF
+C301 xor_0/a_15_n62# Gnd 4.00fF
+C302 num2_a Gnd 475.09fF
+C303 num1_a Gnd 375.78fF
+C304 xor_0/a_15_n12# Gnd 7.61fF
+C305 or_3/out Gnd 27.32fF
+C306 or_3/a_15_n26# Gnd 14.65fF
+C307 greater Gnd 20.29fF
+C308 or_2/a_15_n26# Gnd 14.65fF
+C309 or_2/in1 Gnd 18.60fF
+C310 or_2/in2 Gnd 20.48fF
+C311 or_1/a_15_n26# Gnd 14.65fF
+C312 or_0/a_15_n26# Gnd 14.65fF
+C313 tem3 Gnd 21.98fF
+C314 lesser Gnd 25.66fF
+C315 and_9/a_15_6# Gnd 14.65fF
+C316 and_9/in1 Gnd 38.71fF
+C317 xnor4 Gnd 26.21fF
+C318 xor_3/out Gnd 46.50fF
+C319 and_8/a_15_6# Gnd 14.65fF
+C320 xor_2/out Gnd 47.81fF
+C321 xnor2 Gnd 53.13fF
+C322 and_8/in1 Gnd 20.10fF
+C323 and_6/a_15_6# Gnd 14.65fF
+C324 and_6/in1 Gnd 23.53fF
+C325 and_7/a_15_6# Gnd 14.65fF
+C326 tem2 Gnd 46.98fF
+C327 and_5/a_15_6# Gnd 14.65fF
+C328 and_5/in1 Gnd 20.10fF

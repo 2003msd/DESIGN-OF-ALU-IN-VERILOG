@@ -1,0 +1,810 @@
+* SPICE3 file created from addblockf.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 adderblock_0/fadd_1/or_0/a_15_6# adderblock_0/fadd_1/or_0/in1 vdd adderblock_0/fadd_1/or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=3008 ps=1776
+M1001 adderblock_0/fadd_1/or_0/a_15_n26# adderblock_0/fadd_1/or_0/in2 adderblock_0/fadd_1/or_0/a_15_6# adderblock_0/fadd_1/or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1002 adderblock_0/fadd_1/or_0/a_15_n26# adderblock_0/fadd_1/or_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=1392 ps=1176
+M1003 adderblock_0/fadd_2/in1 adderblock_0/fadd_1/or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1004 adderblock_0/fadd_2/in1 adderblock_0/fadd_1/or_0/a_15_n26# vdd adderblock_0/fadd_1/or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1005 gnd adderblock_0/fadd_1/or_0/in2 adderblock_0/fadd_1/or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 adderblock_0/fadd_1/hadd_0/xor_0/a_66_6# adderblock_0/j1 adderblock_0/fadd_1/hadd_0/sum adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1007 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# adderblock_0/j1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1008 adderblock_0/fadd_1/hadd_0/sum adderblock_0/j1 adderblock_0/fadd_1/hadd_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1009 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# adderblock_0/j1 vdd adderblock_0/fadd_1/hadd_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1010 vdd adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_0/xor_0/a_66_6# adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_1/in1 vdd adderblock_0/fadd_1/hadd_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1012 adderblock_0/fadd_1/hadd_0/xor_0/a_46_n62# adderblock_0/fadd_1/in1 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1013 gnd adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_1/hadd_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1014 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_1/in1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1015 adderblock_0/fadd_1/hadd_0/xor_0/a_46_6# adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# vdd adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1016 adderblock_0/fadd_1/hadd_0/xor_0/a_66_n62# adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_0/sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1017 adderblock_0/fadd_1/hadd_0/sum adderblock_0/fadd_1/in1 adderblock_0/fadd_1/hadd_0/xor_0/a_46_6# adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# adderblock_0/fadd_1/in1 vdd adderblock_0/fadd_1/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1019 vdd adderblock_0/j1 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# adderblock_0/fadd_1/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 adderblock_0/fadd_1/hadd_0/and_0/a_15_n26# adderblock_0/fadd_1/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1021 adderblock_0/fadd_1/or_0/in1 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1022 adderblock_0/fadd_1/or_0/in1 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# vdd adderblock_0/fadd_1/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1023 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# adderblock_0/j1 adderblock_0/fadd_1/hadd_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1024 adderblock_0/fadd_1/hadd_1/xor_0/a_66_6# adderblock_0/k1 adderblock_0/z1 adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1025 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# adderblock_0/k1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1026 adderblock_0/z1 adderblock_0/k1 adderblock_0/fadd_1/hadd_1/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1027 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# adderblock_0/k1 vdd adderblock_0/fadd_1/hadd_1/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1028 vdd adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_1/xor_0/a_66_6# adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1029 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_0/sum vdd adderblock_0/fadd_1/hadd_1/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1030 adderblock_0/fadd_1/hadd_1/xor_0/a_46_n62# adderblock_0/fadd_1/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 gnd adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_1/hadd_1/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1032 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1033 adderblock_0/fadd_1/hadd_1/xor_0/a_46_6# adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# vdd adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1034 adderblock_0/fadd_1/hadd_1/xor_0/a_66_n62# adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# adderblock_0/z1 Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1035 adderblock_0/z1 adderblock_0/fadd_1/hadd_0/sum adderblock_0/fadd_1/hadd_1/xor_0/a_46_6# adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# adderblock_0/fadd_1/hadd_0/sum vdd adderblock_0/fadd_1/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1037 vdd adderblock_0/k1 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# adderblock_0/fadd_1/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 adderblock_0/fadd_1/hadd_1/and_0/a_15_n26# adderblock_0/fadd_1/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1039 adderblock_0/fadd_1/or_0/in2 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1040 adderblock_0/fadd_1/or_0/in2 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# vdd adderblock_0/fadd_1/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1041 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# adderblock_0/k1 adderblock_0/fadd_1/hadd_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1042 adderblock_0/fadd_2/or_0/a_15_6# adderblock_0/fadd_2/or_0/in1 vdd adderblock_0/fadd_2/or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1043 adderblock_0/fadd_2/or_0/a_15_n26# adderblock_0/fadd_2/or_0/in2 adderblock_0/fadd_2/or_0/a_15_6# adderblock_0/fadd_2/or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1044 adderblock_0/fadd_2/or_0/a_15_n26# adderblock_0/fadd_2/or_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1045 adderblock_0/fadd_3/in1 adderblock_0/fadd_2/or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1046 adderblock_0/fadd_3/in1 adderblock_0/fadd_2/or_0/a_15_n26# vdd adderblock_0/fadd_2/or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1047 gnd adderblock_0/fadd_2/or_0/in2 adderblock_0/fadd_2/or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1048 adderblock_0/fadd_2/hadd_0/xor_0/a_66_6# adderblock_0/j2 adderblock_0/fadd_2/hadd_0/sum adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1049 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# adderblock_0/j2 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1050 adderblock_0/fadd_2/hadd_0/sum adderblock_0/j2 adderblock_0/fadd_2/hadd_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1051 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# adderblock_0/j2 vdd adderblock_0/fadd_2/hadd_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1052 vdd adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_0/xor_0/a_66_6# adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1053 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_2/in1 vdd adderblock_0/fadd_2/hadd_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1054 adderblock_0/fadd_2/hadd_0/xor_0/a_46_n62# adderblock_0/fadd_2/in1 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1055 gnd adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1056 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_2/in1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1057 adderblock_0/fadd_2/hadd_0/xor_0/a_46_6# adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# vdd adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1058 adderblock_0/fadd_2/hadd_0/xor_0/a_66_n62# adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_0/sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1059 adderblock_0/fadd_2/hadd_0/sum adderblock_0/fadd_2/in1 adderblock_0/fadd_2/hadd_0/xor_0/a_46_6# adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# adderblock_0/fadd_2/in1 vdd adderblock_0/fadd_2/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1061 vdd adderblock_0/j2 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# adderblock_0/fadd_2/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1062 adderblock_0/fadd_2/hadd_0/and_0/a_15_n26# adderblock_0/fadd_2/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1063 adderblock_0/fadd_2/or_0/in1 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1064 adderblock_0/fadd_2/or_0/in1 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# vdd adderblock_0/fadd_2/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1065 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# adderblock_0/j2 adderblock_0/fadd_2/hadd_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1066 adderblock_0/fadd_2/hadd_1/xor_0/a_66_6# adderblock_0/k2 adderblock_0/z2 adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1067 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# adderblock_0/k2 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1068 adderblock_0/z2 adderblock_0/k2 adderblock_0/fadd_2/hadd_1/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1069 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# adderblock_0/k2 vdd adderblock_0/fadd_2/hadd_1/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1070 vdd adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_1/xor_0/a_66_6# adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1071 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_0/sum vdd adderblock_0/fadd_2/hadd_1/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1072 adderblock_0/fadd_2/hadd_1/xor_0/a_46_n62# adderblock_0/fadd_2/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1073 gnd adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_1/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1074 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1075 adderblock_0/fadd_2/hadd_1/xor_0/a_46_6# adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# vdd adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1076 adderblock_0/fadd_2/hadd_1/xor_0/a_66_n62# adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# adderblock_0/z2 Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1077 adderblock_0/z2 adderblock_0/fadd_2/hadd_0/sum adderblock_0/fadd_2/hadd_1/xor_0/a_46_6# adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1078 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# adderblock_0/fadd_2/hadd_0/sum vdd adderblock_0/fadd_2/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1079 vdd adderblock_0/k2 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# adderblock_0/fadd_2/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1080 adderblock_0/fadd_2/hadd_1/and_0/a_15_n26# adderblock_0/fadd_2/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1081 adderblock_0/fadd_2/or_0/in2 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1082 adderblock_0/fadd_2/or_0/in2 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# vdd adderblock_0/fadd_2/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1083 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# adderblock_0/k2 adderblock_0/fadd_2/hadd_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1084 adderblock_0/fadd_3/or_0/a_15_6# adderblock_0/fadd_3/or_0/in1 vdd adderblock_0/fadd_3/or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1085 adderblock_0/fadd_3/or_0/a_15_n26# adderblock_0/fadd_3/or_0/in2 adderblock_0/fadd_3/or_0/a_15_6# adderblock_0/fadd_3/or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1086 adderblock_0/fadd_3/or_0/a_15_n26# adderblock_0/fadd_3/or_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1087 adderblock_0/z4 adderblock_0/fadd_3/or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1088 adderblock_0/z4 adderblock_0/fadd_3/or_0/a_15_n26# vdd adderblock_0/fadd_3/or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1089 gnd adderblock_0/fadd_3/or_0/in2 adderblock_0/fadd_3/or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1090 adderblock_0/fadd_3/hadd_0/xor_0/a_66_6# adderblock_0/j3 adderblock_0/fadd_3/hadd_0/sum adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1091 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# adderblock_0/j3 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1092 adderblock_0/fadd_3/hadd_0/sum adderblock_0/j3 adderblock_0/fadd_3/hadd_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1093 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# adderblock_0/j3 vdd adderblock_0/fadd_3/hadd_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1094 vdd adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_0/xor_0/a_66_6# adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1095 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_3/in1 vdd adderblock_0/fadd_3/hadd_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1096 adderblock_0/fadd_3/hadd_0/xor_0/a_46_n62# adderblock_0/fadd_3/in1 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1097 gnd adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_3/hadd_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1098 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_3/in1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1099 adderblock_0/fadd_3/hadd_0/xor_0/a_46_6# adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# vdd adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1100 adderblock_0/fadd_3/hadd_0/xor_0/a_66_n62# adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_0/sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1101 adderblock_0/fadd_3/hadd_0/sum adderblock_0/fadd_3/in1 adderblock_0/fadd_3/hadd_0/xor_0/a_46_6# adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# adderblock_0/fadd_3/in1 vdd adderblock_0/fadd_3/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1103 vdd adderblock_0/j3 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# adderblock_0/fadd_3/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1104 adderblock_0/fadd_3/hadd_0/and_0/a_15_n26# adderblock_0/fadd_3/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1105 adderblock_0/fadd_3/or_0/in1 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1106 adderblock_0/fadd_3/or_0/in1 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# vdd adderblock_0/fadd_3/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1107 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# adderblock_0/j3 adderblock_0/fadd_3/hadd_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1108 adderblock_0/fadd_3/hadd_1/xor_0/a_66_6# adderblock_0/k3 adderblock_0/z3 adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1109 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# adderblock_0/k3 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1110 adderblock_0/z3 adderblock_0/k3 adderblock_0/fadd_3/hadd_1/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1111 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# adderblock_0/k3 vdd adderblock_0/fadd_3/hadd_1/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1112 vdd adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_1/xor_0/a_66_6# adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1113 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_0/sum vdd adderblock_0/fadd_3/hadd_1/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1114 adderblock_0/fadd_3/hadd_1/xor_0/a_46_n62# adderblock_0/fadd_3/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1115 gnd adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_3/hadd_1/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1116 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1117 adderblock_0/fadd_3/hadd_1/xor_0/a_46_6# adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# vdd adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1118 adderblock_0/fadd_3/hadd_1/xor_0/a_66_n62# adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/z3 Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1119 adderblock_0/z3 adderblock_0/fadd_3/hadd_0/sum adderblock_0/fadd_3/hadd_1/xor_0/a_46_6# adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1120 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# adderblock_0/fadd_3/hadd_0/sum vdd adderblock_0/fadd_3/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1121 vdd adderblock_0/k3 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# adderblock_0/fadd_3/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1122 adderblock_0/fadd_3/hadd_1/and_0/a_15_n26# adderblock_0/fadd_3/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1123 adderblock_0/fadd_3/or_0/in2 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1124 adderblock_0/fadd_3/or_0/in2 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# vdd adderblock_0/fadd_3/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1125 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# adderblock_0/k3 adderblock_0/fadd_3/hadd_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1126 adderblock_0/fadd_0/or_0/a_15_6# adderblock_0/fadd_0/or_0/in1 vdd adderblock_0/fadd_0/or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1127 adderblock_0/fadd_0/or_0/a_15_n26# adderblock_0/fadd_0/or_0/in2 adderblock_0/fadd_0/or_0/a_15_6# adderblock_0/fadd_0/or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1128 adderblock_0/fadd_0/or_0/a_15_n26# adderblock_0/fadd_0/or_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1129 adderblock_0/fadd_1/in1 adderblock_0/fadd_0/or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1130 adderblock_0/fadd_1/in1 adderblock_0/fadd_0/or_0/a_15_n26# vdd adderblock_0/fadd_0/or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1131 gnd adderblock_0/fadd_0/or_0/in2 adderblock_0/fadd_0/or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1132 adderblock_0/fadd_0/hadd_0/xor_0/a_66_6# adderblock_0/k0 adderblock_0/fadd_0/hadd_0/sum adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1133 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# adderblock_0/k0 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1134 adderblock_0/fadd_0/hadd_0/sum adderblock_0/k0 adderblock_0/fadd_0/hadd_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1135 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# adderblock_0/k0 vdd adderblock_0/fadd_0/hadd_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1136 vdd adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/xor_0/a_66_6# adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1137 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# adderblock_0/j0 vdd adderblock_0/fadd_0/hadd_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1138 adderblock_0/fadd_0/hadd_0/xor_0/a_46_n62# adderblock_0/j0 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1139 gnd adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_0/hadd_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1140 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# adderblock_0/j0 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1141 adderblock_0/fadd_0/hadd_0/xor_0/a_46_6# adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# vdd adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1142 adderblock_0/fadd_0/hadd_0/xor_0/a_66_n62# adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1143 adderblock_0/fadd_0/hadd_0/sum adderblock_0/j0 adderblock_0/fadd_0/hadd_0/xor_0/a_46_6# adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1144 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# adderblock_0/j0 vdd adderblock_0/fadd_0/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1145 vdd adderblock_0/k0 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# adderblock_0/fadd_0/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1146 adderblock_0/fadd_0/hadd_0/and_0/a_15_n26# adderblock_0/j0 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1147 adderblock_0/fadd_0/or_0/in1 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1148 adderblock_0/fadd_0/or_0/in1 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# vdd adderblock_0/fadd_0/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1149 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# adderblock_0/k0 adderblock_0/fadd_0/hadd_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1150 adderblock_0/fadd_0/hadd_1/xor_0/a_66_6# adderblock_0/c0 adderblock_0/z0 adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1151 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# adderblock_0/c0 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1152 adderblock_0/z0 adderblock_0/c0 adderblock_0/fadd_0/hadd_1/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1153 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# adderblock_0/c0 vdd adderblock_0/fadd_0/hadd_1/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1154 vdd adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_1/xor_0/a_66_6# adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1155 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/sum vdd adderblock_0/fadd_0/hadd_1/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1156 adderblock_0/fadd_0/hadd_1/xor_0/a_46_n62# adderblock_0/fadd_0/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1157 gnd adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_0/hadd_1/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1158 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1159 adderblock_0/fadd_0/hadd_1/xor_0/a_46_6# adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# vdd adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1160 adderblock_0/fadd_0/hadd_1/xor_0/a_66_n62# adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# adderblock_0/z0 Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1161 adderblock_0/z0 adderblock_0/fadd_0/hadd_0/sum adderblock_0/fadd_0/hadd_1/xor_0/a_46_6# adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1162 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# adderblock_0/fadd_0/hadd_0/sum vdd adderblock_0/fadd_0/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1163 vdd adderblock_0/c0 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# adderblock_0/fadd_0/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1164 adderblock_0/fadd_0/hadd_1/and_0/a_15_n26# adderblock_0/fadd_0/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1165 adderblock_0/fadd_0/or_0/in2 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1166 adderblock_0/fadd_0/or_0/in2 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# vdd adderblock_0/fadd_0/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1167 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# adderblock_0/c0 adderblock_0/fadd_0/hadd_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+C0 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# 0.02fF
+C1 adderblock_0/j0 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# 0.02fF
+C2 gnd adderblock_0/z1 0.13fF
+C3 adderblock_0/fadd_0/or_0/a_15_n26# vdd 0.11fF
+C4 adderblock_0/j2 adderblock_0/fadd_2/in1 1.14fF
+C5 adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# 0.19fF
+C6 adderblock_0/fadd_3/hadd_0/xor_0/w_2_0# vdd 0.05fF
+C7 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# adderblock_0/k0 0.06fF
+C8 adderblock_0/z4 adderblock_0/fadd_3/or_0/w_0_0# 0.03fF
+C9 adderblock_0/fadd_2/hadd_1/and_0/w_0_0# vdd 0.14fF
+C10 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# adderblock_0/z3 0.08fF
+C11 adderblock_0/j0 adderblock_0/k0 1.14fF
+C12 gnd adderblock_0/k2 0.38fF
+C13 gnd adderblock_0/fadd_3/hadd_0/and_0/a_15_6# 0.08fF
+C14 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_0/sum 0.08fF
+C15 vdd adderblock_0/z3 0.03fF
+C16 adderblock_0/fadd_3/hadd_1/and_0/w_0_0# adderblock_0/fadd_3/or_0/in2 0.03fF
+C17 gnd adderblock_0/k3 0.38fF
+C18 adderblock_0/k1 adderblock_0/z1 0.12fF
+C19 adderblock_0/fadd_0/or_0/in1 adderblock_0/fadd_0/or_0/in2 0.31fF
+C20 vdd adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# 0.11fF
+C21 adderblock_0/k3 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# 0.21fF
+C22 gnd adderblock_0/fadd_1/hadd_0/and_0/a_15_6# 0.08fF
+C23 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# 0.02fF
+C24 adderblock_0/fadd_3/or_0/in1 vdd 0.30fF
+C25 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# adderblock_0/fadd_2/in1 0.03fF
+C26 gnd adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# 0.31fF
+C27 adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# vdd 0.11fF
+C28 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# gnd 0.08fF
+C29 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# 0.02fF
+C30 adderblock_0/fadd_1/in1 adderblock_0/fadd_1/hadd_0/and_0/w_0_0# 0.06fF
+C31 adderblock_0/j0 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# 0.36fF
+C32 adderblock_0/fadd_1/hadd_0/sum adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# 0.36fF
+C33 adderblock_0/fadd_0/or_0/in2 vdd 0.11fF
+C34 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# vdd 0.74fF
+C35 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# vdd 0.05fF
+C36 adderblock_0/fadd_1/in1 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# 0.36fF
+C37 adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# adderblock_0/fadd_2/hadd_0/sum 0.02fF
+C38 adderblock_0/j0 vdd 0.20fF
+C39 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# vdd 0.74fF
+C40 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# adderblock_0/c0 0.06fF
+C41 adderblock_0/fadd_3/or_0/w_0_0# adderblock_0/fadd_3/or_0/in2 0.06fF
+C42 adderblock_0/c0 vdd 0.39fF
+C43 gnd adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# 0.08fF
+C44 adderblock_0/k0 vdd 0.39fF
+C45 adderblock_0/fadd_1/hadd_0/sum adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# 0.02fF
+C46 gnd adderblock_0/z2 0.13fF
+C47 adderblock_0/j1 vdd 0.39fF
+C48 adderblock_0/fadd_0/hadd_0/sum adderblock_0/fadd_0/hadd_1/xor_0/w_2_n50# 0.06fF
+C49 adderblock_0/z4 adderblock_0/fadd_3/or_0/a_15_n26# 0.05fF
+C50 adderblock_0/fadd_1/hadd_0/xor_0/w_2_n50# adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# 0.03fF
+C51 adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# adderblock_0/fadd_2/hadd_0/sum 0.06fF
+C52 adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# adderblock_0/fadd_2/in1 0.06fF
+C53 adderblock_0/fadd_1/hadd_0/sum adderblock_0/fadd_1/hadd_1/and_0/a_15_6# 0.03fF
+C54 adderblock_0/fadd_2/hadd_1/and_0/w_0_0# adderblock_0/k2 0.06fF
+C55 adderblock_0/fadd_1/or_0/in1 adderblock_0/fadd_1/hadd_0/sum 0.09fF
+C56 adderblock_0/fadd_0/or_0/in1 vdd 0.30fF
+C57 gnd adderblock_0/j2 0.29fF
+C58 adderblock_0/z1 adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# 0.02fF
+C59 adderblock_0/fadd_2/or_0/a_15_n26# vdd 0.11fF
+C60 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# vdd 0.11fF
+C61 vdd adderblock_0/fadd_2/hadd_0/xor_0/w_2_0# 0.05fF
+C62 adderblock_0/k1 adderblock_0/fadd_1/hadd_1/and_0/w_0_0# 0.06fF
+C63 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_0/sum 0.36fF
+C64 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# vdd 0.76fF
+C65 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# 0.02fF
+C66 adderblock_0/fadd_3/hadd_0/and_0/w_0_0# adderblock_0/j3 0.06fF
+C67 gnd adderblock_0/fadd_3/or_0/a_15_n26# 0.10fF
+C68 adderblock_0/fadd_1/hadd_1/xor_0/w_2_n50# adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# 0.03fF
+C69 adderblock_0/k3 adderblock_0/z3 0.12fF
+C70 adderblock_0/fadd_3/hadd_1/xor_0/w_2_n50# vdd 0.05fF
+C71 gnd adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# 0.31fF
+C72 adderblock_0/fadd_1/or_0/a_15_n26# vdd 0.11fF
+C73 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# vdd 0.76fF
+C74 adderblock_0/fadd_2/hadd_1/xor_0/w_2_0# vdd 0.05fF
+C75 adderblock_0/fadd_0/hadd_1/xor_0/w_2_n50# adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# 0.03fF
+C76 adderblock_0/fadd_2/or_0/a_15_n26# adderblock_0/fadd_2/or_0/w_0_0# 0.10fF
+C77 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# adderblock_0/fadd_3/or_0/in1 0.05fF
+C78 adderblock_0/j3 adderblock_0/fadd_3/in1 1.14fF
+C79 adderblock_0/fadd_1/or_0/a_15_n26# adderblock_0/fadd_1/or_0/in2 0.21fF
+C80 adderblock_0/fadd_3/hadd_0/xor_0/w_2_n50# vdd 0.05fF
+C81 adderblock_0/fadd_1/or_0/in2 vdd 0.11fF
+C82 adderblock_0/fadd_3/or_0/w_0_0# adderblock_0/fadd_3/or_0/in1 0.08fF
+C83 gnd adderblock_0/fadd_2/hadd_0/and_0/a_15_6# 0.08fF
+C84 adderblock_0/j0 adderblock_0/fadd_0/hadd_0/xor_0/w_2_n50# 0.06fF
+C85 adderblock_0/j0 adderblock_0/fadd_0/hadd_0/and_0/w_0_0# 0.06fF
+C86 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# adderblock_0/k2 0.21fF
+C87 adderblock_0/fadd_2/or_0/w_0_0# vdd 0.11fF
+C88 gnd adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# 0.31fF
+C89 adderblock_0/fadd_2/or_0/in1 vdd 0.30fF
+C90 adderblock_0/fadd_0/hadd_0/and_0/w_0_0# adderblock_0/k0 0.06fF
+C91 adderblock_0/fadd_2/hadd_0/and_0/w_0_0# vdd 0.14fF
+C92 adderblock_0/fadd_3/or_0/in2 adderblock_0/fadd_3/or_0/a_15_n26# 0.21fF
+C93 adderblock_0/fadd_2/hadd_1/xor_0/w_2_n50# vdd 0.05fF
+C94 adderblock_0/fadd_0/hadd_0/sum adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# 0.36fF
+C95 adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# adderblock_0/z3 0.02fF
+C96 adderblock_0/fadd_0/hadd_0/xor_0/w_2_0# adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# 0.03fF
+C97 adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# 0.19fF
+C98 gnd adderblock_0/fadd_3/in1 0.93fF
+C99 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# adderblock_0/fadd_0/hadd_0/sum 0.03fF
+C100 adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# adderblock_0/j1 0.06fF
+C101 adderblock_0/fadd_3/hadd_1/and_0/w_0_0# vdd 0.14fF
+C102 adderblock_0/fadd_2/or_0/in1 adderblock_0/fadd_2/or_0/w_0_0# 0.08fF
+C103 adderblock_0/j0 adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# 0.06fF
+C104 adderblock_0/fadd_3/in1 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# 0.36fF
+C105 gnd adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# 0.08fF
+C106 adderblock_0/fadd_0/hadd_0/and_0/w_0_0# adderblock_0/fadd_0/or_0/in1 0.03fF
+C107 adderblock_0/fadd_2/or_0/in1 adderblock_0/fadd_2/hadd_0/and_0/w_0_0# 0.03fF
+C108 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/xor_0/w_2_n50# 0.03fF
+C109 adderblock_0/fadd_0/hadd_0/xor_0/w_2_0# adderblock_0/k0 0.06fF
+C110 adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# adderblock_0/k0 0.06fF
+C111 adderblock_0/fadd_1/or_0/w_0_0# adderblock_0/fadd_1/or_0/in1 0.08fF
+C112 adderblock_0/j3 adderblock_0/fadd_3/hadd_0/sum 0.12fF
+C113 adderblock_0/z1 vdd 0.03fF
+C114 adderblock_0/fadd_3/hadd_1/xor_0/w_2_0# adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# 0.03fF
+C115 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# adderblock_0/j1 0.21fF
+C116 gnd adderblock_0/fadd_1/hadd_1/and_0/a_15_6# 0.08fF
+C117 adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# 0.06fF
+C118 gnd adderblock_0/fadd_1/or_0/in1 0.08fF
+C119 gnd adderblock_0/fadd_2/hadd_0/sum 0.89fF
+C120 adderblock_0/fadd_0/hadd_0/xor_0/w_2_n50# vdd 0.05fF
+C121 adderblock_0/fadd_2/hadd_0/sum adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# 0.08fF
+C122 adderblock_0/fadd_0/hadd_0/and_0/w_0_0# vdd 0.14fF
+C123 adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# vdd 0.11fF
+C124 adderblock_0/fadd_1/hadd_0/xor_0/w_2_0# adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# 0.03fF
+C125 adderblock_0/fadd_1/hadd_1/xor_0/w_2_n50# adderblock_0/fadd_1/hadd_0/sum 0.06fF
+C126 adderblock_0/fadd_3/hadd_1/xor_0/w_2_0# vdd 0.05fF
+C127 adderblock_0/fadd_1/or_0/in2 adderblock_0/z1 0.09fF
+C128 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# adderblock_0/k3 0.06fF
+C129 adderblock_0/k1 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# 0.06fF
+C130 adderblock_0/fadd_0/hadd_0/sum adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# 0.06fF
+C131 vdd adderblock_0/k2 0.39fF
+C132 adderblock_0/fadd_2/hadd_1/xor_0/w_2_0# adderblock_0/k2 0.06fF
+C133 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# vdd 0.05fF
+C134 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# 0.06fF
+C135 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_0/xor_0/w_2_0# 0.03fF
+C136 adderblock_0/fadd_1/or_0/w_0_0# adderblock_0/fadd_2/in1 0.03fF
+C137 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# gnd 0.31fF
+C138 adderblock_0/k3 vdd 0.39fF
+C139 gnd adderblock_0/fadd_3/hadd_0/sum 0.89fF
+C140 gnd adderblock_0/fadd_2/or_0/in2 0.17fF
+C141 adderblock_0/fadd_3/or_0/w_0_0# vdd 0.11fF
+C142 adderblock_0/k1 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# 0.21fF
+C143 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# vdd 0.05fF
+C144 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_1/hadd_0/sum 0.08fF
+C145 adderblock_0/fadd_3/hadd_0/sum adderblock_0/fadd_3/hadd_1/and_0/a_15_6# 0.03fF
+C146 gnd adderblock_0/fadd_0/hadd_0/sum 0.89fF
+C147 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_1/hadd_1/xor_0/w_2_0# 0.03fF
+C148 gnd adderblock_0/fadd_2/in1 0.93fF
+C149 gnd adderblock_0/fadd_1/hadd_0/sum 0.89fF
+C150 adderblock_0/fadd_0/hadd_0/xor_0/w_2_0# vdd 0.05fF
+C151 adderblock_0/fadd_2/in1 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# 0.36fF
+C152 adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# vdd 0.11fF
+C153 adderblock_0/fadd_0/or_0/w_0_0# adderblock_0/fadd_1/in1 0.03fF
+C154 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_0/sum 0.08fF
+C155 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# vdd 0.11fF
+C156 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# vdd 0.74fF
+C157 adderblock_0/fadd_2/in1 adderblock_0/fadd_2/hadd_0/xor_0/w_2_n50# 0.06fF
+C158 adderblock_0/fadd_1/in1 adderblock_0/fadd_1/hadd_0/xor_0/w_2_n50# 0.06fF
+C159 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# 0.06fF
+C160 adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# 0.19fF
+C161 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# 0.06fF
+C162 adderblock_0/fadd_3/hadd_0/and_0/w_0_0# adderblock_0/fadd_3/or_0/in1 0.03fF
+C163 adderblock_0/k1 adderblock_0/fadd_1/hadd_0/sum 1.14fF
+C164 adderblock_0/j1 adderblock_0/fadd_1/hadd_0/and_0/w_0_0# 0.06fF
+C165 gnd adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# 0.31fF
+C166 adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# vdd 0.11fF
+C167 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_1/xor_0/w_2_0# 0.03fF
+C168 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# vdd 0.76fF
+C169 adderblock_0/fadd_0/hadd_1/and_0/w_0_0# adderblock_0/fadd_0/hadd_0/sum 0.06fF
+C170 adderblock_0/fadd_1/in1 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# 0.02fF
+C171 adderblock_0/fadd_2/hadd_1/xor_0/w_2_n50# adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# 0.03fF
+C172 adderblock_0/fadd_1/hadd_1/and_0/w_0_0# vdd 0.14fF
+C173 gnd adderblock_0/fadd_0/hadd_1/and_0/a_15_6# 0.08fF
+C174 adderblock_0/fadd_3/hadd_1/and_0/w_0_0# adderblock_0/k3 0.06fF
+C175 gnd adderblock_0/fadd_1/in1 0.93fF
+C176 adderblock_0/j2 adderblock_0/fadd_2/hadd_0/xor_0/w_2_0# 0.06fF
+C177 adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# adderblock_0/fadd_3/in1 0.06fF
+C178 adderblock_0/z2 vdd 0.03fF
+C179 adderblock_0/fadd_2/hadd_1/and_0/w_0_0# adderblock_0/fadd_2/hadd_0/sum 0.06fF
+C180 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# 0.19fF
+C181 adderblock_0/fadd_1/hadd_1/and_0/w_0_0# adderblock_0/fadd_1/or_0/in2 0.03fF
+C182 adderblock_0/j2 vdd 0.39fF
+C183 vdd adderblock_0/fadd_1/hadd_0/and_0/w_0_0# 0.14fF
+C184 gnd adderblock_0/j3 0.29fF
+C185 adderblock_0/z0 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# 0.08fF
+C186 adderblock_0/fadd_3/in1 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# 0.02fF
+C187 adderblock_0/fadd_2/hadd_1/and_0/w_0_0# adderblock_0/fadd_2/or_0/in2 0.03fF
+C188 adderblock_0/fadd_3/hadd_1/xor_0/w_2_0# adderblock_0/k3 0.06fF
+C189 gnd adderblock_0/z4 0.08fF
+C190 vdd adderblock_0/fadd_3/or_0/a_15_n26# 0.11fF
+C191 adderblock_0/fadd_0/hadd_1/and_0/w_0_0# adderblock_0/fadd_0/hadd_1/and_0/a_15_6# 0.09fF
+C192 gnd adderblock_0/fadd_0/hadd_0/and_0/a_15_6# 0.08fF
+C193 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/z3 0.08fF
+C194 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# vdd 0.11fF
+C195 adderblock_0/j2 adderblock_0/fadd_2/hadd_0/and_0/w_0_0# 0.06fF
+C196 gnd adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# 0.08fF
+C197 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# adderblock_0/fadd_2/hadd_0/sum 0.03fF
+C198 adderblock_0/fadd_3/hadd_0/sum adderblock_0/fadd_3/or_0/in1 0.09fF
+C199 gnd adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# 0.31fF
+C200 adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# adderblock_0/fadd_3/hadd_0/sum 0.02fF
+C201 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# vdd 0.05fF
+C202 adderblock_0/fadd_1/hadd_0/sum adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# 0.06fF
+C203 gnd adderblock_0/fadd_3/hadd_1/and_0/a_15_6# 0.08fF
+C204 adderblock_0/fadd_3/in1 adderblock_0/fadd_2/or_0/a_15_n26# 0.05fF
+C205 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_0/xor_0/w_2_n50# 0.03fF
+C206 vdd adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# 0.11fF
+C207 adderblock_0/fadd_3/hadd_0/and_0/w_0_0# vdd 0.14fF
+C208 adderblock_0/fadd_1/in1 adderblock_0/fadd_0/or_0/a_15_n26# 0.05fF
+C209 gnd adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# 0.31fF
+C210 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# adderblock_0/fadd_2/or_0/in2 0.05fF
+C211 adderblock_0/fadd_0/hadd_0/sum adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# 0.08fF
+C212 adderblock_0/z0 adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# 0.02fF
+C213 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# adderblock_0/k2 0.06fF
+C214 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_3/hadd_0/sum 0.08fF
+C215 adderblock_0/fadd_3/in1 vdd 0.31fF
+C216 adderblock_0/fadd_0/or_0/w_0_0# adderblock_0/fadd_0/or_0/a_15_n26# 0.10fF
+C217 adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# adderblock_0/k3 0.06fF
+C218 gnd adderblock_0/k1 0.38fF
+C219 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# adderblock_0/fadd_2/or_0/in1 0.05fF
+C220 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# adderblock_0/fadd_2/hadd_0/and_0/w_0_0# 0.09fF
+C221 adderblock_0/fadd_1/hadd_0/xor_0/w_2_0# adderblock_0/j1 0.06fF
+C222 gnd adderblock_0/z0 0.13fF
+C223 adderblock_0/z2 adderblock_0/k2 0.12fF
+C224 adderblock_0/fadd_0/hadd_0/sum adderblock_0/c0 1.14fF
+C225 adderblock_0/j3 adderblock_0/fadd_3/hadd_0/xor_0/w_2_0# 0.06fF
+C226 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# vdd 0.76fF
+C227 adderblock_0/fadd_0/hadd_0/sum adderblock_0/k0 0.12fF
+C228 gnd adderblock_0/fadd_3/or_0/in2 0.17fF
+C229 adderblock_0/fadd_3/in1 adderblock_0/fadd_3/hadd_0/xor_0/w_2_n50# 0.06fF
+C230 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# 0.02fF
+C231 adderblock_0/fadd_3/or_0/in2 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# 0.05fF
+C232 adderblock_0/fadd_3/in1 adderblock_0/fadd_2/or_0/w_0_0# 0.03fF
+C233 adderblock_0/fadd_0/hadd_1/xor_0/w_2_n50# vdd 0.05fF
+C234 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# vdd 0.05fF
+C235 adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# vdd 0.11fF
+C236 adderblock_0/z2 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# 0.08fF
+C237 adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# 0.06fF
+C238 adderblock_0/fadd_1/hadd_0/sum adderblock_0/j1 0.12fF
+C239 adderblock_0/fadd_1/or_0/in1 vdd 0.30fF
+C240 adderblock_0/fadd_2/hadd_0/sum vdd 0.22fF
+C241 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# adderblock_0/fadd_0/or_0/in2 0.05fF
+C242 adderblock_0/fadd_2/or_0/a_15_n26# adderblock_0/fadd_2/or_0/in2 0.21fF
+C243 adderblock_0/fadd_0/hadd_0/sum adderblock_0/fadd_0/or_0/in1 0.09fF
+C244 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# 0.02fF
+C245 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# adderblock_0/fadd_1/hadd_0/and_0/w_0_0# 0.09fF
+C246 adderblock_0/fadd_1/hadd_0/xor_0/w_2_0# vdd 0.05fF
+C247 gnd adderblock_0/fadd_0/or_0/a_15_n26# 0.10fF
+C248 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_3/hadd_0/sum 0.02fF
+C249 adderblock_0/fadd_1/or_0/in2 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# 0.05fF
+C250 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/sum 0.08fF
+C251 adderblock_0/fadd_1/or_0/in1 adderblock_0/fadd_1/or_0/in2 0.31fF
+C252 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# adderblock_0/j2 0.06fF
+C253 adderblock_0/z1 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# 0.08fF
+C254 adderblock_0/fadd_3/or_0/w_0_0# adderblock_0/fadd_3/or_0/a_15_n26# 0.10fF
+C255 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_1/xor_0/w_2_n50# 0.03fF
+C256 adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# adderblock_0/j3 0.06fF
+C257 adderblock_0/fadd_3/hadd_1/xor_0/w_2_n50# adderblock_0/fadd_3/hadd_0/sum 0.06fF
+C258 adderblock_0/k1 adderblock_0/fadd_1/hadd_1/xor_0/w_2_0# 0.06fF
+C259 adderblock_0/fadd_0/or_0/w_0_0# adderblock_0/fadd_0/or_0/in2 0.06fF
+C260 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# vdd 0.11fF
+C261 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# adderblock_0/c0 0.21fF
+C262 adderblock_0/fadd_3/hadd_0/sum vdd 0.22fF
+C263 vdd adderblock_0/fadd_2/or_0/in2 0.11fF
+C264 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_0/hadd_0/sum 0.02fF
+C265 adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# vdd 0.11fF
+C266 adderblock_0/fadd_0/hadd_0/sum vdd 0.22fF
+C267 adderblock_0/fadd_2/hadd_0/sum adderblock_0/fadd_2/or_0/in1 0.09fF
+C268 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# adderblock_0/z2 0.08fF
+C269 adderblock_0/fadd_1/or_0/a_15_n26# adderblock_0/fadd_2/in1 0.05fF
+C270 gnd adderblock_0/z3 0.13fF
+C271 adderblock_0/fadd_2/in1 vdd 0.31fF
+C272 adderblock_0/fadd_1/hadd_0/sum vdd 0.22fF
+C273 adderblock_0/fadd_0/hadd_1/xor_0/w_2_0# adderblock_0/c0 0.06fF
+C274 adderblock_0/fadd_2/hadd_1/xor_0/w_2_n50# adderblock_0/fadd_2/hadd_0/sum 0.06fF
+C275 adderblock_0/fadd_3/hadd_0/and_0/w_0_0# adderblock_0/fadd_3/hadd_0/and_0/a_15_6# 0.09fF
+C276 adderblock_0/fadd_1/in1 adderblock_0/j1 1.21fF
+C277 adderblock_0/j3 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# 0.06fF
+C278 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# adderblock_0/z1 0.08fF
+C279 adderblock_0/fadd_2/or_0/w_0_0# adderblock_0/fadd_2/or_0/in2 0.06fF
+C280 gnd adderblock_0/fadd_3/or_0/in1 0.08fF
+C281 adderblock_0/fadd_2/or_0/in1 adderblock_0/fadd_2/or_0/in2 0.31fF
+C282 adderblock_0/j0 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# 0.03fF
+C283 adderblock_0/fadd_3/in1 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# 0.03fF
+C284 gnd adderblock_0/fadd_0/or_0/in2 0.17fF
+C285 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# 0.02fF
+C286 gnd adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# 0.08fF
+C287 adderblock_0/fadd_2/in1 adderblock_0/fadd_2/hadd_0/and_0/w_0_0# 0.06fF
+C288 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# vdd 0.11fF
+C289 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# adderblock_0/k0 0.21fF
+C290 adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# 0.06fF
+C291 adderblock_0/c0 adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# 0.06fF
+C292 gnd adderblock_0/fadd_2/hadd_1/and_0/a_15_6# 0.08fF
+C293 adderblock_0/fadd_0/or_0/w_0_0# adderblock_0/fadd_0/or_0/in1 0.08fF
+C294 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# vdd 0.05fF
+C295 adderblock_0/k1 adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# 0.06fF
+C296 adderblock_0/fadd_3/or_0/in2 adderblock_0/z3 0.09fF
+C297 adderblock_0/fadd_3/hadd_1/and_0/w_0_0# adderblock_0/fadd_3/hadd_0/sum 0.06fF
+C298 adderblock_0/j0 gnd 0.85fF
+C299 gnd adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# 0.08fF
+C300 adderblock_0/fadd_1/in1 vdd 0.31fF
+C301 gnd adderblock_0/c0 0.38fF
+C302 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_0/hadd_1/xor_0/w_2_0# 0.03fF
+C303 gnd adderblock_0/k0 0.29fF
+C304 adderblock_0/fadd_0/hadd_1/xor_0/w_2_0# vdd 0.05fF
+C305 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# 0.02fF
+C306 adderblock_0/fadd_3/or_0/in2 adderblock_0/fadd_3/or_0/in1 0.31fF
+C307 adderblock_0/fadd_2/hadd_0/sum adderblock_0/k2 1.14fF
+C308 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# adderblock_0/fadd_0/or_0/in1 0.05fF
+C309 adderblock_0/fadd_0/or_0/w_0_0# vdd 0.11fF
+C310 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# adderblock_0/j1 0.06fF
+C311 adderblock_0/fadd_0/or_0/in2 adderblock_0/z0 0.09fF
+C312 adderblock_0/j3 vdd 0.39fF
+C313 gnd adderblock_0/j1 0.29fF
+C314 adderblock_0/fadd_0/hadd_1/and_0/w_0_0# adderblock_0/fadd_0/or_0/in2 0.03fF
+C315 adderblock_0/fadd_1/hadd_1/xor_0/w_2_n50# vdd 0.05fF
+C316 adderblock_0/fadd_1/or_0/in1 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# 0.05fF
+C317 adderblock_0/fadd_1/hadd_0/xor_0/w_2_n50# vdd 0.05fF
+C318 adderblock_0/z4 vdd 0.11fF
+C319 gnd adderblock_0/fadd_0/or_0/in1 0.08fF
+C320 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# 0.19fF
+C321 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# vdd 0.05fF
+C322 adderblock_0/fadd_2/hadd_0/sum adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# 0.36fF
+C323 gnd adderblock_0/fadd_2/or_0/a_15_n26# 0.10fF
+C324 adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# adderblock_0/fadd_1/hadd_0/sum 0.02fF
+C325 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# adderblock_0/j2 0.21fF
+C326 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_0/sum 0.08fF
+C327 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# 0.19fF
+C328 gnd adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# 0.31fF
+C329 adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# vdd 0.11fF
+C330 adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# adderblock_0/k2 0.06fF
+C331 adderblock_0/fadd_1/or_0/a_15_n26# adderblock_0/fadd_1/or_0/w_0_0# 0.10fF
+C332 adderblock_0/z0 adderblock_0/c0 0.12fF
+C333 adderblock_0/fadd_3/hadd_0/sum adderblock_0/k3 1.14fF
+C334 gnd adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# 0.08fF
+C335 adderblock_0/fadd_1/or_0/w_0_0# vdd 0.11fF
+C336 adderblock_0/fadd_0/hadd_1/and_0/w_0_0# adderblock_0/c0 0.06fF
+C337 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# vdd 0.74fF
+C338 adderblock_0/fadd_0/or_0/a_15_n26# adderblock_0/fadd_0/or_0/in2 0.21fF
+C339 adderblock_0/fadd_1/or_0/a_15_n26# gnd 0.10fF
+C340 gnd adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# 0.08fF
+C341 gnd vdd 3.76fF
+C342 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# vdd 0.11fF
+C343 adderblock_0/fadd_1/or_0/w_0_0# adderblock_0/fadd_1/or_0/in2 0.06fF
+C344 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# vdd 0.05fF
+C345 adderblock_0/fadd_2/hadd_0/xor_0/w_2_n50# vdd 0.05fF
+C346 adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# adderblock_0/fadd_0/hadd_0/sum 0.02fF
+C347 adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# 0.06fF
+C348 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_0/sum 0.02fF
+C349 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# vdd 0.11fF
+C350 adderblock_0/fadd_1/hadd_1/and_0/w_0_0# adderblock_0/fadd_1/hadd_1/and_0/a_15_6# 0.09fF
+C351 adderblock_0/fadd_2/hadd_1/and_0/w_0_0# adderblock_0/fadd_2/hadd_1/and_0/a_15_6# 0.09fF
+C352 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_2/in1 0.02fF
+C353 gnd adderblock_0/fadd_1/or_0/in2 0.17fF
+C354 adderblock_0/fadd_3/hadd_0/xor_0/w_2_0# adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# 0.03fF
+C355 adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# adderblock_0/fadd_1/in1 0.06fF
+C356 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_0/xor_0/w_2_n50# 0.03fF
+C357 gnd adderblock_0/fadd_2/or_0/in1 0.08fF
+C358 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# 0.06fF
+C359 adderblock_0/k1 vdd 0.39fF
+C360 adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# adderblock_0/fadd_3/hadd_0/sum 0.06fF
+C361 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# adderblock_0/z0 0.08fF
+C362 adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# adderblock_0/j2 0.06fF
+C363 adderblock_0/z0 vdd 0.03fF
+C364 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# 0.19fF
+C365 adderblock_0/fadd_0/hadd_1/and_0/w_0_0# vdd 0.14fF
+C366 adderblock_0/j2 adderblock_0/fadd_2/hadd_0/sum 0.12fF
+C367 adderblock_0/fadd_3/or_0/in2 vdd 0.11fF
+C368 adderblock_0/fadd_1/or_0/in1 adderblock_0/fadd_1/hadd_0/and_0/w_0_0# 0.03fF
+C369 adderblock_0/z2 adderblock_0/fadd_2/or_0/in2 0.09fF
+C370 adderblock_0/fadd_1/in1 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# 0.03fF
+C371 adderblock_0/fadd_1/hadd_1/and_0/w_0_0# adderblock_0/fadd_1/hadd_0/sum 0.06fF
+C372 adderblock_0/fadd_1/hadd_1/xor_0/w_2_0# vdd 0.05fF
+C373 adderblock_0/z2 adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# 0.02fF
+C374 adderblock_0/fadd_3/hadd_0/and_0/w_0_0# adderblock_0/fadd_3/in1 0.06fF
+C375 adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# 0.19fF
+C376 adderblock_0/j3 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# 0.21fF
+C377 adderblock_0/fadd_3/hadd_1/and_0/w_0_0# adderblock_0/fadd_3/hadd_1/and_0/a_15_6# 0.09fF
+C378 adderblock_0/fadd_0/hadd_0/and_0/w_0_0# adderblock_0/fadd_0/hadd_0/and_0/a_15_6# 0.09fF
+C379 gnd Gnd 171.39fF
+C380 vdd Gnd 155.50fF
+C381 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# Gnd 0.32fF
+C382 adderblock_0/c0 Gnd 2.75fF
+C383 adderblock_0/fadd_0/hadd_0/sum Gnd 1.09fF
+C384 adderblock_0/fadd_0/hadd_1/and_0/w_0_0# Gnd 1.12fF
+C385 adderblock_0/z0 Gnd 0.55fF
+C386 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# Gnd 0.26fF
+C387 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# Gnd 0.17fF
+C388 adderblock_0/fadd_0/hadd_1/xor_0/w_2_n50# Gnd 0.48fF
+C389 adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# Gnd 1.12fF
+C390 adderblock_0/fadd_0/hadd_1/xor_0/w_2_0# Gnd 0.48fF
+C391 adderblock_0/fadd_0/or_0/in1 Gnd 0.71fF
+C392 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# Gnd 0.32fF
+C393 adderblock_0/k0 Gnd 2.88fF
+C394 adderblock_0/j0 Gnd 1.13fF
+C395 adderblock_0/fadd_0/hadd_0/and_0/w_0_0# Gnd 1.12fF
+C396 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# Gnd 0.26fF
+C397 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# Gnd 0.17fF
+C398 adderblock_0/fadd_0/hadd_0/xor_0/w_2_n50# Gnd 0.48fF
+C399 adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# Gnd 1.12fF
+C400 adderblock_0/fadd_0/hadd_0/xor_0/w_2_0# Gnd 0.48fF
+C401 adderblock_0/fadd_0/or_0/a_15_n26# Gnd 0.32fF
+C402 adderblock_0/fadd_0/or_0/w_0_0# Gnd 1.12fF
+C403 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# Gnd 0.32fF
+C404 adderblock_0/k3 Gnd 2.62fF
+C405 adderblock_0/fadd_3/hadd_0/sum Gnd 1.09fF
+C406 adderblock_0/fadd_3/hadd_1/and_0/w_0_0# Gnd 1.12fF
+C407 adderblock_0/z3 Gnd 0.51fF
+C408 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# Gnd 0.26fF
+C409 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# Gnd 0.17fF
+C410 adderblock_0/fadd_3/hadd_1/xor_0/w_2_n50# Gnd 0.48fF
+C411 adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# Gnd 1.12fF
+C412 adderblock_0/fadd_3/hadd_1/xor_0/w_2_0# Gnd 0.48fF
+C413 adderblock_0/fadd_3/or_0/in1 Gnd 0.71fF
+C414 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# Gnd 0.32fF
+C415 adderblock_0/j3 Gnd 2.84fF
+C416 adderblock_0/fadd_3/in1 Gnd 1.55fF
+C417 adderblock_0/fadd_3/hadd_0/and_0/w_0_0# Gnd 1.12fF
+C418 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# Gnd 0.26fF
+C419 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# Gnd 0.17fF
+C420 adderblock_0/fadd_3/hadd_0/xor_0/w_2_n50# Gnd 0.48fF
+C421 adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# Gnd 1.12fF
+C422 adderblock_0/fadd_3/hadd_0/xor_0/w_2_0# Gnd 0.48fF
+C423 adderblock_0/z4 Gnd 0.44fF
+C424 adderblock_0/fadd_3/or_0/a_15_n26# Gnd 0.32fF
+C425 adderblock_0/fadd_3/or_0/w_0_0# Gnd 1.12fF
+C426 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# Gnd 0.32fF
+C427 adderblock_0/k2 Gnd 2.65fF
+C428 adderblock_0/fadd_2/hadd_0/sum Gnd 1.09fF
+C429 adderblock_0/fadd_2/hadd_1/and_0/w_0_0# Gnd 1.12fF
+C430 adderblock_0/z2 Gnd 0.62fF
+C431 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# Gnd 0.26fF
+C432 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# Gnd 0.17fF
+C433 adderblock_0/fadd_2/hadd_1/xor_0/w_2_n50# Gnd 0.48fF
+C434 adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# Gnd 1.12fF
+C435 adderblock_0/fadd_2/hadd_1/xor_0/w_2_0# Gnd 0.48fF
+C436 adderblock_0/fadd_2/or_0/in1 Gnd 0.71fF
+C437 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# Gnd 0.32fF
+C438 adderblock_0/j2 Gnd 2.88fF
+C439 adderblock_0/fadd_2/in1 Gnd 1.69fF
+C440 adderblock_0/fadd_2/hadd_0/and_0/w_0_0# Gnd 1.12fF
+C441 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# Gnd 0.26fF
+C442 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# Gnd 0.17fF
+C443 adderblock_0/fadd_2/hadd_0/xor_0/w_2_n50# Gnd 0.48fF
+C444 adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# Gnd 1.12fF
+C445 adderblock_0/fadd_2/hadd_0/xor_0/w_2_0# Gnd 0.48fF
+C446 adderblock_0/fadd_2/or_0/a_15_n26# Gnd 0.32fF
+C447 adderblock_0/fadd_2/or_0/w_0_0# Gnd 1.12fF
+C448 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# Gnd 0.32fF
+C449 adderblock_0/k1 Gnd 2.62fF
+C450 adderblock_0/fadd_1/hadd_0/sum Gnd 1.09fF
+C451 adderblock_0/fadd_1/hadd_1/and_0/w_0_0# Gnd 1.12fF
+C452 adderblock_0/z1 Gnd 0.48fF
+C453 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# Gnd 0.26fF
+C454 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# Gnd 0.17fF
+C455 adderblock_0/fadd_1/hadd_1/xor_0/w_2_n50# Gnd 0.48fF
+C456 adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# Gnd 1.12fF
+C457 adderblock_0/fadd_1/hadd_1/xor_0/w_2_0# Gnd 0.48fF
+C458 adderblock_0/fadd_1/or_0/in1 Gnd 0.71fF
+C459 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# Gnd 0.32fF
+C460 adderblock_0/j1 Gnd 2.81fF
+C461 adderblock_0/fadd_1/in1 Gnd 1.35fF
+C462 adderblock_0/fadd_1/hadd_0/and_0/w_0_0# Gnd 1.12fF
+C463 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# Gnd 0.26fF
+C464 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# Gnd 0.17fF
+C465 adderblock_0/fadd_1/hadd_0/xor_0/w_2_n50# Gnd 0.48fF
+C466 adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# Gnd 1.12fF
+C467 adderblock_0/fadd_1/hadd_0/xor_0/w_2_0# Gnd 0.48fF
+C468 adderblock_0/fadd_1/or_0/a_15_n26# Gnd 0.32fF
+C469 adderblock_0/fadd_1/or_0/w_0_0# Gnd 1.12fF

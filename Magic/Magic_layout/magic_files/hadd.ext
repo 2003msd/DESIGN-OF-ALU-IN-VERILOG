@@ -1,0 +1,35 @@
+timestamp 1668432137
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use and and_0 1 0 33 0 1 -86
+use xor xor_0 1 0 21 0 1 86
+node "cout" 0 6956 89 -99 m1 0 0 0 0 0 0 0 0 0 0 0 0 148 82 0 0 0 0
+node "m1_1_15#" 1 13674 1 15 v 0 0 0 0 0 0 0 0 0 0 0 0 50 40 694 354 0 0
+node "sum" 0 3572 107 55 m1 0 0 0 0 0 0 0 0 0 0 0 0 76 46 0 0 0 0
+node "input1" 3 42810 -82 -14 m1 0 0 0 0 0 0 0 0 0 0 0 0 830 430 266 140 0 0
+node "input2" 4 63732 -82 -35 m1 0 0 0 0 0 0 0 0 0 0 0 0 1356 686 0 0 0 0
+node "m1_n8_n66#" 2 22442 -8 -66 v 0 0 0 0 0 0 0 0 0 0 0 0 222 126 714 364 0 0
+cap "input2" "m1_n8_n66#" 720
+cap "input1" "m1_n8_n66#" 720
+cap "m1_1_15#" "input2" 720
+cap "m1_1_15#" "input1" 720
+cap "input2" "input1" 720
+cap "m1_1_15#" "m1_n8_n66#" 720
+subcap "input2" -62792
+subcap "cout" -1504
+subcap "m1_1_15#" -9919
+subcap "input1" -40930
+subcap "sum" -2632
+merge "xor_0/in1" "and_0/in2" -9588 0 0 0 0 0 0 0 0 0 0 0 0 -204 -126 0 0 0 0
+merge "and_0/in2" "input2"
+merge "xor_0/in2" "and_0/in1" -2820 0 0 0 0 0 0 0 0 0 0 0 0 -60 -54 0 0 0 0
+merge "and_0/in1" "input1"
+merge "and_0/out" "cout" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -26 0 0 0 0
+merge "xor_0/out" "sum" -1692 0 0 0 0 0 0 0 0 0 0 0 0 -36 -34 0 0 0 0
+merge "xor_0/gnd" "and_0/gnd" -1504 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0 0 0
+merge "and_0/gnd" "m1_1_15#"
+merge "xor_0/vdd" "and_0/vdd" -4248 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 -200 -108 0 0
+merge "and_0/vdd" "m1_n8_n66#"

@@ -1,0 +1,29 @@
+magic
+tech scmos
+timestamp 1699286624
+<< metal1 >>
+rect -69 53 -55 55
+rect -69 44 17 53
+rect -69 -29 -55 44
+rect 93 41 126 50
+rect 204 38 242 47
+rect 317 39 371 47
+rect 359 5 371 39
+rect 358 -28 370 5
+rect -16 -29 370 -28
+rect -69 -40 370 -29
+use notg  notg_2
+timestamp 1698946751
+transform 1 0 261 0 1 53
+box -37 -59 63 62
+use notg  notg_1
+timestamp 1698946751
+transform 1 0 153 0 1 56
+box -37 -59 63 62
+use notg  notg_0
+timestamp 1698946751
+transform 1 0 37 0 1 59
+box -37 -59 63 62
+<< labels >>
+rlabel metal1 355 44 355 44 1 f_out
+<< end >>

@@ -1,0 +1,176 @@
+* SPICE3 file created from fadd.ext - technology: scmos
+
+.option scale=1u
+
+M1000 or_0/a_15_6# or_0/in1 vdd or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=752 ps=444
+M1001 or_0/a_15_n26# or_0/in2 or_0/a_15_6# or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1002 or_0/a_15_n26# or_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=348 ps=294
+M1003 cout or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1004 cout or_0/a_15_n26# vdd or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1005 gnd or_0/in2 or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 hadd_0/xor_0/a_66_6# in2 hadd_0/sum hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1007 hadd_0/xor_0/a_15_n12# in2 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1008 hadd_0/sum in2 hadd_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1009 hadd_0/xor_0/a_15_n12# in2 vdd hadd_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1010 vdd hadd_0/xor_0/a_15_n62# hadd_0/xor_0/a_66_6# hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 hadd_0/xor_0/a_15_n62# in1 vdd hadd_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1012 hadd_0/xor_0/a_46_n62# in1 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1013 gnd hadd_0/xor_0/a_15_n12# hadd_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1014 hadd_0/xor_0/a_15_n62# in1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1015 hadd_0/xor_0/a_46_6# hadd_0/xor_0/a_15_n12# vdd hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1016 hadd_0/xor_0/a_66_n62# hadd_0/xor_0/a_15_n62# hadd_0/sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1017 hadd_0/sum in1 hadd_0/xor_0/a_46_6# hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 hadd_0/and_0/a_15_6# in1 vdd hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1019 vdd in2 hadd_0/and_0/a_15_6# hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 hadd_0/and_0/a_15_n26# in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1021 or_0/in1 hadd_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1022 or_0/in1 hadd_0/and_0/a_15_6# vdd hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1023 hadd_0/and_0/a_15_6# in2 hadd_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1024 hadd_1/xor_0/a_66_6# in3 sum hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1025 hadd_1/xor_0/a_15_n12# in3 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1026 sum in3 hadd_1/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1027 hadd_1/xor_0/a_15_n12# in3 vdd hadd_1/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1028 vdd hadd_1/xor_0/a_15_n62# hadd_1/xor_0/a_66_6# hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1029 hadd_1/xor_0/a_15_n62# hadd_0/sum vdd hadd_1/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1030 hadd_1/xor_0/a_46_n62# hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 gnd hadd_1/xor_0/a_15_n12# hadd_1/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1032 hadd_1/xor_0/a_15_n62# hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1033 hadd_1/xor_0/a_46_6# hadd_1/xor_0/a_15_n12# vdd hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1034 hadd_1/xor_0/a_66_n62# hadd_1/xor_0/a_15_n62# sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1035 sum hadd_0/sum hadd_1/xor_0/a_46_6# hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 hadd_1/and_0/a_15_6# hadd_0/sum vdd hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1037 vdd in3 hadd_1/and_0/a_15_6# hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 hadd_1/and_0/a_15_n26# hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1039 or_0/in2 hadd_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1040 or_0/in2 hadd_1/and_0/a_15_6# vdd hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1041 hadd_1/and_0/a_15_6# in3 hadd_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+C0 hadd_1/xor_0/a_15_n12# vdd 0.72fF
+C1 hadd_0/xor_0/w_2_0# vdd 1.13fF
+C2 hadd_1/xor_0/a_15_n62# sum 0.24fF
+C3 or_0/in2 gnd 0.72fF
+C4 in2 vdd 2.16fF
+C5 in1 hadd_0/xor_0/a_15_n62# 0.72fF
+C6 in1 hadd_0/xor_0/w_2_n50# 2.62fF
+C7 or_0/in1 vdd 1.44fF
+C8 hadd_0/xor_0/a_15_n62# hadd_0/sum 0.24fF
+C9 sum hadd_1/xor_0/w_32_0# 1.13fF
+C10 or_0/in2 or_0/in1 0.24fF
+C11 vdd hadd_0/and_0/w_0_0# 3.38fF
+C12 hadd_0/sum hadd_1/xor_0/a_15_n62# 0.72fF
+C13 hadd_1/and_0/a_15_6# hadd_1/and_0/w_0_0# 3.75fF
+C14 hadd_1/xor_0/a_15_n62# hadd_1/xor_0/w_32_0# 2.62fF
+C15 gnd sum 0.72fF
+C16 hadd_0/xor_0/a_15_n62# gnd 0.96fF
+C17 sum hadd_1/xor_0/a_15_n12# 0.24fF
+C18 hadd_0/sum hadd_1/and_0/w_0_0# 2.62fF
+C19 hadd_1/xor_0/a_15_n62# gnd 0.96fF
+C20 hadd_1/xor_0/a_15_n12# hadd_1/xor_0/w_2_0# 1.13fF
+C21 hadd_0/sum hadd_0/xor_0/a_15_n12# 0.24fF
+C22 in1 gnd 1.68fF
+C23 hadd_0/sum hadd_1/xor_0/w_32_0# 2.62fF
+C24 or_0/w_0_0# or_0/a_15_n26# 3.75fF
+C25 in1 in2 1.20fF
+C26 hadd_0/xor_0/w_32_0# vdd 2.26fF
+C27 in3 vdd 2.16fF
+C28 hadd_0/sum gnd 1.68fF
+C29 hadd_0/xor_0/w_2_0# hadd_0/xor_0/a_15_n12# 1.13fF
+C30 hadd_1/xor_0/a_15_n12# hadd_1/xor_0/w_32_0# 7.94fF
+C31 in2 hadd_0/sum 0.24fF
+C32 or_0/w_0_0# cout 1.13fF
+C33 in2 hadd_0/and_0/a_15_6# 0.24fF
+C34 in1 hadd_0/and_0/w_0_0# 2.62fF
+C35 hadd_1/xor_0/w_2_n50# vdd 1.13fF
+C36 hadd_0/sum or_0/in1 0.72fF
+C37 in2 gnd 1.44fF
+C38 or_0/w_0_0# or_0/in1 2.62fF
+C39 in2 hadd_0/xor_0/w_2_0# 2.62fF
+C40 hadd_0/and_0/w_0_0# hadd_0/and_0/a_15_6# 3.75fF
+C41 hadd_0/xor_0/a_15_n62# hadd_0/xor_0/w_32_0# 2.62fF
+C42 in3 sum 0.24fF
+C43 in3 hadd_1/xor_0/w_2_0# 2.62fF
+C44 in1 hadd_0/xor_0/w_32_0# 2.62fF
+C45 in2 hadd_0/and_0/w_0_0# 2.62fF
+C46 hadd_0/xor_0/w_2_n50# vdd 1.13fF
+C47 hadd_1/xor_0/w_2_0# vdd 1.13fF
+C48 or_0/in2 sum 0.72fF
+C49 in3 hadd_1/and_0/w_0_0# 2.62fF
+C50 in3 hadd_1/and_0/a_15_6# 0.24fF
+C51 hadd_0/xor_0/w_32_0# hadd_0/xor_0/a_15_n12# 7.94fF
+C52 in1 vdd 0.72fF
+C53 or_0/in1 hadd_0/and_0/w_0_0# 1.13fF
+C54 hadd_1/xor_0/w_2_n50# hadd_1/xor_0/a_15_n62# 1.13fF
+C55 hadd_0/xor_0/w_32_0# hadd_0/sum 1.13fF
+C56 in3 hadd_0/sum 1.20fF
+C57 hadd_1/and_0/w_0_0# vdd 3.38fF
+C58 in3 hadd_1/xor_0/w_32_0# 2.62fF
+C59 vdd hadd_0/xor_0/a_15_n12# 0.48fF
+C60 hadd_0/sum vdd 0.72fF
+C61 or_0/in2 hadd_1/and_0/w_0_0# 1.13fF
+C62 vdd hadd_1/xor_0/w_32_0# 2.26fF
+C63 in3 gnd 2.16fF
+C64 or_0/w_0_0# vdd 2.26fF
+C65 hadd_1/xor_0/w_2_n50# hadd_0/sum 2.62fF
+C66 or_0/in2 or_0/a_15_n26# 0.24fF
+C67 in2 hadd_0/xor_0/w_32_0# 2.62fF
+C68 gnd vdd 1.44fF
+C69 or_0/w_0_0# or_0/in2 2.62fF
+C70 hadd_0/xor_0/a_15_n62# hadd_0/xor_0/w_2_n50# 1.13fF
+C71 gnd Gnd 1166.59fF
+C72 or_0/in2 Gnd 23.30fF
+C73 vdd Gnd 1172.65fF
+C74 hadd_1/and_0/a_15_6# Gnd 14.65fF
+C75 in3 Gnd 47.77fF
+C76 hadd_0/sum Gnd 40.69fF
+C77 sum Gnd 17.86fF
+C78 hadd_1/xor_0/a_15_n62# Gnd 4.00fF
+C79 hadd_1/xor_0/a_15_n12# Gnd 7.61fF
+C80 or_0/in1 Gnd 28.37fF
+C81 hadd_0/and_0/a_15_6# Gnd 14.65fF
+C82 in2 Gnd 59.80fF
+C83 in1 Gnd 35.80fF
+C84 hadd_0/xor_0/a_15_n62# Gnd 4.00fF
+C85 hadd_0/xor_0/a_15_n12# Gnd 7.61fF
+C86 cout Gnd 19.36fF
+C87 or_0/a_15_n26# Gnd 14.65fF

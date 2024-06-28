@@ -1,0 +1,7 @@
+timestamp 1699787740
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use compblock compblock_0 1 0 1006 0 1 490

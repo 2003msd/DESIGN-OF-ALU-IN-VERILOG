@@ -1,0 +1,17 @@
+timestamp 1699891860
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use adderblock adderblock_0 1 0 -57 0 1 -65
+node "gnd" 4 105540 250 -306 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 309790 7662 0 0 0 0 0 0 0 0 0 0
+node "vdd" 4 105819 253 506 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 309105 8156 0 0 0 0 0 0 0 0 0 0
+merge "adderblock_0/fadd_3/gnd" "adderblock_0/fadd_2/gnd" -1589.98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3314 -542 0 0 0 0 0 0 0 0 0 0
+merge "adderblock_0/fadd_2/gnd" "adderblock_0/fadd_1/gnd"
+merge "adderblock_0/fadd_1/gnd" "adderblock_0/fadd_0/gnd"
+merge "adderblock_0/fadd_0/gnd" "gnd"
+merge "adderblock_0/fadd_1/vdd" "adderblock_0/fadd_3/vdd" -1438.49 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3066 -469 0 0 0 0 0 0 0 0 0 0
+merge "adderblock_0/fadd_3/vdd" "adderblock_0/fadd_2/vdd"
+merge "adderblock_0/fadd_2/vdd" "adderblock_0/fadd_0/vdd"
+merge "adderblock_0/fadd_0/vdd" "vdd"

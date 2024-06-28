@@ -1,0 +1,160 @@
+* SPICE3 file created from enb.ext - technology: scmos
+
+.option scale=1u
+
+M1000 and_5/a_15_6# common vdd and_5/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=1216 ps=688
+M1001 vdd trans2_b and_5/a_15_6# and_5/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 and_5/a_15_n26# common gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=384 ps=320
+M1003 rn6 and_5/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1004 rn6 and_5/a_15_6# vdd and_5/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1005 and_5/a_15_6# trans2_b and_5/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1006 and_7/a_15_6# trans2_d vdd and_7/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1007 vdd common and_7/a_15_6# and_7/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 and_7/a_15_n26# trans2_d gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1009 rn8 and_7/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1010 rn8 and_7/a_15_6# vdd and_7/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1011 and_7/a_15_6# common and_7/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1012 and_6/a_15_6# trans2_c vdd and_6/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1013 vdd common and_6/a_15_6# and_6/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 and_6/a_15_n26# trans2_c gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1015 rn7 and_6/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1016 rn7 and_6/a_15_6# vdd and_6/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1017 and_6/a_15_6# common and_6/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1018 and_0/a_15_6# common vdd and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1019 vdd trans1_a and_0/a_15_6# and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 and_0/a_15_n26# common gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1021 rn1 and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1022 rn1 and_0/a_15_6# vdd and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1023 and_0/a_15_6# trans1_a and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1024 and_1/a_15_6# common vdd and_1/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1025 vdd trans1_b and_1/a_15_6# and_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 and_1/a_15_n26# common gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1027 rn2 and_1/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1028 rn2 and_1/a_15_6# vdd and_1/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1029 and_1/a_15_6# trans1_b and_1/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1030 and_2/a_15_6# common vdd and_2/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1031 vdd trans1_c and_2/a_15_6# and_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 and_2/a_15_n26# common gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1033 rn3 and_2/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1034 rn3 and_2/a_15_6# vdd and_2/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1035 and_2/a_15_6# trans1_c and_2/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1036 and_3/a_15_6# common vdd and_3/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1037 vdd trans1_d and_3/a_15_6# and_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 and_3/a_15_n26# common gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1039 rn4 and_3/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1040 rn4 and_3/a_15_6# vdd and_3/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1041 and_3/a_15_6# trans1_d and_3/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1042 and_4/a_15_6# common vdd and_4/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1043 vdd trans2_a and_4/a_15_6# and_4/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 and_4/a_15_n26# common gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1045 rn5 and_4/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1046 rn5 and_4/a_15_6# vdd and_4/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1047 and_4/a_15_6# trans2_a and_4/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+C0 trans1_c and_2/w_0_0# 2.62fF
+C1 vdd and_6/w_0_0# 3.38fF
+C2 common and_6/w_0_0# 2.62fF
+C3 and_1/w_0_0# trans1_b 2.62fF
+C4 and_7/w_0_0# trans2_d 2.62fF
+C5 common vdd 6.25fF
+C6 and_3/w_0_0# vdd 3.38fF
+C7 common and_3/w_0_0# 2.62fF
+C8 and_7/a_15_6# and_7/w_0_0# 3.75fF
+C9 and_4/a_15_6# and_4/w_0_0# 3.75fF
+C10 and_2/w_0_0# vdd 3.38fF
+C11 and_5/w_0_0# vdd 3.38fF
+C12 trans2_a and_4/w_0_0# 2.62fF
+C13 common and_2/w_0_0# 2.62fF
+C14 common and_5/w_0_0# 2.62fF
+C15 and_5/w_0_0# trans2_b 2.62fF
+C16 trans2_c and_6/w_0_0# 2.62fF
+C17 and_5/a_15_6# and_5/w_0_0# 3.75fF
+C18 and_1/w_0_0# vdd 3.38fF
+C19 trans1_a and_0/w_0_0# 2.62fF
+C20 and_0/a_15_6# and_0/w_0_0# 3.75fF
+C21 and_1/w_0_0# and_1/a_15_6# 3.75fF
+C22 and_3/w_0_0# and_3/a_15_6# 3.75fF
+C23 and_2/w_0_0# and_2/a_15_6# 3.75fF
+C24 common and_1/w_0_0# 2.62fF
+C25 vdd and_4/w_0_0# 3.38fF
+C26 and_6/a_15_6# and_6/w_0_0# 3.75fF
+C27 vdd and_0/w_0_0# 3.38fF
+C28 vdd and_7/w_0_0# 3.38fF
+C29 trans1_d and_3/w_0_0# 2.62fF
+C30 common and_4/w_0_0# 2.62fF
+C31 common and_0/w_0_0# 2.62fF
+C32 common and_7/w_0_0# 2.62fF
+C33 gnd Gnd 272.65fF
+C34 rn5 Gnd 6.58fF
+C35 and_4/a_15_6# Gnd 14.65fF
+C36 trans2_a Gnd 16.34fF
+C37 rn4 Gnd 6.77fF
+C38 and_3/a_15_6# Gnd 14.65fF
+C39 trans1_d Gnd 20.90fF
+C40 rn3 Gnd 6.39fF
+C41 and_2/a_15_6# Gnd 14.65fF
+C42 trans1_c Gnd 22.78fF
+C43 rn2 Gnd 6.58fF
+C44 and_1/a_15_6# Gnd 14.65fF
+C45 trans1_b Gnd 22.64fF
+C46 rn1 Gnd 7.33fF
+C47 vdd Gnd 197.58fF
+C48 and_0/a_15_6# Gnd 14.65fF
+C49 trans1_a Gnd 25.65fF
+C50 rn7 Gnd 6.58fF
+C51 and_6/a_15_6# Gnd 14.65fF
+C52 trans2_c Gnd 13.71fF
+C53 rn8 Gnd 6.58fF
+C54 and_7/a_15_6# Gnd 14.65fF
+C55 common Gnd 432.43fF
+C56 trans2_d Gnd 14.27fF
+C57 rn6 Gnd 6.39fF
+C58 and_5/a_15_6# Gnd 14.65fF
+C59 trans2_b Gnd 16.72fF

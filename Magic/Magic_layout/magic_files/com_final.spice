@@ -1,0 +1,733 @@
+* SPICE3 file created from com_final.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 compblock_0/and_5/a_15_6# compblock_0/and_5/in1 compblock_0/and_5/vdd compblock_0/and_5/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1001 compblock_0/and_5/vdd compblock_0/xnor1 compblock_0/and_5/a_15_6# compblock_0/and_5/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 compblock_0/and_5/a_15_n26# compblock_0/and_5/in1 compblock_0/and_5/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1003 compblock_0/te2 compblock_0/and_5/a_15_6# compblock_0/and_5/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1004 compblock_0/te2 compblock_0/and_5/a_15_6# compblock_0/and_5/vdd compblock_0/and_5/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1005 compblock_0/and_5/a_15_6# compblock_0/xnor1 compblock_0/and_5/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1006 compblock_0/and_7/a_15_6# compblock_0/xnor1 compblock_0/and_7/vdd compblock_0/and_7/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1007 compblock_0/and_7/vdd compblock_0/and_7/in2 compblock_0/and_7/a_15_6# compblock_0/and_7/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 compblock_0/and_7/a_15_n26# compblock_0/xnor1 compblock_0/and_7/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1009 compblock_0/and_8/in2 compblock_0/and_7/a_15_6# compblock_0/and_7/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1010 compblock_0/and_8/in2 compblock_0/and_7/a_15_6# compblock_0/and_7/vdd compblock_0/and_7/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1011 compblock_0/and_7/a_15_6# compblock_0/and_7/in2 compblock_0/and_7/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1012 compblock_0/and_6/a_15_6# compblock_0/and_6/in1 compblock_0/and_6/vdd compblock_0/and_6/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1013 compblock_0/and_6/vdd compblock_0/num1_c compblock_0/and_6/a_15_6# compblock_0/and_6/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 compblock_0/and_6/a_15_n26# compblock_0/and_6/in1 compblock_0/and_6/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1015 compblock_0/and_8/in1 compblock_0/and_6/a_15_6# compblock_0/and_6/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1016 compblock_0/and_8/in1 compblock_0/and_6/a_15_6# compblock_0/and_6/vdd compblock_0/and_6/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1017 compblock_0/and_6/a_15_6# compblock_0/num1_c compblock_0/and_6/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1018 compblock_0/xnor1 compblock_0/xor_0/out compblock_0/notg_0/gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=182 ps=54
+M1019 compblock_0/xnor1 compblock_0/xor_0/out compblock_0/notg_0/vdd compblock_0/notg_0/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=323 ps=72
+M1020 compblock_0/and_8/a_15_6# compblock_0/and_8/in1 compblock_0/and_8/vdd compblock_0/and_8/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1021 compblock_0/and_8/vdd compblock_0/and_8/in2 compblock_0/and_8/a_15_6# compblock_0/and_8/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 compblock_0/and_8/a_15_n26# compblock_0/and_8/in1 compblock_0/and_8/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1023 compblock_0/te3 compblock_0/and_8/a_15_6# compblock_0/and_8/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1024 compblock_0/te3 compblock_0/and_8/a_15_6# compblock_0/and_8/vdd compblock_0/and_8/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1025 compblock_0/and_8/a_15_6# compblock_0/and_8/in2 compblock_0/and_8/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1026 compblock_0/xnor3 compblock_0/xor_2/out compblock_0/notg_2/gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=182 ps=54
+M1027 compblock_0/xnor3 compblock_0/xor_2/out compblock_0/notg_2/vdd compblock_0/notg_2/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=323 ps=72
+M1028 compblock_0/xnor2 compblock_0/xor_1/out compblock_0/notg_1/gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=182 ps=54
+M1029 compblock_0/xnor2 compblock_0/xor_1/out compblock_0/notg_1/vdd compblock_0/notg_1/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=323 ps=72
+M1030 compblock_0/and_9/a_15_6# compblock_0/and_9/in1 compblock_0/and_9/vdd compblock_0/and_9/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1031 compblock_0/and_9/vdd compblock_0/num1_d compblock_0/and_9/a_15_6# compblock_0/and_9/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 compblock_0/and_9/a_15_n26# compblock_0/and_9/in1 compblock_0/and_9/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1033 compblock_0/and_9/out compblock_0/and_9/a_15_6# compblock_0/and_9/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1034 compblock_0/and_9/out compblock_0/and_9/a_15_6# compblock_0/and_9/vdd compblock_0/and_9/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1035 compblock_0/and_9/a_15_6# compblock_0/num1_d compblock_0/and_9/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1036 compblock_0/xnor4 compblock_0/xor_3/out compblock_0/notg_3/gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=182 ps=54
+M1037 compblock_0/xnor4 compblock_0/xor_3/out compblock_0/notg_3/vdd compblock_0/notg_3/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=323 ps=72
+M1038 compblock_0/and_3/in1 compblock_0/num2_a compblock_0/notg_4/gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=182 ps=54
+M1039 compblock_0/and_3/in1 compblock_0/num2_a compblock_0/notg_4/vdd compblock_0/notg_4/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=323 ps=72
+M1040 compblock_0/and_4/in1 compblock_0/num2_b compblock_0/notg_5/gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=182 ps=54
+M1041 compblock_0/and_4/in1 compblock_0/num2_b compblock_0/notg_5/vdd compblock_0/notg_5/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=323 ps=72
+M1042 compblock_0/and_6/in1 compblock_0/num2_c compblock_0/notg_6/gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=182 ps=54
+M1043 compblock_0/and_6/in1 compblock_0/num2_c compblock_0/notg_6/vdd compblock_0/notg_6/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=323 ps=72
+M1044 compblock_0/and_9/in1 compblock_0/num2_d compblock_0/notg_7/gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=182 ps=54
+M1045 compblock_0/and_9/in1 compblock_0/num2_d compblock_0/notg_7/vdd compblock_0/notg_7/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=323 ps=72
+M1046 compblock_0/xor_0/a_66_6# compblock_0/num1_a compblock_0/xor_0/out compblock_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1047 compblock_0/xor_0/a_15_n12# compblock_0/num1_a compblock_0/xor_0/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=88 ps=76
+M1048 compblock_0/xor_0/out compblock_0/num1_a compblock_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1049 compblock_0/xor_0/a_15_n12# compblock_0/num1_a compblock_0/xor_0/vdd compblock_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=176 ps=108
+M1050 compblock_0/xor_0/vdd compblock_0/xor_0/a_15_n62# compblock_0/xor_0/a_66_6# compblock_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1051 compblock_0/xor_0/a_15_n62# compblock_0/num2_a compblock_0/xor_0/vdd compblock_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1052 compblock_0/xor_0/a_46_n62# compblock_0/num2_a compblock_0/xor_0/gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1053 compblock_0/xor_0/gnd compblock_0/xor_0/a_15_n12# compblock_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1054 compblock_0/xor_0/a_15_n62# compblock_0/num2_a compblock_0/xor_0/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1055 compblock_0/xor_0/a_46_6# compblock_0/xor_0/a_15_n12# compblock_0/xor_0/vdd compblock_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1056 compblock_0/xor_0/a_66_n62# compblock_0/xor_0/a_15_n62# compblock_0/xor_0/out Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1057 compblock_0/xor_0/out compblock_0/num2_a compblock_0/xor_0/a_46_6# compblock_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1058 compblock_0/and_10/a_15_6# compblock_0/and_8/in2 compblock_0/and_10/vdd compblock_0/and_10/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1059 compblock_0/and_10/vdd compblock_0/and_10/in2 compblock_0/and_10/a_15_6# compblock_0/and_10/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 compblock_0/and_10/a_15_n26# compblock_0/and_8/in2 compblock_0/and_10/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1061 compblock_0/and_11/in2 compblock_0/and_10/a_15_6# compblock_0/and_10/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1062 compblock_0/and_11/in2 compblock_0/and_10/a_15_6# compblock_0/and_10/vdd compblock_0/and_10/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1063 compblock_0/and_10/a_15_6# compblock_0/and_10/in2 compblock_0/and_10/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1064 compblock_0/xor_1/a_66_6# compblock_0/num1_b compblock_0/xor_1/out compblock_0/xor_1/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1065 compblock_0/xor_1/a_15_n12# compblock_0/num1_b compblock_0/xor_1/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=88 ps=76
+M1066 compblock_0/xor_1/out compblock_0/num1_b compblock_0/xor_1/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1067 compblock_0/xor_1/a_15_n12# compblock_0/num1_b compblock_0/xor_1/vdd compblock_0/xor_1/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=176 ps=108
+M1068 compblock_0/xor_1/vdd compblock_0/xor_1/a_15_n62# compblock_0/xor_1/a_66_6# compblock_0/xor_1/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1069 compblock_0/xor_1/a_15_n62# compblock_0/num2_b compblock_0/xor_1/vdd compblock_0/xor_1/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1070 compblock_0/xor_1/a_46_n62# compblock_0/num2_b compblock_0/xor_1/gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1071 compblock_0/xor_1/gnd compblock_0/xor_1/a_15_n12# compblock_0/xor_1/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1072 compblock_0/xor_1/a_15_n62# compblock_0/num2_b compblock_0/xor_1/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1073 compblock_0/xor_1/a_46_6# compblock_0/xor_1/a_15_n12# compblock_0/xor_1/vdd compblock_0/xor_1/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1074 compblock_0/xor_1/a_66_n62# compblock_0/xor_1/a_15_n62# compblock_0/xor_1/out Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1075 compblock_0/xor_1/out compblock_0/num2_b compblock_0/xor_1/a_46_6# compblock_0/xor_1/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1076 compblock_0/and_11/a_15_6# compblock_0/and_9/out compblock_0/and_11/vdd compblock_0/and_11/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1077 compblock_0/and_11/vdd compblock_0/and_11/in2 compblock_0/and_11/a_15_6# compblock_0/and_11/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1078 compblock_0/and_11/a_15_n26# compblock_0/and_9/out compblock_0/and_11/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1079 compblock_0/te4 compblock_0/and_11/a_15_6# compblock_0/and_11/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1080 compblock_0/te4 compblock_0/and_11/a_15_6# compblock_0/and_11/vdd compblock_0/and_11/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1081 compblock_0/and_11/a_15_6# compblock_0/and_11/in2 compblock_0/and_11/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1082 compblock_0/xor_2/a_66_6# compblock_0/num1_c compblock_0/xor_2/out compblock_0/xor_2/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1083 compblock_0/xor_2/a_15_n12# compblock_0/num1_c compblock_0/xor_2/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=88 ps=76
+M1084 compblock_0/xor_2/out compblock_0/num1_c compblock_0/xor_2/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1085 compblock_0/xor_2/a_15_n12# compblock_0/num1_c compblock_0/xor_2/vdd compblock_0/xor_2/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=176 ps=108
+M1086 compblock_0/xor_2/vdd compblock_0/xor_2/a_15_n62# compblock_0/xor_2/a_66_6# compblock_0/xor_2/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1087 compblock_0/xor_2/a_15_n62# compblock_0/num2_c compblock_0/xor_2/vdd compblock_0/xor_2/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1088 compblock_0/xor_2/a_46_n62# compblock_0/num2_c compblock_0/xor_2/gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1089 compblock_0/xor_2/gnd compblock_0/xor_2/a_15_n12# compblock_0/xor_2/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1090 compblock_0/xor_2/a_15_n62# compblock_0/num2_c compblock_0/xor_2/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1091 compblock_0/xor_2/a_46_6# compblock_0/xor_2/a_15_n12# compblock_0/xor_2/vdd compblock_0/xor_2/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1092 compblock_0/xor_2/a_66_n62# compblock_0/xor_2/a_15_n62# compblock_0/xor_2/out Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1093 compblock_0/xor_2/out compblock_0/num2_c compblock_0/xor_2/a_46_6# compblock_0/xor_2/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1094 compblock_0/xor_3/a_66_6# compblock_0/num1_d compblock_0/xor_3/out compblock_0/xor_3/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1095 compblock_0/xor_3/a_15_n12# compblock_0/num1_d compblock_0/xor_3/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=88 ps=76
+M1096 compblock_0/xor_3/out compblock_0/num1_d compblock_0/xor_3/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1097 compblock_0/xor_3/a_15_n12# compblock_0/num1_d compblock_0/xor_3/vdd compblock_0/xor_3/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=176 ps=108
+M1098 compblock_0/xor_3/vdd compblock_0/xor_3/a_15_n62# compblock_0/xor_3/a_66_6# compblock_0/xor_3/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1099 compblock_0/xor_3/a_15_n62# compblock_0/num2_d compblock_0/xor_3/vdd compblock_0/xor_3/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1100 compblock_0/xor_3/a_46_n62# compblock_0/num2_d compblock_0/xor_3/gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1101 compblock_0/xor_3/gnd compblock_0/xor_3/a_15_n12# compblock_0/xor_3/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1102 compblock_0/xor_3/a_15_n62# compblock_0/num2_d compblock_0/xor_3/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1103 compblock_0/xor_3/a_46_6# compblock_0/xor_3/a_15_n12# compblock_0/xor_3/vdd compblock_0/xor_3/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1104 compblock_0/xor_3/a_66_n62# compblock_0/xor_3/a_15_n62# compblock_0/xor_3/out Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1105 compblock_0/xor_3/out compblock_0/num2_d compblock_0/xor_3/a_46_6# compblock_0/xor_3/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1106 compblock_0/and_0/a_15_6# compblock_0/xnor1 compblock_0/and_0/vdd compblock_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1107 compblock_0/and_0/vdd compblock_0/xnor2 compblock_0/and_0/a_15_6# compblock_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1108 compblock_0/and_0/a_15_n26# compblock_0/xnor1 compblock_0/and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1109 compblock_0/and_2/in1 compblock_0/and_0/a_15_6# compblock_0/and_0/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1110 compblock_0/and_2/in1 compblock_0/and_0/a_15_6# compblock_0/and_0/vdd compblock_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1111 compblock_0/and_0/a_15_6# compblock_0/xnor2 compblock_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1112 compblock_0/and_1/a_15_6# compblock_0/xnor3 compblock_0/and_1/vdd compblock_0/and_1/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1113 compblock_0/and_1/vdd compblock_0/xnor4 compblock_0/and_1/a_15_6# compblock_0/and_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1114 compblock_0/and_1/a_15_n26# compblock_0/xnor3 compblock_0/and_1/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1115 compblock_0/and_2/in2 compblock_0/and_1/a_15_6# compblock_0/and_1/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1116 compblock_0/and_2/in2 compblock_0/and_1/a_15_6# compblock_0/and_1/vdd compblock_0/and_1/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1117 compblock_0/and_1/a_15_6# compblock_0/xnor4 compblock_0/and_1/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1118 compblock_0/and_2/a_15_6# compblock_0/and_2/in1 compblock_0/and_2/vdd compblock_0/and_2/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1119 compblock_0/and_2/vdd compblock_0/and_2/in2 compblock_0/and_2/a_15_6# compblock_0/and_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1120 compblock_0/and_2/a_15_n26# compblock_0/and_2/in1 compblock_0/and_2/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1121 compblock_0/equal compblock_0/and_2/a_15_6# compblock_0/and_2/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1122 compblock_0/equal compblock_0/and_2/a_15_6# compblock_0/and_2/vdd compblock_0/and_2/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1123 compblock_0/and_2/a_15_6# compblock_0/and_2/in2 compblock_0/and_2/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1124 compblock_0/and_3/a_15_6# compblock_0/and_3/in1 compblock_0/and_3/vdd compblock_0/and_3/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1125 compblock_0/and_3/vdd compblock_0/num1_a compblock_0/and_3/a_15_6# compblock_0/and_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1126 compblock_0/and_3/a_15_n26# compblock_0/and_3/in1 compblock_0/and_3/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1127 compblock_0/te1 compblock_0/and_3/a_15_6# compblock_0/and_3/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1128 compblock_0/te1 compblock_0/and_3/a_15_6# compblock_0/and_3/vdd compblock_0/and_3/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1129 compblock_0/and_3/a_15_6# compblock_0/num1_a compblock_0/and_3/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1130 compblock_0/and_4/a_15_6# compblock_0/and_4/in1 compblock_0/and_4/vdd compblock_0/and_4/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1131 compblock_0/and_4/vdd compblock_0/num1_b compblock_0/and_4/a_15_6# compblock_0/and_4/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1132 compblock_0/and_4/a_15_n26# compblock_0/and_4/in1 compblock_0/and_4/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1133 compblock_0/and_5/in1 compblock_0/and_4/a_15_6# compblock_0/and_4/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1134 compblock_0/and_5/in1 compblock_0/and_4/a_15_6# compblock_0/and_4/vdd compblock_0/and_4/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1135 compblock_0/and_4/a_15_6# compblock_0/num1_b compblock_0/and_4/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+C0 compblock_0/xor_0/w_32_0# compblock_0/xor_0/a_15_n12# 0.19fF
+C1 compblock_0/num2_b compblock_0/num1_b 0.11fF
+C2 compblock_0/and_5/in1 compblock_0/and_4/gnd 0.08fF
+C3 compblock_0/xor_2/vdd compblock_0/xor_2/w_2_0# 0.05fF
+C4 compblock_0/num2_c compblock_0/xor_2/w_2_n50# 0.06fF
+C5 compblock_0/xor_1/a_15_n12# compblock_0/xor_1/out 0.08fF
+C6 compblock_0/and_5/a_15_6# compblock_0/and_5/gnd 0.08fF
+C7 compblock_0/xnor4 compblock_0/and_1/a_15_6# 0.21fF
+C8 compblock_0/and_11/in2 compblock_0/and_10/w_0_0# 0.03fF
+C9 compblock_0/and_9/gnd compblock_0/and_9/a_15_6# 0.08fF
+C10 compblock_0/and_2/vdd compblock_0/and_2/in1 0.02fF
+C11 compblock_0/and_6/in1 compblock_0/and_6/w_0_0# 0.06fF
+C12 compblock_0/and_8/in1 compblock_0/and_6/w_0_0# 0.03fF
+C13 compblock_0/m2_340_n126# compblock_0/xnor2 0.35fF
+C14 compblock_0/xor_1/a_15_n62# compblock_0/xor_1/out 0.08fF
+C15 compblock_0/xor_1/vdd compblock_0/xor_1/w_2_0# 0.05fF
+C16 compblock_0/xor_0/vdd compblock_0/xor_0/a_15_n62# 0.11fF
+C17 compblock_0/and_9/a_15_6# compblock_0/and_9/in1 0.03fF
+C18 compblock_0/xor_2/vdd compblock_0/xor_2/a_15_n62# 0.11fF
+C19 compblock_0/and_3/vdd compblock_0/te1 0.11fF
+C20 compblock_0/and_3/w_0_0# compblock_0/num1_a 0.06fF
+C21 compblock_0/and_7/in2 compblock_0/and_7/w_0_0# 0.06fF
+C22 compblock_0/and_1/vdd compblock_0/xnor3 0.02fF
+C23 compblock_0/xor_1/vdd compblock_0/xor_1/w_32_0# 0.11fF
+C24 compblock_0/and_10/in2 compblock_0/m2_403_n376# 0.05fF
+C25 compblock_0/and_4/w_0_0# compblock_0/and_4/in1 0.06fF
+C26 compblock_0/xor_3/a_15_n12# compblock_0/xor_3/vdd 0.74fF
+C27 compblock_0/xnor4 compblock_0/notg_3/w_n19_1# 0.10fF
+C28 compblock_0/num2_b compblock_0/xor_1/w_2_n50# 0.06fF
+C29 compblock_0/and_6/in1 compblock_0/notg_6/w_n19_1# 0.10fF
+C30 compblock_0/and_8/in2 compblock_0/and_7/w_0_0# 0.03fF
+C31 compblock_0/and_3/a_15_6# compblock_0/and_3/w_0_0# 0.09fF
+C32 compblock_0/and_3/in1 compblock_0/and_3/w_0_0# 0.06fF
+C33 compblock_0/and_0/a_15_6# compblock_0/xnor1 0.03fF
+C34 compblock_0/xnor2 compblock_0/xnor1 0.53fF
+C35 compblock_0/xor_3/out compblock_0/num1_d 0.12fF
+C36 compblock_0/xor_0/out compblock_0/xor_0/a_15_n62# 0.08fF
+C37 compblock_0/notg_0/vdd compblock_0/notg_0/w_n19_1# 0.09fF
+C38 compblock_0/and_3/a_15_6# compblock_0/and_3/gnd 0.08fF
+C39 compblock_0/and_0/w_0_0# compblock_0/and_0/a_15_6# 0.09fF
+C40 compblock_0/and_0/w_0_0# compblock_0/xnor2 0.06fF
+C41 compblock_0/and_1/gnd compblock_0/and_1/a_15_6# 0.08fF
+C42 compblock_0/xor_2/a_15_n62# compblock_0/xor_2/w_32_0# 0.06fF
+C43 compblock_0/and_6/in1 compblock_0/and_6/a_15_6# 0.03fF
+C44 compblock_0/xor_3/w_32_0# compblock_0/xor_3/a_15_n62# 0.06fF
+C45 compblock_0/and_11/in2 compblock_0/and_9/out 0.53fF
+C46 compblock_0/and_8/in1 compblock_0/and_6/a_15_6# 0.05fF
+C47 compblock_0/and_8/a_15_6# compblock_0/and_8/in2 0.21fF
+C48 compblock_0/num1_c compblock_0/num2_c 0.11fF
+C49 compblock_0/and_5/in1 compblock_0/and_5/vdd 0.02fF
+C50 compblock_0/and_10/in2 compblock_0/and_8/in2 0.27fF
+C51 compblock_0/and_2/a_15_6# compblock_0/equal 0.05fF
+C52 compblock_0/xor_3/w_32_0# compblock_0/num2_d 0.06fF
+C53 compblock_0/and_2/in2 compblock_0/and_2/w_0_0# 0.06fF
+C54 compblock_0/and_9/w_0_0# compblock_0/and_9/out 0.03fF
+C55 compblock_0/xor_0/w_2_0# compblock_0/xor_0/vdd 0.05fF
+C56 compblock_0/and_2/a_15_6# compblock_0/and_2/w_0_0# 0.09fF
+C57 compblock_0/and_0/a_15_6# compblock_0/and_0/gnd 0.08fF
+C58 compblock_0/and_0/vdd compblock_0/and_2/in1 0.11fF
+C59 compblock_0/xor_3/a_15_n12# compblock_0/xor_3/gnd 0.08fF
+C60 compblock_0/xor_0/vdd compblock_0/xor_0/w_32_0# 0.11fF
+C61 compblock_0/num2_b compblock_0/notg_5/w_n19_1# 0.20fF
+C62 compblock_0/m2_622_688# compblock_0/and_7/in2 0.05fF
+C63 compblock_0/and_5/in1 compblock_0/and_4/a_15_6# 0.05fF
+C64 compblock_0/xor_3/gnd compblock_0/xor_3/vdd 0.23fF
+C65 compblock_0/xor_1/vdd compblock_0/num1_b 0.30fF
+C66 compblock_0/and_2/in2 compblock_0/and_1/vdd 0.11fF
+C67 compblock_0/num1_a compblock_0/xor_0/a_15_n12# 0.06fF
+C68 compblock_0/and_10/gnd compblock_0/and_10/a_15_6# 0.08fF
+C69 compblock_0/and_7/vdd compblock_0/and_7/w_0_0# 0.14fF
+C70 compblock_0/and_4/a_15_6# compblock_0/and_4/vdd 0.05fF
+C71 compblock_0/xor_1/a_15_n12# compblock_0/xor_1/w_2_0# 0.03fF
+C72 compblock_0/xor_0/out compblock_0/xor_0/w_32_0# 0.02fF
+C73 compblock_0/and_8/in1 compblock_0/and_8/w_0_0# 0.06fF
+C74 compblock_0/and_10/in2 compblock_0/and_10/a_15_6# 0.21fF
+C75 compblock_0/xor_1/gnd compblock_0/num1_b 0.21fF
+C76 compblock_0/xor_1/a_15_n12# compblock_0/xor_1/w_32_0# 0.19fF
+C77 compblock_0/xnor1 compblock_0/m2_403_n376# 0.44fF
+C78 compblock_0/xor_0/gnd compblock_0/xor_0/a_15_n12# 0.08fF
+C79 compblock_0/xor_0/a_15_n62# compblock_0/num2_a 0.36fF
+C80 compblock_0/xnor2 compblock_0/and_0/a_15_6# 0.21fF
+C81 compblock_0/num2_c compblock_0/xor_2/gnd 0.76fF
+C82 compblock_0/xor_1/w_2_n50# compblock_0/xor_1/vdd 0.05fF
+C83 compblock_0/xor_1/a_15_n62# compblock_0/xor_1/w_32_0# 0.06fF
+C84 compblock_0/and_7/in2 compblock_0/xnor1 1.58fF
+C85 compblock_0/and_3/in1 compblock_0/notg_4/w_n19_1# 0.10fF
+C86 compblock_0/xor_3/a_15_n12# compblock_0/xor_3/out 0.08fF
+C87 compblock_0/and_5/in1 compblock_0/and_4/vdd 0.11fF
+C88 compblock_0/and_8/in2 compblock_0/and_10/vdd 0.02fF
+C89 compblock_0/and_7/a_15_6# compblock_0/and_7/in2 0.21fF
+C90 compblock_0/num1_b compblock_0/and_4/in1 0.50fF
+C91 compblock_0/xor_3/out compblock_0/xor_3/vdd 0.03fF
+C92 compblock_0/and_5/a_15_6# compblock_0/and_5/w_0_0# 0.09fF
+C93 compblock_0/notg_7/vdd compblock_0/notg_7/w_n19_1# 0.09fF
+C94 compblock_0/and_5/w_0_0# compblock_0/xnor1 0.06fF
+C95 compblock_0/and_1/a_15_6# compblock_0/and_1/w_0_0# 0.09fF
+C96 compblock_0/num1_c compblock_0/xor_2/gnd 0.21fF
+C97 compblock_0/and_8/in2 compblock_0/and_7/a_15_6# 0.05fF
+C98 compblock_0/xnor1 compblock_0/notg_0/w_n19_1# 0.10fF
+C99 compblock_0/and_11/a_15_6# compblock_0/and_11/gnd 0.08fF
+C100 compblock_0/xor_1/a_15_n12# compblock_0/num1_b 0.06fF
+C101 compblock_0/xor_2/out compblock_0/num1_c 0.12fF
+C102 compblock_0/num2_c compblock_0/xor_2/a_15_n12# 0.02fF
+C103 compblock_0/xor_2/vdd compblock_0/xor_2/w_32_0# 0.11fF
+C104 compblock_0/m2_403_n376# compblock_0/xnor3 0.38fF
+C105 compblock_0/and_9/vdd compblock_0/and_9/w_0_0# 0.14fF
+C106 compblock_0/and_10/in2 compblock_0/and_10/w_0_0# 0.06fF
+C107 compblock_0/xor_0/w_32_0# compblock_0/num2_a 0.06fF
+C108 compblock_0/xor_0/vdd compblock_0/num1_a 0.30fF
+C109 compblock_0/and_8/w_0_0# compblock_0/te3 0.03fF
+C110 compblock_0/and_2/a_15_6# compblock_0/and_2/in2 0.21fF
+C111 compblock_0/num1_d compblock_0/num2_d 0.11fF
+C112 compblock_0/and_10/vdd compblock_0/and_10/a_15_6# 0.05fF
+C113 compblock_0/num1_c compblock_0/xor_2/a_15_n12# 0.06fF
+C114 compblock_0/xor_3/out compblock_0/xor_3/gnd 0.04fF
+C115 compblock_0/and_9/vdd compblock_0/and_9/out 0.11fF
+C116 compblock_0/and_11/in2 compblock_0/and_10/gnd 0.08fF
+C117 compblock_0/notg_1/vdd compblock_0/notg_1/w_n19_1# 0.09fF
+C118 compblock_0/and_8/vdd compblock_0/and_8/w_0_0# 0.14fF
+C119 compblock_0/notg_4/vdd compblock_0/notg_4/w_n19_1# 0.09fF
+C120 compblock_0/xnor2 compblock_0/m2_403_n376# 0.44fF
+C121 compblock_0/and_8/a_15_6# compblock_0/and_8/w_0_0# 0.09fF
+C122 compblock_0/xor_0/out compblock_0/num1_a 0.12fF
+C123 compblock_0/and_7/vdd compblock_0/xnor1 0.02fF
+C124 compblock_0/num2_b compblock_0/xor_1/vdd 0.02fF
+C125 compblock_0/xor_3/w_2_n50# compblock_0/xor_3/a_15_n62# 0.03fF
+C126 compblock_0/and_9/a_15_6# compblock_0/num1_d 0.21fF
+C127 compblock_0/and_7/vdd compblock_0/and_7/a_15_6# 0.05fF
+C128 compblock_0/xor_0/gnd compblock_0/xor_0/vdd 0.23fF
+C129 compblock_0/xor_2/w_2_n50# compblock_0/xor_2/a_15_n62# 0.03fF
+C130 compblock_0/xor_3/w_2_n50# compblock_0/num2_d 0.06fF
+C131 compblock_0/xor_1/out compblock_0/xor_1/w_32_0# 0.02fF
+C132 compblock_0/xor_1/out compblock_0/notg_1/w_n19_1# 0.20fF
+C133 compblock_0/xnor4 compblock_0/xnor3 0.50fF
+C134 compblock_0/and_5/a_15_6# compblock_0/te2 0.05fF
+C135 compblock_0/and_3/a_15_6# compblock_0/te1 0.05fF
+C136 compblock_0/and_2/in1 compblock_0/and_2/w_0_0# 0.06fF
+C137 compblock_0/xor_2/out compblock_0/xor_2/gnd 0.04fF
+C138 compblock_0/and_0/w_0_0# compblock_0/and_2/in1 0.03fF
+C139 compblock_0/and_9/in1 compblock_0/num1_d 0.46fF
+C140 compblock_0/and_4/a_15_6# compblock_0/and_4/in1 0.03fF
+C141 compblock_0/xnor2 compblock_0/notg_1/w_n19_1# 0.10fF
+C142 compblock_0/num2_b compblock_0/xor_1/gnd 0.76fF
+C143 compblock_0/xor_0/gnd compblock_0/xor_0/out 0.04fF
+C144 compblock_0/xor_1/a_15_n62# compblock_0/xor_1/w_2_n50# 0.03fF
+C145 compblock_0/notg_5/w_n19_1# compblock_0/and_4/in1 0.10fF
+C146 compblock_0/and_7/a_15_6# compblock_0/and_7/gnd 0.08fF
+C147 compblock_0/and_2/in1 compblock_0/and_0/gnd 0.08fF
+C148 compblock_0/xor_0/w_32_0# compblock_0/xor_0/a_15_n62# 0.06fF
+C149 compblock_0/xor_2/gnd compblock_0/xor_2/a_15_n12# 0.08fF
+C150 compblock_0/and_10/vdd compblock_0/and_10/w_0_0# 0.14fF
+C151 compblock_0/and_8/in1 compblock_0/and_8/vdd 0.02fF
+C152 compblock_0/num1_c compblock_0/xor_2/w_2_0# 0.06fF
+C153 compblock_0/xor_2/out compblock_0/xor_2/a_15_n12# 0.08fF
+C154 compblock_0/and_6/gnd compblock_0/and_6/a_15_6# 0.08fF
+C155 compblock_0/and_5/gnd compblock_0/te2 0.08fF
+C156 compblock_0/and_8/a_15_6# compblock_0/and_8/in1 0.03fF
+C157 compblock_0/num1_c compblock_0/and_6/w_0_0# 0.06fF
+C158 compblock_0/and_5/a_15_6# compblock_0/and_5/vdd 0.05fF
+C159 compblock_0/xor_3/a_15_n12# compblock_0/xor_3/a_15_n62# 0.02fF
+C160 compblock_0/num2_c compblock_0/xor_2/a_15_n62# 0.36fF
+C161 compblock_0/num2_c compblock_0/notg_6/w_n19_1# 0.20fF
+C162 compblock_0/xor_3/out compblock_0/notg_3/w_n19_1# 0.20fF
+C163 compblock_0/xor_1/out compblock_0/num1_b 0.12fF
+C164 compblock_0/xor_0/vdd compblock_0/xor_0/w_2_n50# 0.05fF
+C165 compblock_0/xor_3/a_15_n62# compblock_0/xor_3/vdd 0.11fF
+C166 compblock_0/xor_3/a_15_n12# compblock_0/num2_d 0.02fF
+C167 compblock_0/notg_2/w_n19_1# compblock_0/xnor3 0.10fF
+C168 compblock_0/num1_a compblock_0/num2_a 0.11fF
+C169 compblock_0/and_11/in2 compblock_0/and_10/vdd 0.11fF
+C170 compblock_0/xor_3/vdd compblock_0/num2_d 0.02fF
+C171 compblock_0/te4 compblock_0/and_11/gnd 0.08fF
+C172 compblock_0/xor_1/a_15_n12# compblock_0/num2_b 0.02fF
+C173 compblock_0/and_11/w_0_0# compblock_0/and_11/vdd 0.14fF
+C174 compblock_0/te1 compblock_0/and_3/w_0_0# 0.03fF
+C175 compblock_0/and_4/vdd compblock_0/and_4/in1 0.02fF
+C176 compblock_0/xor_3/w_32_0# compblock_0/num1_d 0.06fF
+C177 compblock_0/and_11/a_15_6# compblock_0/and_11/w_0_0# 0.09fF
+C178 compblock_0/te1 compblock_0/and_3/gnd 0.08fF
+C179 compblock_0/and_0/a_15_6# compblock_0/and_2/in1 0.05fF
+C180 compblock_0/num1_c compblock_0/and_6/a_15_6# 0.21fF
+C181 compblock_0/xor_3/gnd compblock_0/xor_3/a_15_n62# 0.31fF
+C182 compblock_0/xor_1/a_15_n62# compblock_0/num2_b 0.36fF
+C183 compblock_0/xor_0/gnd compblock_0/num2_a 0.76fF
+C184 compblock_0/and_9/a_15_6# compblock_0/and_9/w_0_0# 0.09fF
+C185 compblock_0/and_4/w_0_0# compblock_0/num1_b 0.06fF
+C186 compblock_0/xor_3/w_2_0# compblock_0/num1_d 0.06fF
+C187 compblock_0/xor_3/gnd compblock_0/num2_d 0.76fF
+C188 compblock_0/xor_2/vdd compblock_0/xor_2/w_2_n50# 0.05fF
+C189 compblock_0/and_2/vdd compblock_0/equal 0.11fF
+C190 compblock_0/and_2/vdd compblock_0/and_2/w_0_0# 0.14fF
+C191 compblock_0/xor_1/gnd compblock_0/xor_1/vdd 0.23fF
+C192 compblock_0/xor_0/vdd compblock_0/xor_0/a_15_n12# 0.74fF
+C193 compblock_0/and_5/in1 compblock_0/and_5/a_15_6# 0.03fF
+C194 compblock_0/and_2/in1 compblock_0/and_2/in2 0.77fF
+C195 compblock_0/and_1/gnd compblock_0/and_2/in2 0.08fF
+C196 compblock_0/and_8/vdd compblock_0/te3 0.11fF
+C197 compblock_0/and_9/a_15_6# compblock_0/and_9/out 0.05fF
+C198 compblock_0/and_2/a_15_6# compblock_0/and_2/in1 0.03fF
+C199 compblock_0/and_5/in1 compblock_0/xnor1 0.63fF
+C200 compblock_0/and_1/w_0_0# compblock_0/and_1/vdd 0.14fF
+C201 compblock_0/and_9/w_0_0# compblock_0/and_9/in1 0.06fF
+C202 compblock_0/and_9/gnd compblock_0/and_9/out 0.08fF
+C203 compblock_0/and_8/a_15_6# compblock_0/te3 0.05fF
+C204 compblock_0/and_3/vdd compblock_0/and_3/in1 0.02fF
+C205 compblock_0/and_3/vdd compblock_0/and_3/a_15_6# 0.05fF
+C206 compblock_0/and_6/w_0_0# compblock_0/and_6/vdd 0.14fF
+C207 compblock_0/xor_0/out compblock_0/xor_0/a_15_n12# 0.08fF
+C208 compblock_0/xor_2/w_2_0# compblock_0/xor_2/a_15_n12# 0.03fF
+C209 compblock_0/and_8/a_15_6# compblock_0/and_8/vdd 0.05fF
+C210 compblock_0/xor_2/gnd compblock_0/xor_2/a_15_n62# 0.31fF
+C211 compblock_0/xor_2/out compblock_0/notg_2/w_n19_1# 0.20fF
+C212 compblock_0/and_8/in1 compblock_0/and_6/gnd 0.08fF
+C213 compblock_0/xor_2/out compblock_0/xor_2/a_15_n62# 0.08fF
+C214 compblock_0/xor_2/vdd compblock_0/num2_c 0.02fF
+C215 compblock_0/xor_0/w_2_n50# compblock_0/num2_a 0.06fF
+C216 compblock_0/and_8/in2 compblock_0/and_10/a_15_6# 0.03fF
+C217 compblock_0/xor_1/w_2_0# compblock_0/num1_b 0.06fF
+C218 compblock_0/and_1/w_0_0# compblock_0/xnor3 0.06fF
+C219 compblock_0/notg_3/vdd compblock_0/notg_3/w_n19_1# 0.09fF
+C220 compblock_0/xor_3/out compblock_0/xor_3/a_15_n62# 0.08fF
+C221 compblock_0/xor_1/a_15_n12# compblock_0/xor_1/vdd 0.74fF
+C222 compblock_0/and_11/a_15_6# compblock_0/and_11/vdd 0.05fF
+C223 compblock_0/xor_1/w_32_0# compblock_0/num1_b 0.06fF
+C224 compblock_0/and_2/gnd compblock_0/equal 0.08fF
+C225 compblock_0/and_1/a_15_6# compblock_0/and_1/vdd 0.05fF
+C226 compblock_0/and_8/in2 compblock_0/and_7/vdd 0.11fF
+C227 compblock_0/and_0/vdd compblock_0/xnor1 0.02fF
+C228 compblock_0/xor_0/gnd compblock_0/xor_0/a_15_n62# 0.31fF
+C229 compblock_0/xor_2/a_15_n62# compblock_0/xor_2/a_15_n12# 0.02fF
+C230 compblock_0/and_0/vdd compblock_0/and_0/w_0_0# 0.14fF
+C231 compblock_0/num1_c compblock_0/xor_2/vdd 0.30fF
+C232 compblock_0/and_6/vdd compblock_0/and_6/a_15_6# 0.05fF
+C233 compblock_0/xor_3/a_15_n12# compblock_0/xor_3/w_32_0# 0.19fF
+C234 compblock_0/xor_3/w_32_0# compblock_0/xor_3/vdd 0.11fF
+C235 compblock_0/xor_0/w_2_0# compblock_0/num1_a 0.06fF
+C236 compblock_0/and_4/a_15_6# compblock_0/and_4/w_0_0# 0.09fF
+C237 compblock_0/num2_c compblock_0/xor_2/w_32_0# 0.06fF
+C238 compblock_0/xor_1/a_15_n62# compblock_0/xor_1/vdd 0.11fF
+C239 compblock_0/xor_1/a_15_n12# compblock_0/xor_1/gnd 0.08fF
+C240 compblock_0/xor_0/w_32_0# compblock_0/num1_a 0.06fF
+C241 compblock_0/and_6/in1 compblock_0/num1_c 0.85fF
+C242 compblock_0/xor_0/out compblock_0/notg_0/w_n19_1# 0.20fF
+C243 compblock_0/and_11/in2 compblock_0/and_11/w_0_0# 0.06fF
+C244 compblock_0/and_5/w_0_0# compblock_0/te2 0.03fF
+C245 compblock_0/xor_3/w_2_0# compblock_0/xor_3/a_15_n12# 0.03fF
+C246 compblock_0/and_8/in2 compblock_0/and_7/gnd 0.08fF
+C247 compblock_0/xor_3/w_2_0# compblock_0/xor_3/vdd 0.05fF
+C248 compblock_0/and_3/vdd compblock_0/and_3/w_0_0# 0.14fF
+C249 compblock_0/and_1/a_15_6# compblock_0/xnor3 0.03fF
+C250 compblock_0/and_8/gnd compblock_0/te3 0.08fF
+C251 compblock_0/num1_c compblock_0/xor_2/w_32_0# 0.06fF
+C252 compblock_0/and_2/in2 compblock_0/and_1/w_0_0# 0.03fF
+C253 compblock_0/xor_1/a_15_n62# compblock_0/xor_1/gnd 0.31fF
+C254 compblock_0/te4 compblock_0/and_11/w_0_0# 0.03fF
+C255 compblock_0/and_9/a_15_6# compblock_0/and_9/vdd 0.05fF
+C256 compblock_0/num2_a compblock_0/xor_0/a_15_n12# 0.02fF
+C257 compblock_0/xnor1 compblock_0/and_7/w_0_0# 0.06fF
+C258 compblock_0/notg_6/vdd compblock_0/notg_6/w_n19_1# 0.09fF
+C259 compblock_0/and_2/vdd compblock_0/and_2/a_15_6# 0.05fF
+C260 compblock_0/and_7/a_15_6# compblock_0/and_7/w_0_0# 0.09fF
+C261 compblock_0/and_11/w_0_0# compblock_0/and_9/out 0.06fF
+C262 compblock_0/and_8/in2 compblock_0/and_10/w_0_0# 0.06fF
+C263 compblock_0/xor_0/out compblock_0/xor_0/vdd 0.03fF
+C264 compblock_0/notg_7/w_n19_1# compblock_0/num2_d 0.20fF
+C265 compblock_0/xor_0/w_2_n50# compblock_0/xor_0/a_15_n62# 0.03fF
+C266 compblock_0/and_8/a_15_6# compblock_0/and_8/gnd 0.08fF
+C267 compblock_0/and_5/in1 compblock_0/and_4/w_0_0# 0.03fF
+C268 compblock_0/and_9/vdd compblock_0/and_9/in1 0.02fF
+C269 compblock_0/and_5/w_0_0# compblock_0/and_5/vdd 0.14fF
+C270 compblock_0/xor_2/vdd compblock_0/xor_2/gnd 0.23fF
+C271 compblock_0/xor_2/out compblock_0/xor_2/vdd 0.03fF
+C272 compblock_0/and_0/vdd compblock_0/and_0/a_15_6# 0.05fF
+C273 compblock_0/and_4/w_0_0# compblock_0/and_4/vdd 0.14fF
+C274 compblock_0/notg_4/w_n19_1# compblock_0/num2_a 0.20fF
+C275 compblock_0/and_8/in2 compblock_0/and_8/w_0_0# 0.06fF
+C276 compblock_0/and_2/in2 compblock_0/and_1/a_15_6# 0.05fF
+C277 compblock_0/and_10/w_0_0# compblock_0/and_10/a_15_6# 0.09fF
+C278 compblock_0/num2_a compblock_0/notg_4/gnd 0.12fF
+C279 compblock_0/xor_1/a_15_n12# compblock_0/xor_1/a_15_n62# 0.02fF
+C280 compblock_0/and_6/w_0_0# compblock_0/and_6/a_15_6# 0.09fF
+C281 compblock_0/xor_1/out compblock_0/xor_1/vdd 0.03fF
+C282 compblock_0/notg_5/vdd compblock_0/notg_5/w_n19_1# 0.09fF
+C283 compblock_0/xor_2/vdd compblock_0/xor_2/a_15_n12# 0.74fF
+C284 compblock_0/and_9/in1 compblock_0/notg_7/w_n19_1# 0.10fF
+C285 compblock_0/and_2/a_15_6# compblock_0/and_2/gnd 0.08fF
+C286 compblock_0/and_6/in1 compblock_0/and_6/vdd 0.02fF
+C287 compblock_0/and_11/in2 compblock_0/and_11/a_15_6# 0.21fF
+C288 compblock_0/and_8/in1 compblock_0/and_6/vdd 0.11fF
+C289 compblock_0/xor_2/out compblock_0/xor_2/w_32_0# 0.02fF
+C290 compblock_0/xor_0/a_15_n62# compblock_0/xor_0/a_15_n12# 0.02fF
+C291 compblock_0/and_11/in2 compblock_0/and_10/a_15_6# 0.05fF
+C292 compblock_0/m2_340_n126# compblock_0/xnor1 0.33fF
+C293 compblock_0/xor_3/w_32_0# compblock_0/xor_3/out 0.02fF
+C294 compblock_0/te4 compblock_0/and_11/vdd 0.11fF
+C295 compblock_0/xor_3/a_15_n12# compblock_0/num1_d 0.06fF
+C296 compblock_0/num2_b compblock_0/xor_1/w_32_0# 0.06fF
+C297 compblock_0/and_4/a_15_6# compblock_0/and_4/gnd 0.08fF
+C298 compblock_0/num1_d compblock_0/xor_3/vdd 0.30fF
+C299 compblock_0/xor_3/a_15_n62# compblock_0/num2_d 0.36fF
+C300 compblock_0/xor_1/gnd compblock_0/xor_1/out 0.04fF
+C301 compblock_0/te4 compblock_0/and_11/a_15_6# 0.05fF
+C302 compblock_0/and_4/a_15_6# compblock_0/num1_b 0.21fF
+C303 compblock_0/and_11/vdd compblock_0/and_9/out 0.02fF
+C304 compblock_0/and_9/w_0_0# compblock_0/num1_d 0.06fF
+C305 compblock_0/and_5/in1 compblock_0/and_5/w_0_0# 0.06fF
+C306 compblock_0/xor_0/vdd compblock_0/num2_a 0.02fF
+C307 compblock_0/xnor4 compblock_0/and_1/w_0_0# 0.06fF
+C308 compblock_0/and_11/a_15_6# compblock_0/and_9/out 0.03fF
+C309 compblock_0/and_3/a_15_6# compblock_0/num1_a 0.21fF
+C310 compblock_0/and_3/in1 compblock_0/num1_a 0.50fF
+C311 compblock_0/xor_2/a_15_n12# compblock_0/xor_2/w_32_0# 0.19fF
+C312 compblock_0/and_5/vdd compblock_0/te2 0.11fF
+C313 compblock_0/notg_2/w_n19_1# compblock_0/notg_2/vdd 0.09fF
+C314 compblock_0/equal compblock_0/and_2/w_0_0# 0.03fF
+C315 compblock_0/and_8/in1 compblock_0/and_8/in2 0.89fF
+C316 compblock_0/and_5/a_15_6# compblock_0/xnor1 0.21fF
+C317 compblock_0/xor_0/gnd compblock_0/num1_a 0.21fF
+C318 compblock_0/and_3/a_15_6# compblock_0/and_3/in1 0.03fF
+C319 compblock_0/and_0/w_0_0# compblock_0/xnor1 0.06fF
+C320 compblock_0/and_7/a_15_6# compblock_0/xnor1 0.03fF
+C321 compblock_0/xor_3/w_2_n50# compblock_0/xor_3/vdd 0.05fF
+C322 compblock_0/xor_0/w_2_0# compblock_0/xor_0/a_15_n12# 0.03fF
+C323 compblock_0/xor_3/gnd compblock_0/num1_d 0.21fF
+C324 compblock_0/m2_403_n376# Gnd 22.82fF **FLOATING
+C325 compblock_0/m2_340_n126# Gnd 14.92fF **FLOATING
+C326 compblock_0/m2_622_688# Gnd 1.30fF **FLOATING
+C327 compblock_0/and_4/gnd Gnd 0.23fF
+C328 compblock_0/and_5/in1 Gnd 0.46fF
+C329 compblock_0/and_4/vdd Gnd 0.13fF
+C330 compblock_0/and_4/a_15_6# Gnd 0.32fF
+C331 compblock_0/and_4/in1 Gnd 0.70fF
+C332 compblock_0/and_4/w_0_0# Gnd 1.12fF
+C333 compblock_0/and_3/gnd Gnd 0.23fF
+C334 compblock_0/te1 Gnd 0.23fF
+C335 compblock_0/and_3/vdd Gnd 0.13fF
+C336 compblock_0/and_3/a_15_6# Gnd 0.32fF
+C337 compblock_0/and_3/in1 Gnd 0.52fF
+C338 compblock_0/and_3/w_0_0# Gnd 1.12fF
+C339 compblock_0/and_2/gnd Gnd 0.23fF
+C340 compblock_0/equal Gnd 0.27fF
+C341 compblock_0/and_2/vdd Gnd 0.13fF
+C342 compblock_0/and_2/a_15_6# Gnd 0.32fF
+C343 compblock_0/and_2/in1 Gnd 0.46fF
+C344 compblock_0/and_2/w_0_0# Gnd 1.12fF
+C345 compblock_0/and_1/gnd Gnd 0.23fF
+C346 compblock_0/and_2/in2 Gnd 0.49fF
+C347 compblock_0/and_1/vdd Gnd 0.13fF
+C348 compblock_0/and_1/a_15_6# Gnd 0.32fF
+C349 compblock_0/xnor3 Gnd 0.48fF
+C350 compblock_0/and_1/w_0_0# Gnd 1.12fF
+C351 compblock_0/and_0/gnd Gnd 0.23fF
+C352 compblock_0/and_0/vdd Gnd 0.13fF
+C353 compblock_0/and_0/a_15_6# Gnd 0.32fF
+C354 compblock_0/xnor1 Gnd 1.07fF
+C355 compblock_0/and_0/w_0_0# Gnd 1.12fF
+C356 compblock_0/xor_3/gnd Gnd 0.64fF
+C357 compblock_0/xor_3/vdd Gnd 0.17fF
+C358 compblock_0/xor_3/a_15_n62# Gnd 0.26fF
+C359 compblock_0/num2_d Gnd 18.45fF
+C360 compblock_0/num1_d Gnd 20.79fF
+C361 compblock_0/xor_3/a_15_n12# Gnd 0.17fF
+C362 compblock_0/xor_3/w_2_n50# Gnd 0.48fF
+C363 compblock_0/xor_3/w_32_0# Gnd 1.12fF
+C364 compblock_0/xor_3/w_2_0# Gnd 0.48fF
+C365 compblock_0/xor_2/gnd Gnd 0.64fF
+C366 compblock_0/xor_2/vdd Gnd 0.17fF
+C367 compblock_0/xor_2/a_15_n62# Gnd 0.26fF
+C368 compblock_0/num2_c Gnd 13.41fF
+C369 compblock_0/num1_c Gnd 13.62fF
+C370 compblock_0/xor_2/a_15_n12# Gnd 0.17fF
+C371 compblock_0/xor_2/w_2_n50# Gnd 0.48fF
+C372 compblock_0/xor_2/w_32_0# Gnd 1.12fF
+C373 compblock_0/xor_2/w_2_0# Gnd 0.48fF
+C374 compblock_0/and_11/gnd Gnd 0.23fF
+C375 compblock_0/te4 Gnd 0.36fF
+C376 compblock_0/and_11/vdd Gnd 0.13fF
+C377 compblock_0/and_11/a_15_6# Gnd 0.32fF
+C378 compblock_0/and_11/w_0_0# Gnd 1.12fF
+C379 compblock_0/xor_1/gnd Gnd 0.64fF
+C380 compblock_0/xor_1/vdd Gnd 0.17fF
+C381 compblock_0/xor_1/a_15_n62# Gnd 0.26fF
+C382 compblock_0/num2_b Gnd 10.49fF
+C383 compblock_0/num1_b Gnd 8.53fF
+C384 compblock_0/xor_1/a_15_n12# Gnd 0.17fF
+C385 compblock_0/xor_1/w_2_n50# Gnd 0.48fF
+C386 compblock_0/xor_1/w_32_0# Gnd 1.12fF
+C387 compblock_0/xor_1/w_2_0# Gnd 0.48fF
+C388 compblock_0/and_10/gnd Gnd 0.23fF
+C389 compblock_0/and_11/in2 Gnd 0.49fF
+C390 compblock_0/and_10/vdd Gnd 0.13fF
+C391 compblock_0/and_10/a_15_6# Gnd 0.32fF
+C392 compblock_0/and_10/in2 Gnd 0.26fF
+C393 compblock_0/and_10/w_0_0# Gnd 1.12fF
+C394 compblock_0/xor_0/gnd Gnd 0.64fF
+C395 compblock_0/xor_0/vdd Gnd 0.17fF
+C396 compblock_0/xor_0/a_15_n62# Gnd 0.26fF
+C397 compblock_0/num2_a Gnd 2.25fF
+C398 compblock_0/num1_a Gnd 3.56fF
+C399 compblock_0/xor_0/a_15_n12# Gnd 0.17fF
+C400 compblock_0/xor_0/w_2_n50# Gnd 0.48fF
+C401 compblock_0/xor_0/w_32_0# Gnd 1.12fF
+C402 compblock_0/xor_0/w_2_0# Gnd 0.48fF
+C403 compblock_0/notg_7/gnd Gnd 0.35fF
+C404 compblock_0/notg_7/vdd Gnd 0.34fF
+C405 compblock_0/notg_7/w_n19_1# Gnd 2.59fF
+C406 compblock_0/notg_6/gnd Gnd 0.35fF
+C407 compblock_0/notg_6/vdd Gnd 0.34fF
+C408 compblock_0/notg_6/w_n19_1# Gnd 2.59fF
+C409 compblock_0/notg_5/gnd Gnd 0.35fF
+C410 compblock_0/notg_5/vdd Gnd 0.34fF
+C411 compblock_0/notg_5/w_n19_1# Gnd 2.59fF
+C412 compblock_0/notg_4/gnd Gnd 0.35fF
+C413 compblock_0/notg_4/vdd Gnd 0.34fF
+C414 compblock_0/notg_4/w_n19_1# Gnd 2.59fF
+C415 compblock_0/notg_3/gnd Gnd 0.35fF
+C416 compblock_0/xnor4 Gnd 0.60fF
+C417 compblock_0/notg_3/vdd Gnd 0.34fF
+C418 compblock_0/xor_3/out Gnd 0.79fF
+C419 compblock_0/notg_3/w_n19_1# Gnd 2.59fF
+C420 compblock_0/and_9/gnd Gnd 0.23fF
+C421 compblock_0/and_9/vdd Gnd 0.13fF
+C422 compblock_0/and_9/a_15_6# Gnd 0.32fF
+C423 compblock_0/and_9/w_0_0# Gnd 1.12fF
+C424 compblock_0/notg_1/gnd Gnd 0.35fF
+C425 compblock_0/xnor2 Gnd 0.60fF
+C426 compblock_0/notg_1/vdd Gnd 0.34fF
+C427 compblock_0/xor_1/out Gnd 0.85fF
+C428 compblock_0/notg_1/w_n19_1# Gnd 2.59fF
+C429 compblock_0/notg_2/gnd Gnd 0.35fF
+C430 compblock_0/notg_2/vdd Gnd 0.34fF
+C431 compblock_0/xor_2/out Gnd 0.89fF
+C432 compblock_0/notg_2/w_n19_1# Gnd 2.59fF
+C433 compblock_0/and_8/gnd Gnd 0.23fF
+C434 compblock_0/te3 Gnd 0.23fF
+C435 compblock_0/and_8/vdd Gnd 0.13fF
+C436 compblock_0/and_8/a_15_6# Gnd 0.32fF
+C437 compblock_0/and_8/in1 Gnd 0.46fF
+C438 compblock_0/and_8/w_0_0# Gnd 1.12fF
+C439 compblock_0/notg_0/gnd Gnd 0.35fF
+C440 compblock_0/notg_0/vdd Gnd 0.34fF
+C441 compblock_0/xor_0/out Gnd 0.86fF
+C442 compblock_0/notg_0/w_n19_1# Gnd 2.59fF
+C443 compblock_0/and_6/gnd Gnd 0.23fF
+C444 compblock_0/and_6/vdd Gnd 0.13fF
+C445 compblock_0/and_6/a_15_6# Gnd 0.32fF
+C446 compblock_0/and_6/w_0_0# Gnd 1.12fF
+C447 compblock_0/and_7/gnd Gnd 0.23fF
+C448 compblock_0/and_7/vdd Gnd 0.13fF
+C449 compblock_0/and_7/a_15_6# Gnd 0.32fF
+C450 compblock_0/and_7/in2 Gnd 0.61fF
+C451 compblock_0/and_7/w_0_0# Gnd 1.12fF
+C452 compblock_0/and_5/gnd Gnd 0.23fF
+C453 compblock_0/te2 Gnd 0.23fF
+C454 compblock_0/and_5/vdd Gnd 0.13fF
+C455 compblock_0/and_5/a_15_6# Gnd 0.32fF
+C456 compblock_0/and_5/w_0_0# Gnd 1.12fF

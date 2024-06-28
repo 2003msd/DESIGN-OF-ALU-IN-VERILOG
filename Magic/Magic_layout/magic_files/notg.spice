@@ -1,0 +1,16 @@
+* SPICE3 file created from notg.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 out in gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=182 ps=54
+M1001 out in vdd w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=323 ps=72
+C0 vdd w_n19_1# 0.09fF
+C1 w_n19_1# in 0.20fF
+C2 out w_n19_1# 0.10fF
+C3 gnd Gnd 0.35fF
+C4 out Gnd 0.13fF
+C5 vdd Gnd 0.34fF
+C6 in Gnd 0.38fF
+C7 w_n19_1# Gnd 2.59fF

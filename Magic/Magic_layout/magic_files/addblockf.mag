@@ -1,0 +1,23 @@
+magic
+tech scmos
+timestamp 1699891860
+<< metal1 >>
+rect 1571 591 1596 593
+rect 253 506 3741 591
+rect 470 357 495 506
+rect 1571 410 1596 506
+rect 2402 379 2427 506
+rect 3108 375 3133 506
+rect 452 -215 478 -115
+rect 1432 -215 1458 -73
+rect 2361 -215 2387 -96
+rect 3189 -215 3215 -106
+rect 250 -306 3520 -215
+use adderblock  adderblock_0
+timestamp 1699891860
+transform 1 0 -57 0 1 -65
+box -102 -74 3730 491
+<< labels >>
+rlabel metal1 2205 545 2205 545 1 vdd
+rlabel metal1 2234 -264 2234 -264 1 gnd
+<< end >>

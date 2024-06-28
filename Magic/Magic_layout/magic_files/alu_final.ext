@@ -1,0 +1,37 @@
+timestamp 1699555119
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use notg notg_0 1 0 -290 0 1 272
+use notg notg_1 1 0 1 0 1 195
+use and and_0 1 0 294 0 1 2084
+use and and_1 1 0 111 0 1 -2904
+use and and_2 1 0 -21 0 1 -63
+node "outp4" 1 184.466 34 -76 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 216 116 0 0 0 0 0 0 0 0 0 0
+node "select0" 11 2901.56 -75 23 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4294 1542 0 0 0 0 0 0 0 0 0 0
+node "select1" 6 3690.23 -365 257 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7038 1464 0 0 0 0 0 0 0 0 0 0
+node "outp1" 4 847.601 349 2071 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1186 472 0 0 0 0 0 0 0 0 0 0
+node "select0_c" 9 16573.4 59 181 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38882 4282 0 0 0 0 0 0 0 0 0 0
+node "select1_c" 15 13856.4 -234 258 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28822 4742 0 0 0 0 0 0 0 0 0 0
+cap "select1" "select0" 547.091
+cap "select1_c" "select0_c" 1855.71
+subcap "outp4" -88.9656
+cap "and_2/in2" "and_2/in1" -109.968
+subcap "outp4" -47.928
+subcap "select1_c" -13791.7
+subcap "select0_c" -16453.1
+subcap "select1_c" -13791.7
+cap "and_0/in1" "and_0/in2" -54.984
+subcap "outp1" -718.684
+merge "and_0/in1" "notg_0/out" -63.7824 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -46 0 0 0 0 0 0 0 0 0 0
+merge "notg_0/out" "select1_c"
+merge "and_2/out" "outp4" -15.2916 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -14 0 0 0 0 0 0 0 0 0 0
+merge "notg_1/in" "and_2/in2" -144.732 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -160 -94 0 0 0 0 0 0 0 0 0 0
+merge "and_2/in2" "select0"
+merge "notg_0/in" "and_2/in1" -133.448 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -156 -84 0 0 0 0 0 0 0 0 0 0
+merge "and_2/in1" "select1"
+merge "and_0/in2" "notg_1/out" -41.6496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -34 0 0 0 0 0 0 0 0 0 0
+merge "notg_1/out" "select0_c"
+merge "and_0/out" "outp1" -11.2836 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0 0 0 0 0 0 0

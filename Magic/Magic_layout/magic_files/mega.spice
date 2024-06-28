@@ -1,0 +1,3041 @@
+* SPICE3 file created from mega.ext - technology: scmos
+
+.option scale=1u
+
+M1000 and_5/a_15_6# enb_1/rn7 vdd and_5/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=20499 ps=9904
+M1001 vdd enb_1/rn8 and_5/a_15_6# and_5/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 and_5/a_15_n26# enb_1/rn7 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=9030 ps=5902
+M1003 gd4 and_5/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1004 gd4 and_5/a_15_6# vdd and_5/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1005 and_5/a_15_6# enb_1/rn8 and_5/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1006 and_0/in1 sel0 gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1007 and_0/in1 sel0 vdd notg_0/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1008 and_6/a_15_6# and_6/in1 vdd and_6/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1009 vdd sel1 and_6/a_15_6# and_6/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 and_6/a_15_n26# and_6/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1011 lol and_6/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1012 lol and_6/a_15_6# vdd and_6/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1013 and_6/a_15_6# sel1 and_6/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1014 and_7/a_15_6# and_7/in1 vdd and_7/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1015 vdd sel0 and_7/a_15_6# and_7/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 and_7/a_15_n26# and_7/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1017 and_7/out and_7/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1018 and_7/out and_7/a_15_6# vdd and_7/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1019 and_7/a_15_6# sel0 and_7/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1020 and_0/in2 sel1 gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1021 and_0/in2 sel1 vdd notg_1/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1022 and_6/in1 sel0 gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1023 and_6/in1 sel0 vdd notg_2/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1024 and_7/in1 sel1 gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1025 and_7/in1 sel1 vdd notg_3/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1026 subtractblock_0/fadd_1/or_0/a_15_6# subtractblock_0/fadd_1/or_0/in1 vdd subtractblock_0/fadd_1/or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1027 subtractblock_0/fadd_1/or_0/a_15_n26# subtractblock_0/fadd_1/or_0/in2 subtractblock_0/fadd_1/or_0/a_15_6# subtractblock_0/fadd_1/or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1028 subtractblock_0/fadd_1/or_0/a_15_n26# subtractblock_0/fadd_1/or_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1029 subtractblock_0/fadd_2/in1 subtractblock_0/fadd_1/or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1030 subtractblock_0/fadd_2/in1 subtractblock_0/fadd_1/or_0/a_15_n26# vdd subtractblock_0/fadd_1/or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1031 gnd subtractblock_0/fadd_1/or_0/in2 subtractblock_0/fadd_1/or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 subtractblock_0/fadd_1/hadd_0/xor_0/a_66_6# reap3 subtractblock_0/fadd_1/hadd_0/sum subtractblock_0/fadd_1/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1033 subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n12# reap3 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1034 subtractblock_0/fadd_1/hadd_0/sum reap3 subtractblock_0/fadd_1/hadd_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1035 subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n12# reap3 vdd subtractblock_0/fadd_1/hadd_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1036 vdd subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_1/hadd_0/xor_0/a_66_6# subtractblock_0/fadd_1/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1037 subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_1/in1 vdd subtractblock_0/fadd_1/hadd_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1038 subtractblock_0/fadd_1/hadd_0/xor_0/a_46_n62# subtractblock_0/fadd_1/in1 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1039 gnd subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n12# subtractblock_0/fadd_1/hadd_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1040 subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_1/in1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1041 subtractblock_0/fadd_1/hadd_0/xor_0/a_46_6# subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n12# vdd subtractblock_0/fadd_1/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1042 subtractblock_0/fadd_1/hadd_0/xor_0/a_66_n62# subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_1/hadd_0/sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1043 subtractblock_0/fadd_1/hadd_0/sum subtractblock_0/fadd_1/in1 subtractblock_0/fadd_1/hadd_0/xor_0/a_46_6# subtractblock_0/fadd_1/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 subtractblock_0/fadd_1/hadd_0/and_0/a_15_6# subtractblock_0/fadd_1/in1 vdd subtractblock_0/fadd_1/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1045 vdd reap3 subtractblock_0/fadd_1/hadd_0/and_0/a_15_6# subtractblock_0/fadd_1/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 subtractblock_0/fadd_1/hadd_0/and_0/a_15_n26# subtractblock_0/fadd_1/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1047 subtractblock_0/fadd_1/or_0/in1 subtractblock_0/fadd_1/hadd_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1048 subtractblock_0/fadd_1/or_0/in1 subtractblock_0/fadd_1/hadd_0/and_0/a_15_6# vdd subtractblock_0/fadd_1/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1049 subtractblock_0/fadd_1/hadd_0/and_0/a_15_6# reap3 subtractblock_0/fadd_1/hadd_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1050 subtractblock_0/fadd_1/hadd_1/xor_0/a_66_6# subtractblock_0/notg_1/out subt1 subtractblock_0/fadd_1/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1051 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n12# subtractblock_0/notg_1/out gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1052 subt1 subtractblock_0/notg_1/out subtractblock_0/fadd_1/hadd_1/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1053 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n12# subtractblock_0/notg_1/out vdd subtractblock_0/fadd_1/hadd_1/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1054 vdd subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_1/hadd_1/xor_0/a_66_6# subtractblock_0/fadd_1/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1055 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_1/hadd_0/sum vdd subtractblock_0/fadd_1/hadd_1/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1056 subtractblock_0/fadd_1/hadd_1/xor_0/a_46_n62# subtractblock_0/fadd_1/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1057 gnd subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n12# subtractblock_0/fadd_1/hadd_1/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1058 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_1/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1059 subtractblock_0/fadd_1/hadd_1/xor_0/a_46_6# subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n12# vdd subtractblock_0/fadd_1/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1060 subtractblock_0/fadd_1/hadd_1/xor_0/a_66_n62# subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n62# subt1 Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1061 subt1 subtractblock_0/fadd_1/hadd_0/sum subtractblock_0/fadd_1/hadd_1/xor_0/a_46_6# subtractblock_0/fadd_1/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1062 subtractblock_0/fadd_1/hadd_1/and_0/a_15_6# subtractblock_0/fadd_1/hadd_0/sum vdd subtractblock_0/fadd_1/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1063 vdd subtractblock_0/notg_1/out subtractblock_0/fadd_1/hadd_1/and_0/a_15_6# subtractblock_0/fadd_1/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1064 subtractblock_0/fadd_1/hadd_1/and_0/a_15_n26# subtractblock_0/fadd_1/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1065 subtractblock_0/fadd_1/or_0/in2 subtractblock_0/fadd_1/hadd_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1066 subtractblock_0/fadd_1/or_0/in2 subtractblock_0/fadd_1/hadd_1/and_0/a_15_6# vdd subtractblock_0/fadd_1/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1067 subtractblock_0/fadd_1/hadd_1/and_0/a_15_6# subtractblock_0/notg_1/out subtractblock_0/fadd_1/hadd_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1068 subtractblock_0/notg_0/out reap8 gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1069 subtractblock_0/notg_0/out reap8 vdd subtractblock_0/notg_0/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1070 subtractblock_0/fadd_2/or_0/a_15_6# subtractblock_0/fadd_2/or_0/in1 vdd subtractblock_0/fadd_2/or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1071 subtractblock_0/fadd_2/or_0/a_15_n26# subtractblock_0/fadd_2/or_0/in2 subtractblock_0/fadd_2/or_0/a_15_6# subtractblock_0/fadd_2/or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1072 subtractblock_0/fadd_2/or_0/a_15_n26# subtractblock_0/fadd_2/or_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1073 subtractblock_0/fadd_3/in1 subtractblock_0/fadd_2/or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1074 subtractblock_0/fadd_3/in1 subtractblock_0/fadd_2/or_0/a_15_n26# vdd subtractblock_0/fadd_2/or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1075 gnd subtractblock_0/fadd_2/or_0/in2 subtractblock_0/fadd_2/or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1076 subtractblock_0/fadd_2/hadd_0/xor_0/a_66_6# reap2 subtractblock_0/fadd_2/hadd_0/sum subtractblock_0/fadd_2/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1077 subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n12# reap2 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1078 subtractblock_0/fadd_2/hadd_0/sum reap2 subtractblock_0/fadd_2/hadd_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1079 subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n12# reap2 vdd subtractblock_0/fadd_2/hadd_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1080 vdd subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_2/hadd_0/xor_0/a_66_6# subtractblock_0/fadd_2/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1081 subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_2/in1 vdd subtractblock_0/fadd_2/hadd_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1082 subtractblock_0/fadd_2/hadd_0/xor_0/a_46_n62# subtractblock_0/fadd_2/in1 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1083 gnd subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n12# subtractblock_0/fadd_2/hadd_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1084 subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_2/in1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1085 subtractblock_0/fadd_2/hadd_0/xor_0/a_46_6# subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n12# vdd subtractblock_0/fadd_2/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1086 subtractblock_0/fadd_2/hadd_0/xor_0/a_66_n62# subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_2/hadd_0/sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1087 subtractblock_0/fadd_2/hadd_0/sum subtractblock_0/fadd_2/in1 subtractblock_0/fadd_2/hadd_0/xor_0/a_46_6# subtractblock_0/fadd_2/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1088 subtractblock_0/fadd_2/hadd_0/and_0/a_15_6# subtractblock_0/fadd_2/in1 vdd subtractblock_0/fadd_2/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1089 vdd reap2 subtractblock_0/fadd_2/hadd_0/and_0/a_15_6# subtractblock_0/fadd_2/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1090 subtractblock_0/fadd_2/hadd_0/and_0/a_15_n26# subtractblock_0/fadd_2/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1091 subtractblock_0/fadd_2/or_0/in1 subtractblock_0/fadd_2/hadd_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1092 subtractblock_0/fadd_2/or_0/in1 subtractblock_0/fadd_2/hadd_0/and_0/a_15_6# vdd subtractblock_0/fadd_2/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1093 subtractblock_0/fadd_2/hadd_0/and_0/a_15_6# reap2 subtractblock_0/fadd_2/hadd_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1094 subtractblock_0/fadd_2/hadd_1/xor_0/a_66_6# subtractblock_0/notg_2/out subt2 subtractblock_0/fadd_2/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1095 subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n12# subtractblock_0/notg_2/out gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1096 subt2 subtractblock_0/notg_2/out subtractblock_0/fadd_2/hadd_1/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1097 subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n12# subtractblock_0/notg_2/out vdd subtractblock_0/fadd_2/hadd_1/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1098 vdd subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_2/hadd_1/xor_0/a_66_6# subtractblock_0/fadd_2/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1099 subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_2/hadd_0/sum vdd subtractblock_0/fadd_2/hadd_1/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1100 subtractblock_0/fadd_2/hadd_1/xor_0/a_46_n62# subtractblock_0/fadd_2/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1101 gnd subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n12# subtractblock_0/fadd_2/hadd_1/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1102 subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_2/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1103 subtractblock_0/fadd_2/hadd_1/xor_0/a_46_6# subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n12# vdd subtractblock_0/fadd_2/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1104 subtractblock_0/fadd_2/hadd_1/xor_0/a_66_n62# subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n62# subt2 Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1105 subt2 subtractblock_0/fadd_2/hadd_0/sum subtractblock_0/fadd_2/hadd_1/xor_0/a_46_6# subtractblock_0/fadd_2/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1106 subtractblock_0/fadd_2/hadd_1/and_0/a_15_6# subtractblock_0/fadd_2/hadd_0/sum vdd subtractblock_0/fadd_2/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1107 vdd subtractblock_0/notg_2/out subtractblock_0/fadd_2/hadd_1/and_0/a_15_6# subtractblock_0/fadd_2/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1108 subtractblock_0/fadd_2/hadd_1/and_0/a_15_n26# subtractblock_0/fadd_2/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1109 subtractblock_0/fadd_2/or_0/in2 subtractblock_0/fadd_2/hadd_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1110 subtractblock_0/fadd_2/or_0/in2 subtractblock_0/fadd_2/hadd_1/and_0/a_15_6# vdd subtractblock_0/fadd_2/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1111 subtractblock_0/fadd_2/hadd_1/and_0/a_15_6# subtractblock_0/notg_2/out subtractblock_0/fadd_2/hadd_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1112 subtractblock_0/notg_1/out reap7 gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1113 subtractblock_0/notg_1/out reap7 vdd subtractblock_0/notg_1/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1114 subtractblock_0/notg_2/out reap6 gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1115 subtractblock_0/notg_2/out reap6 vdd subtractblock_0/notg_2/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1116 subtractblock_0/fadd_3/or_0/a_15_6# subtractblock_0/fadd_3/or_0/in1 vdd subtractblock_0/fadd_3/or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1117 subtractblock_0/fadd_3/or_0/a_15_n26# subtractblock_0/fadd_3/or_0/in2 subtractblock_0/fadd_3/or_0/a_15_6# subtractblock_0/fadd_3/or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1118 subtractblock_0/fadd_3/or_0/a_15_n26# subtractblock_0/fadd_3/or_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1119 subt4 subtractblock_0/fadd_3/or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1120 subt4 subtractblock_0/fadd_3/or_0/a_15_n26# vdd subtractblock_0/fadd_3/or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1121 gnd subtractblock_0/fadd_3/or_0/in2 subtractblock_0/fadd_3/or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1122 subtractblock_0/fadd_3/hadd_0/xor_0/a_66_6# reap1 subtractblock_0/fadd_3/hadd_0/sum subtractblock_0/fadd_3/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1123 subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n12# reap1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1124 subtractblock_0/fadd_3/hadd_0/sum reap1 subtractblock_0/fadd_3/hadd_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1125 subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n12# reap1 vdd subtractblock_0/fadd_3/hadd_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1126 vdd subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_3/hadd_0/xor_0/a_66_6# subtractblock_0/fadd_3/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1127 subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_3/in1 vdd subtractblock_0/fadd_3/hadd_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1128 subtractblock_0/fadd_3/hadd_0/xor_0/a_46_n62# subtractblock_0/fadd_3/in1 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1129 gnd subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n12# subtractblock_0/fadd_3/hadd_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1130 subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_3/in1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1131 subtractblock_0/fadd_3/hadd_0/xor_0/a_46_6# subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n12# vdd subtractblock_0/fadd_3/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1132 subtractblock_0/fadd_3/hadd_0/xor_0/a_66_n62# subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_3/hadd_0/sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1133 subtractblock_0/fadd_3/hadd_0/sum subtractblock_0/fadd_3/in1 subtractblock_0/fadd_3/hadd_0/xor_0/a_46_6# subtractblock_0/fadd_3/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1134 subtractblock_0/fadd_3/hadd_0/and_0/a_15_6# subtractblock_0/fadd_3/in1 vdd subtractblock_0/fadd_3/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1135 vdd reap1 subtractblock_0/fadd_3/hadd_0/and_0/a_15_6# subtractblock_0/fadd_3/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1136 subtractblock_0/fadd_3/hadd_0/and_0/a_15_n26# subtractblock_0/fadd_3/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1137 subtractblock_0/fadd_3/or_0/in1 subtractblock_0/fadd_3/hadd_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1138 subtractblock_0/fadd_3/or_0/in1 subtractblock_0/fadd_3/hadd_0/and_0/a_15_6# vdd subtractblock_0/fadd_3/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1139 subtractblock_0/fadd_3/hadd_0/and_0/a_15_6# reap1 subtractblock_0/fadd_3/hadd_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1140 subtractblock_0/fadd_3/hadd_1/xor_0/a_66_6# subtractblock_0/notg_3/out subt3 subtractblock_0/fadd_3/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1141 subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n12# subtractblock_0/notg_3/out gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1142 subt3 subtractblock_0/notg_3/out subtractblock_0/fadd_3/hadd_1/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1143 subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n12# subtractblock_0/notg_3/out vdd subtractblock_0/fadd_3/hadd_1/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1144 vdd subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_3/hadd_1/xor_0/a_66_6# subtractblock_0/fadd_3/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1145 subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_3/hadd_0/sum vdd subtractblock_0/fadd_3/hadd_1/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1146 subtractblock_0/fadd_3/hadd_1/xor_0/a_46_n62# subtractblock_0/fadd_3/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1147 gnd subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n12# subtractblock_0/fadd_3/hadd_1/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1148 subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_3/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1149 subtractblock_0/fadd_3/hadd_1/xor_0/a_46_6# subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n12# vdd subtractblock_0/fadd_3/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1150 subtractblock_0/fadd_3/hadd_1/xor_0/a_66_n62# subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n62# subt3 Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1151 subt3 subtractblock_0/fadd_3/hadd_0/sum subtractblock_0/fadd_3/hadd_1/xor_0/a_46_6# subtractblock_0/fadd_3/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1152 subtractblock_0/fadd_3/hadd_1/and_0/a_15_6# subtractblock_0/fadd_3/hadd_0/sum vdd subtractblock_0/fadd_3/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1153 vdd subtractblock_0/notg_3/out subtractblock_0/fadd_3/hadd_1/and_0/a_15_6# subtractblock_0/fadd_3/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1154 subtractblock_0/fadd_3/hadd_1/and_0/a_15_n26# subtractblock_0/fadd_3/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1155 subtractblock_0/fadd_3/or_0/in2 subtractblock_0/fadd_3/hadd_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1156 subtractblock_0/fadd_3/or_0/in2 subtractblock_0/fadd_3/hadd_1/and_0/a_15_6# vdd subtractblock_0/fadd_3/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1157 subtractblock_0/fadd_3/hadd_1/and_0/a_15_6# subtractblock_0/notg_3/out subtractblock_0/fadd_3/hadd_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1158 subtractblock_0/notg_3/out reap5 gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1159 subtractblock_0/notg_3/out reap5 vdd subtractblock_0/notg_3/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1160 subtractblock_0/fadd_0/or_0/a_15_6# subtractblock_0/fadd_0/or_0/in1 vdd subtractblock_0/fadd_0/or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1161 subtractblock_0/fadd_0/or_0/a_15_n26# subtractblock_0/fadd_0/or_0/in2 subtractblock_0/fadd_0/or_0/a_15_6# subtractblock_0/fadd_0/or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1162 subtractblock_0/fadd_0/or_0/a_15_n26# subtractblock_0/fadd_0/or_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1163 subtractblock_0/fadd_1/in1 subtractblock_0/fadd_0/or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1164 subtractblock_0/fadd_1/in1 subtractblock_0/fadd_0/or_0/a_15_n26# vdd subtractblock_0/fadd_0/or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1165 gnd subtractblock_0/fadd_0/or_0/in2 subtractblock_0/fadd_0/or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1166 subtractblock_0/fadd_0/hadd_0/xor_0/a_66_6# subtractblock_0/notg_0/out subtractblock_0/fadd_0/hadd_0/sum subtractblock_0/fadd_0/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1167 subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n12# subtractblock_0/notg_0/out gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1168 subtractblock_0/fadd_0/hadd_0/sum subtractblock_0/notg_0/out subtractblock_0/fadd_0/hadd_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1169 subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n12# subtractblock_0/notg_0/out vdd subtractblock_0/fadd_0/hadd_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1170 vdd subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_0/hadd_0/xor_0/a_66_6# subtractblock_0/fadd_0/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1171 subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n62# reap4 vdd subtractblock_0/fadd_0/hadd_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1172 subtractblock_0/fadd_0/hadd_0/xor_0/a_46_n62# reap4 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1173 gnd subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n12# subtractblock_0/fadd_0/hadd_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1174 subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n62# reap4 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1175 subtractblock_0/fadd_0/hadd_0/xor_0/a_46_6# subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n12# vdd subtractblock_0/fadd_0/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1176 subtractblock_0/fadd_0/hadd_0/xor_0/a_66_n62# subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_0/hadd_0/sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1177 subtractblock_0/fadd_0/hadd_0/sum reap4 subtractblock_0/fadd_0/hadd_0/xor_0/a_46_6# subtractblock_0/fadd_0/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1178 subtractblock_0/fadd_0/hadd_0/and_0/a_15_6# reap4 vdd subtractblock_0/fadd_0/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1179 vdd subtractblock_0/notg_0/out subtractblock_0/fadd_0/hadd_0/and_0/a_15_6# subtractblock_0/fadd_0/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1180 subtractblock_0/fadd_0/hadd_0/and_0/a_15_n26# reap4 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1181 subtractblock_0/fadd_0/or_0/in1 subtractblock_0/fadd_0/hadd_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1182 subtractblock_0/fadd_0/or_0/in1 subtractblock_0/fadd_0/hadd_0/and_0/a_15_6# vdd subtractblock_0/fadd_0/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1183 subtractblock_0/fadd_0/hadd_0/and_0/a_15_6# subtractblock_0/notg_0/out subtractblock_0/fadd_0/hadd_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1184 subtractblock_0/fadd_0/hadd_1/xor_0/a_66_6# sub_carry subt0 subtractblock_0/fadd_0/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1185 subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n12# sub_carry gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1186 subt0 sub_carry subtractblock_0/fadd_0/hadd_1/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1187 subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n12# sub_carry vdd subtractblock_0/fadd_0/hadd_1/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1188 vdd subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_0/hadd_1/xor_0/a_66_6# subtractblock_0/fadd_0/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1189 subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_0/hadd_0/sum vdd subtractblock_0/fadd_0/hadd_1/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1190 subtractblock_0/fadd_0/hadd_1/xor_0/a_46_n62# subtractblock_0/fadd_0/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1191 gnd subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n12# subtractblock_0/fadd_0/hadd_1/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1192 subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_0/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1193 subtractblock_0/fadd_0/hadd_1/xor_0/a_46_6# subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n12# vdd subtractblock_0/fadd_0/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1194 subtractblock_0/fadd_0/hadd_1/xor_0/a_66_n62# subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n62# subt0 Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1195 subt0 subtractblock_0/fadd_0/hadd_0/sum subtractblock_0/fadd_0/hadd_1/xor_0/a_46_6# subtractblock_0/fadd_0/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1196 subtractblock_0/fadd_0/hadd_1/and_0/a_15_6# subtractblock_0/fadd_0/hadd_0/sum vdd subtractblock_0/fadd_0/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1197 vdd sub_carry subtractblock_0/fadd_0/hadd_1/and_0/a_15_6# subtractblock_0/fadd_0/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1198 subtractblock_0/fadd_0/hadd_1/and_0/a_15_n26# subtractblock_0/fadd_0/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1199 subtractblock_0/fadd_0/or_0/in2 subtractblock_0/fadd_0/hadd_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1200 subtractblock_0/fadd_0/or_0/in2 subtractblock_0/fadd_0/hadd_1/and_0/a_15_6# vdd subtractblock_0/fadd_0/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1201 subtractblock_0/fadd_0/hadd_1/and_0/a_15_6# sub_carry subtractblock_0/fadd_0/hadd_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1202 adderblock_0/fadd_1/or_0/a_15_6# adderblock_0/fadd_1/or_0/in1 vdd adderblock_0/fadd_1/or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1203 adderblock_0/fadd_1/or_0/a_15_n26# adderblock_0/fadd_1/or_0/in2 adderblock_0/fadd_1/or_0/a_15_6# adderblock_0/fadd_1/or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1204 adderblock_0/fadd_1/or_0/a_15_n26# adderblock_0/fadd_1/or_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1205 adderblock_0/fadd_2/in1 adderblock_0/fadd_1/or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1206 adderblock_0/fadd_2/in1 adderblock_0/fadd_1/or_0/a_15_n26# vdd adderblock_0/fadd_1/or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1207 gnd adderblock_0/fadd_1/or_0/in2 adderblock_0/fadd_1/or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1208 adderblock_0/fadd_1/hadd_0/xor_0/a_66_6# enb_0/rn3 adderblock_0/fadd_1/hadd_0/sum adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1209 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# enb_0/rn3 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1210 adderblock_0/fadd_1/hadd_0/sum enb_0/rn3 adderblock_0/fadd_1/hadd_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1211 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# enb_0/rn3 vdd adderblock_0/fadd_1/hadd_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1212 vdd adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_0/xor_0/a_66_6# adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1213 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_1/in1 vdd adderblock_0/fadd_1/hadd_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1214 adderblock_0/fadd_1/hadd_0/xor_0/a_46_n62# adderblock_0/fadd_1/in1 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1215 gnd adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_1/hadd_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1216 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_1/in1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1217 adderblock_0/fadd_1/hadd_0/xor_0/a_46_6# adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# vdd adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1218 adderblock_0/fadd_1/hadd_0/xor_0/a_66_n62# adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_0/sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1219 adderblock_0/fadd_1/hadd_0/sum adderblock_0/fadd_1/in1 adderblock_0/fadd_1/hadd_0/xor_0/a_46_6# adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1220 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# adderblock_0/fadd_1/in1 vdd adderblock_0/fadd_1/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1221 vdd enb_0/rn3 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# adderblock_0/fadd_1/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1222 adderblock_0/fadd_1/hadd_0/and_0/a_15_n26# adderblock_0/fadd_1/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1223 adderblock_0/fadd_1/or_0/in1 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1224 adderblock_0/fadd_1/or_0/in1 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# vdd adderblock_0/fadd_1/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1225 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# enb_0/rn3 adderblock_0/fadd_1/hadd_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1226 adderblock_0/fadd_1/hadd_1/xor_0/a_66_6# enb_0/rn7 san1 adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1227 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# enb_0/rn7 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1228 san1 enb_0/rn7 adderblock_0/fadd_1/hadd_1/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1229 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# enb_0/rn7 vdd adderblock_0/fadd_1/hadd_1/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1230 vdd adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_1/xor_0/a_66_6# adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1231 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_0/sum vdd adderblock_0/fadd_1/hadd_1/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1232 adderblock_0/fadd_1/hadd_1/xor_0/a_46_n62# adderblock_0/fadd_1/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1233 gnd adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_1/hadd_1/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1234 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1235 adderblock_0/fadd_1/hadd_1/xor_0/a_46_6# adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# vdd adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1236 adderblock_0/fadd_1/hadd_1/xor_0/a_66_n62# adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# san1 Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1237 san1 adderblock_0/fadd_1/hadd_0/sum adderblock_0/fadd_1/hadd_1/xor_0/a_46_6# adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1238 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# adderblock_0/fadd_1/hadd_0/sum vdd adderblock_0/fadd_1/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1239 vdd enb_0/rn7 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# adderblock_0/fadd_1/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1240 adderblock_0/fadd_1/hadd_1/and_0/a_15_n26# adderblock_0/fadd_1/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1241 adderblock_0/fadd_1/or_0/in2 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1242 adderblock_0/fadd_1/or_0/in2 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# vdd adderblock_0/fadd_1/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1243 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# enb_0/rn7 adderblock_0/fadd_1/hadd_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1244 adderblock_0/fadd_2/or_0/a_15_6# adderblock_0/fadd_2/or_0/in1 vdd adderblock_0/fadd_2/or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1245 adderblock_0/fadd_2/or_0/a_15_n26# adderblock_0/fadd_2/or_0/in2 adderblock_0/fadd_2/or_0/a_15_6# adderblock_0/fadd_2/or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1246 adderblock_0/fadd_2/or_0/a_15_n26# adderblock_0/fadd_2/or_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1247 adderblock_0/fadd_3/in1 adderblock_0/fadd_2/or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1248 adderblock_0/fadd_3/in1 adderblock_0/fadd_2/or_0/a_15_n26# vdd adderblock_0/fadd_2/or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1249 gnd adderblock_0/fadd_2/or_0/in2 adderblock_0/fadd_2/or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1250 adderblock_0/fadd_2/hadd_0/xor_0/a_66_6# enb_0/rn2 adderblock_0/fadd_2/hadd_0/sum adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1251 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# enb_0/rn2 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1252 adderblock_0/fadd_2/hadd_0/sum enb_0/rn2 adderblock_0/fadd_2/hadd_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1253 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# enb_0/rn2 vdd adderblock_0/fadd_2/hadd_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1254 vdd adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_0/xor_0/a_66_6# adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1255 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_2/in1 vdd adderblock_0/fadd_2/hadd_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1256 adderblock_0/fadd_2/hadd_0/xor_0/a_46_n62# adderblock_0/fadd_2/in1 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1257 gnd adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1258 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_2/in1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1259 adderblock_0/fadd_2/hadd_0/xor_0/a_46_6# adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# vdd adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1260 adderblock_0/fadd_2/hadd_0/xor_0/a_66_n62# adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_0/sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1261 adderblock_0/fadd_2/hadd_0/sum adderblock_0/fadd_2/in1 adderblock_0/fadd_2/hadd_0/xor_0/a_46_6# adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1262 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# adderblock_0/fadd_2/in1 vdd adderblock_0/fadd_2/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1263 vdd enb_0/rn2 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# adderblock_0/fadd_2/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1264 adderblock_0/fadd_2/hadd_0/and_0/a_15_n26# adderblock_0/fadd_2/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1265 adderblock_0/fadd_2/or_0/in1 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1266 adderblock_0/fadd_2/or_0/in1 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# vdd adderblock_0/fadd_2/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1267 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# enb_0/rn2 adderblock_0/fadd_2/hadd_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1268 adderblock_0/fadd_2/hadd_1/xor_0/a_66_6# enb_0/rn6 san2 adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1269 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# enb_0/rn6 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1270 san2 enb_0/rn6 adderblock_0/fadd_2/hadd_1/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1271 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# enb_0/rn6 vdd adderblock_0/fadd_2/hadd_1/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1272 vdd adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_1/xor_0/a_66_6# adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1273 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_0/sum vdd adderblock_0/fadd_2/hadd_1/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1274 adderblock_0/fadd_2/hadd_1/xor_0/a_46_n62# adderblock_0/fadd_2/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1275 gnd adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_1/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1276 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1277 adderblock_0/fadd_2/hadd_1/xor_0/a_46_6# adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# vdd adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1278 adderblock_0/fadd_2/hadd_1/xor_0/a_66_n62# adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# san2 Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1279 san2 adderblock_0/fadd_2/hadd_0/sum adderblock_0/fadd_2/hadd_1/xor_0/a_46_6# adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1280 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# adderblock_0/fadd_2/hadd_0/sum vdd adderblock_0/fadd_2/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1281 vdd enb_0/rn6 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# adderblock_0/fadd_2/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1282 adderblock_0/fadd_2/hadd_1/and_0/a_15_n26# adderblock_0/fadd_2/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1283 adderblock_0/fadd_2/or_0/in2 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1284 adderblock_0/fadd_2/or_0/in2 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# vdd adderblock_0/fadd_2/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1285 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# enb_0/rn6 adderblock_0/fadd_2/hadd_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1286 adderblock_0/fadd_3/or_0/a_15_6# adderblock_0/fadd_3/or_0/in1 vdd adderblock_0/fadd_3/or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1287 adderblock_0/fadd_3/or_0/a_15_n26# adderblock_0/fadd_3/or_0/in2 adderblock_0/fadd_3/or_0/a_15_6# adderblock_0/fadd_3/or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1288 adderblock_0/fadd_3/or_0/a_15_n26# adderblock_0/fadd_3/or_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1289 san4 adderblock_0/fadd_3/or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1290 san4 adderblock_0/fadd_3/or_0/a_15_n26# vdd adderblock_0/fadd_3/or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1291 gnd adderblock_0/fadd_3/or_0/in2 adderblock_0/fadd_3/or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1292 adderblock_0/fadd_3/hadd_0/xor_0/a_66_6# enb_0/rn1 adderblock_0/fadd_3/hadd_0/sum adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1293 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# enb_0/rn1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1294 adderblock_0/fadd_3/hadd_0/sum enb_0/rn1 adderblock_0/fadd_3/hadd_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1295 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# enb_0/rn1 vdd adderblock_0/fadd_3/hadd_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1296 vdd adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_0/xor_0/a_66_6# adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1297 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_3/in1 vdd adderblock_0/fadd_3/hadd_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1298 adderblock_0/fadd_3/hadd_0/xor_0/a_46_n62# adderblock_0/fadd_3/in1 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1299 gnd adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_3/hadd_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1300 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_3/in1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1301 adderblock_0/fadd_3/hadd_0/xor_0/a_46_6# adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# vdd adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1302 adderblock_0/fadd_3/hadd_0/xor_0/a_66_n62# adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_0/sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1303 adderblock_0/fadd_3/hadd_0/sum adderblock_0/fadd_3/in1 adderblock_0/fadd_3/hadd_0/xor_0/a_46_6# adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1304 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# adderblock_0/fadd_3/in1 vdd adderblock_0/fadd_3/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1305 vdd enb_0/rn1 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# adderblock_0/fadd_3/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1306 adderblock_0/fadd_3/hadd_0/and_0/a_15_n26# adderblock_0/fadd_3/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1307 adderblock_0/fadd_3/or_0/in1 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1308 adderblock_0/fadd_3/or_0/in1 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# vdd adderblock_0/fadd_3/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1309 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# enb_0/rn1 adderblock_0/fadd_3/hadd_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1310 adderblock_0/fadd_3/hadd_1/xor_0/a_66_6# enb_0/rn5 san3 adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1311 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# enb_0/rn5 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1312 san3 enb_0/rn5 adderblock_0/fadd_3/hadd_1/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1313 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# enb_0/rn5 vdd adderblock_0/fadd_3/hadd_1/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1314 vdd adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_1/xor_0/a_66_6# adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1315 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_0/sum vdd adderblock_0/fadd_3/hadd_1/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1316 adderblock_0/fadd_3/hadd_1/xor_0/a_46_n62# adderblock_0/fadd_3/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1317 gnd adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_3/hadd_1/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1318 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1319 adderblock_0/fadd_3/hadd_1/xor_0/a_46_6# adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# vdd adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1320 adderblock_0/fadd_3/hadd_1/xor_0/a_66_n62# adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# san3 Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1321 san3 adderblock_0/fadd_3/hadd_0/sum adderblock_0/fadd_3/hadd_1/xor_0/a_46_6# adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1322 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# adderblock_0/fadd_3/hadd_0/sum vdd adderblock_0/fadd_3/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1323 vdd enb_0/rn5 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# adderblock_0/fadd_3/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1324 adderblock_0/fadd_3/hadd_1/and_0/a_15_n26# adderblock_0/fadd_3/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1325 adderblock_0/fadd_3/or_0/in2 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1326 adderblock_0/fadd_3/or_0/in2 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# vdd adderblock_0/fadd_3/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1327 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# enb_0/rn5 adderblock_0/fadd_3/hadd_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1328 adderblock_0/fadd_0/or_0/a_15_6# adderblock_0/fadd_0/or_0/in1 vdd adderblock_0/fadd_0/or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1329 adderblock_0/fadd_0/or_0/a_15_n26# adderblock_0/fadd_0/or_0/in2 adderblock_0/fadd_0/or_0/a_15_6# adderblock_0/fadd_0/or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1330 adderblock_0/fadd_0/or_0/a_15_n26# adderblock_0/fadd_0/or_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1331 adderblock_0/fadd_1/in1 adderblock_0/fadd_0/or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1332 adderblock_0/fadd_1/in1 adderblock_0/fadd_0/or_0/a_15_n26# vdd adderblock_0/fadd_0/or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1333 gnd adderblock_0/fadd_0/or_0/in2 adderblock_0/fadd_0/or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1334 adderblock_0/fadd_0/hadd_0/xor_0/a_66_6# enb_0/rn8 adderblock_0/fadd_0/hadd_0/sum adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1335 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# enb_0/rn8 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1336 adderblock_0/fadd_0/hadd_0/sum enb_0/rn8 adderblock_0/fadd_0/hadd_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1337 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# enb_0/rn8 vdd adderblock_0/fadd_0/hadd_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1338 vdd adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/xor_0/a_66_6# adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1339 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# enb_0/rn4 vdd adderblock_0/fadd_0/hadd_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1340 adderblock_0/fadd_0/hadd_0/xor_0/a_46_n62# enb_0/rn4 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1341 gnd adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_0/hadd_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1342 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# enb_0/rn4 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1343 adderblock_0/fadd_0/hadd_0/xor_0/a_46_6# adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# vdd adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1344 adderblock_0/fadd_0/hadd_0/xor_0/a_66_n62# adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/sum Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1345 adderblock_0/fadd_0/hadd_0/sum enb_0/rn4 adderblock_0/fadd_0/hadd_0/xor_0/a_46_6# adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1346 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# enb_0/rn4 vdd adderblock_0/fadd_0/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1347 vdd enb_0/rn8 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# adderblock_0/fadd_0/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1348 adderblock_0/fadd_0/hadd_0/and_0/a_15_n26# enb_0/rn4 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1349 adderblock_0/fadd_0/or_0/in1 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1350 adderblock_0/fadd_0/or_0/in1 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# vdd adderblock_0/fadd_0/hadd_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1351 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# enb_0/rn8 adderblock_0/fadd_0/hadd_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1352 adderblock_0/fadd_0/hadd_1/xor_0/a_66_6# i_carry san0 adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1353 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# i_carry gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1354 san0 i_carry adderblock_0/fadd_0/hadd_1/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1355 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# i_carry vdd adderblock_0/fadd_0/hadd_1/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1356 vdd adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_1/xor_0/a_66_6# adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1357 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/sum vdd adderblock_0/fadd_0/hadd_1/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1358 adderblock_0/fadd_0/hadd_1/xor_0/a_46_n62# adderblock_0/fadd_0/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1359 gnd adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_0/hadd_1/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1360 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1361 adderblock_0/fadd_0/hadd_1/xor_0/a_46_6# adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# vdd adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1362 adderblock_0/fadd_0/hadd_1/xor_0/a_66_n62# adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# san0 Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1363 san0 adderblock_0/fadd_0/hadd_0/sum adderblock_0/fadd_0/hadd_1/xor_0/a_46_6# adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1364 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# adderblock_0/fadd_0/hadd_0/sum vdd adderblock_0/fadd_0/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1365 vdd i_carry adderblock_0/fadd_0/hadd_1/and_0/a_15_6# adderblock_0/fadd_0/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1366 adderblock_0/fadd_0/hadd_1/and_0/a_15_n26# adderblock_0/fadd_0/hadd_0/sum gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1367 adderblock_0/fadd_0/or_0/in2 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1368 adderblock_0/fadd_0/or_0/in2 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# vdd adderblock_0/fadd_0/hadd_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1369 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# i_carry adderblock_0/fadd_0/hadd_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1370 computer_0/and_5/a_15_6# computer_0/and_5/in1 vdd computer_0/and_5/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1371 vdd computer_0/xnor1 computer_0/and_5/a_15_6# computer_0/and_5/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1372 computer_0/and_5/a_15_n26# computer_0/and_5/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1373 computer_0/tem2 computer_0/and_5/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1374 computer_0/tem2 computer_0/and_5/a_15_6# vdd computer_0/and_5/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1375 computer_0/and_5/a_15_6# computer_0/xnor1 computer_0/and_5/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1376 computer_0/xnor1 computer_0/xor_0/out gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1377 computer_0/xnor1 computer_0/xor_0/out vdd computer_0/notg_0/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1378 computer_0/and_7/a_15_6# computer_0/xnor1 vdd computer_0/and_7/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1379 vdd computer_0/xnor2 computer_0/and_7/a_15_6# computer_0/and_7/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1380 computer_0/and_7/a_15_n26# computer_0/xnor1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1381 computer_0/and_8/in2 computer_0/and_7/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1382 computer_0/and_8/in2 computer_0/and_7/a_15_6# vdd computer_0/and_7/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1383 computer_0/and_7/a_15_6# computer_0/xnor2 computer_0/and_7/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1384 computer_0/and_6/a_15_6# computer_0/and_6/in1 vdd computer_0/and_6/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1385 vdd mum3 computer_0/and_6/a_15_6# computer_0/and_6/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1386 computer_0/and_6/a_15_n26# computer_0/and_6/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1387 computer_0/and_8/in1 computer_0/and_6/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1388 computer_0/and_8/in1 computer_0/and_6/a_15_6# vdd computer_0/and_6/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1389 computer_0/and_6/a_15_6# mum3 computer_0/and_6/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1390 computer_0/xnor3 computer_0/xor_2/out gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1391 computer_0/xnor3 computer_0/xor_2/out vdd computer_0/notg_2/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1392 computer_0/xnor2 computer_0/xor_1/out gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1393 computer_0/xnor2 computer_0/xor_1/out vdd computer_0/notg_1/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1394 computer_0/and_8/a_15_6# computer_0/and_8/in1 vdd computer_0/and_8/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1395 vdd computer_0/and_8/in2 computer_0/and_8/a_15_6# computer_0/and_8/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1396 computer_0/and_8/a_15_n26# computer_0/and_8/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1397 computer_0/tem3 computer_0/and_8/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1398 computer_0/tem3 computer_0/and_8/a_15_6# vdd computer_0/and_8/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1399 computer_0/and_8/a_15_6# computer_0/and_8/in2 computer_0/and_8/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1400 computer_0/xnor4 computer_0/xor_3/out gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1401 computer_0/xnor4 computer_0/xor_3/out vdd computer_0/notg_3/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1402 computer_0/and_9/a_15_6# computer_0/and_9/in1 vdd computer_0/and_9/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1403 vdd mum4 computer_0/and_9/a_15_6# computer_0/and_9/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1404 computer_0/and_9/a_15_n26# computer_0/and_9/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1405 computer_0/and_9/out computer_0/and_9/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1406 computer_0/and_9/out computer_0/and_9/a_15_6# vdd computer_0/and_9/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1407 computer_0/and_9/a_15_6# mum4 computer_0/and_9/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1408 computer_0/and_3/in1 mum5 gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1409 computer_0/and_3/in1 mum5 vdd computer_0/notg_4/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1410 computer_0/and_4/in1 mum6 gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1411 computer_0/and_4/in1 mum6 vdd computer_0/notg_5/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1412 computer_0/and_6/in1 mum7 gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1413 computer_0/and_6/in1 mum7 vdd computer_0/notg_6/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1414 computer_0/and_9/in1 mum8 gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1415 computer_0/and_9/in1 mum8 vdd computer_0/notg_7/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1416 l computer_0/or_3/out gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=0 ps=0
+M1417 l computer_0/or_3/out vdd computer_0/notg_8/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=0 ps=0
+M1418 computer_0/or_0/a_15_6# computer_0/tem4 vdd computer_0/or_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1419 computer_0/or_0/a_15_n26# computer_0/tem3 computer_0/or_0/a_15_6# computer_0/or_0/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1420 computer_0/or_0/a_15_n26# computer_0/tem4 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1421 computer_0/or_2/in1 computer_0/or_0/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1422 computer_0/or_2/in1 computer_0/or_0/a_15_n26# vdd computer_0/or_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1423 gnd computer_0/tem3 computer_0/or_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1424 computer_0/or_1/a_15_6# computer_0/tem1 vdd computer_0/or_1/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1425 computer_0/or_1/a_15_n26# computer_0/tem2 computer_0/or_1/a_15_6# computer_0/or_1/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1426 computer_0/or_1/a_15_n26# computer_0/tem1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1427 computer_0/or_2/in2 computer_0/or_1/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1428 computer_0/or_2/in2 computer_0/or_1/a_15_n26# vdd computer_0/or_1/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1429 gnd computer_0/tem2 computer_0/or_1/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1430 computer_0/or_2/a_15_6# computer_0/or_2/in1 vdd computer_0/or_2/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1431 computer_0/or_2/a_15_n26# computer_0/or_2/in2 computer_0/or_2/a_15_6# computer_0/or_2/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1432 computer_0/or_2/a_15_n26# computer_0/or_2/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1433 g computer_0/or_2/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1434 g computer_0/or_2/a_15_n26# vdd computer_0/or_2/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1435 gnd computer_0/or_2/in2 computer_0/or_2/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1436 computer_0/or_3/a_15_6# g vdd computer_0/or_3/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1437 computer_0/or_3/a_15_n26# e computer_0/or_3/a_15_6# computer_0/or_3/w_0_0# pfet w=8 l=2
++  ad=56 pd=30 as=0 ps=0
+M1438 computer_0/or_3/a_15_n26# g gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1439 computer_0/or_3/out computer_0/or_3/a_15_n26# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1440 computer_0/or_3/out computer_0/or_3/a_15_n26# vdd computer_0/or_3/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1441 gnd e computer_0/or_3/a_15_n26# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1442 computer_0/xor_0/a_66_6# mum1 computer_0/xor_0/out computer_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1443 computer_0/xor_0/a_15_n12# mum1 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1444 computer_0/xor_0/out mum1 computer_0/xor_0/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1445 computer_0/xor_0/a_15_n12# mum1 vdd computer_0/xor_0/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1446 vdd computer_0/xor_0/a_15_n62# computer_0/xor_0/a_66_6# computer_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1447 computer_0/xor_0/a_15_n62# mum5 vdd computer_0/xor_0/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1448 computer_0/xor_0/a_46_n62# mum5 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1449 gnd computer_0/xor_0/a_15_n12# computer_0/xor_0/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1450 computer_0/xor_0/a_15_n62# mum5 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1451 computer_0/xor_0/a_46_6# computer_0/xor_0/a_15_n12# vdd computer_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1452 computer_0/xor_0/a_66_n62# computer_0/xor_0/a_15_n62# computer_0/xor_0/out Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1453 computer_0/xor_0/out mum5 computer_0/xor_0/a_46_6# computer_0/xor_0/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1454 computer_0/xor_1/a_66_6# mum2 computer_0/xor_1/out computer_0/xor_1/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1455 computer_0/xor_1/a_15_n12# mum2 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1456 computer_0/xor_1/out mum2 computer_0/xor_1/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1457 computer_0/xor_1/a_15_n12# mum2 vdd computer_0/xor_1/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1458 vdd computer_0/xor_1/a_15_n62# computer_0/xor_1/a_66_6# computer_0/xor_1/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1459 computer_0/xor_1/a_15_n62# mum6 vdd computer_0/xor_1/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1460 computer_0/xor_1/a_46_n62# mum6 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1461 gnd computer_0/xor_1/a_15_n12# computer_0/xor_1/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1462 computer_0/xor_1/a_15_n62# mum6 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1463 computer_0/xor_1/a_46_6# computer_0/xor_1/a_15_n12# vdd computer_0/xor_1/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1464 computer_0/xor_1/a_66_n62# computer_0/xor_1/a_15_n62# computer_0/xor_1/out Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1465 computer_0/xor_1/out mum6 computer_0/xor_1/a_46_6# computer_0/xor_1/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1466 computer_0/and_10/a_15_6# computer_0/and_8/in2 vdd computer_0/and_10/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1467 vdd computer_0/xnor3 computer_0/and_10/a_15_6# computer_0/and_10/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1468 computer_0/and_10/a_15_n26# computer_0/and_8/in2 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1469 computer_0/and_11/in2 computer_0/and_10/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1470 computer_0/and_11/in2 computer_0/and_10/a_15_6# vdd computer_0/and_10/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1471 computer_0/and_10/a_15_6# computer_0/xnor3 computer_0/and_10/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1472 computer_0/xor_2/a_66_6# mum3 computer_0/xor_2/out computer_0/xor_2/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1473 computer_0/xor_2/a_15_n12# mum3 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1474 computer_0/xor_2/out mum3 computer_0/xor_2/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1475 computer_0/xor_2/a_15_n12# mum3 vdd computer_0/xor_2/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1476 vdd computer_0/xor_2/a_15_n62# computer_0/xor_2/a_66_6# computer_0/xor_2/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1477 computer_0/xor_2/a_15_n62# mum7 vdd computer_0/xor_2/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1478 computer_0/xor_2/a_46_n62# mum7 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1479 gnd computer_0/xor_2/a_15_n12# computer_0/xor_2/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1480 computer_0/xor_2/a_15_n62# mum7 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1481 computer_0/xor_2/a_46_6# computer_0/xor_2/a_15_n12# vdd computer_0/xor_2/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1482 computer_0/xor_2/a_66_n62# computer_0/xor_2/a_15_n62# computer_0/xor_2/out Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1483 computer_0/xor_2/out mum7 computer_0/xor_2/a_46_6# computer_0/xor_2/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1484 computer_0/and_11/a_15_6# computer_0/and_9/out vdd computer_0/and_11/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1485 vdd computer_0/and_11/in2 computer_0/and_11/a_15_6# computer_0/and_11/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1486 computer_0/and_11/a_15_n26# computer_0/and_9/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1487 computer_0/tem4 computer_0/and_11/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1488 computer_0/tem4 computer_0/and_11/a_15_6# vdd computer_0/and_11/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1489 computer_0/and_11/a_15_6# computer_0/and_11/in2 computer_0/and_11/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1490 computer_0/xor_3/a_66_6# mum4 computer_0/xor_3/out computer_0/xor_3/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=64 ps=32
+M1491 computer_0/xor_3/a_15_n12# mum4 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1492 computer_0/xor_3/out mum4 computer_0/xor_3/a_46_n62# Gnd nfet w=4 l=2
++  ad=32 pd=24 as=32 ps=24
+M1493 computer_0/xor_3/a_15_n12# mum4 vdd computer_0/xor_3/w_2_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1494 vdd computer_0/xor_3/a_15_n62# computer_0/xor_3/a_66_6# computer_0/xor_3/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1495 computer_0/xor_3/a_15_n62# mum8 vdd computer_0/xor_3/w_2_n50# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1496 computer_0/xor_3/a_46_n62# mum8 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1497 gnd computer_0/xor_3/a_15_n12# computer_0/xor_3/a_66_n62# Gnd nfet w=4 l=2
++  ad=0 pd=0 as=32 ps=24
+M1498 computer_0/xor_3/a_15_n62# mum8 gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1499 computer_0/xor_3/a_46_6# computer_0/xor_3/a_15_n12# vdd computer_0/xor_3/w_32_0# pfet w=8 l=2
++  ad=64 pd=32 as=0 ps=0
+M1500 computer_0/xor_3/a_66_n62# computer_0/xor_3/a_15_n62# computer_0/xor_3/out Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1501 computer_0/xor_3/out mum8 computer_0/xor_3/a_46_6# computer_0/xor_3/w_32_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1502 computer_0/and_0/a_15_6# computer_0/xnor1 vdd computer_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1503 vdd computer_0/xnor2 computer_0/and_0/a_15_6# computer_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1504 computer_0/and_0/a_15_n26# computer_0/xnor1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1505 computer_0/and_2/in1 computer_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1506 computer_0/and_2/in1 computer_0/and_0/a_15_6# vdd computer_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1507 computer_0/and_0/a_15_6# computer_0/xnor2 computer_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1508 computer_0/and_1/a_15_6# computer_0/xnor3 vdd computer_0/and_1/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1509 vdd computer_0/xnor4 computer_0/and_1/a_15_6# computer_0/and_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1510 computer_0/and_1/a_15_n26# computer_0/xnor3 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1511 computer_0/and_2/in2 computer_0/and_1/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1512 computer_0/and_2/in2 computer_0/and_1/a_15_6# vdd computer_0/and_1/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1513 computer_0/and_1/a_15_6# computer_0/xnor4 computer_0/and_1/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1514 computer_0/and_2/a_15_6# computer_0/and_2/in1 vdd computer_0/and_2/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1515 vdd computer_0/and_2/in2 computer_0/and_2/a_15_6# computer_0/and_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1516 computer_0/and_2/a_15_n26# computer_0/and_2/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1517 e computer_0/and_2/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1518 e computer_0/and_2/a_15_6# vdd computer_0/and_2/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1519 computer_0/and_2/a_15_6# computer_0/and_2/in2 computer_0/and_2/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1520 computer_0/and_3/a_15_6# computer_0/and_3/in1 vdd computer_0/and_3/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1521 vdd mum1 computer_0/and_3/a_15_6# computer_0/and_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1522 computer_0/and_3/a_15_n26# computer_0/and_3/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1523 computer_0/tem1 computer_0/and_3/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1524 computer_0/tem1 computer_0/and_3/a_15_6# vdd computer_0/and_3/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1525 computer_0/and_3/a_15_6# mum1 computer_0/and_3/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1526 computer_0/and_4/a_15_6# computer_0/and_4/in1 vdd computer_0/and_4/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1527 vdd mum2 computer_0/and_4/a_15_6# computer_0/and_4/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1528 computer_0/and_4/a_15_n26# computer_0/and_4/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1529 computer_0/and_5/in1 computer_0/and_4/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1530 computer_0/and_5/in1 computer_0/and_4/a_15_6# vdd computer_0/and_4/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1531 computer_0/and_4/a_15_6# mum2 computer_0/and_4/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1532 enb_0/and_5/a_15_6# d_zero vdd enb_0/and_5/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1533 vdd by2_b enb_0/and_5/a_15_6# enb_0/and_5/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1534 enb_0/and_5/a_15_n26# d_zero gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1535 enb_0/rn6 enb_0/and_5/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1536 enb_0/rn6 enb_0/and_5/a_15_6# vdd enb_0/and_5/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1537 enb_0/and_5/a_15_6# by2_b enb_0/and_5/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1538 enb_0/and_6/a_15_6# by2_c vdd enb_0/and_6/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1539 vdd d_zero enb_0/and_6/a_15_6# enb_0/and_6/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1540 enb_0/and_6/a_15_n26# by2_c gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1541 enb_0/rn7 enb_0/and_6/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1542 enb_0/rn7 enb_0/and_6/a_15_6# vdd enb_0/and_6/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1543 enb_0/and_6/a_15_6# d_zero enb_0/and_6/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1544 enb_0/and_7/a_15_6# by2_d vdd enb_0/and_7/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1545 vdd d_zero enb_0/and_7/a_15_6# enb_0/and_7/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1546 enb_0/and_7/a_15_n26# by2_d gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1547 enb_0/rn8 enb_0/and_7/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1548 enb_0/rn8 enb_0/and_7/a_15_6# vdd enb_0/and_7/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1549 enb_0/and_7/a_15_6# d_zero enb_0/and_7/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1550 enb_0/and_0/a_15_6# d_zero vdd enb_0/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1551 vdd by1_a enb_0/and_0/a_15_6# enb_0/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1552 enb_0/and_0/a_15_n26# d_zero gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1553 enb_0/rn1 enb_0/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1554 enb_0/rn1 enb_0/and_0/a_15_6# vdd enb_0/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1555 enb_0/and_0/a_15_6# by1_a enb_0/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1556 enb_0/and_1/a_15_6# d_zero vdd enb_0/and_1/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1557 vdd by1_b enb_0/and_1/a_15_6# enb_0/and_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1558 enb_0/and_1/a_15_n26# d_zero gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1559 enb_0/rn2 enb_0/and_1/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1560 enb_0/rn2 enb_0/and_1/a_15_6# vdd enb_0/and_1/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1561 enb_0/and_1/a_15_6# by1_b enb_0/and_1/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1562 enb_0/and_2/a_15_6# d_zero vdd enb_0/and_2/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1563 vdd by1_c enb_0/and_2/a_15_6# enb_0/and_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1564 enb_0/and_2/a_15_n26# d_zero gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1565 enb_0/rn3 enb_0/and_2/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1566 enb_0/rn3 enb_0/and_2/a_15_6# vdd enb_0/and_2/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1567 enb_0/and_2/a_15_6# by1_c enb_0/and_2/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1568 enb_0/and_3/a_15_6# d_zero vdd enb_0/and_3/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1569 vdd by1_d enb_0/and_3/a_15_6# enb_0/and_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1570 enb_0/and_3/a_15_n26# d_zero gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1571 enb_0/rn4 enb_0/and_3/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1572 enb_0/rn4 enb_0/and_3/a_15_6# vdd enb_0/and_3/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1573 enb_0/and_3/a_15_6# by1_d enb_0/and_3/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1574 enb_0/and_4/a_15_6# d_zero vdd enb_0/and_4/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1575 vdd by2_a enb_0/and_4/a_15_6# enb_0/and_4/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1576 enb_0/and_4/a_15_n26# d_zero gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1577 enb_0/rn5 enb_0/and_4/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1578 enb_0/rn5 enb_0/and_4/a_15_6# vdd enb_0/and_4/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1579 enb_0/and_4/a_15_6# by2_a enb_0/and_4/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1580 enb_1/and_5/a_15_6# and_1/out vdd enb_1/and_5/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1581 vdd by2_c enb_1/and_5/a_15_6# enb_1/and_5/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1582 enb_1/and_5/a_15_n26# and_1/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1583 enb_1/rn6 enb_1/and_5/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1584 enb_1/rn6 enb_1/and_5/a_15_6# vdd enb_1/and_5/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1585 enb_1/and_5/a_15_6# by2_c enb_1/and_5/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1586 enb_1/and_6/a_15_6# by1_d vdd enb_1/and_6/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1587 vdd and_1/out enb_1/and_6/a_15_6# enb_1/and_6/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1588 enb_1/and_6/a_15_n26# by1_d gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1589 enb_1/rn7 enb_1/and_6/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1590 enb_1/rn7 enb_1/and_6/a_15_6# vdd enb_1/and_6/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1591 enb_1/and_6/a_15_6# and_1/out enb_1/and_6/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1592 enb_1/and_7/a_15_6# by2_d vdd enb_1/and_7/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1593 vdd and_1/out enb_1/and_7/a_15_6# enb_1/and_7/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1594 enb_1/and_7/a_15_n26# by2_d gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1595 enb_1/rn8 enb_1/and_7/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1596 enb_1/rn8 enb_1/and_7/a_15_6# vdd enb_1/and_7/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1597 enb_1/and_7/a_15_6# and_1/out enb_1/and_7/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1598 enb_1/and_0/a_15_6# and_1/out vdd enb_1/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1599 vdd by1_a enb_1/and_0/a_15_6# enb_1/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1600 enb_1/and_0/a_15_n26# and_1/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1601 enb_1/rn1 enb_1/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1602 enb_1/rn1 enb_1/and_0/a_15_6# vdd enb_1/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1603 enb_1/and_0/a_15_6# by1_a enb_1/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1604 enb_1/and_1/a_15_6# and_1/out vdd enb_1/and_1/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1605 vdd by2_a enb_1/and_1/a_15_6# enb_1/and_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1606 enb_1/and_1/a_15_n26# and_1/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1607 enb_1/rn2 enb_1/and_1/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1608 enb_1/rn2 enb_1/and_1/a_15_6# vdd enb_1/and_1/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1609 enb_1/and_1/a_15_6# by2_a enb_1/and_1/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1610 enb_1/and_2/a_15_6# and_1/out vdd enb_1/and_2/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1611 vdd by1_b enb_1/and_2/a_15_6# enb_1/and_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1612 enb_1/and_2/a_15_n26# and_1/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1613 enb_1/rn3 enb_1/and_2/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1614 enb_1/rn3 enb_1/and_2/a_15_6# vdd enb_1/and_2/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1615 enb_1/and_2/a_15_6# by1_b enb_1/and_2/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1616 enb_1/and_3/a_15_6# and_1/out vdd enb_1/and_3/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1617 vdd by2_b enb_1/and_3/a_15_6# enb_1/and_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1618 enb_1/and_3/a_15_n26# and_1/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1619 enb_1/rn4 enb_1/and_3/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1620 enb_1/rn4 enb_1/and_3/a_15_6# vdd enb_1/and_3/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1621 enb_1/and_3/a_15_6# by2_b enb_1/and_3/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1622 enb_1/and_4/a_15_6# and_1/out vdd enb_1/and_4/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1623 vdd by1_c enb_1/and_4/a_15_6# enb_1/and_4/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1624 enb_1/and_4/a_15_n26# and_1/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1625 enb_1/rn5 enb_1/and_4/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1626 enb_1/rn5 enb_1/and_4/a_15_6# vdd enb_1/and_4/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1627 enb_1/and_4/a_15_6# by1_c enb_1/and_4/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1628 enb_2/and_5/a_15_6# lol vdd enb_2/and_5/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1629 vdd by2_b enb_2/and_5/a_15_6# enb_2/and_5/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1630 enb_2/and_5/a_15_n26# lol gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1631 mum6 enb_2/and_5/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1632 mum6 enb_2/and_5/a_15_6# vdd enb_2/and_5/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1633 enb_2/and_5/a_15_6# by2_b enb_2/and_5/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1634 enb_2/and_6/a_15_6# by2_c vdd enb_2/and_6/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1635 vdd lol enb_2/and_6/a_15_6# enb_2/and_6/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1636 enb_2/and_6/a_15_n26# by2_c gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1637 mum7 enb_2/and_6/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1638 mum7 enb_2/and_6/a_15_6# vdd enb_2/and_6/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1639 enb_2/and_6/a_15_6# lol enb_2/and_6/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1640 enb_2/and_7/a_15_6# by2_d vdd enb_2/and_7/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1641 vdd lol enb_2/and_7/a_15_6# enb_2/and_7/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1642 enb_2/and_7/a_15_n26# by2_d gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1643 mum8 enb_2/and_7/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1644 mum8 enb_2/and_7/a_15_6# vdd enb_2/and_7/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1645 enb_2/and_7/a_15_6# lol enb_2/and_7/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1646 enb_2/and_0/a_15_6# lol vdd enb_2/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1647 vdd by1_a enb_2/and_0/a_15_6# enb_2/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1648 enb_2/and_0/a_15_n26# lol gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1649 mum1 enb_2/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1650 mum1 enb_2/and_0/a_15_6# vdd enb_2/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1651 enb_2/and_0/a_15_6# by1_a enb_2/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1652 enb_2/and_1/a_15_6# lol vdd enb_2/and_1/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1653 vdd by1_b enb_2/and_1/a_15_6# enb_2/and_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1654 enb_2/and_1/a_15_n26# lol gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1655 mum2 enb_2/and_1/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1656 mum2 enb_2/and_1/a_15_6# vdd enb_2/and_1/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1657 enb_2/and_1/a_15_6# by1_b enb_2/and_1/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1658 enb_2/and_2/a_15_6# lol vdd enb_2/and_2/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1659 vdd by1_c enb_2/and_2/a_15_6# enb_2/and_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1660 enb_2/and_2/a_15_n26# lol gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1661 mum3 enb_2/and_2/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1662 mum3 enb_2/and_2/a_15_6# vdd enb_2/and_2/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1663 enb_2/and_2/a_15_6# by1_c enb_2/and_2/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1664 enb_2/and_3/a_15_6# lol vdd enb_2/and_3/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1665 vdd by1_d enb_2/and_3/a_15_6# enb_2/and_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1666 enb_2/and_3/a_15_n26# lol gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1667 mum4 enb_2/and_3/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1668 mum4 enb_2/and_3/a_15_6# vdd enb_2/and_3/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1669 enb_2/and_3/a_15_6# by1_d enb_2/and_3/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1670 enb_2/and_4/a_15_6# lol vdd enb_2/and_4/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1671 vdd by2_a enb_2/and_4/a_15_6# enb_2/and_4/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1672 enb_2/and_4/a_15_n26# lol gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1673 mum5 enb_2/and_4/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1674 mum5 enb_2/and_4/a_15_6# vdd enb_2/and_4/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1675 enb_2/and_4/a_15_6# by2_a enb_2/and_4/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1676 enb_3/and_5/a_15_6# and_7/out vdd enb_3/and_5/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1677 vdd by2_b enb_3/and_5/a_15_6# enb_3/and_5/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1678 enb_3/and_5/a_15_n26# and_7/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1679 reap6 enb_3/and_5/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1680 reap6 enb_3/and_5/a_15_6# vdd enb_3/and_5/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1681 enb_3/and_5/a_15_6# by2_b enb_3/and_5/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1682 enb_3/and_6/a_15_6# by2_c vdd enb_3/and_6/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1683 vdd and_7/out enb_3/and_6/a_15_6# enb_3/and_6/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1684 enb_3/and_6/a_15_n26# by2_c gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1685 reap7 enb_3/and_6/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1686 reap7 enb_3/and_6/a_15_6# vdd enb_3/and_6/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1687 enb_3/and_6/a_15_6# and_7/out enb_3/and_6/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1688 enb_3/and_7/a_15_6# by2_d vdd enb_3/and_7/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1689 vdd and_7/out enb_3/and_7/a_15_6# enb_3/and_7/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1690 enb_3/and_7/a_15_n26# by2_d gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1691 reap8 enb_3/and_7/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1692 reap8 enb_3/and_7/a_15_6# vdd enb_3/and_7/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1693 enb_3/and_7/a_15_6# and_7/out enb_3/and_7/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1694 enb_3/and_0/a_15_6# and_7/out vdd enb_3/and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1695 vdd by1_a enb_3/and_0/a_15_6# enb_3/and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1696 enb_3/and_0/a_15_n26# and_7/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1697 reap1 enb_3/and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1698 reap1 enb_3/and_0/a_15_6# vdd enb_3/and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1699 enb_3/and_0/a_15_6# by1_a enb_3/and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1700 enb_3/and_1/a_15_6# and_7/out vdd enb_3/and_1/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1701 vdd by1_b enb_3/and_1/a_15_6# enb_3/and_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1702 enb_3/and_1/a_15_n26# and_7/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1703 reap2 enb_3/and_1/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1704 reap2 enb_3/and_1/a_15_6# vdd enb_3/and_1/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1705 enb_3/and_1/a_15_6# by1_b enb_3/and_1/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1706 enb_3/and_2/a_15_6# and_7/out vdd enb_3/and_2/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1707 vdd by1_c enb_3/and_2/a_15_6# enb_3/and_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1708 enb_3/and_2/a_15_n26# and_7/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1709 reap3 enb_3/and_2/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1710 reap3 enb_3/and_2/a_15_6# vdd enb_3/and_2/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1711 enb_3/and_2/a_15_6# by1_c enb_3/and_2/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1712 enb_3/and_3/a_15_6# and_7/out vdd enb_3/and_3/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1713 vdd by1_d enb_3/and_3/a_15_6# enb_3/and_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1714 enb_3/and_3/a_15_n26# and_7/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1715 reap4 enb_3/and_3/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1716 reap4 enb_3/and_3/a_15_6# vdd enb_3/and_3/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1717 enb_3/and_3/a_15_6# by1_d enb_3/and_3/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1718 enb_3/and_4/a_15_6# and_7/out vdd enb_3/and_4/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1719 vdd by2_a enb_3/and_4/a_15_6# enb_3/and_4/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1720 enb_3/and_4/a_15_n26# and_7/out gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1721 reap5 enb_3/and_4/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1722 reap5 enb_3/and_4/a_15_6# vdd enb_3/and_4/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1723 enb_3/and_4/a_15_6# by2_a enb_3/and_4/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1724 and_0/a_15_6# and_0/in1 vdd and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1725 vdd and_0/in2 and_0/a_15_6# and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1726 and_0/a_15_n26# and_0/in1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1727 d_zero and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1728 d_zero and_0/a_15_6# vdd and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1729 and_0/a_15_6# and_0/in2 and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1730 and_1/a_15_6# sel1 vdd and_1/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1731 vdd sel0 and_1/a_15_6# and_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1732 and_1/a_15_n26# sel1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1733 and_1/out and_1/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1734 and_1/out and_1/a_15_6# vdd and_1/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1735 and_1/a_15_6# sel0 and_1/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1736 and_2/a_15_6# enb_1/rn1 vdd and_2/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1737 vdd enb_1/rn2 and_2/a_15_6# and_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1738 and_2/a_15_n26# enb_1/rn1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1739 gd1 and_2/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1740 gd1 and_2/a_15_6# vdd and_2/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1741 and_2/a_15_6# enb_1/rn2 and_2/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1742 and_3/a_15_6# enb_1/rn3 vdd and_3/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1743 vdd enb_1/rn4 and_3/a_15_6# and_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1744 and_3/a_15_n26# enb_1/rn3 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1745 gd2 and_3/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1746 gd2 and_3/a_15_6# vdd and_3/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1747 and_3/a_15_6# enb_1/rn4 and_3/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1748 and_4/a_15_6# enb_1/rn5 vdd and_4/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1749 vdd enb_1/rn6 and_4/a_15_6# and_4/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1750 and_4/a_15_n26# enb_1/rn5 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1751 gd3 and_4/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1752 gd3 and_4/a_15_6# vdd and_4/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1753 and_4/a_15_6# enb_1/rn6 and_4/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+C0 reap6 by2_c 18.90fF
+C1 subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_3/hadd_1/xor_0/w_32_0# 2.62fF
+C2 and_1/out enb_1/and_6/w_0_0# 2.62fF
+C3 enb_0/and_0/a_15_6# by1_a 0.24fF
+C4 and_1/out enb_1/and_6/a_15_6# 0.24fF
+C5 enb_0/rn5 enb_0/and_4/w_0_0# 1.13fF
+C6 reap1 enb_3/and_0/w_0_0# 1.13fF
+C7 mum1 mum5 13.11fF
+C8 vdd subtractblock_0/fadd_2/or_0/in1 1.44fF
+C9 vdd subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n12# 0.72fF
+C10 subtractblock_0/fadd_2/hadd_0/xor_0/w_32_0# subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n62# 2.62fF
+C11 adderblock_0/fadd_2/hadd_1/xor_0/w_2_0# enb_0/rn6 2.62fF
+C12 adderblock_0/fadd_2/hadd_1/xor_0/w_2_n50# adderblock_0/fadd_2/hadd_0/sum 2.62fF
+C13 subtractblock_0/fadd_2/or_0/a_15_n26# subtractblock_0/fadd_2/or_0/in2 0.24fF
+C14 computer_0/or_2/in2 computer_0/or_2/a_15_n26# 0.24fF
+C15 computer_0/notg_8/w_n19_1# computer_0/or_3/out 8.30fF
+C16 by1_c and_7/out 2.76fF
+C17 enb_2/and_6/w_0_0# mum7 1.13fF
+C18 computer_0/notg_8/w_n19_1# l 6.34fF
+C19 enb_0/and_4/a_15_6# by2_a 0.24fF
+C20 gnd adderblock_0/fadd_0/hadd_0/sum 1.68fF
+C21 mum6 mum4 39.47fF
+C22 mum2 mum8 16.74fF
+C23 mum3 mum7 13.61fF
+C24 vdd adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# 2.26fF
+C25 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_1/xor_0/w_2_n50# 1.13fF
+C26 vdd adderblock_0/fadd_1/hadd_0/and_0/w_0_0# 3.38fF
+C27 gnd subtractblock_0/notg_0/out 1.44fF
+C28 adderblock_0/fadd_2/hadd_0/and_0/w_0_0# adderblock_0/fadd_2/or_0/in1 1.13fF
+C29 enb_0/rn2 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# 0.24fF
+C30 and_1/out and_1/w_0_0# 1.13fF
+C31 vdd computer_0/xor_1/w_2_n50# 1.13fF
+C32 gnd computer_0/xor_0/a_15_n62# 0.96fF
+C33 enb_1/rn4 and_3/a_15_6# 0.24fF
+C34 gnd computer_0/or_2/in2 2.02fF
+C35 mum1 by2_d 30.42fF
+C36 vdd enb_1/rn1 0.90fF
+C37 vdd adderblock_0/fadd_3/in1 0.72fF
+C38 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_1/xor_0/w_2_n50# 1.13fF
+C39 vdd adderblock_0/fadd_3/hadd_0/xor_0/w_2_n50# 1.13fF
+C40 adderblock_0/fadd_2/or_0/w_0_0# adderblock_0/fadd_2/or_0/in1 2.62fF
+C41 enb_0/rn7 enb_0/rn6 2.92fF
+C42 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_0/hadd_0/xor_0/w_2_0# 1.13fF
+C43 enb_0/and_4/w_0_0# enb_0/and_4/a_15_6# 3.75fF
+C44 enb_0/and_2/w_0_0# enb_0/and_2/a_15_6# 3.75fF
+C45 computer_0/and_9/w_0_0# computer_0/and_9/a_15_6# 3.75fF
+C46 gnd enb_1/rn5 0.72fF
+C47 by2_c enb_0/and_6/w_0_0# 2.62fF
+C48 adderblock_0/fadd_3/or_0/a_15_n26# adderblock_0/fadd_3/or_0/in2 0.24fF
+C49 vdd enb_2/and_4/w_0_0# 3.38fF
+C50 vdd subtractblock_0/fadd_2/hadd_0/sum 0.72fF
+C51 and_5/a_15_6# enb_1/rn8 0.24fF
+C52 subtractblock_0/notg_1/out subtractblock_0/notg_1/w_n19_1# 6.34fF
+C53 vdd subtractblock_0/fadd_2/hadd_0/xor_0/w_2_0# 1.13fF
+C54 vdd and_7/out 6.25fF
+C55 enb_0/rn6 enb_0/and_5/w_0_0# 1.13fF
+C56 vdd subtractblock_0/fadd_0/hadd_1/and_0/w_0_0# 3.38fF
+C57 subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n12# subt0 0.24fF
+C58 reap3 gnd 2.16fF
+C59 enb_3/and_2/w_0_0# by1_c 2.62fF
+C60 vdd subtractblock_0/fadd_0/hadd_0/xor_0/w_2_n50# 1.13fF
+C61 computer_0/and_5/w_0_0# computer_0/and_5/in1 2.62fF
+C62 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# enb_0/rn4 0.72fF
+C63 adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# enb_0/rn8 2.62fF
+C64 adderblock_0/fadd_0/hadd_0/xor_0/w_2_n50# adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# 1.13fF
+C65 adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# enb_0/rn5 2.62fF
+C66 gnd subtractblock_0/fadd_3/in1 1.68fF
+C67 subtractblock_0/fadd_2/hadd_1/xor_0/w_2_0# subtractblock_0/notg_2/out 2.62fF
+C68 subtractblock_0/fadd_2/hadd_1/xor_0/w_2_n50# subtractblock_0/fadd_2/hadd_0/sum 2.62fF
+C69 subtractblock_0/fadd_1/hadd_0/and_0/w_0_0# subtractblock_0/fadd_1/in1 2.62fF
+C70 mum5 mum7 18.32fF
+C71 vdd enb_0/rn6 2.16fF
+C72 adderblock_0/fadd_1/or_0/in1 adderblock_0/fadd_1/hadd_0/sum 0.72fF
+C73 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# enb_0/rn3 0.24fF
+C74 vdd subtractblock_0/fadd_0/or_0/w_0_0# 2.26fF
+C75 subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_1/in1 0.72fF
+C76 computer_0/xor_0/out computer_0/xor_0/a_15_n62# 0.24fF
+C77 gnd adderblock_0/fadd_1/or_0/in2 0.72fF
+C78 and_5/w_0_0# gd4 1.13fF
+C79 subtractblock_0/fadd_3/or_0/in1 subtractblock_0/fadd_3/hadd_0/sum 0.72fF
+C80 subtractblock_0/fadd_2/hadd_0/and_0/w_0_0# subtractblock_0/fadd_2/or_0/in1 1.13fF
+C81 reap2 subtractblock_0/fadd_2/hadd_0/and_0/a_15_6# 0.24fF
+C82 computer_0/and_11/in2 computer_0/tem1 15.39fF
+C83 computer_0/and_9/in1 computer_0/notg_7/w_n19_1# 6.34fF
+C84 computer_0/and_5/in1 computer_0/xnor1 0.24fF
+C85 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# 7.94fF
+C86 enb_0/rn7 adderblock_0/fadd_1/hadd_0/sum 1.20fF
+C87 mum4 by2_c 32.80fF
+C88 gnd computer_0/and_9/out 32.04fF
+C89 vdd computer_0/xor_3/a_15_n12# 0.48fF
+C90 enb_0/and_0/w_0_0# d_zero 2.62fF
+C91 vdd computer_0/and_5/in1 2.34fF
+C92 computer_0/xnor4 computer_0/xnor3 0.24fF
+C93 san0 adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# 1.13fF
+C94 subtractblock_0/fadd_0/or_0/in1 subtractblock_0/fadd_0/or_0/in2 0.24fF
+C95 mum7 by2_d 41.40fF
+C96 enb_2/and_3/w_0_0# mum4 1.13fF
+C97 subtractblock_0/fadd_1/hadd_1/and_0/w_0_0# vdd 3.38fF
+C98 enb_1/rn3 enb_1/rn4 0.24fF
+C99 vdd and_4/w_0_0# 3.38fF
+C100 vdd enb_3/and_2/w_0_0# 3.38fF
+C101 notg_1/w_n19_1# vdd 5.64fF
+C102 and_7/w_0_0# vdd 3.38fF
+C103 vdd computer_0/notg_1/w_n19_1# 5.64fF
+C104 adderblock_0/fadd_0/hadd_1/and_0/w_0_0# adderblock_0/fadd_0/hadd_0/sum 2.62fF
+C105 and_6/w_0_0# vdd 3.38fF
+C106 enb_0/and_7/a_15_6# d_zero 0.24fF
+C107 subtractblock_0/fadd_0/hadd_0/and_0/w_0_0# subtractblock_0/fadd_0/hadd_0/and_0/a_15_6# 3.75fF
+C108 reap4 subtractblock_0/notg_0/out 1.20fF
+C109 enb_1/and_6/w_0_0# by1_d 2.62fF
+C110 computer_0/and_5/w_0_0# computer_0/tem2 1.13fF
+C111 gnd reap7 12.82fF
+C112 enb_0/rn6 enb_0/rn8 1.35fF
+C113 subtractblock_0/fadd_3/hadd_1/and_0/w_0_0# subtractblock_0/notg_3/out 2.62fF
+C114 adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# adderblock_0/fadd_3/in1 2.62fF
+C115 subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_2/hadd_0/sum 0.24fF
+C116 mum5 computer_0/xor_0/a_15_n62# 0.72fF
+C117 vdd adderblock_0/fadd_1/hadd_0/sum 0.72fF
+C118 subtractblock_0/fadd_2/hadd_0/xor_0/w_32_0# reap2 2.62fF
+C119 subtractblock_0/fadd_2/hadd_0/xor_0/w_2_n50# subtractblock_0/fadd_2/in1 2.62fF
+C120 san2 adderblock_0/fadd_2/or_0/in2 0.72fF
+C121 adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# adderblock_0/fadd_2/hadd_0/sum 2.62fF
+C122 and_1/out enb_1/and_3/w_0_0# 2.62fF
+C123 enb_1/rn1 and_2/w_0_0# 2.62fF
+C124 and_1/out enb_1/and_1/w_0_0# 2.62fF
+C125 by1_c d_zero 6.36fF
+C126 mum2 computer_0/and_4/in1 0.24fF
+C127 vdd computer_0/tem2 72.00fF
+C128 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_0/sum 0.24fF
+C129 vdd adderblock_0/fadd_1/hadd_0/xor_0/w_2_0# 1.13fF
+C130 computer_0/and_11/in2 computer_0/and_11/w_0_0# 2.62fF
+C131 mum7 computer_0/xor_2/a_15_n62# 0.72fF
+C132 g e 0.24fF
+C133 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n12# subt1 0.24fF
+C134 mum6 by2_c 19.44fF
+C135 vdd mum2 9.86fF
+C136 gnd adderblock_0/fadd_3/in1 1.68fF
+C137 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# 2.62fF
+C138 subtractblock_0/fadd_0/hadd_0/xor_0/w_32_0# subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n62# 2.62fF
+C139 adderblock_0/fadd_1/or_0/w_0_0# adderblock_0/fadd_1/or_0/in2 2.62fF
+C140 subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n12# subtractblock_0/fadd_2/hadd_1/xor_0/w_32_0# 7.94fF
+C141 enb_0/and_5/w_0_0# d_zero 2.62fF
+C142 gnd subtractblock_0/fadd_2/hadd_0/sum 1.68fF
+C143 vdd subtractblock_0/notg_1/w_n19_1# 5.64fF
+C144 reap5 reap8 2.97fF
+C145 lol enb_2/and_7/a_15_6# 0.24fF
+C146 vdd d_zero 6.25fF
+C147 enb_3/and_5/w_0_0# and_7/out 2.62fF
+C148 vdd sub_carry 2.16fF
+C149 enb_0/rn2 adderblock_0/fadd_2/hadd_0/sum 0.24fF
+C150 subtractblock_0/fadd_1/or_0/in1 subtractblock_0/fadd_1/or_0/in2 0.24fF
+C151 enb_1/rn3 enb_1/and_2/w_0_0# 1.13fF
+C152 enb_0/and_3/w_0_0# d_zero 2.62fF
+C153 enb_0/and_6/a_15_6# d_zero 0.24fF
+C154 subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n12# vdd 0.48fF
+C155 subtractblock_0/fadd_1/or_0/a_15_n26# subtractblock_0/fadd_1/or_0/in2 0.24fF
+C156 sel0 by1_c 128.70fF
+C157 reap3 by2_d 6.21fF
+C158 and_3/a_15_6# and_3/w_0_0# 3.75fF
+C159 enb_2/and_2/w_0_0# enb_2/and_2/a_15_6# 3.75fF
+C160 adderblock_0/fadd_0/or_0/w_0_0# adderblock_0/fadd_0/or_0/in1 2.62fF
+C161 enb_0/and_1/w_0_0# by1_b 2.62fF
+C162 gnd enb_0/rn6 998.41fF
+C163 vdd subtractblock_0/fadd_3/or_0/in1 1.44fF
+C164 vdd subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n12# 0.72fF
+C165 subt2 subtractblock_0/fadd_2/or_0/in2 0.72fF
+C166 subtractblock_0/fadd_2/hadd_1/xor_0/w_32_0# subtractblock_0/fadd_2/hadd_0/sum 2.62fF
+C167 subtractblock_0/fadd_1/hadd_0/and_0/w_0_0# subtractblock_0/fadd_1/hadd_0/and_0/a_15_6# 3.75fF
+C168 subtractblock_0/fadd_1/in1 reap3 4.62fF
+C169 enb_1/rn2 and_2/a_15_6# 0.24fF
+C170 enb_2/and_1/a_15_6# by1_b 0.24fF
+C171 enb_1/rn4 enb_1/and_3/w_0_0# 1.13fF
+C172 enb_1/and_0/w_0_0# enb_1/rn1 1.13fF
+C173 enb_3/and_4/w_0_0# enb_3/and_4/a_15_6# 3.75fF
+C174 vdd mum8 33.75fF
+C175 enb_3/and_3/w_0_0# enb_3/and_3/a_15_6# 3.75fF
+C176 gnd computer_0/xor_2/out 2.83fF
+C177 computer_0/xnor4 computer_0/and_1/a_15_6# 0.24fF
+C178 computer_0/xnor2 computer_0/and_0/w_0_0# 2.62fF
+C179 gnd san0 0.72fF
+C180 vdd adderblock_0/fadd_0/hadd_1/xor_0/w_2_n50# 1.13fF
+C181 subtractblock_0/fadd_0/hadd_1/xor_0/w_2_0# sub_carry 2.62fF
+C182 subtractblock_0/fadd_0/hadd_1/xor_0/w_2_n50# subtractblock_0/fadd_0/hadd_0/sum 2.62fF
+C183 subtractblock_0/fadd_3/hadd_0/and_0/w_0_0# subtractblock_0/fadd_3/in1 2.62fF
+C184 subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_3/in1 0.72fF
+C185 subtractblock_0/notg_1/out vdd 2.16fF
+C186 enb_2/and_1/w_0_0# lol 2.62fF
+C187 by2_c by2_b 27.63fF
+C188 gnd computer_0/xnor4 1.44fF
+C189 sel0 vdd 644.72fF
+C190 adderblock_0/fadd_0/hadd_1/and_0/w_0_0# adderblock_0/fadd_0/hadd_1/and_0/a_15_6# 3.75fF
+C191 adderblock_0/fadd_0/hadd_0/sum i_carry 1.20fF
+C192 enb_3/and_6/a_15_6# and_7/out 0.24fF
+C193 subtractblock_0/fadd_0/hadd_0/and_0/w_0_0# subtractblock_0/fadd_0/or_0/in1 1.13fF
+C194 subtractblock_0/notg_0/out subtractblock_0/fadd_0/hadd_0/and_0/a_15_6# 0.24fF
+C195 vdd subtractblock_0/fadd_3/hadd_0/sum 0.72fF
+C196 subtractblock_0/fadd_1/hadd_0/xor_0/w_32_0# vdd 2.26fF
+C197 reap7 by2_d 22.77fF
+C198 computer_0/tem2 computer_0/or_1/a_15_n26# 0.24fF
+C199 enb_2/and_0/w_0_0# by1_a 2.62fF
+C200 enb_1/and_1/w_0_0# by2_a 2.62fF
+C201 adderblock_0/fadd_3/or_0/in1 adderblock_0/fadd_3/hadd_0/sum 0.72fF
+C202 by2_c by1_a 13.50fF
+C203 vdd subtractblock_0/fadd_3/hadd_0/xor_0/w_2_0# 1.13fF
+C204 reap2 subtractblock_0/fadd_2/hadd_0/sum 0.24fF
+C205 subtractblock_0/fadd_1/hadd_0/xor_0/w_32_0# subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n12# 7.94fF
+C206 gnd adderblock_0/fadd_1/hadd_0/sum 1.68fF
+C207 subtractblock_0/fadd_2/hadd_0/xor_0/w_2_0# reap2 2.62fF
+C208 by1_a by2_b 68.08fF
+C209 and_7/out enb_3/and_4/w_0_0# 2.62fF
+C210 and_7/out enb_3/and_3/w_0_0# 2.62fF
+C211 enb_1/rn6 enb_1/rn5 0.24fF
+C212 gnd computer_0/tem2 75.38fF
+C213 mum2 computer_0/and_4/a_15_6# 0.24fF
+C214 gnd adderblock_0/fadd_0/or_0/in2 0.72fF
+C215 enb_1/rn3 and_3/w_0_0# 2.62fF
+C216 vdd enb_0/and_0/w_0_0# 3.38fF
+C217 computer_0/and_11/w_0_0# computer_0/and_9/out 2.62fF
+C218 computer_0/and_10/w_0_0# computer_0/xnor3 2.62fF
+C219 enb_1/and_4/w_0_0# enb_1/rn5 1.13fF
+C220 mum3 computer_0/xor_2/out 0.24fF
+C221 computer_0/notg_5/w_n19_1# computer_0/and_4/in1 6.34fF
+C222 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# 7.94fF
+C223 mum5 enb_2/and_4/w_0_0# 1.13fF
+C224 vdd computer_0/xor_2/w_2_0# 1.13fF
+C225 vdd computer_0/and_10/w_0_0# 3.38fF
+C226 gnd mum2 9.54fF
+C227 mum8 enb_2/and_7/w_0_0# 1.13fF
+C228 computer_0/and_9/w_0_0# mum4 2.62fF
+C229 vdd adderblock_0/fadd_0/hadd_0/and_0/w_0_0# 3.38fF
+C230 subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_0/hadd_0/sum 0.24fF
+C231 enb_3/and_6/w_0_0# by2_c 2.62fF
+C232 by2_c by1_b 35.28fF
+C233 vdd computer_0/notg_5/w_n19_1# 5.64fF
+C234 vdd adderblock_0/fadd_3/or_0/in1 1.44fF
+C235 vdd adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# 0.72fF
+C236 subtractblock_0/fadd_0/hadd_0/xor_0/w_32_0# subtractblock_0/notg_0/out 2.62fF
+C237 subtractblock_0/fadd_0/hadd_0/xor_0/w_2_n50# reap4 2.62fF
+C238 by2_c enb_1/and_5/w_0_0# 2.62fF
+C239 subtractblock_0/notg_0/w_n19_1# subtractblock_0/notg_0/out 6.34fF
+C240 vdd adderblock_0/fadd_2/hadd_1/xor_0/w_2_0# 1.13fF
+C241 gnd adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# 0.96fF
+C242 by1_b by2_b 110.16fF
+C243 computer_0/notg_3/w_n19_1# computer_0/xor_3/out 8.30fF
+C244 and_7/in1 notg_3/w_n19_1# 6.34fF
+C245 notg_1/w_n19_1# sel1 8.30fF
+C246 and_6/w_0_0# sel1 2.62fF
+C247 adderblock_0/fadd_3/hadd_1/and_0/w_0_0# enb_0/rn5 2.62fF
+C248 lol enb_2/and_4/w_0_0# 2.62fF
+C249 enb_1/and_2/a_15_6# enb_1/and_2/w_0_0# 3.75fF
+C250 vdd adderblock_0/fadd_1/or_0/in1 1.44fF
+C251 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_3/hadd_0/sum 0.24fF
+C252 subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n12# subt3 0.24fF
+C253 by2_d and_7/out 2.71fF
+C254 vdd by1_c 279.36fF
+C255 enb_1/rn6 and_4/a_15_6# 0.24fF
+C256 enb_3/and_0/w_0_0# by1_a 2.62fF
+C257 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# adderblock_0/fadd_1/hadd_0/and_0/w_0_0# 3.75fF
+C258 gnd sub_carry 3.42fF
+C259 subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n12# subtractblock_0/fadd_0/hadd_1/xor_0/w_32_0# 7.94fF
+C260 subtractblock_0/fadd_1/hadd_1/xor_0/w_2_0# subtractblock_0/notg_1/out 2.62fF
+C261 subtractblock_0/fadd_1/hadd_1/xor_0/w_2_n50# subtractblock_0/fadd_1/hadd_0/sum 2.62fF
+C262 by1_a by1_b 92.16fF
+C263 gnd reap5 147.06fF
+C264 computer_0/or_0/w_0_0# computer_0/tem3 2.62fF
+C265 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_2/in1 0.72fF
+C266 adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# enb_0/rn2 2.62fF
+C267 enb_0/rn7 vdd 2.16fF
+C268 enb_2/and_4/a_15_6# by2_a 0.24fF
+C269 enb_0/and_1/a_15_6# enb_0/and_1/w_0_0# 3.75fF
+C270 computer_0/and_8/in1 computer_0/and_8/in2 0.24fF
+C271 computer_0/and_6/in1 mum3 0.24fF
+C272 computer_0/and_5/w_0_0# computer_0/xnor1 2.62fF
+C273 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/sum 0.72fF
+C274 d_zero enb_0/and_7/w_0_0# 2.62fF
+C275 mum1 mum4 20.79fF
+C276 vdd adderblock_0/fadd_3/hadd_0/sum 0.72fF
+C277 subtractblock_0/notg_3/w_n19_1# subtractblock_0/notg_3/out 6.34fF
+C278 mum2 mum3 16.74fF
+C279 subtractblock_0/fadd_1/hadd_0/and_0/w_0_0# subtractblock_0/fadd_1/or_0/in1 1.13fF
+C280 reap3 subtractblock_0/fadd_1/hadd_0/and_0/a_15_6# 0.24fF
+C281 vdd computer_0/and_5/w_0_0# 3.38fF
+C282 adderblock_0/fadd_2/or_0/w_0_0# adderblock_0/fadd_2/or_0/in2 2.62fF
+C283 subtractblock_0/notg_2/w_n19_1# reap6 8.30fF
+C284 vdd adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# 0.48fF
+C285 gnd adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# 0.96fF
+C286 vdd computer_0/xor_0/w_32_0# 2.26fF
+C287 computer_0/notg_6/w_n19_1# mum7 8.30fF
+C288 adderblock_0/fadd_0/hadd_0/and_0/w_0_0# enb_0/rn8 2.62fF
+C289 vdd enb_0/and_5/w_0_0# 3.38fF
+C290 vdd computer_0/tem4 61.20fF
+C291 adderblock_0/fadd_0/hadd_0/xor_0/w_2_n50# enb_0/rn4 2.62fF
+C292 subtractblock_0/fadd_3/or_0/in1 subtractblock_0/fadd_3/or_0/in2 0.24fF
+C293 subtractblock_0/fadd_1/in1 subtractblock_0/fadd_0/or_0/w_0_0# 1.13fF
+C294 subtractblock_0/fadd_2/or_0/w_0_0# subtractblock_0/fadd_3/in1 1.13fF
+C295 vdd computer_0/and_4/in1 5.94fF
+C296 san2 adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# 1.13fF
+C297 vdd computer_0/xnor3 89.82fF
+C298 vdd computer_0/xnor1 26.32fF
+C299 by2_a enb_3/and_4/a_15_6# 0.24fF
+C300 gnd mum8 1.50fF
+C301 by1_d enb_3/and_3/a_15_6# 0.24fF
+C302 vdd adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# 2.26fF
+C303 subt0 subtractblock_0/fadd_0/or_0/in2 0.72fF
+C304 subtractblock_0/fadd_0/hadd_1/xor_0/w_32_0# subtractblock_0/fadd_0/hadd_0/sum 2.62fF
+C305 subtractblock_0/fadd_3/hadd_0/and_0/w_0_0# subtractblock_0/fadd_3/hadd_0/and_0/a_15_6# 3.75fF
+C306 subtractblock_0/fadd_3/in1 reap1 12.09fF
+C307 adderblock_0/fadd_2/hadd_1/and_0/w_0_0# adderblock_0/fadd_2/hadd_0/sum 2.62fF
+C308 subtractblock_0/notg_1/out gnd 2.16fF
+C309 adderblock_0/fadd_1/in1 adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# 2.62fF
+C310 and_6/w_0_0# lol 1.13fF
+C311 sel0 gnd 16.38fF
+C312 vdd enb_0/and_3/w_0_0# 3.38fF
+C313 adderblock_0/fadd_0/hadd_1/and_0/w_0_0# adderblock_0/fadd_0/or_0/in2 1.13fF
+C314 i_carry adderblock_0/fadd_0/hadd_1/and_0/a_15_6# 0.24fF
+C315 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_0/sum 0.24fF
+C316 gnd subtractblock_0/fadd_3/hadd_0/sum 1.68fF
+C317 enb_0/rn7 enb_0/rn8 1.35fF
+C318 subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_1/hadd_0/sum 0.24fF
+C319 subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n12# vdd 0.48fF
+C320 enb_0/rn2 enb_0/and_1/w_0_0# 1.13fF
+C321 mum1 mum6 9.90fF
+C322 mum5 mum2 23.71fF
+C323 computer_0/xor_1/w_2_0# computer_0/xor_1/a_15_n12# 1.13fF
+C324 vdd subtractblock_0/fadd_3/hadd_0/xor_0/w_2_n50# 1.13fF
+C325 subtractblock_0/notg_2/w_n19_1# subtractblock_0/notg_2/out 6.34fF
+C326 enb_1/rn2 and_2/w_0_0# 2.62fF
+C327 gnd subt2 0.72fF
+C328 vdd subtractblock_0/fadd_2/hadd_1/xor_0/w_2_n50# 1.13fF
+C329 enb_2/and_4/w_0_0# by2_a 2.62fF
+C330 computer_0/tem2 computer_0/tem1 14.10fF
+C331 enb_0/and_3/w_0_0# enb_0/and_3/a_15_6# 3.75fF
+C332 enb_1/and_7/w_0_0# enb_1/rn8 1.13fF
+C333 and_2/a_15_6# and_2/w_0_0# 3.75fF
+C334 and_7/out by2_a 4.65fF
+C335 and_7/out by1_d 3.39fF
+C336 adderblock_0/fadd_3/hadd_0/and_0/w_0_0# adderblock_0/fadd_3/in1 2.62fF
+C337 computer_0/xor_3/w_2_0# computer_0/xor_3/a_15_n12# 1.13fF
+C338 vdd adderblock_0/fadd_2/hadd_0/xor_0/w_2_0# 1.13fF
+C339 mum3 mum8 14.58fF
+C340 mum7 mum4 89.23fF
+C341 computer_0/and_11/w_0_0# computer_0/and_11/a_15_6# 3.75fF
+C342 vdd subtractblock_0/fadd_0/hadd_1/xor_0/w_2_0# 1.13fF
+C343 gnd subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n62# 0.96fF
+C344 subtractblock_0/fadd_2/or_0/w_0_0# subtractblock_0/fadd_2/or_0/in1 2.62fF
+C345 computer_0/xor_2/a_15_n62# computer_0/xor_2/out 0.24fF
+C346 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n12# subtractblock_0/fadd_1/hadd_1/xor_0/w_32_0# 7.94fF
+C347 reap5 enb_3/and_4/w_0_0# 1.13fF
+C348 enb_3/and_1/w_0_0# by1_b 2.62fF
+C349 vdd computer_0/xor_2/w_2_n50# 1.13fF
+C350 gnd enb_1/rn2 0.90fF
+C351 gnd computer_0/xor_1/a_15_n62# 0.96fF
+C352 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_0/hadd_1/xor_0/w_2_0# 1.13fF
+C353 vdd enb_0/rn8 2.16fF
+C354 subtractblock_0/notg_0/out subtractblock_0/fadd_0/hadd_0/sum 0.24fF
+C355 mum2 by2_d 37.44fF
+C356 subtractblock_0/fadd_3/hadd_0/xor_0/w_32_0# subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n12# 7.94fF
+C357 subtractblock_0/fadd_0/hadd_0/xor_0/w_2_0# subtractblock_0/notg_0/out 2.62fF
+C358 vdd enb_2/and_7/w_0_0# 3.38fF
+C359 adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# 7.94fF
+C360 subt2 subtractblock_0/fadd_2/hadd_1/xor_0/w_32_0# 1.13fF
+C361 sel0 sel1 363.88fF
+C362 computer_0/notg_3/w_n19_1# computer_0/xnor4 6.34fF
+C363 computer_0/and_8/w_0_0# computer_0/and_8/a_15_6# 3.75fF
+C364 subtractblock_0/fadd_2/hadd_1/and_0/w_0_0# subtractblock_0/fadd_2/hadd_0/sum 2.62fF
+C365 adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# adderblock_0/fadd_3/hadd_0/sum 1.13fF
+C366 gnd subtractblock_0/fadd_2/or_0/in2 0.72fF
+C367 enb_0/and_7/a_15_6# enb_0/and_7/w_0_0# 3.75fF
+C368 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# 7.94fF
+C369 computer_0/xor_0/w_2_0# mum1 2.62fF
+C370 computer_0/xor_0/w_32_0# computer_0/xor_0/a_15_n12# 7.94fF
+C371 computer_0/and_6/in1 computer_0/and_6/w_0_0# 2.62fF
+C372 gnd by1_c 87.80fF
+C373 san1 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# 0.24fF
+C374 vdd subtractblock_0/fadd_2/hadd_0/and_0/w_0_0# 3.38fF
+C375 d_zero by2_d 1.14fF
+C376 reap7 reap6 12.29fF
+C377 subt1 subtractblock_0/fadd_1/or_0/in2 0.72fF
+C378 subtractblock_0/fadd_1/hadd_1/xor_0/w_2_0# vdd 1.13fF
+C379 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n62# gnd 0.96fF
+C380 subtractblock_0/fadd_1/hadd_1/xor_0/w_32_0# subtractblock_0/fadd_1/hadd_0/sum 2.62fF
+C381 enb_0/rn7 gnd 175.91fF
+C382 and_0/in1 by1_c 1.44fF
+C383 reap5 by2_d 12.42fF
+C384 san0 i_carry 0.24fF
+C385 mum1 computer_0/and_3/w_0_0# 2.62fF
+C386 computer_0/xor_2/w_2_0# mum3 2.62fF
+C387 computer_0/xor_2/w_32_0# computer_0/xor_2/a_15_n12# 7.94fF
+C388 gnd adderblock_0/fadd_3/hadd_0/sum 1.68fF
+C389 mum6 mum7 13.37fF
+C390 mum5 mum8 19.98fF
+C391 mum1 enb_2/and_0/w_0_0# 1.13fF
+C392 vdd adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# 2.26fF
+C393 enb_0/rn7 adderblock_0/fadd_1/hadd_1/xor_0/w_2_0# 2.62fF
+C394 subtractblock_0/fadd_2/or_0/a_15_n26# subtractblock_0/fadd_2/or_0/w_0_0# 3.75fF
+C395 subtractblock_0/fadd_1/or_0/w_0_0# subtractblock_0/fadd_1/or_0/in1 2.62fF
+C396 computer_0/and_7/a_15_6# computer_0/xnor2 0.24fF
+C397 subtractblock_0/fadd_1/or_0/w_0_0# subtractblock_0/fadd_1/or_0/a_15_n26# 3.75fF
+C398 mum1 by2_c 14.58fF
+C399 vdd computer_0/xor_0/a_15_n12# 0.48fF
+C400 vdd and_2/w_0_0# 3.38fF
+C401 enb_1/rn6 and_4/w_0_0# 2.62fF
+C402 enb_0/and_1/a_15_6# by1_b 0.24fF
+C403 vdd computer_0/notg_8/w_n19_1# 5.64fF
+C404 and_0/in2 and_0/w_0_0# 2.62fF
+C405 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# san3 0.24fF
+C406 vdd adderblock_0/fadd_2/in1 0.72fF
+C407 adderblock_0/fadd_1/hadd_1/xor_0/w_2_n50# adderblock_0/fadd_1/hadd_0/sum 2.62fF
+C408 subtractblock_0/fadd_3/hadd_1/xor_0/w_2_0# subtractblock_0/notg_3/out 2.62fF
+C409 subtractblock_0/fadd_3/hadd_1/xor_0/w_2_n50# subtractblock_0/fadd_3/hadd_0/sum 2.62fF
+C410 and_1/out enb_1/and_7/a_15_6# 0.24fF
+C411 enb_1/and_5/a_15_6# by2_c 0.24fF
+C412 gnd computer_0/xnor3 108.54fF
+C413 gnd reap8 0.54fF
+C414 gnd computer_0/xnor1 35.37fF
+C415 mum8 by2_d 95.89fF
+C416 subtractblock_0/fadd_3/hadd_0/and_0/w_0_0# subtractblock_0/fadd_3/or_0/in1 1.13fF
+C417 reap1 subtractblock_0/fadd_3/hadd_0/and_0/a_15_6# 0.24fF
+C418 adderblock_0/fadd_2/hadd_1/and_0/w_0_0# adderblock_0/fadd_2/hadd_1/and_0/a_15_6# 3.75fF
+C419 adderblock_0/fadd_2/hadd_0/sum enb_0/rn6 1.20fF
+C420 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_0/sum 0.24fF
+C421 vdd gnd 392.40fF
+C422 enb_1/and_1/a_15_6# by2_a 0.24fF
+C423 vdd enb_3/and_5/w_0_0# 3.38fF
+C424 and_0/in1 vdd 5.26fF
+C425 vdd enb_2/and_5/w_0_0# 3.38fF
+C426 adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# 2.62fF
+C427 adderblock_0/fadd_0/or_0/w_0_0# adderblock_0/fadd_0/or_0/in2 2.62fF
+C428 reap3 subtractblock_0/fadd_1/hadd_0/sum 0.24fF
+C429 sel1 by1_c 176.62fF
+C430 vdd adderblock_0/fadd_0/hadd_0/xor_0/w_2_0# 1.13fF
+C431 adderblock_0/fadd_1/hadd_1/xor_0/w_2_0# vdd 1.13fF
+C432 vdd enb_0/and_7/w_0_0# 3.38fF
+C433 adderblock_0/fadd_3/or_0/in1 adderblock_0/fadd_3/or_0/in2 0.24fF
+C434 enb_0/rn3 adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# 2.62fF
+C435 computer_0/xor_1/w_32_0# mum2 2.62fF
+C436 adderblock_0/fadd_1/or_0/in1 adderblock_0/fadd_1/or_0/w_0_0# 2.62fF
+C437 subtractblock_0/fadd_1/hadd_0/xor_0/w_2_n50# subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n62# 1.13fF
+C438 subtractblock_0/fadd_1/hadd_0/xor_0/w_32_0# subtractblock_0/fadd_1/in1 2.62fF
+C439 subtractblock_0/fadd_1/hadd_0/xor_0/w_2_0# reap3 2.62fF
+C440 vdd subtractblock_0/fadd_2/hadd_1/xor_0/w_32_0# 2.26fF
+C441 computer_0/xor_0/out computer_0/xor_0/w_32_0# 1.13fF
+C442 adderblock_0/fadd_3/hadd_0/and_0/w_0_0# adderblock_0/fadd_3/hadd_0/and_0/a_15_6# 3.75fF
+C443 adderblock_0/fadd_3/in1 enb_0/rn1 2.28fF
+C444 vdd enb_2/and_6/w_0_0# 3.38fF
+C445 d_zero by2_a 3.48fF
+C446 computer_0/xor_3/w_32_0# mum4 2.62fF
+C447 subtractblock_0/fadd_0/or_0/a_15_n26# subtractblock_0/fadd_0/or_0/in2 0.24fF
+C448 subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_3/hadd_0/sum 0.24fF
+C449 d_zero by1_d 7.12fF
+C450 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# adderblock_0/fadd_1/hadd_1/and_0/w_0_0# 3.75fF
+C451 vdd adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# 0.72fF
+C452 mum7 by2_c 27.95fF
+C453 vdd mum3 17.73fF
+C454 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# san0 0.24fF
+C455 enb_1/and_5/a_15_6# enb_1/and_5/w_0_0# 3.75fF
+C456 computer_0/xor_3/out mum4 0.24fF
+C457 gnd enb_0/rn8 1.98fF
+C458 and_1/out by1_c 3.30fF
+C459 adderblock_0/fadd_2/or_0/a_15_n26# adderblock_0/fadd_2/or_0/in2 0.24fF
+C460 sel1 vdd 670.90fF
+C461 vdd enb_1/and_0/w_0_0# 3.38fF
+C462 vdd computer_0/and_9/in1 1.62fF
+C463 enb_0/and_4/w_0_0# d_zero 2.62fF
+C464 sel0 notg_2/w_n19_1# 8.30fF
+C465 computer_0/and_6/a_15_6# mum3 0.24fF
+C466 adderblock_0/fadd_0/hadd_0/xor_0/w_2_0# enb_0/rn8 2.62fF
+C467 subtractblock_0/fadd_2/hadd_1/and_0/w_0_0# subtractblock_0/fadd_2/hadd_1/and_0/a_15_6# 3.75fF
+C468 subtractblock_0/fadd_2/hadd_0/sum subtractblock_0/notg_2/out 1.20fF
+C469 enb_0/rn8 enb_0/and_7/w_0_0# 1.13fF
+C470 vdd subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n12# 0.48fF
+C471 subtractblock_0/fadd_0/or_0/w_0_0# subtractblock_0/fadd_0/or_0/in1 2.62fF
+C472 adderblock_0/fadd_1/in1 enb_0/rn3 3.00fF
+C473 subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n12# subtractblock_0/fadd_3/hadd_1/xor_0/w_32_0# 7.94fF
+C474 by1_c lol 3.71fF
+C475 computer_0/xor_0/w_32_0# mum5 2.62fF
+C476 san1 adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# 1.13fF
+C477 vdd adderblock_0/fadd_1/or_0/w_0_0# 2.26fF
+C478 vdd reap2 523.49fF
+C479 computer_0/or_3/w_0_0# computer_0/or_3/out 1.13fF
+C480 g computer_0/or_3/w_0_0# 2.62fF
+C481 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_0/sum 0.72fF
+C482 subt0 subtractblock_0/fadd_0/hadd_1/xor_0/w_32_0# 1.13fF
+C483 gnd subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n62# 0.96fF
+C484 computer_0/or_2/w_0_0# g 1.13fF
+C485 computer_0/or_2/in2 computer_0/or_2/w_0_0# 2.62fF
+C486 vdd enb_3/and_4/w_0_0# 3.38fF
+C487 vdd enb_3/and_3/w_0_0# 3.38fF
+C488 computer_0/or_1/w_0_0# computer_0/or_2/in2 1.13fF
+C489 sel0 by2_a 220.05fF
+C490 sel0 by1_d 122.98fF
+C491 vdd adderblock_0/fadd_0/hadd_1/and_0/w_0_0# 3.38fF
+C492 subtractblock_0/fadd_0/hadd_1/and_0/w_0_0# subtractblock_0/fadd_0/hadd_0/sum 2.62fF
+C493 vdd reap4 2.34fF
+C494 vdd and_1/out 6.25fF
+C495 computer_0/xor_2/w_32_0# mum7 2.62fF
+C496 adderblock_0/fadd_2/hadd_0/and_0/w_0_0# enb_0/rn2 2.62fF
+C497 gnd subt3 0.72fF
+C498 vdd subtractblock_0/fadd_3/hadd_1/xor_0/w_2_n50# 1.13fF
+C499 enb_0/rn3 enb_0/and_2/w_0_0# 1.13fF
+C500 enb_2/and_1/w_0_0# enb_2/and_1/a_15_6# 3.75fF
+C501 enb_2/and_5/a_15_6# enb_2/and_5/w_0_0# 3.75fF
+C502 computer_0/xnor1 computer_0/tem1 5.26fF
+C503 computer_0/xnor3 e 29.70fF
+C504 computer_0/and_2/in2 computer_0/and_2/in1 0.24fF
+C505 computer_0/xnor3 computer_0/and_2/in2 4.59fF
+C506 gnd adderblock_0/fadd_2/in1 1.68fF
+C507 subt3 subtractblock_0/fadd_3/or_0/in2 0.72fF
+C508 subtractblock_0/fadd_3/hadd_1/xor_0/w_32_0# subtractblock_0/fadd_3/hadd_0/sum 2.62fF
+C509 vdd computer_0/tem1 54.36fF
+C510 enb_1/and_3/w_0_0# by2_b 2.62fF
+C511 reap8 by2_d 5.17fF
+C512 vdd lol 6.25fF
+C513 adderblock_0/fadd_2/hadd_1/and_0/w_0_0# adderblock_0/fadd_2/or_0/in2 1.13fF
+C514 enb_0/rn6 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# 0.24fF
+C515 and_5/w_0_0# enb_1/rn8 2.62fF
+C516 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_0/sum 0.24fF
+C517 adderblock_0/fadd_3/or_0/a_15_n26# adderblock_0/fadd_3/or_0/w_0_0# 3.75fF
+C518 vdd by2_d 538.65fF
+C519 enb_0/and_5/a_15_6# enb_0/and_5/w_0_0# 3.75fF
+C520 reap3 by2_c 11.34fF
+C521 gnd subtractblock_0/fadd_3/or_0/in2 0.72fF
+C522 subtractblock_0/fadd_1/in1 vdd 2.34fF
+C523 computer_0/and_6/in1 computer_0/notg_6/w_n19_1# 6.34fF
+C524 adderblock_0/fadd_3/hadd_1/xor_0/w_2_0# enb_0/rn5 2.62fF
+C525 adderblock_0/fadd_3/hadd_1/xor_0/w_2_n50# adderblock_0/fadd_3/hadd_0/sum 2.62fF
+C526 computer_0/xor_1/w_32_0# computer_0/xor_1/a_15_n62# 2.62fF
+C527 computer_0/xor_1/w_2_n50# mum6 2.62fF
+C528 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# 2.62fF
+C529 vdd subtractblock_0/fadd_3/hadd_0/and_0/w_0_0# 3.38fF
+C530 subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_2/hadd_0/sum 0.72fF
+C531 computer_0/tem4 computer_0/and_11/w_0_0# 1.13fF
+C532 reap6 reap5 31.18fF
+C533 computer_0/tem3 computer_0/and_11/in2 41.85fF
+C534 computer_0/xor_0/out computer_0/xor_0/a_15_n12# 0.24fF
+C535 adderblock_0/fadd_3/hadd_0/and_0/w_0_0# adderblock_0/fadd_3/or_0/in1 1.13fF
+C536 enb_0/rn1 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# 0.24fF
+C537 computer_0/xor_3/w_32_0# computer_0/xor_3/a_15_n62# 2.62fF
+C538 computer_0/xor_3/w_2_n50# mum8 2.62fF
+C539 vdd computer_0/and_6/w_0_0# 3.38fF
+C540 reap1 subtractblock_0/fadd_3/hadd_0/sum 0.24fF
+C541 subtractblock_0/fadd_2/hadd_0/and_0/w_0_0# reap2 2.62fF
+C542 by1_c by2_a 100.75fF
+C543 by1_c by1_d 68.08fF
+C544 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_1/xor_0/w_2_0# 1.13fF
+C545 subt1 subtractblock_0/fadd_1/hadd_1/xor_0/w_32_0# 1.13fF
+C546 vdd computer_0/xor_3/w_2_0# 1.13fF
+C547 enb_1/and_2/a_15_6# by1_b 0.24fF
+C548 vdd computer_0/and_11/w_0_0# 3.38fF
+C549 gnd mum3 8.32fF
+C550 computer_0/xor_3/out computer_0/xor_3/a_15_n62# 0.24fF
+C551 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_1/xor_0/w_2_n50# 1.13fF
+C552 subtractblock_0/fadd_3/hadd_0/xor_0/w_32_0# subtractblock_0/fadd_3/in1 2.62fF
+C553 subtractblock_0/fadd_3/hadd_0/xor_0/w_2_0# reap1 2.62fF
+C554 subtractblock_0/fadd_3/hadd_0/xor_0/w_2_n50# subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n62# 1.13fF
+C555 subtractblock_0/fadd_1/hadd_1/and_0/w_0_0# subtractblock_0/fadd_1/hadd_0/sum 2.62fF
+C556 reap3 subt0 3.42fF
+C557 gnd san3 0.72fF
+C558 vdd adderblock_0/fadd_3/hadd_1/xor_0/w_2_n50# 1.13fF
+C559 adderblock_0/fadd_1/hadd_1/xor_0/w_2_0# adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# 1.13fF
+C560 subtractblock_0/fadd_3/or_0/w_0_0# subtractblock_0/fadd_3/or_0/in1 2.62fF
+C561 sel1 gnd 3.24fF
+C562 lol enb_2/and_7/w_0_0# 2.62fF
+C563 gnd computer_0/and_9/in1 5.08fF
+C564 vdd computer_0/notg_3/w_n19_1# 5.64fF
+C565 computer_0/and_6/a_15_6# computer_0/and_6/w_0_0# 3.75fF
+C566 notg_2/w_n19_1# vdd 5.64fF
+C567 vdd computer_0/and_8/w_0_0# 3.38fF
+C568 computer_0/and_7/w_0_0# computer_0/xnor2 2.62fF
+C569 enb_2/and_7/w_0_0# by2_d 2.62fF
+C570 enb_1/and_4/w_0_0# by1_c 2.62fF
+C571 enb_1/and_4/a_15_6# by1_c 0.24fF
+C572 enb_1/and_0/a_15_6# enb_1/and_0/w_0_0# 3.75fF
+C573 computer_0/notg_1/w_n19_1# computer_0/xor_1/out 8.30fF
+C574 and_7/w_0_0# and_7/in1 2.62fF
+C575 subtractblock_0/fadd_2/hadd_1/and_0/w_0_0# subtractblock_0/fadd_2/or_0/in2 1.13fF
+C576 subtractblock_0/notg_2/out subtractblock_0/fadd_2/hadd_1/and_0/a_15_6# 0.24fF
+C577 and_6/w_0_0# and_6/in1 2.62fF
+C578 reap7 by2_c 24.57fF
+C579 adderblock_0/fadd_1/or_0/w_0_0# adderblock_0/fadd_2/in1 1.13fF
+C580 and_5/w_0_0# enb_1/rn7 2.62fF
+C581 enb_0/and_6/w_0_0# d_zero 2.62fF
+C582 by1_c enb_0/and_2/a_15_6# 0.24fF
+C583 computer_0/xor_0/w_2_n50# computer_0/xor_0/a_15_n62# 1.13fF
+C584 adderblock_0/fadd_2/or_0/w_0_0# adderblock_0/fadd_2/or_0/a_15_n26# 3.75fF
+C585 vdd adderblock_0/fadd_1/hadd_1/xor_0/w_2_n50# 1.13fF
+C586 vdd adderblock_0/fadd_1/hadd_0/xor_0/w_2_n50# 1.13fF
+C587 gnd reap2 2.16fF
+C588 subtractblock_0/fadd_2/or_0/w_0_0# subtractblock_0/fadd_2/or_0/in2 2.62fF
+C589 enb_1/and_6/a_15_6# enb_1/and_6/w_0_0# 3.75fF
+C590 san2 enb_0/rn6 0.24fF
+C591 vdd by2_a 502.02fF
+C592 vdd by1_d 286.96fF
+C593 enb_0/and_0/a_15_6# enb_0/and_0/w_0_0# 3.75fF
+C594 adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# i_carry 2.62fF
+C595 enb_2/and_3/a_15_6# by1_d 0.24fF
+C596 vdd i_carry 2.16fF
+C597 subtractblock_0/fadd_0/hadd_1/and_0/w_0_0# subtractblock_0/fadd_0/hadd_1/and_0/a_15_6# 3.75fF
+C598 subtractblock_0/fadd_0/hadd_0/sum sub_carry 1.20fF
+C599 enb_0/and_3/w_0_0# by1_d 2.62fF
+C600 mum2 mum4 64.67fF
+C601 computer_0/xor_2/w_2_n50# computer_0/xor_2/a_15_n62# 1.13fF
+C602 computer_0/or_3/a_15_n26# e 0.24fF
+C603 gnd adderblock_0/fadd_3/or_0/in2 0.72fF
+C604 gnd reap4 2.22fF
+C605 vdd adderblock_0/fadd_0/or_0/w_0_0# 2.26fF
+C606 san1 adderblock_0/fadd_1/or_0/in2 0.72fF
+C607 vdd subtractblock_0/fadd_3/hadd_1/xor_0/w_32_0# 2.26fF
+C608 vdd computer_0/xor_1/w_32_0# 2.26fF
+C609 gnd mum5 7.62fF
+C610 computer_0/and_7/w_0_0# computer_0/and_8/in2 1.13fF
+C611 vdd enb_1/and_4/w_0_0# 3.38fF
+C612 vdd enb_0/and_4/w_0_0# 3.38fF
+C613 computer_0/and_2/in2 computer_0/and_2/a_15_6# 0.24fF
+C614 computer_0/xor_1/out mum2 0.24fF
+C615 vdd adderblock_0/fadd_3/hadd_0/and_0/w_0_0# 3.38fF
+C616 and_0/in2 and_0/a_15_6# 0.24fF
+C617 enb_3/and_7/a_15_6# enb_3/and_7/w_0_0# 3.75fF
+C618 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# 7.94fF
+C619 vdd adderblock_0/fadd_2/or_0/in1 1.44fF
+C620 vdd adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# 0.72fF
+C621 subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n12# subtractblock_0/fadd_2/hadd_1/xor_0/w_2_0# 1.13fF
+C622 enb_2/and_1/w_0_0# by1_b 2.62fF
+C623 enb_0/and_3/a_15_6# by1_d 0.24fF
+C624 gnd e 114.03fF
+C625 gnd computer_0/tem1 59.62fF
+C626 gnd computer_0/and_2/in2 1.80fF
+C627 vdd subtractblock_0/fadd_2/hadd_1/and_0/w_0_0# 3.38fF
+C628 reap7 enb_3/and_6/w_0_0# 1.13fF
+C629 vdd subtractblock_0/fadd_2/hadd_0/xor_0/w_2_n50# 1.13fF
+C630 by2_c and_7/out 4.02fF
+C631 gnd by2_d 158.76fF
+C632 lol enb_2/and_5/w_0_0# 2.62fF
+C633 adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# 2.62fF
+C634 vdd enb_1/and_2/w_0_0# 3.38fF
+C635 by2_b and_7/out 2.27fF
+C636 subtractblock_0/notg_0/w_n19_1# reap8 8.30fF
+C637 subtractblock_0/fadd_1/in1 gnd 1.68fF
+C638 vdd subtractblock_0/fadd_0/hadd_0/xor_0/w_32_0# 2.26fF
+C639 subtractblock_0/fadd_2/or_0/w_0_0# vdd 2.26fF
+C640 subtractblock_0/notg_0/w_n19_1# vdd 5.64fF
+C641 subtractblock_0/fadd_1/or_0/w_0_0# subtractblock_0/fadd_1/or_0/in2 2.62fF
+C642 enb_0/and_7/w_0_0# by2_d 2.62fF
+C643 adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# enb_0/rn4 2.62fF
+C644 enb_0/rn1 enb_0/and_0/w_0_0# 1.13fF
+C645 mum1 mum7 10.89fF
+C646 mum5 mum3 72.09fF
+C647 san3 adderblock_0/fadd_3/or_0/in2 0.72fF
+C648 adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# adderblock_0/fadd_3/hadd_0/sum 2.62fF
+C649 vdd reap1 265.41fF
+C650 subt2 subtractblock_0/notg_2/out 0.24fF
+C651 and_1/out enb_1/and_0/w_0_0# 2.62fF
+C652 mum2 mum6 14.19fF
+C653 vdd adderblock_0/fadd_2/hadd_0/sum 0.72fF
+C654 adderblock_0/fadd_1/or_0/a_15_n26# adderblock_0/fadd_1/or_0/in2 0.24fF
+C655 gnd subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n62# 0.96fF
+C656 by1_a and_7/out 6.54fF
+C657 enb_1/rn7 enb_1/and_6/w_0_0# 1.13fF
+C658 and_1/w_0_0# and_1/a_15_6# 3.75fF
+C659 enb_2/and_6/w_0_0# lol 2.62fF
+C660 enb_1/rn7 enb_1/rn8 0.24fF
+C661 computer_0/and_5/in1 computer_0/and_4/w_0_0# 1.13fF
+C662 mum4 mum8 20.22fF
+C663 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# san2 0.24fF
+C664 enb_0/and_1/w_0_0# d_zero 2.62fF
+C665 vdd computer_0/xor_3/w_2_n50# 1.13fF
+C666 gnd enb_1/rn4 0.54fF
+C667 gnd computer_0/xor_2/a_15_n62# 0.96fF
+C668 computer_0/xnor4 computer_0/and_1/w_0_0# 2.62fF
+C669 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# 2.62fF
+C670 mum3 by2_d 63.18fF
+C671 subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_0/hadd_0/sum 0.72fF
+C672 subtractblock_0/fadd_1/hadd_1/and_0/w_0_0# subtractblock_0/fadd_1/hadd_1/and_0/a_15_6# 3.75fF
+C673 subtractblock_0/fadd_1/hadd_0/sum subtractblock_0/notg_1/out 1.20fF
+C674 computer_0/notg_2/w_n19_1# computer_0/xor_2/out 8.30fF
+C675 vdd adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# 2.26fF
+C676 reap4 enb_3/and_3/w_0_0# 1.13fF
+C677 adderblock_0/fadd_1/in1 adderblock_0/fadd_1/hadd_0/and_0/w_0_0# 2.62fF
+C678 enb_3/and_0/w_0_0# and_7/out 2.62fF
+C679 enb_3/and_6/w_0_0# and_7/out 2.62fF
+C680 by1_b and_7/out 3.39fF
+C681 reap6 reap8 4.72fF
+C682 notg_1/w_n19_1# and_0/in2 6.34fF
+C683 enb_2/and_2/a_15_6# by1_c 0.24fF
+C684 subtractblock_0/fadd_0/hadd_0/and_0/w_0_0# subtractblock_0/notg_0/out 2.62fF
+C685 and_7/w_0_0# and_7/a_15_6# 3.75fF
+C686 and_7/in1 sel0 0.24fF
+C687 computer_0/notg_1/w_n19_1# computer_0/xnor2 6.34fF
+C688 adderblock_0/fadd_0/or_0/a_15_n26# adderblock_0/fadd_0/or_0/in2 0.24fF
+C689 subtractblock_0/fadd_1/hadd_0/xor_0/w_32_0# subtractblock_0/fadd_1/hadd_0/sum 1.13fF
+C690 and_6/w_0_0# and_6/a_15_6# 3.75fF
+C691 subt3 subtractblock_0/fadd_3/hadd_1/xor_0/w_32_0# 1.13fF
+C692 computer_0/tem2 computer_0/or_1/w_0_0# 2.62fF
+C693 adderblock_0/fadd_3/or_0/w_0_0# san4 1.13fF
+C694 enb_0/rn1 adderblock_0/fadd_3/hadd_0/sum 0.24fF
+C695 subtractblock_0/fadd_3/hadd_1/and_0/w_0_0# subtractblock_0/fadd_3/hadd_0/sum 2.62fF
+C696 subtractblock_0/fadd_3/or_0/a_15_n26# subtractblock_0/fadd_3/or_0/in2 0.24fF
+C697 vdd subtractblock_0/fadd_3/or_0/w_0_0# 2.26fF
+C698 subtractblock_0/fadd_2/hadd_0/xor_0/w_2_n50# subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n62# 1.13fF
+C699 subtractblock_0/fadd_2/hadd_0/xor_0/w_32_0# subtractblock_0/fadd_2/in1 2.62fF
+C700 enb_0/rn7 enb_0/and_6/w_0_0# 1.13fF
+C701 reap2 by2_d 12.38fF
+C702 gnd by2_a 73.31fF
+C703 gnd by1_d 51.98fF
+C704 vdd and_3/w_0_0# 3.38fF
+C705 computer_0/and_6/w_0_0# mum3 2.62fF
+C706 mum2 computer_0/and_4/w_0_0# 2.62fF
+C707 gnd i_carry 2.16fF
+C708 subtractblock_0/fadd_0/hadd_1/and_0/w_0_0# subtractblock_0/fadd_0/or_0/in2 1.13fF
+C709 sub_carry subtractblock_0/fadd_0/hadd_1/and_0/a_15_6# 0.24fF
+C710 and_0/in1 by1_d 4.46fF
+C711 gnd adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# 0.96fF
+C712 vdd subtractblock_0/fadd_0/or_0/in1 1.44fF
+C713 vdd subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n12# 0.72fF
+C714 mum6 mum8 14.58fF
+C715 computer_0/xor_2/w_32_0# computer_0/xor_2/out 1.13fF
+C716 subtractblock_0/fadd_1/or_0/w_0_0# subtractblock_0/fadd_2/in1 1.13fF
+C717 reap4 by2_d 8.28fF
+C718 mum2 by2_c 15.79fF
+C719 and_1/out by2_d 3.21fF
+C720 enb_2/and_0/a_15_6# enb_2/and_0/w_0_0# 3.75fF
+C721 vdd computer_0/xor_1/a_15_n12# 0.48fF
+C722 gnd enb_1/rn6 0.72fF
+C723 computer_0/and_9/w_0_0# computer_0/and_9/out 1.13fF
+C724 mum5 by2_d 39.78fF
+C725 vdd computer_0/notg_6/w_n19_1# 5.64fF
+C726 computer_0/and_8/a_15_6# computer_0/and_8/in2 0.24fF
+C727 vdd enb_0/rn1 142.20fF
+C728 adderblock_0/fadd_2/or_0/w_0_0# adderblock_0/fadd_3/in1 1.13fF
+C729 subtractblock_0/fadd_0/or_0/w_0_0# subtractblock_0/fadd_0/or_0/in2 2.62fF
+C730 computer_0/xor_1/out computer_0/xor_1/a_15_n62# 0.24fF
+C731 subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n62# subt2 0.24fF
+C732 adderblock_0/fadd_2/hadd_0/xor_0/w_2_n50# adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# 1.13fF
+C733 enb_3/and_1/w_0_0# and_7/out 2.62fF
+C734 enb_0/rn6 enb_0/rn5 2.16fF
+C735 adderblock_0/fadd_1/hadd_0/sum adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# 1.13fF
+C736 vdd subtractblock_0/notg_2/out 2.16fF
+C737 vdd enb_0/and_6/w_0_0# 3.38fF
+C738 lol by2_d 2.71fF
+C739 enb_1/and_3/a_15_6# by2_b 0.24fF
+C740 enb_1/and_7/w_0_0# enb_1/and_7/a_15_6# 3.75fF
+C741 enb_0/and_6/w_0_0# enb_0/and_6/a_15_6# 3.75fF
+C742 by2_c d_zero 3.48fF
+C743 enb_3/and_7/w_0_0# and_7/out 2.62fF
+C744 enb_3/and_5/w_0_0# enb_3/and_5/a_15_6# 3.75fF
+C745 enb_2/and_0/a_15_6# by1_a 0.24fF
+C746 vdd subtractblock_0/fadd_0/hadd_0/sum 0.72fF
+C747 reap5 by2_c 22.68fF
+C748 d_zero by2_b 5.64fF
+C749 subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n12# subtractblock_0/fadd_0/hadd_1/xor_0/w_2_0# 1.13fF
+C750 vdd subtractblock_0/fadd_0/hadd_0/xor_0/w_2_0# 1.13fF
+C751 subtractblock_0/fadd_1/or_0/in1 vdd 1.44fF
+C752 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_1/hadd_0/sum 0.72fF
+C753 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n12# vdd 0.72fF
+C754 computer_0/tem2 computer_0/and_8/in2 12.87fF
+C755 sel1 by2_a 183.51fF
+C756 sel1 by1_d 134.32fF
+C757 adderblock_0/fadd_0/or_0/in1 adderblock_0/fadd_0/hadd_0/sum 0.72fF
+C758 computer_0/and_7/w_0_0# computer_0/and_7/a_15_6# 3.75fF
+C759 subtractblock_0/fadd_1/hadd_0/and_0/w_0_0# reap3 2.62fF
+C760 mum6 computer_0/xor_1/a_15_n62# 0.72fF
+C761 gnd adderblock_0/fadd_2/hadd_0/sum 1.68fF
+C762 gnd reap1 1.44fF
+C763 vdd adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# 2.26fF
+C764 computer_0/notg_5/w_n19_1# mum6 8.30fF
+C765 by1_a d_zero 2.44fF
+C766 mum8 computer_0/xor_3/a_15_n62# 0.72fF
+C767 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_1/xor_0/w_2_n50# 1.13fF
+C768 mum8 by2_c 53.55fF
+C769 enb_3/and_4/w_0_0# by2_a 2.62fF
+C770 vdd mum4 26.95fF
+C771 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_3/hadd_0/xor_0/w_2_0# 1.13fF
+C772 enb_3/and_3/w_0_0# by1_d 2.62fF
+C773 gd3 and_4/w_0_0# 1.13fF
+C774 vdd adderblock_0/fadd_0/hadd_1/xor_0/w_2_0# 1.13fF
+C775 gnd adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# 0.96fF
+C776 subt0 sub_carry 0.24fF
+C777 subtractblock_0/fadd_1/hadd_0/sum vdd 0.72fF
+C778 subtractblock_0/fadd_1/hadd_1/and_0/w_0_0# subtractblock_0/fadd_1/or_0/in2 1.13fF
+C779 subtractblock_0/notg_1/out subtractblock_0/fadd_1/hadd_1/and_0/a_15_6# 0.24fF
+C780 and_1/out by2_a 5.64fF
+C781 sel0 by2_c 48.60fF
+C782 and_1/out by1_d 2.40fF
+C783 adderblock_0/fadd_0/hadd_1/and_0/w_0_0# i_carry 2.62fF
+C784 sel0 by2_b 153.04fF
+C785 d_zero by1_b 6.32fF
+C786 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_0/hadd_0/sum 0.24fF
+C787 sel0 and_7/a_15_6# 0.24fF
+C788 vdd subtractblock_0/fadd_3/hadd_1/and_0/w_0_0# 3.38fF
+C789 subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n12# subtractblock_0/fadd_1/hadd_0/sum 0.24fF
+C790 subtractblock_0/fadd_1/hadd_0/xor_0/w_2_0# vdd 1.13fF
+C791 gnd reap6 102.64fF
+C792 vdd adderblock_0/fadd_3/hadd_0/xor_0/w_2_0# 1.13fF
+C793 reap6 enb_3/and_5/w_0_0# 1.13fF
+C794 and_1/out enb_1/and_4/w_0_0# 2.62fF
+C795 enb_0/rn3 adderblock_0/fadd_1/hadd_0/and_0/w_0_0# 2.62fF
+C796 subtractblock_0/fadd_3/hadd_1/and_0/w_0_0# subtractblock_0/fadd_3/hadd_1/and_0/a_15_6# 3.75fF
+C797 subtractblock_0/fadd_3/hadd_0/sum subtractblock_0/notg_3/out 1.20fF
+C798 subtractblock_0/fadd_1/hadd_0/xor_0/w_2_0# subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n12# 1.13fF
+C799 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_3/in1 0.72fF
+C800 adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# enb_0/rn1 2.62fF
+C801 subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n12# subtractblock_0/fadd_0/hadd_0/xor_0/w_32_0# 7.94fF
+C802 and_0/w_0_0# and_0/a_15_6# 3.75fF
+C803 lol by2_a 3.48fF
+C804 lol by1_d 1.86fF
+C805 adderblock_0/fadd_3/hadd_0/xor_0/w_2_n50# adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# 1.13fF
+C806 adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# enb_0/rn6 2.62fF
+C807 enb_0/rn7 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# 0.24fF
+C808 sel0 by1_a 173.79fF
+C809 subtractblock_0/fadd_3/hadd_0/xor_0/w_32_0# subtractblock_0/fadd_3/hadd_0/sum 1.13fF
+C810 vdd enb_0/and_1/w_0_0# 3.38fF
+C811 subtractblock_0/fadd_3/or_0/w_0_0# subtractblock_0/fadd_3/or_0/in2 2.62fF
+C812 computer_0/and_11/in2 computer_0/and_9/out 0.24fF
+C813 computer_0/xor_2/a_15_n12# computer_0/xor_2/out 0.24fF
+C814 gnd adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# 0.96fF
+C815 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_0/sum 0.72fF
+C816 subtractblock_0/notg_3/w_n19_1# reap5 8.30fF
+C817 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n12# subtractblock_0/fadd_1/hadd_1/xor_0/w_2_0# 1.13fF
+C818 computer_0/notg_0/w_n19_1# computer_0/xnor1 6.34fF
+C819 adderblock_0/fadd_1/hadd_0/sum adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# 0.24fF
+C820 and_1/out enb_1/and_2/w_0_0# 2.62fF
+C821 vdd computer_0/notg_0/w_n19_1# 5.64fF
+C822 gnd enb_0/rn1 1.44fF
+C823 subtractblock_0/fadd_0/hadd_0/xor_0/w_32_0# reap4 2.62fF
+C824 vdd enb_1/and_7/w_0_0# 3.38fF
+C825 san3 adderblock_0/fadd_3/hadd_1/xor_0/w_32_0# 1.13fF
+C826 subtractblock_0/fadd_0/hadd_0/xor_0/w_2_n50# subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n62# 1.13fF
+C827 subtractblock_0/fadd_0/or_0/a_15_n26# subtractblock_0/fadd_0/or_0/w_0_0# 3.75fF
+C828 subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_2/hadd_1/xor_0/w_2_n50# 1.13fF
+C829 adderblock_0/fadd_1/hadd_0/xor_0/w_2_0# adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# 1.13fF
+C830 sel0 by1_b 151.51fF
+C831 adderblock_0/fadd_3/hadd_1/and_0/w_0_0# adderblock_0/fadd_3/hadd_0/sum 2.62fF
+C832 enb_0/and_0/w_0_0# by1_a 2.62fF
+C833 gnd subtractblock_0/notg_2/out 2.16fF
+C834 enb_0/and_2/w_0_0# d_zero 2.62fF
+C835 adderblock_0/fadd_1/hadd_1/and_0/w_0_0# adderblock_0/fadd_1/or_0/in2 1.13fF
+C836 by2_c by1_c 30.24fF
+C837 gnd subtractblock_0/fadd_0/hadd_0/sum 1.68fF
+C838 subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n62# subt0 0.24fF
+C839 computer_0/or_2/w_0_0# computer_0/or_2/in1 2.62fF
+C840 vdd adderblock_0/fadd_2/hadd_0/xor_0/w_2_n50# 1.13fF
+C841 subt1 subtractblock_0/notg_1/out 0.24fF
+C842 by1_c by2_b 77.04fF
+C843 computer_0/or_0/w_0_0# computer_0/or_2/in1 1.13fF
+C844 adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# adderblock_0/fadd_2/in1 2.62fF
+C845 and_0/in2 by1_c 1.80fF
+C846 computer_0/or_0/w_0_0# computer_0/tem4 2.62fF
+C847 vdd adderblock_0/fadd_3/hadd_1/and_0/w_0_0# 3.38fF
+C848 computer_0/and_10/w_0_0# computer_0/and_8/in2 2.62fF
+C849 subtractblock_0/fadd_2/hadd_1/xor_0/w_32_0# subtractblock_0/notg_2/out 2.62fF
+C850 reap1 by2_d 34.65fF
+C851 vdd computer_0/xor_0/w_2_0# 1.13fF
+C852 vdd computer_0/or_3/w_0_0# 2.26fF
+C853 adderblock_0/fadd_0/hadd_0/and_0/w_0_0# enb_0/rn4 2.62fF
+C854 computer_0/and_4/w_0_0# computer_0/and_4/in1 2.62fF
+C855 vdd computer_0/or_2/w_0_0# 2.26fF
+C856 vdd computer_0/or_1/w_0_0# 2.26fF
+C857 computer_0/and_3/w_0_0# computer_0/and_3/in1 2.62fF
+C858 vdd computer_0/or_0/w_0_0# 2.26fF
+C859 computer_0/and_2/w_0_0# computer_0/and_2/in1 2.62fF
+C860 by1_c by1_a 127.12fF
+C861 enb_0/and_5/w_0_0# by2_b 2.62fF
+C862 computer_0/and_1/w_0_0# computer_0/xnor3 2.62fF
+C863 computer_0/and_0/w_0_0# computer_0/and_2/in1 1.13fF
+C864 computer_0/and_0/w_0_0# computer_0/xnor1 2.62fF
+C865 subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_3/hadd_0/sum 0.72fF
+C866 vdd computer_0/and_4/w_0_0# 3.71fF
+C867 vdd computer_0/and_3/w_0_0# 3.38fF
+C868 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# 2.62fF
+C869 reap8 by2_c 9.45fF
+C870 vdd computer_0/and_2/w_0_0# 3.38fF
+C871 vdd computer_0/and_1/w_0_0# 3.38fF
+C872 vdd computer_0/and_0/w_0_0# 3.38fF
+C873 gnd mum4 1.26fF
+C874 by1_d by2_a 146.79fF
+C875 vdd enb_2/and_0/w_0_0# 3.38fF
+C876 vdd by2_c 527.40fF
+C877 computer_0/notg_2/w_n19_1# computer_0/xnor3 6.34fF
+C878 computer_0/xnor2 computer_0/xnor1 2.28fF
+C879 adderblock_0/fadd_1/hadd_0/xor_0/w_2_n50# adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# 1.13fF
+C880 subtractblock_0/fadd_3/hadd_0/and_0/w_0_0# reap1 2.62fF
+C881 subtractblock_0/fadd_1/hadd_0/sum gnd 1.68fF
+C882 vdd by2_b 542.12fF
+C883 vdd enb_2/and_3/w_0_0# 3.38fF
+C884 vdd computer_0/xnor2 21.55fF
+C885 vdd computer_0/notg_2/w_n19_1# 5.64fF
+C886 adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# adderblock_0/fadd_0/hadd_0/sum 1.13fF
+C887 enb_3/and_2/w_0_0# enb_3/and_2/a_15_6# 3.75fF
+C888 enb_2/and_3/a_15_6# enb_2/and_3/w_0_0# 3.75fF
+C889 gd1 and_2/w_0_0# 1.13fF
+C890 vdd subtractblock_0/notg_3/out 2.16fF
+C891 subtractblock_0/fadd_1/hadd_0/xor_0/w_2_n50# vdd 1.13fF
+C892 by1_c by1_b 42.75fF
+C893 enb_0/and_4/w_0_0# by2_a 2.62fF
+C894 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_0/hadd_0/xor_0/w_32_0# 7.94fF
+C895 enb_0/rn3 adderblock_0/fadd_1/hadd_0/sum 0.24fF
+C896 reap6 by2_d 29.30fF
+C897 notg_0/w_n19_1# sel0 8.30fF
+C898 subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n12# subtractblock_0/fadd_0/hadd_0/sum 0.24fF
+C899 subtractblock_0/fadd_3/hadd_1/and_0/w_0_0# subtractblock_0/fadd_3/or_0/in2 1.13fF
+C900 subtractblock_0/notg_3/out subtractblock_0/fadd_3/hadd_1/and_0/a_15_6# 0.24fF
+C901 vdd subtractblock_0/fadd_3/hadd_0/xor_0/w_32_0# 2.26fF
+C902 vdd by1_a 499.41fF
+C903 mum1 mum2 10.89fF
+C904 enb_0/rn3 adderblock_0/fadd_1/hadd_0/xor_0/w_2_0# 2.62fF
+C905 subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n12# subtractblock_0/fadd_0/hadd_0/xor_0/w_2_0# 1.13fF
+C906 subt4 subtractblock_0/fadd_3/or_0/w_0_0# 1.13fF
+C907 vdd subtractblock_0/fadd_2/hadd_1/xor_0/w_2_0# 1.13fF
+C908 gnd subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n62# 0.96fF
+C909 adderblock_0/fadd_3/or_0/w_0_0# adderblock_0/fadd_3/or_0/in1 2.62fF
+C910 enb_0/rn7 san1 0.24fF
+C911 enb_1/and_4/a_15_6# enb_1/and_4/w_0_0# 3.75fF
+C912 vdd adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# 2.26fF
+C913 subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n12# subtractblock_0/fadd_3/hadd_0/sum 0.24fF
+C914 mum3 mum4 99.63fF
+C915 computer_0/and_8/in2 computer_0/xnor3 0.24fF
+C916 computer_0/and_11/in2 computer_0/and_11/a_15_6# 0.24fF
+C917 adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# adderblock_0/fadd_1/hadd_0/sum 2.62fF
+C918 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n62# subt1 0.24fF
+C919 vdd computer_0/xor_2/w_32_0# 2.26fF
+C920 vdd computer_0/and_8/in2 103.19fF
+C921 gnd mum6 1.68fF
+C922 computer_0/xor_3/out computer_0/xor_3/w_32_0# 1.13fF
+C923 computer_0/and_9/in1 mum4 0.24fF
+C924 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# san0 0.24fF
+C925 vdd enb_0/rn4 0.72fF
+C926 computer_0/and_5/w_0_0# computer_0/and_5/a_15_6# 3.75fF
+C927 subtractblock_0/fadd_3/hadd_0/xor_0/w_2_0# subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n12# 1.13fF
+C928 vdd enb_3/and_0/w_0_0# 3.38fF
+C929 vdd adderblock_0/fadd_0/hadd_0/xor_0/w_2_n50# 1.13fF
+C930 enb_0/rn7 enb_0/rn5 1.80fF
+C931 enb_3/and_7/a_15_6# and_7/out 0.24fF
+C932 vdd enb_3/and_6/w_0_0# 3.38fF
+C933 mum6 enb_2/and_5/w_0_0# 1.13fF
+C934 d_zero and_0/w_0_0# 1.13fF
+C935 vdd enb_1/and_5/w_0_0# 3.38fF
+C936 vdd by1_b 524.92fF
+C937 gnd san2 0.72fF
+C938 vdd adderblock_0/fadd_2/hadd_1/xor_0/w_2_n50# 1.13fF
+C939 subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_2/hadd_1/xor_0/w_32_0# 2.62fF
+C940 enb_0/rn4 enb_0/and_3/w_0_0# 1.13fF
+C941 and_6/in1 sel1 0.24fF
+C942 adderblock_0/fadd_3/hadd_1/and_0/w_0_0# adderblock_0/fadd_3/hadd_1/and_0/a_15_6# 3.75fF
+C943 adderblock_0/fadd_3/hadd_0/sum enb_0/rn5 1.20fF
+C944 enb_3/and_0/a_15_6# by1_a 0.24fF
+C945 subtractblock_0/fadd_2/hadd_0/xor_0/w_32_0# subtractblock_0/fadd_2/hadd_0/sum 1.13fF
+C946 adderblock_0/fadd_2/hadd_0/xor_0/w_2_n50# adderblock_0/fadd_2/in1 2.62fF
+C947 subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n12# subtractblock_0/fadd_3/hadd_1/xor_0/w_2_0# 1.13fF
+C948 enb_0/and_2/w_0_0# by1_c 2.62fF
+C949 computer_0/and_5/a_15_6# computer_0/xnor1 0.24fF
+C950 computer_0/xor_0/w_2_0# computer_0/xor_0/a_15_n12# 1.13fF
+C951 enb_1/rn4 and_3/w_0_0# 2.62fF
+C952 computer_0/or_3/w_0_0# computer_0/or_3/a_15_n26# 3.75fF
+C953 vdd subtractblock_0/notg_3/w_n19_1# 5.64fF
+C954 computer_0/or_2/w_0_0# computer_0/or_2/a_15_n26# 3.75fF
+C955 adderblock_0/fadd_2/or_0/in1 adderblock_0/fadd_2/hadd_0/sum 0.72fF
+C956 subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_0/hadd_1/xor_0/w_2_n50# 1.13fF
+C957 computer_0/or_1/w_0_0# computer_0/or_1/a_15_n26# 3.75fF
+C958 subt1 vdd 2.16fF
+C959 computer_0/or_0/w_0_0# computer_0/or_0/a_15_n26# 3.75fF
+C960 computer_0/tem4 computer_0/tem3 0.24fF
+C961 adderblock_0/fadd_1/in1 vdd 0.72fF
+C962 computer_0/tem2 computer_0/and_11/in2 20.25fF
+C963 adderblock_0/fadd_0/or_0/in1 adderblock_0/fadd_0/or_0/in2 0.24fF
+C964 enb_3/and_0/w_0_0# enb_3/and_0/a_15_6# 3.75fF
+C965 computer_0/xor_2/w_2_0# computer_0/xor_2/a_15_n12# 1.13fF
+C966 vdd enb_0/rn5 2.16fF
+C967 mum6 mum3 31.32fF
+C968 mum2 mum7 15.35fF
+C969 mum1 mum8 11.88fF
+C970 mum5 mum4 44.33fF
+C971 computer_0/and_10/w_0_0# computer_0/and_10/a_15_6# 3.75fF
+C972 gnd adderblock_0/fadd_2/or_0/in2 0.72fF
+C973 subtractblock_0/fadd_3/or_0/w_0_0# subtractblock_0/fadd_3/or_0/a_15_n26# 3.75fF
+C974 vdd adderblock_0/fadd_3/or_0/w_0_0# 2.26fF
+C975 vdd computer_0/xor_0/w_2_n50# 1.13fF
+C976 computer_0/and_4/w_0_0# computer_0/and_4/a_15_6# 3.75fF
+C977 adderblock_0/fadd_0/hadd_0/and_0/w_0_0# adderblock_0/fadd_0/hadd_0/and_0/a_15_6# 3.75fF
+C978 enb_0/rn4 enb_0/rn8 1.20fF
+C979 enb_2/and_5/a_15_6# by2_b 0.24fF
+C980 vdd computer_0/tem3 58.50fF
+C981 computer_0/and_3/w_0_0# computer_0/and_3/a_15_6# 3.75fF
+C982 computer_0/and_2/w_0_0# computer_0/and_2/a_15_6# 3.75fF
+C983 computer_0/notg_0/w_n19_1# computer_0/xor_0/out 8.30fF
+C984 computer_0/and_1/w_0_0# computer_0/and_1/a_15_6# 3.75fF
+C985 computer_0/and_0/w_0_0# computer_0/and_0/a_15_6# 3.75fF
+C986 vdd adderblock_0/fadd_2/hadd_0/and_0/w_0_0# 3.38fF
+C987 subt3 subtractblock_0/notg_3/out 0.24fF
+C988 vdd enb_3/and_1/w_0_0# 3.38fF
+C989 vdd enb_0/and_2/w_0_0# 3.38fF
+C990 enb_1/rn5 and_4/w_0_0# 2.62fF
+C991 gnd computer_0/xor_3/a_15_n62# 0.96fF
+C992 enb_2/and_2/w_0_0# by1_c 2.62fF
+C993 mum4 by2_d 63.18fF
+C994 reap8 enb_3/and_7/w_0_0# 1.13fF
+C995 gnd by2_c 271.35fF
+C996 computer_0/xnor2 computer_0/and_0/a_15_6# 0.24fF
+C997 adderblock_0/fadd_2/hadd_1/and_0/w_0_0# enb_0/rn6 2.62fF
+C998 subtractblock_0/fadd_0/hadd_1/xor_0/w_32_0# sub_carry 2.62fF
+C999 enb_2/and_4/a_15_6# enb_2/and_4/w_0_0# 3.75fF
+C1000 adderblock_0/fadd_2/or_0/w_0_0# vdd 2.26fF
+C1001 adderblock_0/fadd_1/hadd_1/and_0/w_0_0# adderblock_0/fadd_1/hadd_0/sum 2.62fF
+C1002 gnd by2_b 66.02fF
+C1003 vdd enb_3/and_7/w_0_0# 3.38fF
+C1004 and_0/in2 gnd 7.65fF
+C1005 gnd computer_0/xnor2 34.11fF
+C1006 by2_b enb_3/and_5/w_0_0# 2.62fF
+C1007 sel0 and_1/w_0_0# 2.62fF
+C1008 enb_2/and_5/w_0_0# by2_b 2.62fF
+C1009 and_0/in1 and_0/in2 0.24fF
+C1010 gnd subtractblock_0/notg_3/out 2.16fF
+C1011 reap3 enb_3/and_2/w_0_0# 1.13fF
+C1012 notg_0/w_n19_1# vdd 5.64fF
+C1013 and_5/w_0_0# vdd 3.38fF
+C1014 vdd adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# 0.48fF
+C1015 enb_0/rn5 enb_0/rn8 1.80fF
+C1016 and_1/out enb_1/and_7/w_0_0# 2.62fF
+C1017 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_0/sum 0.72fF
+C1018 subtractblock_0/fadd_2/or_0/in1 subtractblock_0/fadd_2/hadd_0/sum 0.72fF
+C1019 mum5 mum6 16.65fF
+C1020 computer_0/xor_1/w_2_0# mum2 2.62fF
+C1021 computer_0/xor_1/w_32_0# computer_0/xor_1/a_15_n12# 7.94fF
+C1022 vdd subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n12# 0.48fF
+C1023 subtractblock_0/fadd_1/hadd_0/xor_0/w_32_0# subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n62# 2.62fF
+C1024 gnd by1_a 21.33fF
+C1025 enb_1/and_1/w_0_0# enb_1/and_1/a_15_6# 3.75fF
+C1026 enb_1/and_0/a_15_6# by1_a 0.24fF
+C1027 and_4/w_0_0# and_4/a_15_6# 3.75fF
+C1028 adderblock_0/fadd_3/hadd_0/and_0/w_0_0# enb_0/rn1 2.62fF
+C1029 sel0 and_1/a_15_6# 0.24fF
+C1030 vdd enb_2/and_2/w_0_0# 3.38fF
+C1031 enb_2/and_6/w_0_0# by2_c 2.62fF
+C1032 computer_0/xor_3/w_2_0# mum4 2.62fF
+C1033 computer_0/xor_3/w_32_0# computer_0/xor_3/a_15_n12# 7.94fF
+C1034 computer_0/and_10/a_15_6# computer_0/xnor3 0.24fF
+C1035 adderblock_0/fadd_3/hadd_0/xor_0/w_2_n50# adderblock_0/fadd_3/in1 2.62fF
+C1036 mum7 mum8 16.20fF
+C1037 gnd computer_0/and_8/in1 33.48fF
+C1038 gnd subt0 0.72fF
+C1039 vdd subtractblock_0/fadd_0/hadd_1/xor_0/w_2_n50# 1.13fF
+C1040 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_1/hadd_1/xor_0/w_2_n50# 1.13fF
+C1041 mum3 by2_c 26.73fF
+C1042 computer_0/notg_4/w_n19_1# computer_0/and_3/in1 6.34fF
+C1043 gnd computer_0/and_8/in2 138.51fF
+C1044 vdd computer_0/xor_2/a_15_n12# 0.48fF
+C1045 computer_0/and_9/a_15_6# mum4 0.24fF
+C1046 computer_0/xor_3/out computer_0/xor_3/a_15_n12# 0.24fF
+C1047 gnd enb_0/rn4 2.22fF
+C1048 mum6 by2_d 49.14fF
+C1049 sel1 by2_c 43.20fF
+C1050 vdd computer_0/notg_4/w_n19_1# 5.64fF
+C1051 gnd by1_b 54.99fF
+C1052 vdd computer_0/and_9/w_0_0# 3.38fF
+C1053 vdd adderblock_0/fadd_2/hadd_1/xor_0/w_32_0# 2.26fF
+C1054 notg_3/w_n19_1# vdd 5.64fF
+C1055 enb_1/and_7/w_0_0# by2_d 2.62fF
+C1056 enb_1/and_3/w_0_0# enb_1/and_3/a_15_6# 3.75fF
+C1057 sel1 by2_b 205.56fF
+C1058 and_6/a_15_6# sel1 0.24fF
+C1059 and_6/in1 notg_2/w_n19_1# 6.34fF
+C1060 adderblock_0/fadd_3/hadd_1/and_0/w_0_0# adderblock_0/fadd_3/or_0/in2 1.13fF
+C1061 enb_0/rn5 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# 0.24fF
+C1062 subtractblock_0/fadd_2/hadd_1/and_0/w_0_0# subtractblock_0/notg_2/out 2.62fF
+C1063 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_3/hadd_0/sum 0.24fF
+C1064 vdd adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# 0.48fF
+C1065 gnd san1 0.72fF
+C1066 subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n62# subt3 0.24fF
+C1067 reap2 by2_c 9.45fF
+C1068 computer_0/xor_0/w_32_0# mum1 2.62fF
+C1069 gnd subtractblock_0/fadd_0/or_0/in2 0.72fF
+C1070 vdd subtractblock_0/fadd_2/in1 2.88fF
+C1071 subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_0/hadd_1/xor_0/w_32_0# 2.62fF
+C1072 sel1 by1_a 198.36fF
+C1073 enb_1/and_0/w_0_0# by1_a 2.62fF
+C1074 subt1 gnd 0.72fF
+C1075 subtractblock_0/fadd_1/hadd_1/xor_0/w_2_n50# vdd 1.13fF
+C1076 subtractblock_0/fadd_1/hadd_1/xor_0/w_32_0# subtractblock_0/notg_1/out 2.62fF
+C1077 adderblock_0/fadd_1/in1 gnd 1.68fF
+C1078 subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n12# subtractblock_0/fadd_2/hadd_0/xor_0/w_32_0# 7.94fF
+C1079 computer_0/tem3 computer_0/or_0/a_15_n26# 0.24fF
+C1080 by1_c enb_3/and_2/a_15_6# 0.24fF
+C1081 adderblock_0/fadd_0/hadd_1/xor_0/w_2_0# i_carry 2.62fF
+C1082 adderblock_0/fadd_0/hadd_1/xor_0/w_2_n50# adderblock_0/fadd_0/hadd_0/sum 2.62fF
+C1083 reap4 by2_c 15.12fF
+C1084 mum1 computer_0/and_3/in1 0.24fF
+C1085 and_1/out by2_c 3.08fF
+C1086 computer_0/or_3/w_0_0# e 2.62fF
+C1087 gnd enb_0/rn5 85.81fF
+C1088 vdd subtractblock_0/fadd_0/hadd_0/and_0/w_0_0# 3.38fF
+C1089 subtractblock_0/fadd_0/hadd_0/xor_0/w_32_0# subtractblock_0/fadd_0/hadd_0/sum 1.13fF
+C1090 computer_0/xor_2/w_32_0# mum3 2.62fF
+C1091 computer_0/or_1/w_0_0# computer_0/tem1 2.62fF
+C1092 adderblock_0/fadd_2/hadd_0/and_0/w_0_0# adderblock_0/fadd_2/in1 2.62fF
+C1093 computer_0/and_10/w_0_0# computer_0/and_11/in2 1.13fF
+C1094 vdd subtractblock_0/fadd_3/hadd_1/xor_0/w_2_0# 1.13fF
+C1095 gnd subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n62# 0.96fF
+C1096 enb_0/rn7 adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# 2.62fF
+C1097 and_1/out by2_b 6.45fF
+C1098 computer_0/notg_7/w_n19_1# mum8 8.30fF
+C1099 mum5 by2_c 17.01fF
+C1100 vdd enb_1/and_6/w_0_0# 3.38fF
+C1101 vdd mum1 2.16fF
+C1102 adderblock_0/fadd_0/hadd_0/and_0/w_0_0# adderblock_0/fadd_0/or_0/in1 1.13fF
+C1103 enb_0/rn8 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# 0.24fF
+C1104 vdd and_0/w_0_0# 3.38fF
+C1105 enb_2/and_1/w_0_0# mum2 1.13fF
+C1106 gnd computer_0/tem3 4.50fF
+C1107 computer_0/and_3/w_0_0# computer_0/tem1 1.13fF
+C1108 computer_0/and_2/w_0_0# e 1.13fF
+C1109 computer_0/and_2/in2 computer_0/and_2/w_0_0# 2.62fF
+C1110 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# adderblock_0/fadd_2/hadd_0/xor_0/w_2_0# 1.13fF
+C1111 computer_0/and_1/w_0_0# computer_0/and_2/in2 1.13fF
+C1112 computer_0/xor_1/out computer_0/xor_1/w_32_0# 1.13fF
+C1113 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_3/hadd_1/xor_0/w_2_0# 1.13fF
+C1114 vdd enb_0/rn2 89.23fF
+C1115 san1 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# 0.24fF
+C1116 vdd enb_0/rn3 264.56fF
+C1117 sel1 by1_b 171.18fF
+C1118 enb_3/and_6/w_0_0# enb_3/and_6/a_15_6# 3.75fF
+C1119 enb_2/and_0/w_0_0# lol 2.62fF
+C1120 by2_c lol 2.40fF
+C1121 and_1/out by1_a 2.76fF
+C1122 subtractblock_0/fadd_1/or_0/in2 gnd 0.72fF
+C1123 lol by2_b 6.18fF
+C1124 adderblock_0/fadd_2/hadd_0/xor_0/w_32_0# adderblock_0/fadd_2/hadd_0/sum 1.13fF
+C1125 by2_c by2_d 107.55fF
+C1126 enb_2/and_3/w_0_0# lol 2.62fF
+C1127 vdd and_1/w_0_0# 3.38fF
+C1128 vdd enb_1/rn3 0.72fF
+C1129 enb_3/and_2/w_0_0# and_7/out 2.62fF
+C1130 and_7/w_0_0# and_7/out 1.13fF
+C1131 gnd adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# 0.96fF
+C1132 vdd adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# 2.26fF
+C1133 subtractblock_0/fadd_1/hadd_0/and_0/w_0_0# vdd 3.38fF
+C1134 subtractblock_0/notg_1/w_n19_1# reap7 8.30fF
+C1135 notg_0/w_n19_1# and_0/in1 6.34fF
+C1136 san3 enb_0/rn5 0.24fF
+C1137 adderblock_0/fadd_2/hadd_0/xor_0/w_2_0# enb_0/rn2 2.62fF
+C1138 lol by1_a 5.73fF
+C1139 computer_0/xor_1/w_32_0# mum6 2.62fF
+C1140 subtractblock_0/fadd_1/hadd_0/xor_0/w_32_0# reap3 2.62fF
+C1141 subtractblock_0/fadd_1/hadd_0/xor_0/w_2_n50# subtractblock_0/fadd_1/in1 2.62fF
+C1142 and_1/out by1_b 6.32fF
+C1143 reap7 reap5 10.89fF
+C1144 enb_2/and_6/w_0_0# enb_2/and_6/a_15_6# 3.75fF
+C1145 and_1/out enb_1/and_5/w_0_0# 2.62fF
+C1146 enb_0/and_5/a_15_6# by2_b 0.24fF
+C1147 subtractblock_0/fadd_2/hadd_0/and_0/w_0_0# subtractblock_0/fadd_2/in1 2.62fF
+C1148 computer_0/and_8/in2 computer_0/tem1 7.61fF
+C1149 computer_0/xor_3/w_32_0# mum8 2.62fF
+C1150 subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n62# subtractblock_0/fadd_2/in1 0.72fF
+C1151 enb_1/and_1/w_0_0# enb_1/rn2 1.13fF
+C1152 vdd subtractblock_0/fadd_0/hadd_1/xor_0/w_32_0# 2.26fF
+C1153 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# san2 0.24fF
+C1154 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_1/hadd_1/xor_0/w_32_0# 2.62fF
+C1155 vdd mum7 15.79fF
+C1156 vdd computer_0/and_11/in2 39.60fF
+C1157 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# 7.94fF
+C1158 vdd adderblock_0/fadd_0/or_0/in1 1.44fF
+C1159 vdd adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# 0.72fF
+C1160 subtractblock_0/fadd_0/or_0/in1 subtractblock_0/fadd_0/hadd_0/sum 0.72fF
+C1161 subtractblock_0/fadd_3/hadd_0/xor_0/w_32_0# subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n62# 2.62fF
+C1162 lol by1_b 3.08fF
+C1163 vdd adderblock_0/fadd_3/hadd_1/xor_0/w_2_0# 1.13fF
+C1164 gnd adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# 0.96fF
+C1165 enb_0/rn7 adderblock_0/fadd_1/hadd_1/and_0/w_0_0# 2.62fF
+C1166 subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n62# subtractblock_0/fadd_3/hadd_1/xor_0/w_2_n50# 1.13fF
+C1167 reap2 enb_3/and_1/w_0_0# 1.13fF
+C1168 adderblock_0/fadd_0/or_0/a_15_n26# adderblock_0/fadd_0/or_0/w_0_0# 3.75fF
+C1169 adderblock_0/fadd_3/hadd_0/xor_0/w_32_0# adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# 2.62fF
+C1170 adderblock_0/fadd_3/or_0/w_0_0# adderblock_0/fadd_3/or_0/in2 2.62fF
+C1171 adderblock_0/fadd_1/or_0/w_0_0# adderblock_0/fadd_1/or_0/a_15_n26# 3.75fF
+C1172 computer_0/xor_0/w_32_0# computer_0/xor_0/a_15_n62# 2.62fF
+C1173 computer_0/xor_0/w_2_n50# mum5 2.62fF
+C1174 computer_0/and_8/in1 computer_0/and_6/w_0_0# 1.13fF
+C1175 gnd subtractblock_0/fadd_2/in1 1.68fF
+C1176 vdd subtractblock_0/notg_2/w_n19_1# 5.64fF
+C1177 by2_c by2_a 25.38fF
+C1178 computer_0/or_2/in2 computer_0/or_2/in1 0.24fF
+C1179 adderblock_0/fadd_2/or_0/in1 adderblock_0/fadd_2/or_0/in2 0.24fF
+C1180 subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n12# subtractblock_0/fadd_2/hadd_0/sum 0.24fF
+C1181 subtractblock_0/fadd_1/hadd_1/xor_0/w_32_0# vdd 2.26fF
+C1182 by2_c by1_d 22.27fF
+C1183 enb_2/and_2/w_0_0# mum3 1.13fF
+C1184 subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n12# subtractblock_0/fadd_2/hadd_0/xor_0/w_2_0# 1.13fF
+C1185 by2_b by2_a 79.92fF
+C1186 and_0/in2 by1_d 6.30fF
+C1187 by2_b by1_d 107.46fF
+C1188 enb_2/and_3/w_0_0# by1_d 2.62fF
+C1189 san0 adderblock_0/fadd_0/or_0/in2 0.72fF
+C1190 adderblock_0/fadd_0/hadd_1/xor_0/w_32_0# adderblock_0/fadd_0/hadd_0/sum 2.62fF
+C1191 mum1 computer_0/and_3/a_15_6# 0.24fF
+C1192 vdd adderblock_0/fadd_0/hadd_0/sum 0.72fF
+C1193 subtractblock_0/fadd_0/hadd_1/and_0/w_0_0# sub_carry 2.62fF
+C1194 vdd subtractblock_0/notg_0/out 2.16fF
+C1195 computer_0/xor_2/w_32_0# computer_0/xor_2/a_15_n62# 2.62fF
+C1196 computer_0/xor_2/w_2_n50# mum7 2.62fF
+C1197 adderblock_0/fadd_2/hadd_0/and_0/w_0_0# adderblock_0/fadd_2/hadd_0/and_0/a_15_6# 3.75fF
+C1198 adderblock_0/fadd_2/in1 enb_0/rn2 5.61fF
+C1199 gnd subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n62# 0.96fF
+C1200 vdd adderblock_0/fadd_1/hadd_1/and_0/w_0_0# 3.38fF
+C1201 vdd adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# 0.48fF
+C1202 gnd adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# 0.96fF
+C1203 adderblock_0/fadd_1/or_0/in1 adderblock_0/fadd_1/or_0/in2 0.24fF
+C1204 computer_0/and_8/in1 computer_0/and_8/w_0_0# 2.62fF
+C1205 vdd computer_0/xor_1/w_2_0# 1.13fF
+C1206 gnd mum1 3.87fF
+C1207 vdd g 1.08fF
+C1208 gnd enb_1/rn8 0.54fF
+C1209 vdd computer_0/or_2/in2 2.83fF
+C1210 vdd computer_0/notg_7/w_n19_1# 5.64fF
+C1211 computer_0/and_8/w_0_0# computer_0/and_8/in2 2.62fF
+C1212 computer_0/xor_1/out computer_0/xor_1/a_15_n12# 0.24fF
+C1213 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# san3 0.24fF
+C1214 gnd enb_0/rn2 2.16fF
+C1215 gnd enb_0/rn3 2.16fF
+C1216 subtractblock_0/fadd_3/hadd_1/xor_0/w_32_0# subtractblock_0/notg_3/out 2.62fF
+C1217 and_0/in1 and_0/w_0_0# 2.62fF
+C1218 subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n12# subt2 0.24fF
+C1219 by1_a by2_a 144.22fF
+C1220 enb_2/and_6/a_15_6# lol 0.24fF
+C1221 notg_3/w_n19_1# sel1 8.30fF
+C1222 by1_a by1_d 55.48fF
+C1223 by1_b enb_3/and_1/a_15_6# 0.24fF
+C1224 computer_0/and_9/w_0_0# computer_0/and_9/in1 2.62fF
+C1225 vdd enb_1/and_3/w_0_0# 3.38fF
+C1226 vdd enb_1/and_1/w_0_0# 3.38fF
+C1227 adderblock_0/fadd_3/hadd_0/xor_0/w_2_0# enb_0/rn1 2.62fF
+C1228 vdd subtractblock_0/fadd_2/hadd_0/xor_0/w_32_0# 2.26fF
+C1229 gnd enb_1/rn3 0.72fF
+C1230 enb_3/and_7/w_0_0# by2_d 2.62fF
+C1231 by2_b enb_3/and_5/a_15_6# 0.24fF
+C1232 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# adderblock_0/fadd_1/hadd_0/xor_0/w_32_0# 2.62fF
+C1233 subtractblock_0/fadd_1/or_0/in1 subtractblock_0/fadd_1/hadd_0/sum 0.72fF
+C1234 reap3 vdd 50.90fF
+C1235 subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n62# gnd 0.96fF
+C1236 subtractblock_0/fadd_1/or_0/w_0_0# vdd 2.26fF
+C1237 by1_b by2_a 193.41fF
+C1238 by1_b by1_d 103.81fF
+C1239 enb_0/rn8 adderblock_0/fadd_0/hadd_0/sum 0.24fF
+C1240 reap1 by2_c 13.23fF
+C1241 mum1 mum3 11.88fF
+C1242 vdd adderblock_0/fadd_2/hadd_1/and_0/w_0_0# 3.38fF
+C1243 vdd subtractblock_0/fadd_3/in1 2.16fF
+C1244 subtractblock_0/fadd_2/or_0/in1 subtractblock_0/fadd_2/or_0/in2 0.24fF
+C1245 computer_0/xor_1/w_2_n50# computer_0/xor_1/a_15_n62# 1.13fF
+C1246 computer_0/xor_0/out mum1 0.24fF
+C1247 enb_1/rn1 enb_1/rn2 0.24fF
+C1248 computer_0/notg_4/w_n19_1# mum5 8.30fF
+C1249 and_5/w_0_0# and_5/a_15_6# 3.75fF
+C1250 enb_1/rn6 enb_1/and_5/w_0_0# 1.13fF
+C1251 enb_2/and_2/w_0_0# lol 2.62fF
+C1252 subtractblock_0/fadd_2/hadd_0/and_0/w_0_0# subtractblock_0/fadd_2/hadd_0/and_0/a_15_6# 3.75fF
+C1253 subtractblock_0/fadd_2/in1 reap2 3.00fF
+C1254 computer_0/xor_3/w_2_n50# computer_0/xor_3/a_15_n62# 1.13fF
+C1255 computer_0/and_8/w_0_0# computer_0/tem3 1.13fF
+C1256 adderblock_0/fadd_1/or_0/in1 adderblock_0/fadd_1/hadd_0/and_0/w_0_0# 1.13fF
+C1257 adderblock_0/fadd_1/in1 adderblock_0/fadd_1/hadd_0/xor_0/w_2_n50# 2.62fF
+C1258 vdd computer_0/xor_3/w_32_0# 2.26fF
+C1259 enb_3/and_1/w_0_0# enb_3/and_1/a_15_6# 3.75fF
+C1260 gnd mum7 1.68fF
+C1261 computer_0/and_7/w_0_0# computer_0/xnor1 2.62fF
+C1262 gnd computer_0/and_11/in2 4.95fF
+C1263 subtractblock_0/fadd_3/hadd_0/xor_0/w_32_0# reap1 2.62fF
+C1264 subtractblock_0/fadd_3/hadd_0/xor_0/w_2_n50# subtractblock_0/fadd_3/in1 2.62fF
+C1265 subtractblock_0/fadd_1/hadd_1/and_0/w_0_0# subtractblock_0/notg_1/out 2.62fF
+C1266 vdd computer_0/and_7/w_0_0# 3.38fF
+C1267 adderblock_0/fadd_1/hadd_1/xor_0/w_32_0# adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# 7.94fF
+C1268 gnd enb_1/rn7 0.72fF
+C1269 vdd enb_2/and_1/w_0_0# 3.38fF
+C1270 adderblock_0/fadd_1/in1 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# 0.72fF
+C1271 sel1 and_1/w_0_0# 2.62fF
+C1272 adderblock_0/fadd_1/in1 adderblock_0/fadd_0/or_0/w_0_0# 1.13fF
+C1273 reap7 reap8 2.02fF
+C1274 enb_2/and_7/a_15_6# enb_2/and_7/w_0_0# 3.75fF
+C1275 enb_1/and_2/w_0_0# by1_b 2.62fF
+C1276 subtractblock_0/fadd_0/hadd_0/and_0/w_0_0# reap4 2.62fF
+C1277 subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n62# reap4 0.72fF
+C1278 and_7/w_0_0# sel0 2.62fF
+C1279 and_3/w_0_0# gd2 1.13fF
+C1280 gd3 Gnd 8.65fF
+C1281 and_4/a_15_6# Gnd 14.65fF
+C1282 gd2 Gnd 8.84fF
+C1283 and_3/a_15_6# Gnd 14.65fF
+C1284 gd1 Gnd 9.96fF
+C1285 and_2/a_15_6# Gnd 14.65fF
+C1286 and_1/a_15_6# Gnd 14.65fF
+C1287 and_0/a_15_6# Gnd 14.65fF
+C1288 enb_3/and_4/a_15_6# Gnd 14.65fF
+C1289 by2_a Gnd 8137.45fF
+C1290 enb_3/and_3/a_15_6# Gnd 14.65fF
+C1291 by1_d Gnd 5066.40fF
+C1292 enb_3/and_2/a_15_6# Gnd 14.65fF
+C1293 by1_c Gnd 7103.90fF
+C1294 enb_3/and_1/a_15_6# Gnd 14.65fF
+C1295 by1_b Gnd 9225.53fF
+C1296 enb_3/and_0/a_15_6# Gnd 14.65fF
+C1297 by1_a Gnd 7109.82fF
+C1298 reap8 Gnd 62.43fF
+C1299 enb_3/and_7/a_15_6# Gnd 14.65fF
+C1300 and_7/out Gnd 439.01fF
+C1301 by2_d Gnd 12131.40fF
+C1302 enb_3/and_6/a_15_6# Gnd 14.65fF
+C1303 by2_c Gnd 11717.65fF
+C1304 enb_3/and_5/a_15_6# Gnd 14.65fF
+C1305 by2_b Gnd 6677.14fF
+C1306 enb_2/and_4/a_15_6# Gnd 14.65fF
+C1307 enb_2/and_3/a_15_6# Gnd 14.65fF
+C1308 enb_2/and_2/a_15_6# Gnd 14.65fF
+C1309 enb_2/and_1/a_15_6# Gnd 14.65fF
+C1310 enb_2/and_0/a_15_6# Gnd 14.65fF
+C1311 enb_2/and_7/a_15_6# Gnd 14.65fF
+C1312 lol Gnd 480.32fF
+C1313 enb_2/and_6/a_15_6# Gnd 14.65fF
+C1314 enb_2/and_5/a_15_6# Gnd 14.65fF
+C1315 enb_1/rn5 Gnd 21.08fF
+C1316 enb_1/and_4/a_15_6# Gnd 14.65fF
+C1317 enb_1/rn4 Gnd 22.09fF
+C1318 enb_1/and_3/a_15_6# Gnd 14.65fF
+C1319 enb_1/rn3 Gnd 24.47fF
+C1320 enb_1/and_2/a_15_6# Gnd 14.65fF
+C1321 enb_1/rn2 Gnd 22.13fF
+C1322 enb_1/and_1/a_15_6# Gnd 14.65fF
+C1323 enb_1/rn1 Gnd 29.36fF
+C1324 enb_1/and_0/a_15_6# Gnd 14.65fF
+C1325 enb_1/rn8 Gnd 24.33fF
+C1326 enb_1/and_7/a_15_6# Gnd 14.65fF
+C1327 and_1/out Gnd 443.14fF
+C1328 enb_1/rn7 Gnd 21.91fF
+C1329 enb_1/and_6/a_15_6# Gnd 14.65fF
+C1330 enb_1/rn6 Gnd 23.80fF
+C1331 enb_1/and_5/a_15_6# Gnd 14.65fF
+C1332 enb_0/and_4/a_15_6# Gnd 14.65fF
+C1333 enb_0/and_3/a_15_6# Gnd 14.65fF
+C1334 enb_0/and_2/a_15_6# Gnd 14.65fF
+C1335 enb_0/and_1/a_15_6# Gnd 14.65fF
+C1336 enb_0/and_0/a_15_6# Gnd 14.65fF
+C1337 enb_0/and_7/a_15_6# Gnd 14.65fF
+C1338 d_zero Gnd 479.15fF
+C1339 enb_0/and_6/a_15_6# Gnd 14.65fF
+C1340 enb_0/and_5/a_15_6# Gnd 14.65fF
+C1341 computer_0/and_4/a_15_6# Gnd 14.65fF
+C1342 computer_0/and_4/in1 Gnd 29.78fF
+C1343 computer_0/tem1 Gnd 27.05fF
+C1344 computer_0/and_3/a_15_6# Gnd 14.65fF
+C1345 computer_0/and_3/in1 Gnd 38.67fF
+C1346 e Gnd 27.81fF
+C1347 computer_0/and_2/a_15_6# Gnd 14.65fF
+C1348 computer_0/and_2/in1 Gnd 20.10fF
+C1349 computer_0/and_2/in2 Gnd 21.98fF
+C1350 computer_0/and_1/a_15_6# Gnd 14.65fF
+C1351 computer_0/xnor3 Gnd 48.71fF
+C1352 computer_0/and_0/a_15_6# Gnd 14.65fF
+C1353 computer_0/xnor1 Gnd 55.14fF
+C1354 computer_0/xor_3/a_15_n62# Gnd 4.00fF
+C1355 mum8 Gnd 1868.22fF
+C1356 mum4 Gnd 2613.16fF
+C1357 computer_0/xor_3/a_15_n12# Gnd 7.61fF
+C1358 computer_0/and_11/a_15_6# Gnd 14.65fF
+C1359 computer_0/and_9/out Gnd 15.78fF
+C1360 computer_0/xor_2/out Gnd 47.81fF
+C1361 computer_0/xor_2/a_15_n62# Gnd 4.00fF
+C1362 mum7 Gnd 1329.31fF
+C1363 mum3 Gnd 1283.58fF
+C1364 computer_0/xor_2/a_15_n12# Gnd 7.61fF
+C1365 computer_0/and_11/in2 Gnd 2436.84fF
+C1366 computer_0/and_10/a_15_6# Gnd 14.65fF
+C1367 computer_0/and_8/in2 Gnd 29.87fF
+C1368 computer_0/xor_1/a_15_n62# Gnd 4.00fF
+C1369 mum6 Gnd 761.47fF
+C1370 mum2 Gnd 799.39fF
+C1371 computer_0/xor_1/a_15_n12# Gnd 7.61fF
+C1372 computer_0/xor_0/a_15_n62# Gnd 4.00fF
+C1373 mum5 Gnd 491.65fF
+C1374 mum1 Gnd 394.77fF
+C1375 computer_0/xor_0/a_15_n12# Gnd 7.61fF
+C1376 computer_0/or_3/out Gnd 27.32fF
+C1377 computer_0/or_3/a_15_n26# Gnd 14.65fF
+C1378 g Gnd 24.52fF
+C1379 computer_0/or_2/a_15_n26# Gnd 14.65fF
+C1380 computer_0/or_2/in1 Gnd 18.60fF
+C1381 computer_0/or_2/in2 Gnd 20.48fF
+C1382 computer_0/or_1/a_15_n26# Gnd 14.65fF
+C1383 computer_0/or_0/a_15_n26# Gnd 14.65fF
+C1384 computer_0/tem3 Gnd 21.98fF
+C1385 l Gnd 36.94fF
+C1386 computer_0/and_9/a_15_6# Gnd 14.65fF
+C1387 computer_0/and_9/in1 Gnd 38.71fF
+C1388 computer_0/xnor4 Gnd 26.21fF
+C1389 computer_0/xor_3/out Gnd 46.50fF
+C1390 computer_0/and_8/a_15_6# Gnd 14.65fF
+C1391 computer_0/xnor2 Gnd 53.13fF
+C1392 computer_0/xor_1/out Gnd 45.04fF
+C1393 computer_0/and_8/in1 Gnd 20.10fF
+C1394 computer_0/and_6/a_15_6# Gnd 14.65fF
+C1395 computer_0/and_6/in1 Gnd 23.53fF
+C1396 computer_0/and_7/a_15_6# Gnd 14.65fF
+C1397 computer_0/xor_0/out Gnd 43.82fF
+C1398 computer_0/tem2 Gnd 46.98fF
+C1399 computer_0/and_5/a_15_6# Gnd 14.65fF
+C1400 computer_0/and_5/in1 Gnd 20.10fF
+C1401 adderblock_0/fadd_0/or_0/in2 Gnd 23.30fF
+C1402 adderblock_0/fadd_0/hadd_1/and_0/a_15_6# Gnd 14.65fF
+C1403 i_carry Gnd 74.70fF
+C1404 adderblock_0/fadd_0/hadd_0/sum Gnd 40.69fF
+C1405 san0 Gnd 39.67fF
+C1406 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n62# Gnd 4.00fF
+C1407 adderblock_0/fadd_0/hadd_1/xor_0/a_15_n12# Gnd 7.61fF
+C1408 adderblock_0/fadd_0/or_0/in1 Gnd 28.37fF
+C1409 adderblock_0/fadd_0/hadd_0/and_0/a_15_6# Gnd 14.65fF
+C1410 enb_0/rn8 Gnd 85.30fF
+C1411 enb_0/rn4 Gnd 59.97fF
+C1412 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n62# Gnd 4.00fF
+C1413 adderblock_0/fadd_0/hadd_0/xor_0/a_15_n12# Gnd 7.61fF
+C1414 adderblock_0/fadd_0/or_0/a_15_n26# Gnd 14.65fF
+C1415 adderblock_0/fadd_3/or_0/in2 Gnd 23.30fF
+C1416 adderblock_0/fadd_3/hadd_1/and_0/a_15_6# Gnd 14.65fF
+C1417 adderblock_0/fadd_3/hadd_0/sum Gnd 40.69fF
+C1418 san3 Gnd 35.81fF
+C1419 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n62# Gnd 4.00fF
+C1420 adderblock_0/fadd_3/hadd_1/xor_0/a_15_n12# Gnd 7.61fF
+C1421 adderblock_0/fadd_3/or_0/in1 Gnd 28.37fF
+C1422 adderblock_0/fadd_3/hadd_0/and_0/a_15_6# Gnd 14.65fF
+C1423 enb_0/rn1 Gnd 88.43fF
+C1424 adderblock_0/fadd_3/in1 Gnd 72.60fF
+C1425 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n62# Gnd 4.00fF
+C1426 adderblock_0/fadd_3/hadd_0/xor_0/a_15_n12# Gnd 7.61fF
+C1427 san4 Gnd 29.52fF
+C1428 adderblock_0/fadd_3/or_0/a_15_n26# Gnd 14.65fF
+C1429 adderblock_0/fadd_2/or_0/in2 Gnd 23.30fF
+C1430 adderblock_0/fadd_2/hadd_1/and_0/a_15_6# Gnd 14.65fF
+C1431 enb_0/rn6 Gnd 68.94fF
+C1432 adderblock_0/fadd_2/hadd_0/sum Gnd 40.69fF
+C1433 san2 Gnd 37.04fF
+C1434 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n62# Gnd 4.00fF
+C1435 adderblock_0/fadd_2/hadd_1/xor_0/a_15_n12# Gnd 7.61fF
+C1436 adderblock_0/fadd_2/or_0/in1 Gnd 28.37fF
+C1437 adderblock_0/fadd_2/hadd_0/and_0/a_15_6# Gnd 14.65fF
+C1438 enb_0/rn2 Gnd 84.47fF
+C1439 adderblock_0/fadd_2/in1 Gnd 87.08fF
+C1440 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n62# Gnd 4.00fF
+C1441 adderblock_0/fadd_2/hadd_0/xor_0/a_15_n12# Gnd 7.61fF
+C1442 adderblock_0/fadd_2/or_0/a_15_n26# Gnd 14.65fF
+C1443 adderblock_0/fadd_1/or_0/in2 Gnd 23.30fF
+C1444 adderblock_0/fadd_1/hadd_1/and_0/a_15_6# Gnd 14.65fF
+C1445 enb_0/rn7 Gnd 67.38fF
+C1446 adderblock_0/fadd_1/hadd_0/sum Gnd 40.69fF
+C1447 san1 Gnd 28.76fF
+C1448 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n62# Gnd 4.00fF
+C1449 adderblock_0/fadd_1/hadd_1/xor_0/a_15_n12# Gnd 7.61fF
+C1450 adderblock_0/fadd_1/or_0/in1 Gnd 28.37fF
+C1451 adderblock_0/fadd_1/hadd_0/and_0/a_15_6# Gnd 14.65fF
+C1452 enb_0/rn3 Gnd 83.31fF
+C1453 adderblock_0/fadd_1/in1 Gnd 56.67fF
+C1454 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n62# Gnd 4.00fF
+C1455 adderblock_0/fadd_1/hadd_0/xor_0/a_15_n12# Gnd 7.61fF
+C1456 adderblock_0/fadd_1/or_0/a_15_n26# Gnd 14.65fF
+C1457 subtractblock_0/fadd_0/or_0/in2 Gnd 23.30fF
+C1458 subtractblock_0/fadd_0/hadd_1/and_0/a_15_6# Gnd 14.65fF
+C1459 sub_carry Gnd 70.33fF
+C1460 subtractblock_0/fadd_0/hadd_0/sum Gnd 40.69fF
+C1461 subt0 Gnd 39.39fF
+C1462 subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n62# Gnd 4.00fF
+C1463 subtractblock_0/fadd_0/hadd_1/xor_0/a_15_n12# Gnd 7.61fF
+C1464 subtractblock_0/fadd_0/or_0/in1 Gnd 28.37fF
+C1465 subtractblock_0/fadd_0/hadd_0/and_0/a_15_6# Gnd 14.65fF
+C1466 subtractblock_0/notg_0/out Gnd 130.21fF
+C1467 reap4 Gnd 63.61fF
+C1468 subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n62# Gnd 4.00fF
+C1469 subtractblock_0/fadd_0/hadd_0/xor_0/a_15_n12# Gnd 7.61fF
+C1470 subtractblock_0/fadd_0/or_0/a_15_n26# Gnd 14.65fF
+C1471 reap5 Gnd 63.97fF
+C1472 subtractblock_0/fadd_3/or_0/in2 Gnd 23.30fF
+C1473 subtractblock_0/fadd_3/hadd_1/and_0/a_15_6# Gnd 14.65fF
+C1474 subtractblock_0/notg_3/out Gnd 79.03fF
+C1475 subtractblock_0/fadd_3/hadd_0/sum Gnd 40.69fF
+C1476 subt3 Gnd 39.57fF
+C1477 subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n62# Gnd 4.00fF
+C1478 subtractblock_0/fadd_3/hadd_1/xor_0/a_15_n12# Gnd 7.61fF
+C1479 subtractblock_0/fadd_3/or_0/in1 Gnd 28.37fF
+C1480 subtractblock_0/fadd_3/hadd_0/and_0/a_15_6# Gnd 14.65fF
+C1481 reap1 Gnd 93.67fF
+C1482 subtractblock_0/fadd_3/in1 Gnd 69.78fF
+C1483 subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n62# Gnd 4.00fF
+C1484 subtractblock_0/fadd_3/hadd_0/xor_0/a_15_n12# Gnd 7.61fF
+C1485 subt4 Gnd 34.12fF
+C1486 subtractblock_0/fadd_3/or_0/a_15_n26# Gnd 14.65fF
+C1487 reap6 Gnd 57.44fF
+C1488 reap7 Gnd 56.64fF
+C1489 subtractblock_0/fadd_2/or_0/in2 Gnd 23.30fF
+C1490 subtractblock_0/fadd_2/hadd_1/and_0/a_15_6# Gnd 14.65fF
+C1491 subtractblock_0/notg_2/out Gnd 67.70fF
+C1492 subtractblock_0/fadd_2/hadd_0/sum Gnd 40.69fF
+C1493 subt2 Gnd 37.84fF
+C1494 subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n62# Gnd 4.00fF
+C1495 subtractblock_0/fadd_2/hadd_1/xor_0/a_15_n12# Gnd 7.61fF
+C1496 subtractblock_0/fadd_2/or_0/in1 Gnd 28.37fF
+C1497 subtractblock_0/fadd_2/hadd_0/and_0/a_15_6# Gnd 14.65fF
+C1498 reap2 Gnd 66.48fF
+C1499 subtractblock_0/fadd_2/in1 Gnd 62.31fF
+C1500 subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n62# Gnd 4.00fF
+C1501 subtractblock_0/fadd_2/hadd_0/xor_0/a_15_n12# Gnd 7.61fF
+C1502 subtractblock_0/fadd_2/or_0/a_15_n26# Gnd 14.65fF
+C1503 gnd Gnd 136195.63fF
+C1504 subtractblock_0/fadd_1/or_0/in2 Gnd 23.30fF
+C1505 vdd Gnd 121536.35fF
+C1506 subtractblock_0/fadd_1/hadd_1/and_0/a_15_6# Gnd 14.65fF
+C1507 subtractblock_0/notg_1/out Gnd 86.03fF
+C1508 subtractblock_0/fadd_1/hadd_0/sum Gnd 40.69fF
+C1509 subt1 Gnd 37.27fF
+C1510 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n62# Gnd 4.00fF
+C1511 subtractblock_0/fadd_1/hadd_1/xor_0/a_15_n12# Gnd 7.61fF
+C1512 subtractblock_0/fadd_1/or_0/in1 Gnd 28.37fF
+C1513 subtractblock_0/fadd_1/hadd_0/and_0/a_15_6# Gnd 14.65fF
+C1514 reap3 Gnd 86.72fF
+C1515 subtractblock_0/fadd_1/in1 Gnd 67.48fF
+C1516 subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n62# Gnd 4.00fF
+C1517 subtractblock_0/fadd_1/hadd_0/xor_0/a_15_n12# Gnd 7.61fF
+C1518 subtractblock_0/fadd_1/or_0/a_15_n26# Gnd 14.65fF
+C1519 sel1 Gnd 17604.56fF
+C1520 and_0/in2 Gnd 41.16fF
+C1521 and_7/a_15_6# Gnd 14.65fF
+C1522 sel0 Gnd 16973.24fF
+C1523 and_7/in1 Gnd 46.33fF
+C1524 and_6/a_15_6# Gnd 14.65fF
+C1525 and_6/in1 Gnd 25.46fF
+C1526 and_0/in1 Gnd 38.57fF
+C1527 gd4 Gnd 9.21fF
+C1528 and_5/a_15_6# Gnd 14.65fF

@@ -1,0 +1,431 @@
+* SPICE3 file created from 4_bit_Adder.ext - technology: scmos
+
+.option scale=1u
+
+M1000 vSum0 vCin a_399_n17# Gnd nfet w=6 l=2
++  ad=132 pd=68 as=152 ps=86
+M1001 vSum0 vCin a_n13_n34# w_434_10# pfet w=12 l=2
++  ad=264 pd=92 as=396 ps=138
+M1002 a_823_n48# a_278_n21# gnd Gnd nfet w=8 l=2
++  ad=128 pd=48 as=3232 ps=1720
+M1003 a_823_n296# a_278_n269# gnd Gnd nfet w=8 l=2
++  ad=128 pd=48 as=0 ps=0
+M1004 a_823_n499# a_278_n472# gnd Gnd nfet w=8 l=2
++  ad=128 pd=48 as=0 ps=0
+M1005 a_688_n245# vCarry1 a_688_n284# Gnd nfet w=10 l=3
++  ad=110 pd=42 as=110 ps=42
+M1006 a_n34_n290# vB1 gnd Gnd nfet w=6 l=2
++  ad=86 pd=52 as=0 ps=0
+M1007 a_688_n448# vCarry2 a_688_n487# Gnd nfet w=10 l=3
++  ad=110 pd=42 as=110 ps=42
+M1008 a_n34_n493# vB2 gnd Gnd nfet w=6 l=2
++  ad=86 pd=52 as=0 ps=0
+M1009 a_431_n290# vCarry1 vdd w_434_n238# pfet w=12 l=2
++  ad=172 pd=72 as=6544 ps=2552
+M1010 a_431_n732# vCarry3 vdd w_434_n680# pfet w=12 l=2
++  ad=172 pd=72 as=0 ps=0
+M1011 a_431_n493# vCarry2 vdd w_434_n441# pfet w=12 l=2
++  ad=172 pd=72 as=0 ps=0
+M1012 a_688_n245# a_n13_n282# vdd w_669_n254# pfet w=18 l=3
++  ad=198 pd=58 as=0 ps=0
+M1013 a_823_n738# a_278_n711# gnd Gnd nfet w=8 l=2
++  ad=128 pd=48 as=0 ps=0
+M1014 a_688_n687# vCarry3 a_688_n726# Gnd nfet w=10 l=3
++  ad=110 pd=42 as=110 ps=42
+M1015 a_688_n687# a_n13_n724# vdd w_669_n696# pfet w=18 l=3
++  ad=198 pd=58 as=0 ps=0
+M1016 a_688_n448# a_n13_n485# vdd w_669_n457# pfet w=18 l=3
++  ad=198 pd=58 as=0 ps=0
+M1017 vSum1 vCarry1 a_n13_n282# w_434_n238# pfet w=12 l=2
++  ad=264 pd=92 as=396 ps=138
+M1018 a_n34_n732# vB3 gnd Gnd nfet w=6 l=2
++  ad=86 pd=52 as=0 ps=0
+M1019 vSum2 vCarry2 a_n13_n485# w_434_n441# pfet w=12 l=2
++  ad=264 pd=92 as=396 ps=138
+M1020 vSum3 vCarry3 a_n13_n724# w_434_n680# pfet w=12 l=2
++  ad=264 pd=92 as=396 ps=138
+M1021 a_399_n265# a_n13_n282# vdd w_386_n252# pfet w=8 l=2
++  ad=304 pd=118 as=0 ps=0
+M1022 a_399_n468# a_n13_n485# vdd w_386_n455# pfet w=8 l=2
++  ad=304 pd=118 as=0 ps=0
+M1023 a_399_n707# a_n13_n724# vdd w_386_n694# pfet w=8 l=2
++  ad=304 pd=118 as=0 ps=0
+M1024 a_399_n265# a_n13_n282# gnd Gnd nfet w=6 l=2
++  ad=152 pd=86 as=0 ps=0
+M1025 a_n66_n17# vA0 gnd Gnd nfet w=4 l=2
++  ad=152 pd=86 as=0 ps=0
+M1026 a_399_n468# a_n13_n485# gnd Gnd nfet w=6 l=2
++  ad=152 pd=86 as=0 ps=0
+M1027 a_399_n265# a_n13_n282# gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 a_823_n296# a_743_n269# a_823_n262# w_808_n264# pfet w=8 l=2
++  ad=80 pd=36 as=128 ps=48
+M1029 a_823_n499# a_743_n472# a_823_n465# w_808_n467# pfet w=8 l=2
++  ad=80 pd=36 as=128 ps=48
+M1030 a_399_n468# a_n13_n485# gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 vSum0 a_431_n42# a_399_n17# w_434_10# pfet w=12 l=2
++  ad=0 pd=0 as=304 ps=118
+M1032 a_399_n707# a_n13_n724# gnd Gnd nfet w=6 l=2
++  ad=152 pd=86 as=0 ps=0
+M1033 a_399_n707# a_n13_n724# gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 a_688_3# vCin a_688_n36# Gnd nfet w=10 l=3
++  ad=110 pd=42 as=110 ps=42
+M1035 a_823_n738# a_743_n711# a_823_n704# w_808_n706# pfet w=8 l=2
++  ad=80 pd=36 as=128 ps=48
+M1036 a_743_n21# a_688_3# vdd w_730_n8# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1037 a_n13_n282# a_n34_n290# a_n66_n265# w_n31_n238# pfet w=12 l=2
++  ad=0 pd=0 as=304 ps=118
+M1038 a_n13_n724# a_n34_n732# a_n66_n707# w_n31_n680# pfet w=12 l=2
++  ad=0 pd=0 as=304 ps=118
+M1039 a_n13_n485# a_n34_n493# a_n66_n468# w_n31_n441# pfet w=12 l=2
++  ad=0 pd=0 as=304 ps=118
+M1040 a_223_3# vB0 a_223_n36# Gnd nfet w=10 l=3
++  ad=110 pd=42 as=110 ps=42
+M1041 a_223_n245# vB1 a_223_n284# Gnd nfet w=10 l=3
++  ad=110 pd=42 as=110 ps=42
+M1042 a_223_n448# vB2 a_223_n487# Gnd nfet w=10 l=3
++  ad=110 pd=42 as=110 ps=42
+M1043 a_n34_n42# vB0 gnd Gnd nfet w=4 l=2
++  ad=86 pd=52 as=0 ps=0
+M1044 a_431_n42# vCin vdd w_595_3# pfet w=8 l=2
++  ad=172 pd=72 as=0 ps=0
+M1045 vSum1 a_431_n290# a_399_n265# w_434_n238# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 a_n66_n265# vA1 vdd w_n31_n238# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1047 vSum3 a_431_n732# a_399_n707# w_434_n680# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1048 vSum2 a_431_n493# a_399_n468# w_434_n441# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1049 a_n66_n707# vA3 vdd w_n31_n680# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1050 a_n66_n468# vA2 vdd w_n31_n441# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1051 gnd a_743_n269# a_823_n296# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1052 a_n66_n265# vA1 vdd w_n79_n252# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1053 a_223_n245# vA1 vdd w_204_n254# pfet w=18 l=3
++  ad=198 pd=58 as=0 ps=0
+M1054 gnd a_743_n472# a_823_n499# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1055 a_223_n687# vA3 vdd w_204_n696# pfet w=18 l=3
++  ad=198 pd=58 as=0 ps=0
+M1056 a_743_n472# a_688_n448# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1057 a_223_n448# vA2 vdd w_204_n457# pfet w=18 l=3
++  ad=198 pd=58 as=0 ps=0
+M1058 a_223_n687# vB3 a_223_n726# Gnd nfet w=10 l=3
++  ad=110 pd=42 as=110 ps=42
+M1059 a_n66_n707# vA3 vdd w_n79_n694# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 a_n66_n468# vA2 vdd w_n79_n455# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1061 a_743_n21# a_688_3# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1062 a_n66_n17# vA0 vdd w_n31_10# pfet w=12 l=2
++  ad=304 pd=118 as=0 ps=0
+M1063 a_n13_n34# vB0 a_n66_n17# Gnd nfet w=6 l=2
++  ad=198 pd=102 as=0 ps=0
+M1064 a_399_n17# a_n13_n34# vdd w_434_10# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1065 gnd a_743_n711# a_823_n738# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1066 a_743_n711# a_688_n687# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1067 a_431_n290# vCarry1 gnd Gnd nfet w=6 l=2
++  ad=86 pd=52 as=0 ps=0
+M1068 a_278_n21# a_223_3# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1069 a_431_n493# vCarry2 gnd Gnd nfet w=6 l=2
++  ad=86 pd=52 as=0 ps=0
+M1070 a_688_n284# a_n13_n282# gnd Gnd nfet w=10 l=3
++  ad=0 pd=0 as=0 ps=0
+M1071 a_n13_n34# a_n34_n42# a_n66_n17# w_n31_10# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1072 a_688_n487# a_n13_n485# gnd Gnd nfet w=10 l=3
++  ad=0 pd=0 as=0 ps=0
+M1073 a_n66_n265# vA1 gnd Gnd nfet w=4 l=2
++  ad=152 pd=86 as=0 ps=0
+M1074 a_823_n48# a_743_n21# a_823_n14# w_808_n16# pfet w=8 l=2
++  ad=80 pd=36 as=128 ps=48
+M1075 a_n66_n468# vA2 gnd Gnd nfet w=4 l=2
++  ad=152 pd=86 as=0 ps=0
+M1076 vSum1 a_431_n290# a_n13_n282# Gnd nfet w=6 l=2
++  ad=132 pd=68 as=198 ps=102
+M1077 a_431_n732# vCarry3 gnd Gnd nfet w=6 l=2
++  ad=86 pd=52 as=0 ps=0
+M1078 vSum2 a_431_n493# a_n13_n485# Gnd nfet w=6 l=2
++  ad=132 pd=68 as=198 ps=102
+M1079 a_n66_n17# vA0 gnd Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1080 a_n13_n282# vB1 vA1 w_n31_n238# pfet w=12 l=2
++  ad=0 pd=0 as=132 ps=46
+M1081 a_688_3# a_n13_n34# vdd w_669_n6# pfet w=18 l=3
++  ad=198 pd=58 as=0 ps=0
+M1082 a_n13_n724# vB3 vA3 w_n31_n680# pfet w=12 l=2
++  ad=0 pd=0 as=132 ps=46
+M1083 a_n13_n485# vB2 vA2 w_n31_n441# pfet w=12 l=2
++  ad=0 pd=0 as=132 ps=46
+M1084 a_688_n726# a_n13_n724# gnd Gnd nfet w=10 l=3
++  ad=0 pd=0 as=0 ps=0
+M1085 a_743_n269# a_688_n245# vdd w_730_n256# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1086 vCarry2 a_823_n296# vdd w_863_n264# pfet w=8 l=3
++  ad=104 pd=42 as=0 ps=0
+M1087 vSum3 a_431_n732# a_n13_n724# Gnd nfet w=6 l=2
++  ad=132 pd=68 as=198 ps=102
+M1088 a_743_n711# a_688_n687# vdd w_730_n698# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1089 a_n66_n707# vA3 gnd Gnd nfet w=4 l=2
++  ad=152 pd=86 as=0 ps=0
+M1090 vCarry3 a_823_n499# vdd w_863_n467# pfet w=8 l=3
++  ad=104 pd=42 as=0 ps=0
+M1091 a_743_n472# a_688_n448# vdd w_730_n459# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1092 vdd vCin a_688_3# w_669_n6# pfet w=18 l=3
++  ad=0 pd=0 as=0 ps=0
+M1093 vCarry1 a_823_n48# vdd w_863_n16# pfet w=8 l=3
++  ad=104 pd=42 as=0 ps=0
+M1094 a_n34_n493# vB2 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1095 a_431_n493# vCarry2 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1096 a_688_n36# a_n13_n34# gnd Gnd nfet w=10 l=3
++  ad=0 pd=0 as=0 ps=0
+M1097 vCarry4 a_823_n738# vdd w_863_n706# pfet w=8 l=3
++  ad=104 pd=42 as=0 ps=0
+M1098 a_n34_n42# vB0 gnd Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1099 a_278_n472# a_223_n448# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1100 a_743_n269# a_688_n245# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1101 vdd vCarry1 a_688_n245# w_669_n254# pfet w=18 l=3
++  ad=0 pd=0 as=0 ps=0
+M1102 a_223_n36# vA0 gnd Gnd nfet w=10 l=3
++  ad=0 pd=0 as=0 ps=0
+M1103 vdd vCarry3 a_688_n687# w_669_n696# pfet w=18 l=3
++  ad=0 pd=0 as=0 ps=0
+M1104 vdd vCarry2 a_688_n448# w_669_n457# pfet w=18 l=3
++  ad=0 pd=0 as=0 ps=0
+M1105 a_223_3# vA0 vdd w_204_n6# pfet w=18 l=3
++  ad=198 pd=58 as=0 ps=0
+M1106 a_n34_n290# vB1 vdd w_n31_n238# pfet w=12 l=2
++  ad=172 pd=72 as=0 ps=0
+M1107 a_n34_n42# vB0 vdd w_n31_10# pfet w=12 l=2
++  ad=172 pd=72 as=0 ps=0
+M1108 a_n34_n732# vB3 vdd w_n31_n680# pfet w=12 l=2
++  ad=172 pd=72 as=0 ps=0
+M1109 a_n34_n493# vB2 vdd w_n31_n441# pfet w=12 l=2
++  ad=172 pd=72 as=0 ps=0
+M1110 gnd a_743_n21# a_823_n48# Gnd nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1111 a_431_n42# vCin vdd w_434_10# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1112 a_278_n711# a_223_n687# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1113 vdd vB0 a_223_3# w_204_n6# pfet w=18 l=3
++  ad=0 pd=0 as=0 ps=0
+M1114 a_n13_n282# vB1 a_n66_n265# Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1115 a_n34_n290# vB1 vdd w_130_n245# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1116 a_n13_n485# vB2 a_n66_n468# Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1117 a_n34_n732# vB3 vdd w_130_n687# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1118 a_n34_n493# vB2 vdd w_130_n448# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1119 vCarry2 a_823_n296# gnd Gnd nfet w=8 l=3
++  ad=104 pd=42 as=0 ps=0
+M1120 vCarry1 a_823_n48# gnd Gnd nfet w=8 l=3
++  ad=104 pd=42 as=0 ps=0
+M1121 a_431_n290# vCarry1 vdd w_595_n245# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1122 vCarry3 a_823_n499# gnd Gnd nfet w=8 l=3
++  ad=104 pd=42 as=0 ps=0
+M1123 a_431_n493# vCarry2 vdd w_595_n448# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1124 a_431_n732# vCarry3 vdd w_595_n687# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1125 a_n13_n34# a_n34_n42# vA0 Gnd nfet w=6 l=2
++  ad=0 pd=0 as=66 ps=34
+M1126 a_n13_n724# vB3 a_n66_n707# Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1127 vSum1 vCarry1 a_399_n265# Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1128 a_278_n269# a_223_n245# vdd w_265_n256# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1129 a_n66_n265# vA1 gnd Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1130 vCarry4 a_823_n738# gnd Gnd nfet w=8 l=3
++  ad=104 pd=42 as=0 ps=0
+M1131 vSum2 vCarry2 a_399_n468# Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1132 a_431_n42# vCin gnd Gnd nfet w=4 l=2
++  ad=86 pd=52 as=0 ps=0
+M1133 a_n66_n468# vA2 gnd Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1134 a_278_n472# a_223_n448# vdd w_265_n459# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1135 a_n66_n17# vA0 vdd w_n79_n4# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1136 a_399_n17# a_n13_n34# vdd w_386_n4# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1137 a_399_n265# a_n13_n282# vdd w_434_n238# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1138 a_278_n711# a_223_n687# vdd w_265_n698# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1139 a_n34_n290# vB1 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1140 a_223_n284# vA1 gnd Gnd nfet w=10 l=3
++  ad=0 pd=0 as=0 ps=0
+M1141 a_399_n707# a_n13_n724# vdd w_434_n680# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1142 a_399_n468# a_n13_n485# vdd w_434_n441# pfet w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1143 a_n34_n732# vB3 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1144 a_223_n487# vA2 gnd Gnd nfet w=10 l=3
++  ad=0 pd=0 as=0 ps=0
+M1145 a_399_n17# a_n13_n34# gnd Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1146 a_431_n290# vCarry1 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1147 vSum3 vCarry3 a_399_n707# Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1148 a_431_n732# vCarry3 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1149 a_399_n17# a_n13_n34# gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1150 a_n66_n707# vA3 gnd Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1151 a_n13_n34# vB0 vA0 w_n31_10# pfet w=12 l=2
++  ad=0 pd=0 as=132 ps=46
+M1152 a_823_n14# a_278_n21# vdd w_808_n16# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1153 a_223_n726# vA3 gnd Gnd nfet w=10 l=3
++  ad=0 pd=0 as=0 ps=0
+M1154 a_823_n262# a_278_n269# vdd w_808_n264# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1155 a_278_n269# a_223_n245# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1156 a_823_n465# a_278_n472# vdd w_808_n467# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1157 vSum0 a_431_n42# a_n13_n34# Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1158 a_n13_n282# a_n34_n290# vA1 Gnd nfet w=6 l=2
++  ad=0 pd=0 as=66 ps=34
+M1159 a_431_n42# vCin gnd Gnd nfet w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1160 a_n13_n485# a_n34_n493# vA2 Gnd nfet w=6 l=2
++  ad=0 pd=0 as=66 ps=34
+M1161 a_823_n704# a_278_n711# vdd w_808_n706# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1162 a_278_n21# a_223_3# vdd w_265_n8# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1163 a_n34_n42# vB0 vdd w_130_3# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1164 vdd vB1 a_223_n245# w_204_n254# pfet w=18 l=3
++  ad=0 pd=0 as=0 ps=0
+M1165 a_n13_n724# a_n34_n732# vA3 Gnd nfet w=6 l=2
++  ad=0 pd=0 as=66 ps=34
+M1166 vdd vB3 a_223_n687# w_204_n696# pfet w=18 l=3
++  ad=0 pd=0 as=0 ps=0
+M1167 vdd vB2 a_223_n448# w_204_n457# pfet w=18 l=3
++  ad=0 pd=0 as=0 ps=0
+C0 w_434_n441# vCarry2 4.45fF
+C1 vA3 w_n31_n680# 7.49fF
+C2 w_669_n696# vCarry3 4.32fF
+C3 a_n13_n724# w_434_n680# 7.49fF
+C4 w_669_n6# vCin 4.32fF
+C5 vB0 w_204_n6# 4.32fF
+C6 w_434_n441# a_n13_n485# 7.49fF
+C7 vCarry1 w_434_n238# 4.45fF
+C8 vCarry2 w_669_n457# 4.32fF
+C9 w_n31_n441# vB2 4.45fF
+C10 a_n13_n282# w_669_n254# 4.32fF
+C11 w_204_n696# vB3 4.32fF
+C12 vCarry3 w_434_n680# 4.45fF
+C13 a_n13_n485# w_669_n457# 4.32fF
+C14 w_n31_n238# vB1 4.45fF
+C15 w_n31_n238# vA1 7.49fF
+C16 vA3 w_204_n696# 4.32fF
+C17 w_669_n6# a_n13_n34# 4.32fF
+C18 w_204_n457# vA2 4.32fF
+C19 vA0 w_n31_10# 7.49fF
+C20 w_434_10# vCin 4.45fF
+C21 vCarry1 w_669_n254# 4.32fF
+C22 a_n13_n282# w_434_n238# 7.49fF
+C23 vB0 w_n31_10# 4.45fF
+C24 w_204_n6# vA0 4.32fF
+C25 vB1 w_204_n254# 4.32fF
+C26 w_669_n696# a_n13_n724# 4.32fF
+C27 w_204_n457# vB2 4.32fF
+C28 w_204_n254# vA1 4.32fF
+C29 w_n31_n441# vA2 7.49fF
+C30 w_n31_n680# vB3 4.45fF
+C31 w_434_10# a_n13_n34# 7.49fF
+C32 vCarry4 Gnd 6.02fF
+C33 a_823_n738# Gnd 23.10fF
+C34 a_743_n711# Gnd 30.13fF
+C35 a_688_n687# Gnd 16.92fF
+C36 vSum3 Gnd 106.84fF
+C37 a_399_n707# Gnd 47.99fF
+C38 a_278_n711# Gnd 129.63fF
+C39 a_223_n687# Gnd 16.92fF
+C40 a_n13_n724# Gnd 211.39fF
+C41 a_431_n732# Gnd 119.48fF
+C42 vB3 Gnd 158.42fF
+C43 a_n66_n707# Gnd 47.99fF
+C44 vA3 Gnd 111.51fF
+C45 a_n34_n732# Gnd 119.48fF
+C46 vCarry3 Gnd 361.67fF
+C47 a_823_n499# Gnd 23.10fF
+C48 a_743_n472# Gnd 30.13fF
+C49 a_688_n448# Gnd 16.92fF
+C50 vSum2 Gnd 106.84fF
+C51 a_399_n468# Gnd 47.99fF
+C52 a_278_n472# Gnd 129.63fF
+C53 a_223_n448# Gnd 16.92fF
+C54 a_n13_n485# Gnd 211.39fF
+C55 a_431_n493# Gnd 119.48fF
+C56 vB2 Gnd 158.42fF
+C57 a_n66_n468# Gnd 47.99fF
+C58 vA2 Gnd 111.51fF
+C59 a_n34_n493# Gnd 119.48fF
+C60 vCarry2 Gnd 350.04fF
+C61 a_823_n296# Gnd 23.10fF
+C62 a_743_n269# Gnd 30.13fF
+C63 a_688_n245# Gnd 16.92fF
+C64 vSum1 Gnd 106.84fF
+C65 a_399_n265# Gnd 47.99fF
+C66 a_278_n269# Gnd 129.63fF
+C67 a_223_n245# Gnd 16.92fF
+C68 a_n13_n282# Gnd 211.39fF
+C69 a_431_n290# Gnd 119.48fF
+C70 vB1 Gnd 158.42fF
+C71 a_n66_n265# Gnd 47.99fF
+C72 vA1 Gnd 111.51fF
+C73 a_n34_n290# Gnd 119.48fF
+C74 vCarry1 Gnd 364.73fF
+C75 a_823_n48# Gnd 23.10fF
+C76 a_743_n21# Gnd 30.13fF
+C77 a_688_3# Gnd 16.92fF
+C78 vSum0 Gnd 106.84fF
+C79 vCin Gnd 246.29fF
+C80 a_399_n17# Gnd 47.99fF
+C81 a_278_n21# Gnd 129.63fF
+C82 a_223_3# Gnd 16.92fF
+C83 a_n13_n34# Gnd 211.39fF
+C84 a_431_n42# Gnd 119.48fF
+C85 vB0 Gnd 158.42fF
+C86 gnd Gnd 1159.53fF
+C87 a_n66_n17# Gnd 47.99fF
+C88 vdd Gnd 1115.81fF
+C89 vA0 Gnd 111.51fF
+C90 a_n34_n42# Gnd 119.48fF

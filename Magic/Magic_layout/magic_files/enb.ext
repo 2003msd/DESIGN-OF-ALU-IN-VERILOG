@@ -1,0 +1,95 @@
+timestamp 1699980361
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use and and_7 1 0 -1 0 1 -414
+use and and_6 1 0 14 0 1 -344
+use and and_5 1 0 21 0 1 -270
+use and and_4 1 0 17 0 1 -196
+use and and_3 1 0 31 0 1 -131
+use and and_2 1 0 45 0 1 -60
+use and and_1 1 0 36 0 1 15
+use and and_0 1 0 21 0 1 78
+node "gnd" 1 168025 -52 -494 m1 0 0 0 0 0 0 0 0 0 0 0 0 3575 460 0 0 0 0
+node "rn8" 0 1316 53 -427 m1 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "trans2_d" 0 4888 -21 -419 m1 0 0 0 0 0 0 0 0 0 0 0 0 104 60 0 0 0 0
+node "rn7" 0 1316 69 -357 m1 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "trans2_c" 0 4324 -5 -349 m1 0 0 0 0 0 0 0 0 0 0 0 0 92 54 0 0 0 0
+node "rn6" 0 1128 76 -283 m1 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0
+node "trans2_b" 0 5452 -2 -282 m1 0 0 0 0 0 0 0 0 0 0 0 0 116 66 0 0 0 0
+node "rn5" 0 1316 70 -209 m1 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "trans2_a" 0 5076 -3 -208 m1 0 0 0 0 0 0 0 0 0 0 0 0 108 62 0 0 0 0
+node "rn4" 0 1504 84 -144 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "trans1_d" 0 9635 -1 -144 m1 0 0 0 0 0 0 0 0 0 0 0 0 205 92 0 0 0 0
+node "m1_n1_n394#" 3 42364 -1 -394 v 0 0 0 0 0 0 0 0 0 0 0 0 164 122 2203 782 0 0
+node "rn3" 0 1128 98 -73 m1 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0
+node "trans1_c" 0 11515 4 -73 m1 0 0 0 0 0 0 0 0 0 0 0 0 245 108 0 0 0 0
+node "m1_81_n111#" 1 9936 81 -111 v 0 0 0 0 0 0 0 0 0 0 0 0 40 36 492 254 0 0
+node "rn2" 0 1316 90 2 m1 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0
+node "trans1_b" 1 11374 -7 -3 m1 0 0 0 0 0 0 0 0 0 0 0 0 242 112 0 0 0 0
+node "m1_36_35#" 1 10920 36 35 v 0 0 0 0 0 0 0 0 0 0 0 0 48 40 549 258 0 0
+node "m1_51_n448#" 10 139355 51 -448 m1 0 0 0 0 0 0 0 0 0 0 0 0 2965 1568 0 0 0 0
+node "rn1" 0 2068 71 65 m1 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "trans1_a" 1 14382 -19 52 m1 0 0 0 0 0 0 0 0 0 0 0 0 306 132 0 0 0 0
+node "common" 8 353581 -58 4 m1 0 0 0 0 0 0 0 0 0 0 0 0 7523 2178 0 0 0 0
+node "vdd" 1 132155 -41 114 m1 0 0 0 0 0 0 0 0 0 0 0 0 2697 388 336 176 0 0
+cap "trans2_c" "m1_n1_n394#" 1440
+cap "trans2_a" "m1_n1_n394#" 720
+cap "m1_n1_n394#" "trans1_d" 900
+cap "vdd" "m1_51_n448#" 720
+cap "common" "m1_n1_n394#" 5355
+cap "trans1_b" "m1_36_35#" 1125
+cap "common" "m1_36_35#" 900
+cap "m1_51_n448#" "m1_81_n111#" 1260
+cap "trans2_b" "m1_n1_n394#" 1260
+subcap "m1_n1_n394#" -42364
+subcap "m1_51_n448#" -130989
+subcap "m1_n1_n394#" -26014
+subcap "m1_81_n111#" -7520
+subcap "m1_36_35#" -6125
+merge "and_0/in1" "and_1/in1" -13912 0 0 0 0 0 0 0 0 0 0 0 0 -296 -220 0 0 0 0
+merge "and_1/in1" "and_2/in1"
+merge "and_2/in1" "and_3/in1"
+merge "and_3/in1" "and_4/in1"
+merge "and_4/in1" "and_5/in1"
+merge "and_5/in1" "and_6/in2"
+merge "and_6/in2" "and_7/in2"
+merge "and_7/in2" "common"
+merge "and_1/in2" "trans1_b" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "and_0/vdd" "and_1/vdd" -1692 0 0 0 0 0 0 0 0 0 0 0 0 -36 -38 0 0 0 0
+merge "and_1/vdd" "and_2/vdd"
+merge "and_2/vdd" "m1_36_35#"
+merge "m1_36_35#" "and_3/vdd"
+merge "and_3/vdd" "and_4/vdd"
+merge "and_4/vdd" "and_5/vdd"
+merge "and_5/vdd" "and_6/vdd"
+merge "and_6/vdd" "and_7/vdd"
+merge "and_7/vdd" "m1_n1_n394#"
+merge "m1_n1_n394#" "m1_81_n111#"
+merge "m1_81_n111#" "vdd"
+merge "and_2/out" "rn3" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "and_4/in2" "trans2_a" -1316 0 0 0 0 0 0 0 0 0 0 0 0 -28 -22 0 0 0 0
+merge "and_5/out" "rn6" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "and_7/in1" "trans2_d" -1128 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0
+merge "and_0/gnd" "and_1/gnd" -27495 0 0 0 0 0 0 0 0 0 0 0 0 -585 -258 0 0 0 0
+merge "and_1/gnd" "and_2/gnd"
+merge "and_2/gnd" "and_3/gnd"
+merge "and_3/gnd" "and_4/gnd"
+merge "and_4/gnd" "and_5/gnd"
+merge "and_5/gnd" "and_6/gnd"
+merge "and_6/gnd" "and_7/gnd"
+merge "and_7/gnd" "gnd"
+merge "gnd" "m1_51_n448#"
+merge "and_0/out" "rn1" -1128 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0
+merge "and_1/out" "rn2" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -14 0 0 0 0
+merge "and_0/in2" "trans1_a" -1504 0 0 0 0 0 0 0 0 0 0 0 0 -32 -24 0 0 0 0
+merge "and_3/out" "rn4" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "and_4/out" "rn5" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "and_2/in2" "trans1_c" -1504 0 0 0 0 0 0 0 0 0 0 0 0 -32 -24 0 0 0 0
+merge "and_3/in2" "trans1_d" -1692 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0 0 0
+merge "and_6/out" "rn7" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "and_7/out" "rn8" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "and_6/in1" "trans2_c" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "and_5/in2" "trans2_b" -1128 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0

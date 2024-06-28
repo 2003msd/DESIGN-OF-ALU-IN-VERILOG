@@ -1,0 +1,461 @@
+timestamp 1700138949
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use enb enb_2 1 0 184 0 1 -290
+use and and_6 1 0 -7 0 1 189
+use notg notg_2 1 0 -192 0 1 230
+use enb enb_1 1 0 322 0 1 1486
+use and and_5 1 0 467 0 1 1105
+use adderblock adderblock_0 1 0 584 0 1 2106
+use notg notg_0 1 0 -123 0 1 2095
+use and and_0 1 0 104 0 1 2067
+use and and_4 1 0 468 0 1 1266
+use and and_3 1 0 487 0 1 1393
+use and and_2 1 0 481 0 1 1548
+use and and_1 1 0 138 0 1 1257
+use enb enb_0 1 0 281 0 1 2277
+use notg notg_1 1 0 -211 0 1 1878
+use computer computer_0 1 0 1412 0 1 -1588
+node "ch8" 0 3144 239 -717 v 0 0 0 0 0 0 0 0 0 0 0 0 20 18 136 76 0 0
+node "ch7" 0 3372 255 -647 v 0 0 0 0 0 0 0 0 0 0 0 0 20 18 148 82 0 0
+node "ch6" 0 3788 260 -573 v 0 0 0 0 0 0 0 0 0 0 0 0 24 20 164 90 0 0
+node "ch5" 0 2272 257 -499 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 96 56 0 0
+node "ch4" 0 2424 272 -434 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 104 60 0 0
+node "ch3" 0 6368 283 -363 m1 0 0 0 0 0 0 0 0 0 0 0 0 108 62 84 50 0 0
+node "ch2" 0 4405 276 -288 v 0 0 0 0 0 0 0 0 0 0 0 0 25 20 195 88 0 0
+node "ch1" 0 8460 262 -225 m1 0 0 0 0 0 0 0 0 0 0 0 0 180 82 0 0 0 0
+node "m1_45_176#" 2 350526 45 176 m1 0 0 0 0 0 0 0 0 0 0 0 0 7458 1138 0 0 0 0
+node "m1_n150_170#" 1 35877 -150 170 v 0 0 0 0 0 0 0 0 0 0 0 0 294 100 1425 464 0 0
+node "m1_n230_n230#" 2 595398 -230 -230 v 0 0 0 0 0 0 0 0 0 0 0 0 3981 554 27634 2610 0 0
+node "m1_n141_216#" 1 78866 -141 216 m1 0 0 0 0 0 0 0 0 0 0 0 0 1678 362 0 0 0 0
+node "m1_n156_285#" 3 61100 -156 285 m1 0 0 0 0 0 0 0 0 0 0 0 0 1300 530 0 0 0 0
+node "gd4" 0 3948 519 1092 m1 0 0 0 0 0 0 0 0 0 0 0 0 84 50 0 0 0 0
+node "m1_377_1059#" 1 18556 377 1059 v 0 0 0 0 0 0 0 0 0 0 0 0 280 132 324 170 0 0
+node "m1_393_1129#" 1 15084 393 1129 v 0 0 0 0 0 0 0 0 0 0 0 0 232 124 256 136 0 0
+node "m1_163_1203#" 2 98133 163 1203 v 0 0 0 0 0 0 0 0 0 0 0 0 1942 572 513 198 0 0
+node "gd3" 0 3384 522 1253 m1 0 0 0 0 0 0 0 0 0 0 0 0 72 44 0 0 0 0
+node "m1_400_1203#" 1 18464 400 1203 v 0 0 0 0 0 0 0 0 0 0 0 0 312 164 232 124 0 0
+node "m1_393_1277#" 1 12228 393 1277 v 0 0 0 0 0 0 0 0 0 0 0 0 168 92 272 144 0 0
+node "gd2" 0 3572 539 1380 m1 0 0 0 0 0 0 0 0 0 0 0 0 76 46 0 0 0 0
+node "m1_408_1342#" 1 14298 408 1342 v 0 0 0 0 0 0 0 0 0 0 0 0 170 96 372 194 0 0
+node "m1_421_1413#" 1 12972 421 1413 m1 0 0 0 0 0 0 0 0 0 0 0 0 200 116 220 118 0 0
+node "m1_189_1244#" 2 112330 189 1244 m1 0 0 0 0 0 0 0 0 0 0 0 0 2390 680 0 0 0 0
+node "gd1" 0 4700 532 1535 m1 0 0 0 0 0 0 0 0 0 0 0 0 100 58 0 0 0 0
+node "m1_413_1488#" 1 18730 413 1488 v 0 0 0 0 0 0 0 0 0 0 0 0 293 156 315 136 0 0
+node "m1_400_1550#" 1 21996 400 1550 m1 0 0 0 0 0 0 0 0 0 0 0 0 468 224 0 0 0 0
+node "m1_515_1287#" 6 236927 515 1287 m1 0 0 0 0 0 0 0 0 0 0 0 0 5041 1590 0 0 0 0
+node "m1_429_1605#" 1 24158 429 1605 m1 0 0 0 0 0 0 0 0 0 0 0 0 514 208 0 0 0 0
+node "m1_171_1278#" 3 146817 171 1278 m1 0 0 0 0 0 0 0 0 0 0 0 0 3070 864 287 96 0 0
+node "m1_n313_n3126#" 7 7.59267e+07 -313 -3126 m1 0 0 0 0 0 0 0 0 0 0 0 0 1615462 31434 0 0 0 0
+node "f8" 13 2.04783e+06 95 -946 v 0 0 0 0 0 0 0 0 0 0 0 0 32918 4494 28912 5092 0 0
+equiv "f8" "by2_d"
+node "f4" 10 3.44604e+06 -692 -467 v 0 0 0 0 0 0 0 0 0 0 0 0 66376 5790 26124 4164 0 0
+equiv "f4" "by2_b"
+node "f6" 10 6.35901e+06 -1298 -622 m1 0 0 0 0 0 0 0 0 0 0 0 0 108747 7872 84400 6500 0 0
+equiv "f6" "by2_c"
+node "f2" 10 1.80268e+06 -118 -172 v 0 0 0 0 0 0 0 0 0 0 0 0 27355 3402 34013 5292 0 0
+equiv "f2" "by2_a"
+node "gnd" 7 7.76194e+06 -314 1684 m1 0 0 0 0 0 0 0 0 0 0 0 0 163198 8242 6915 1376 0 0
+node "m1_n162_1863#" 2 224002 -162 1863 m1 0 0 0 0 0 0 0 0 0 0 0 0 4766 938 0 0 0 0
+node "i_carry" 0 7896 502 2177 m1 0 0 0 0 0 0 0 0 0 0 0 0 168 68 0 0 0 0
+node "m1_353_2068#" 8 1.76252e+06 353 2068 v 0 0 0 0 0 0 0 0 0 0 0 0 4069 1346 83294 6360 0 0
+node "m1_355_1994#" 6 762259 355 1994 v 0 0 0 0 0 0 0 0 0 0 0 0 4146 766 30976 4674 0 0
+node "m1_350_1920#" 9 127347 350 1920 v 0 0 0 0 0 0 0 0 0 0 0 0 58 44 6752 2932 0 0
+node "san3" 0 16074 4305 2268 m1 0 0 0 0 0 0 0 0 0 0 0 0 342 94 0 0 0 0
+node "san2" 0 11656 3393 2279 m1 0 0 0 0 0 0 0 0 0 0 0 0 248 78 0 0 0 0
+node "san1" 0 22748 2437 2292 m1 0 0 0 0 0 0 0 0 0 0 0 0 484 110 0 0 0 0
+node "san0" 0 15228 1456 2268 m1 0 0 0 0 0 0 0 0 0 0 0 0 324 78 0 0 0 0
+node "f3" 6 3.71474e+06 -324 -366 v 0 0 0 0 0 0 0 0 0 0 0 0 16882 1584 176091 10754 0 0
+equiv "f3" "by1_b"
+node "f5" 9 4.80302e+06 -816 -603 v 0 0 0 0 0 0 0 0 0 0 0 0 83322 5942 62594 6300 0 0
+equiv "f5" "by1_c"
+node "m1_n74_2081#" 1 84600 -74 2081 m1 0 0 0 0 0 0 0 0 0 0 0 0 1800 422 0 0 0 0
+node "f7" 15 2.48767e+06 -143 1197 v 0 0 0 0 0 0 0 0 0 0 0 0 43362 5526 28541 5328 0 0
+equiv "f7" "by1_d"
+node "d_zero" 2 134232 156 2054 m1 0 0 0 0 0 0 0 0 0 0 0 0 2856 626 0 0 0 0
+node "by1_a" 15 2.11906e+06 -359 36 v 0 0 0 0 0 0 0 0 0 0 0 0 34653 4558 30975 5986 0 0
+node "m1_337_1850#" 4 79403 337 1850 v 0 0 0 0 0 0 0 0 0 0 0 0 224 110 3817 1410 0 0
+node "m1_356_2342#" 5 2.02694e+06 356 2342 m1 0 0 0 0 0 0 0 0 0 0 0 0 201 112 107251 8742 0 0
+node "m1_370_2279#" 6 830871 370 2279 v 0 0 0 0 0 0 0 0 0 0 0 0 131 64 43960 6416 0 0
+node "san4" 0 20210 4301 2378 m1 0 0 0 0 0 0 0 0 0 0 0 0 430 106 0 0 0 0
+node "m1_365_2133#" 2 46932 365 2133 v 0 0 0 0 0 0 0 0 0 0 0 0 72 50 2364 794 0 0
+node "m1_382_2204#" 6 246940 382 2204 m1 0 0 0 0 0 0 0 0 0 0 0 0 804 280 11101 3048 0 0
+node "sel1" 9 6.32354e+06 -481 1923 m1 0 0 0 0 0 0 0 0 0 0 0 0 129922 9520 17422 1252 0 0
+node "sel0" 8 6.87508e+06 -567 -1384 m1 0 0 0 0 0 0 0 0 0 0 0 0 132148 8454 52389 3052 0 0
+node "vdd" 11 2.21596e+07 -984 452 m1 0 0 0 0 0 0 0 0 0 0 0 0 438585 13598 107917 9974 0 0
+cap "f3" "f7" 11205
+cap "m1_355_1994#" "m1_337_1850#" 1350
+cap "f6" "gnd" 58185
+cap "f3" "sel1" 125370
+cap "f6" "by1_a" 19935
+cap "m1_353_2068#" "m1_337_1850#" 1800
+cap "d_zero" "f5" 3600
+cap "f3" "gnd" 24660
+cap "sel0" "f2" 2925
+cap "m1_353_2068#" "gnd" 3960
+cap "f6" "f5" 59580
+cap "vdd" "f8" 38745
+cap "f3" "m1_189_1244#" 3240
+cap "f3" "by1_a" 34155
+cap "f8" "m1_n230_n230#" 25110
+cap "m1_350_1920#" "m1_337_1850#" 1350
+cap "f2" "m1_171_1278#" 8775
+cap "f3" "f5" 83610
+cap "f7" "sel1" 15840
+cap "f7" "gnd" 29115
+cap "f7" "m1_n74_2081#" 4455
+cap "f7" "by1_a" 5400
+cap "f7" "f5" 12780
+cap "by1_a" "sel1" 65250
+cap "f5" "sel1" 168750
+cap "m1_45_176#" "by1_a" 8415
+cap "f5" "gnd" 45045
+cap "m1_n74_2081#" "f5" 1440
+cap "m1_189_1244#" "f5" 1440
+cap "f5" "by1_a" 21465
+cap "f2" "f4" 6615
+cap "f7" "f8" 13770
+cap "sel0" "f4" 82260
+cap "f2" "vdd" 56835
+cap "f8" "gnd" 45765
+cap "m1_171_1278#" "f4" 4410
+cap "sel0" "vdd" 120960
+cap "f6" "f2" 22410
+cap "m1_n150_170#" "sel1" 1800
+cap "f7" "m1_n162_1863#" 6300
+cap "f3" "f2" 23490
+cap "f6" "sel0" 141075
+cap "m1_n162_1863#" "gnd" 7650
+cap "f3" "sel0" 137655
+cap "f3" "m1_171_1278#" 3465
+cap "f7" "f2" 12960
+cap "m1_n162_1863#" "f5" 1800
+cap "f6" "m1_163_1203#" 2430
+cap "f2" "sel1" 16920
+cap "vdd" "f4" 97380
+cap "f7" "sel0" 17820
+cap "f2" "gnd" 36855
+cap "f4" "m1_n230_n230#" 23940
+cap "m1_45_176#" "f2" 15300
+cap "f2" "m1_189_1244#" 2880
+cap "f7" "m1_n313_n3126#" 11475
+cap "f2" "by1_a" 27360
+cap "sel0" "sel1" 181350
+cap "f2" "f5" 5850
+cap "vdd" "m1_n230_n230#" 13680
+cap "sel0" "by1_a" 80775
+cap "f6" "f4" 31590
+cap "f7" "m1_163_1203#" 3150
+cap "sel0" "f5" 165555
+cap "m1_171_1278#" "by1_a" 2520
+cap "vdd" "m1_370_2279#" 19035
+cap "f3" "f4" 53325
+cap "m1_171_1278#" "f5" 3150
+cap "f6" "vdd" 130140
+cap "f6" "m1_n230_n230#" 29070
+cap "f3" "vdd" 276930
+cap "m1_356_2342#" "vdd" 44010
+cap "f3" "m1_n230_n230#" 30780
+cap "f7" "f4" 7920
+cap "m1_515_1287#" "gnd" 4050
+cap "m1_n313_n3126#" "f8" 10125
+cap "f4" "sel1" 74520
+cap "d_zero" "f3" 3870
+cap "f4" "gnd" 16380
+cap "f3" "f6" 143325
+cap "f7" "vdd" 56025
+cap "m1_355_1994#" "m1_353_2068#" 2160
+cap "f8" "m1_163_1203#" 3600
+cap "f4" "m1_189_1244#" 1800
+cap "f4" "by1_a" 13230
+cap "f7" "m1_n230_n230#" 20925
+cap "vdd" "sel1" 110610
+cap "f4" "f5" 71370
+cap "m1_n230_n230#" "sel1" 7425
+cap "m1_350_1920#" "m1_355_1994#" 2925
+cap "vdd" "gnd" 8415
+cap "m1_45_176#" "vdd" 13455
+cap "d_zero" "f7" 3600
+cap "vdd" "m1_n74_2081#" 5265
+cap "vdd" "by1_a" 69480
+cap "f7" "f6" 15255
+cap "m1_350_1920#" "m1_353_2068#" 1800
+cap "by1_a" "m1_n230_n230#" 11970
+cap "vdd" "f5" 139050
+cap "f5" "m1_n230_n230#" 8550
+cap "f6" "sel1" 124425
+cap "enb_2/common" "enb_2/trans2_d" 3465
+cap "enb_2/common" "enb_2/trans2_c" 2160
+subcap "ch8" -40
+cap "enb_2/rn8" "enb_2/and_6/gnd" 540
+cap "enb_2/rn7" "enb_2/and_6/gnd" 720
+cap "f5" "enb_2/common" 405
+cap "enb_2/trans2_b" "enb_2/common" 3780
+cap "f7" "enb_2/common" 1080
+subcap "ch6" -116
+cap "enb_2/rn6" "enb_2/m1_51_n448#" 720
+cap "enb_2/trans2_a" "enb_2/common" 3645
+cap "enb_2/m1_n1_n394#" "enb_2/trans1_d" 450
+cap "enb_2/common" "enb_2/trans1_d" 6210
+subcap "ch5" -116
+cap "enb_2/rn4" "enb_2/and_3/gnd" 540
+cap "enb_2/and_3/gnd" "enb_2/rn5" 720
+cap "f2" "enb_2/common" 945
+cap "enb_2/common" "f3" 3150
+subcap "ch3" -2608
+cap "enb_2/rn3" "enb_2/m1_81_n111#" 720
+cap "ch3" "enb_2/m1_51_n448#" 720
+cap "enb_2/common" "enb_2/trans1_a" 3465
+cap "enb_2/common" "f2" 2205
+cap "enb_2/m1_51_n448#" "enb_2/rn2" 900
+cap "enb_2/vdd" "enb_2/rn1" 900
+subcap "m1_n150_170#" -33151
+subcap "m1_n141_216#" -69607
+subcap "m1_45_176#" -346578
+subcap "m1_n156_285#" -36707
+cap "f8" "enb_1/common" 2970
+subcap "m1_377_1059#" -11060
+cap "enb_1/and_7/gnd" "enb_1/rn8" 540
+cap "enb_1/common" "f7" 2160
+subcap "m1_393_1129#" -9892
+cap "enb_1/m1_51_n448#" "and_5/in1" 720
+subcap "m1_189_1244#" -106878
+cap "enb_1/common" "f6" 2835
+cap "enb_1/common" "f5" 1620
+subcap "m1_400_1203#" -13764
+cap "enb_1/m1_51_n448#" "enb_1/rn6" 720
+subcap "m1_171_1278#" -141929
+cap "enb_1/common" "f4" 2250
+subcap "m1_393_1277#" -7112
+cap "enb_1/and_4/vdd" "enb_1/trans1_d" 720
+subcap "m1_408_1342#" -8456
+cap "enb_1/rn4" "enb_1/and_3/gnd" 540
+cap "enb_1/and_3/gnd" "m1_393_1277#" 720
+subcap "m1_515_1287#" -218409
+cap "f2" "enb_1/common" 2520
+cap "f3" "enb_1/common" 2835
+cap "enb_1/rn3" "enb_1/m1_81_n111#" 720
+cap "enb_1/and_2/gnd" "enb_1/rn3" 720
+cap "by1_a" "enb_1/common" 2520
+subcap "m1_400_1550#" -17578
+cap "enb_1/m1_51_n448#" "enb_1/rn2" 900
+cap "enb_1/rn1" "enb_1/and_1/vdd" 900
+subcap "m1_429_1605#" -15134
+subcap "m1_n162_1863#" -209432
+cap "enb_0/gnd" "enb_0/trans2_d" 4275
+cap "enb_0/common" "enb_0/trans2_d" 900
+subcap "m1_337_1850#" -70295
+cap "enb_0/and_7/gnd" "enb_0/rn8" 540
+cap "adderblock_0/gnd" "m1_353_2068#" 16200
+cap "enb_0/trans2_c" "enb_0/common" 3240
+cap "enb_0/common" "f4" 1620
+subcap "m1_350_1920#" -121815
+cap "enb_0/rn7" "enb_0/m1_51_n448#" 900
+cap "m1_355_1994#" "adderblock_0/gnd" 19215
+cap "m1_350_1920#" "adderblock_0/gnd" 13725
+cap "adderblock_0/gnd" "m1_350_1920#" 20295
+cap "m1_355_1994#" "adderblock_0/gnd" 31500
+cap "m1_355_1994#" "adderblock_0/gnd" 31500
+cap "m1_350_1920#" "adderblock_0/gnd" 18000
+cap "adderblock_0/gnd" "m1_350_1920#" 18000
+cap "m1_355_1994#" "adderblock_0/gnd" 31500
+cap "m1_355_1994#" "gnd" 31500
+cap "gnd" "m1_350_1920#" 18000
+cap "adderblock_0/gnd" "m1_350_1920#" 18000
+cap "m1_355_1994#" "adderblock_0/gnd" 31500
+cap "m1_355_1994#" "adderblock_0/gnd" 31500
+cap "adderblock_0/gnd" "m1_350_1920#" 18000
+cap "adderblock_0/gnd" "m1_350_1920#" 18000
+cap "m1_355_1994#" "adderblock_0/gnd" 31500
+cap "m1_355_1994#" "adderblock_0/gnd" 28260
+cap "adderblock_0/gnd" "m1_350_1920#" 18000
+cap "adderblock_0/gnd" "m1_355_1994#" 61650
+cap "m1_350_1920#" "adderblock_0/gnd" 12825
+cap "m1_355_1994#" "adderblock_0/gnd" 72000
+cap "m1_355_1994#" "adderblock_0/gnd" 72000
+cap "m1_355_1994#" "adderblock_0/gnd" 72000
+cap "m1_355_1994#" "adderblock_0/gnd" 72000
+cap "m1_355_1994#" "adderblock_0/gnd" 72000
+cap "m1_355_1994#" "adderblock_0/gnd" 72000
+cap "m1_355_1994#" "adderblock_0/gnd" 72000
+cap "m1_355_1994#" "adderblock_0/gnd" 72000
+cap "m1_355_1994#" "adderblock_0/gnd" 89910
+cap "m1_353_2068#" "adderblock_0/gnd" 62775
+subcap "d_zero" -128780
+cap "enb_0/trans2_b" "enb_0/common" 3780
+cap "enb_0/trans2_a" "enb_0/common" 3240
+subcap "m1_353_2068#" -1.75836e+06
+subcap "m1_355_1994#" -757531
+cap "enb_0/rn5" "enb_0/and_4/gnd" 720
+cap "enb_0/rn6" "enb_0/m1_51_n448#" 720
+subcap "m1_n74_2081#" -68103
+cap "enb_0/trans1_d" "enb_0/common" 3285
+cap "enb_0/trans1_d" "enb_0/m1_n1_n394#" 450
+subcap "m1_365_2133#" -43264
+cap "enb_0/rn4" "enb_0/m1_51_n448#" 540
+cap "f5" "enb_0/common" 2520
+cap "f3" "enb_0/common" 2205
+subcap "m1_382_2204#" -242992
+cap "enb_0/m1_81_n111#" "enb_0/rn3" 720
+subcap "i_carry" -3196
+cap "m1_382_2204#" "enb_0/m1_51_n448#" 720
+subcap "san0" -11844
+cap "by1_a" "enb_0/common" 2205
+subcap "m1_356_2342#" -2.01717e+06
+subcap "m1_370_2279#" -824651
+cap "enb_0/rn2" "enb_0/and_0/gnd" 720
+cap "enb_0/and_1/vdd" "enb_0/rn1" 720
+cap "m1_356_2342#" "enb_0/vdd" 4590
+cap "adderblock_0/j1" "adderblock_0/fadd_0/cout" 1800
+cap "adderblock_0/m1_1808_287#" "adderblock_0/j2" 4410
+cap "adderblock_0/fadd_3/in1" "m1_356_2342#" 1080
+subcap "san4" -18001
+subcap "san4" -2021
+cap "adderblock_0/fadd_0/vdd" "m1_382_2204#" 1575
+cap "m1_382_2204#" "adderblock_0/fadd_0/vdd" 31500
+cap "adderblock_0/fadd_0/vdd" "m1_382_2204#" 31500
+cap "m1_382_2204#" "adderblock_0/fadd_0/vdd" 31500
+cap "adderblock_0/fadd_0/vdd" "m1_382_2204#" 31500
+cap "m1_382_2204#" "adderblock_0/fadd_0/vdd" 31500
+cap "adderblock_0/vdd" "m1_382_2204#" 31500
+cap "m1_382_2204#" "adderblock_0/vdd" 31500
+cap "adderblock_0/fadd_0/vdd" "m1_382_2204#" 31500
+cap "m1_382_2204#" "adderblock_0/fadd_0/vdd" 8100
+cap "adderblock_0/vdd" "m1_370_2279#" 55890
+cap "adderblock_0/vdd" "m1_356_2342#" 74520
+cap "m1_370_2279#" "adderblock_0/vdd" 12150
+cap "m1_356_2342#" "adderblock_0/vdd" 16200
+merge "adderblock_0/vdd" "enb_0/vdd" -199703 0 0 0 0 0 0 0 0 0 0 0 0 -4249 -548 0 0 0 0
+merge "enb_0/vdd" "and_0/vdd"
+merge "and_0/vdd" "notg_0/vdd"
+merge "notg_0/vdd" "notg_1/vdd"
+merge "notg_1/vdd" "enb_1/vdd"
+merge "enb_1/vdd" "and_1/vdd"
+merge "and_1/vdd" "computer_0/vdd"
+merge "computer_0/vdd" "notg_2/vdd"
+merge "notg_2/vdd" "enb_2/vdd"
+merge "enb_2/vdd" "vdd"
+merge "vdd" "and_6/vdd"
+merge "and_6/vdd" "m1_n156_285#"
+merge "m1_n156_285#" "m1_171_1278#"
+merge "m1_171_1278#" "and_2/vdd"
+merge "and_2/vdd" "m1_429_1605#"
+merge "m1_429_1605#" "and_3/vdd"
+merge "and_3/vdd" "and_4/vdd"
+merge "and_4/vdd" "and_5/vdd"
+merge "and_5/vdd" "m1_515_1287#"
+merge "and_0/gnd" "notg_0/gnd" -276736 0 0 0 0 0 0 0 0 0 0 0 0 -5888 -501 -217 -58 0 0
+merge "notg_0/gnd" "adderblock_0/gnd"
+merge "adderblock_0/gnd" "enb_0/gnd"
+merge "enb_0/gnd" "notg_1/gnd"
+merge "notg_1/gnd" "and_2/gnd"
+merge "and_2/gnd" "and_3/gnd"
+merge "and_3/gnd" "and_4/gnd"
+merge "and_4/gnd" "and_1/gnd"
+merge "and_1/gnd" "and_5/gnd"
+merge "and_5/gnd" "enb_1/gnd"
+merge "enb_1/gnd" "m1_163_1203#"
+merge "m1_163_1203#" "enb_1/and_7/gnd"
+merge "enb_1/and_7/gnd" "gnd"
+merge "gnd" "and_6/gnd"
+merge "and_6/gnd" "notg_2/gnd"
+merge "notg_2/gnd" "enb_2/gnd"
+merge "enb_2/gnd" "m1_n230_n230#"
+merge "m1_n230_n230#" "computer_0/gnd"
+merge "computer_0/gnd" "m1_n313_n3126#"
+merge "m1_n313_n3126#" "m1_n150_170#"
+merge "enb_0/trans1_d" "enb_1/trans2_c" -11624 0 0 0 0 0 0 0 0 0 0 0 0 -65 -59 -345 -172 0 0
+merge "enb_1/trans2_c" "enb_2/trans2_c"
+merge "enb_2/trans2_c" "f7"
+merge "enb_2/rn6" "ch6" -1432 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0
+merge "adderblock_0/k3" "enb_0/rn5" -2936 0 0 0 0 0 0 0 0 0 0 0 0 -56 -44 0 0 0 0
+merge "enb_0/rn5" "m1_353_2068#"
+merge "and_6/in1" "notg_2/out" -3854 0 0 0 0 0 0 0 0 0 0 0 0 -82 -50 0 0 0 0
+merge "notg_2/out" "m1_n141_216#"
+merge "notg_1/in" "and_1/in1" -6063 0 0 0 0 0 0 0 0 0 0 0 0 -129 -74 0 0 0 0
+merge "and_1/in1" "and_6/in2"
+merge "and_6/in2" "sel1"
+merge "enb_0/trans2_d" "enb_1/trans2_d" -13956 0 0 0 0 0 0 0 0 0 0 0 0 -132 -93 -234 -84 0 0
+merge "enb_1/trans2_d" "enb_2/trans2_d"
+merge "enb_2/trans2_d" "f8"
+merge "enb_2/rn7" "ch7" -1244 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0
+merge "enb_1/common" "and_1/out" -79665 0 0 0 0 0 0 0 0 0 0 0 0 -1695 -519 0 0 0 0
+merge "and_1/out" "m1_189_1244#"
+merge "and_5/in2" "enb_1/rn8" -9321 0 0 0 0 0 0 0 0 0 0 0 0 -111 -69 -224 -116 0 0
+merge "enb_1/rn8" "m1_377_1059#"
+merge "notg_0/in" "and_1/in2" -10810 0 0 0 0 0 0 0 0 0 0 0 0 -230 -102 0 0 0 0
+merge "and_1/in2" "notg_2/in"
+merge "notg_2/in" "sel0"
+merge "enb_2/rn8" "ch8" -1168 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0
+merge "enb_0/trans1_a" "enb_1/trans1_a" -32890 0 0 0 0 0 0 0 0 0 0 0 0 -435 -184 -627 -190 0 0
+merge "enb_1/trans1_a" "enb_2/trans1_a"
+merge "enb_2/trans1_a" "by1_a"
+merge "enb_1/rn5" "and_4/in1" -6642 0 0 0 0 0 0 0 0 0 0 0 0 -54 -52 -224 -116 0 0
+merge "and_4/in1" "m1_393_1277#"
+merge "and_2/out" "gd1" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0
+merge "enb_0/trans1_b" "enb_1/trans1_c" -53986 0 0 0 0 0 0 0 0 0 0 0 0 -651 -269 -1457 -377 0 0
+merge "enb_1/trans1_c" "enb_2/trans1_c"
+merge "enb_2/trans1_c" "f3"
+merge "and_4/in2" "enb_1/rn6" -1996 0 0 0 0 0 0 0 0 0 0 0 0 -36 -34 0 0 0 0
+merge "enb_1/rn6" "m1_400_1203#"
+merge "enb_0/trans1_c" "enb_1/trans2_a" -26605 0 0 0 0 0 0 0 0 0 0 0 0 -294 -147 -749 -262 0 0
+merge "enb_1/trans2_a" "enb_2/trans2_a"
+merge "enb_2/trans2_a" "f5"
+merge "and_2/in1" "enb_1/rn1" -1504 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0 0 0
+merge "enb_1/rn1" "m1_400_1550#"
+merge "adderblock_0/j3" "enb_0/rn1" -78090 0 0 0 0 0 0 0 0 0 0 0 0 -76 -54 -3922 -661 0 0
+merge "enb_0/rn1" "m1_356_2342#"
+merge "and_5/out" "gd4" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "adderblock_0/z0" "san0" -2256 0 0 0 0 0 0 0 0 0 0 0 0 -48 -32 0 0 0 0
+merge "notg_0/out" "and_0/in1" -4512 0 0 0 0 0 0 0 0 0 0 0 0 -96 -52 0 0 0 0
+merge "and_0/in1" "m1_n74_2081#"
+merge "and_2/in2" "enb_1/rn2" -2072 0 0 0 0 0 0 0 0 0 0 0 0 -36 -34 0 0 0 0
+merge "enb_1/rn2" "m1_413_1488#"
+merge "adderblock_0/z1" "san1" -2068 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "adderblock_0/j0" "enb_0/rn4" -29836 0 0 0 0 0 0 0 0 0 0 0 0 -64 -48 -1400 -400 0 0
+merge "enb_0/rn4" "m1_365_2133#"
+merge "and_3/in1" "enb_1/rn3" -1996 0 0 0 0 0 0 0 0 0 0 0 0 -36 -34 0 0 0 0
+merge "enb_1/rn3" "m1_421_1413#"
+merge "adderblock_0/z2" "san2" -1504 0 0 0 0 0 0 0 0 0 0 0 0 -32 -24 0 0 0 0
+merge "and_0/in2" "notg_1/out" -4888 0 0 0 0 0 0 0 0 0 0 0 0 -104 -56 0 0 0 0
+merge "notg_1/out" "m1_n162_1863#"
+merge "and_3/in2" "enb_1/rn4" -2296 0 0 0 0 0 0 0 0 0 0 0 0 -44 -38 0 0 0 0
+merge "enb_1/rn4" "m1_408_1342#"
+merge "enb_0/trans2_c" "enb_1/trans2_b" -15139 0 0 0 0 0 0 0 0 0 0 0 0 -160 -169 -275 -89 0 0
+merge "enb_1/trans2_b" "enb_2/trans2_b"
+merge "enb_2/trans2_b" "f6"
+merge "adderblock_0/z3" "san3" -1692 0 0 0 0 0 0 0 0 0 0 0 0 -36 -26 0 0 0 0
+merge "adderblock_0/k0" "enb_0/rn8" -17952 0 0 0 0 0 0 0 0 0 0 0 0 -44 -38 -824 -253 0 0
+merge "enb_0/rn8" "m1_337_1850#"
+merge "adderblock_0/z4" "san4" -4089 0 0 0 0 0 0 0 0 0 0 0 0 -87 -75 0 0 0 0
+merge "and_5/in1" "enb_1/rn7" -2184 0 0 0 0 0 0 0 0 0 0 0 0 -40 -36 0 0 0 0
+merge "enb_1/rn7" "m1_393_1129#"
+merge "enb_0/common" "and_0/out" -48974 0 0 0 0 0 0 0 0 0 0 0 0 -1042 -526 0 0 0 0
+merge "and_0/out" "d_zero"
+merge "adderblock_0/j2" "enb_0/rn2" -87294 0 0 0 0 0 0 0 0 0 0 0 0 -60 -46 -4332 -672 0 0
+merge "enb_0/rn2" "m1_370_2279#"
+merge "and_4/out" "gd3" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "enb_0/trans2_a" "enb_1/trans1_b" -37534 0 0 0 0 0 0 0 0 0 0 0 0 -381 -160 -1081 -230 0 0
+merge "enb_1/trans1_b" "enb_2/trans1_b"
+merge "enb_2/trans1_b" "f2"
+merge "adderblock_0/j1" "enb_0/rn3" -167746 0 0 0 0 0 0 0 0 0 0 0 0 -67 -65 -8639 -2601 0 0
+merge "enb_0/rn3" "m1_382_2204#"
+merge "and_3/out" "gd2" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "enb_0/trans2_b" "enb_1/trans1_d" -22715 0 0 0 0 0 0 0 0 0 0 0 0 -113 -79 -771 -417 0 0
+merge "enb_1/trans1_d" "enb_2/trans1_d"
+merge "enb_2/trans1_d" "f4"
+merge "enb_2/rn1" "ch1" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "adderblock_0/k2" "enb_0/rn6" -3388 0 0 0 0 0 0 0 0 0 0 0 0 -64 -48 0 0 0 0
+merge "enb_0/rn6" "m1_355_1994#"
+merge "and_6/out" "enb_2/common" -5640 0 0 0 0 0 0 0 0 0 0 0 0 -120 -58 0 0 0 0
+merge "enb_2/common" "m1_45_176#"
+merge "enb_2/rn2" "ch2" -1320 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0
+merge "adderblock_0/k1" "enb_0/rn7" -79985 0 0 0 0 0 0 0 0 0 0 0 0 -48 -40 -4071 -1934 0 0
+merge "enb_0/rn7" "m1_350_1920#"
+merge "enb_2/rn3" "ch3" -3584 0 0 0 0 0 0 0 0 0 0 0 0 -52 -38 -76 -46 0 0
+merge "adderblock_0/c0" "i_carry" -1410 0 0 0 0 0 0 0 0 0 0 0 0 -30 -27 0 0 0 0
+merge "enb_2/rn4" "ch4" -980 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "enb_2/rn5" "ch5" -1056 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0

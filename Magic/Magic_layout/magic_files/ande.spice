@@ -1,0 +1,99 @@
+* SPICE3 file created from ande.ext - technology: scmos
+
+.option scale=1u
+
+M1000 and_0/a_15_6# a1 vdd and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=608 ps=344
+M1001 vdd b1 and_0/a_15_6# and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 and_0/a_15_n26# a1 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=192 ps=160
+M1003 ans1 and_0/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1004 ans1 and_0/a_15_6# vdd and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1005 and_0/a_15_6# b1 and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1006 and_1/a_15_6# a2 vdd and_1/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1007 vdd b2 and_1/a_15_6# and_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 and_1/a_15_n26# a2 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1009 ans2 and_1/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1010 ans2 and_1/a_15_6# vdd and_1/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1011 and_1/a_15_6# b2 and_1/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1012 and_2/a_15_6# a3 vdd and_2/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1013 vdd b3 and_2/a_15_6# and_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 and_2/a_15_n26# a3 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1015 ans3 and_2/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1016 ans3 and_2/a_15_6# vdd and_2/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1017 and_2/a_15_6# b3 and_2/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1018 and_3/a_15_6# a4 vdd and_3/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=0 ps=0
+M1019 vdd b4 and_3/a_15_6# and_3/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1020 and_3/a_15_n26# a4 gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=0 ps=0
+M1021 ans4 and_3/a_15_6# gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1022 ans4 and_3/a_15_6# vdd and_3/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1023 and_3/a_15_6# b4 and_3/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+C0 a4 and_3/w_0_0# 2.62fF
+C1 and_2/a_15_6# and_2/w_0_0# 3.75fF
+C2 b1 and_0/w_0_0# 2.62fF
+C3 and_1/w_0_0# and_1/a_15_6# 3.75fF
+C4 b4 a4 0.24fF
+C5 and_0/w_0_0# ans1 1.13fF
+C6 b1 a1 0.24fF
+C7 b3 and_2/w_0_0# 2.62fF
+C8 gnd vdd 2.70fF
+C9 and_1/w_0_0# b2 2.62fF
+C10 a1 and_0/w_0_0# 2.62fF
+C11 a3 b3 0.24fF
+C12 ans3 and_2/w_0_0# 1.13fF
+C13 ans2 and_1/w_0_0# 1.13fF
+C14 vdd and_0/w_0_0# 3.38fF
+C15 b4 and_3/w_0_0# 2.62fF
+C16 and_3/a_15_6# and_3/w_0_0# 3.75fF
+C17 vdd and_3/w_0_0# 3.38fF
+C18 and_1/a_15_6# b2 0.24fF
+C19 and_1/w_0_0# a2 2.62fF
+C20 ans4 and_3/w_0_0# 1.13fF
+C21 b4 and_3/a_15_6# 0.24fF
+C22 vdd and_2/w_0_0# 3.38fF
+C23 a3 and_2/w_0_0# 2.62fF
+C24 and_1/w_0_0# vdd 3.38fF
+C25 and_2/a_15_6# b3 0.24fF
+C26 b1 and_0/a_15_6# 0.24fF
+C27 and_0/a_15_6# and_0/w_0_0# 3.75fF
+C28 b2 a2 0.24fF
+C29 ans4 Gnd 10.72fF
+C30 vdd Gnd 265.55fF
+C31 and_3/a_15_6# Gnd 14.65fF
+C32 b4 Gnd 16.72fF
+C33 a4 Gnd 14.84fF
+C34 gnd Gnd 55.37fF
+C35 ans3 Gnd 9.78fF
+C36 and_2/a_15_6# Gnd 14.65fF
+C37 b3 Gnd 17.85fF
+C38 a3 Gnd 15.97fF
+C39 ans2 Gnd 10.15fF
+C40 and_1/a_15_6# Gnd 14.65fF
+C41 b2 Gnd 17.47fF
+C42 a2 Gnd 14.18fF
+C43 ans1 Gnd 11.09fF
+C44 and_0/a_15_6# Gnd 14.65fF
+C45 b1 Gnd 16.72fF
+C46 a1 Gnd 14.46fF

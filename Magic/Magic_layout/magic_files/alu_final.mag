@@ -1,0 +1,76 @@
+magic
+tech scmos
+timestamp 1699592015
+<< metal1 >>
+rect 113 2083 120 2084
+rect 112 2079 302 2083
+rect 113 2074 120 2079
+rect -125 2067 120 2074
+rect 163 2072 298 2076
+rect 446 2075 452 2204
+rect -125 2064 112 2067
+rect -125 1449 -108 2064
+rect 73 2063 112 2064
+rect 163 2043 169 2072
+rect 349 2071 452 2075
+rect -126 1033 -108 1449
+rect 146 1434 169 2043
+rect -120 435 -111 1033
+rect 146 1012 170 1434
+rect -119 267 -112 435
+rect -190 266 -112 267
+rect -365 257 -307 266
+rect -234 258 -112 266
+rect -364 251 -327 257
+rect -364 222 -351 251
+rect -363 -18 -352 222
+rect 152 189 168 1012
+rect -44 180 -24 189
+rect 59 182 168 189
+rect 59 181 161 182
+rect -44 159 -36 180
+rect -75 152 -36 159
+rect -75 109 -70 152
+rect -75 28 -71 109
+rect -75 23 -35 28
+rect -363 -19 -89 -18
+rect -363 -26 -46 -19
+rect -363 -27 -89 -26
+rect -55 -64 -46 -26
+rect -41 -22 -35 23
+rect -41 -27 115 -22
+rect -55 -68 -13 -64
+rect -48 -75 -12 -71
+rect -48 -76 -34 -75
+rect 34 -76 88 -72
+rect -48 -110 -43 -76
+rect 110 -110 115 -27
+rect -48 -117 115 -110
+use and  and_2
+timestamp 1638582313
+transform 1 0 -21 0 1 -63
+box 0 -34 56 24
+use and  and_1
+timestamp 1638582313
+transform 1 0 111 0 1 -2904
+box 0 -34 56 24
+use and  and_0
+timestamp 1638582313
+transform 1 0 294 0 1 2084
+box 0 -34 56 24
+use notg  notg_1
+timestamp 1698946751
+transform 1 0 1 0 1 195
+box -37 -59 63 62
+use notg  notg_0
+timestamp 1698946751
+transform 1 0 -290 0 1 272
+box -37 -59 63 62
+<< labels >>
+rlabel metal1 -48 25 -48 25 5 select0
+rlabel metal1 -53 -24 -53 -24 2 select1
+rlabel metal1 158 184 159 184 7 select0_c
+rlabel metal1 -115 263 -115 263 1 select1_c
+rlabel metal1 446 2072 446 2072 7 outp1
+rlabel metal1 86 -74 86 -74 1 outp4
+<< end >>

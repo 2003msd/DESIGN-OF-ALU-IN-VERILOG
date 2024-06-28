@@ -1,0 +1,122 @@
+* SPICE3 file created from alu_final.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 select1_c select1 notg_0/gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=182 ps=54
+M1001 select1_c select1 notg_0/vdd notg_0/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=323 ps=72
+M1002 select0_c select0 notg_1/gnd Gnd nfet w=13 l=5
++  ad=299 pd=72 as=182 ps=54
+M1003 select0_c select0 notg_1/vdd notg_1/w_n19_1# pfet w=19 l=5
++  ad=323 pd=72 as=323 ps=72
+M1004 and_0/a_15_6# select1_c and_0/vdd and_0/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1005 and_0/vdd select0_c and_0/a_15_6# and_0/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 and_0/a_15_n26# select1_c and_0/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1007 outp1 and_0/a_15_6# and_0/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1008 outp1 and_0/a_15_6# and_0/vdd and_0/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1009 and_0/a_15_6# select0_c and_0/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1010 and_1/a_15_6# and_1/in1 and_1/vdd and_1/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1011 and_1/vdd and_1/in2 and_1/a_15_6# and_1/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 and_1/a_15_n26# and_1/in1 and_1/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1013 and_1/out and_1/a_15_6# and_1/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1014 and_1/out and_1/a_15_6# and_1/vdd and_1/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1015 and_1/a_15_6# and_1/in2 and_1/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+M1016 and_2/a_15_6# select1 and_2/vdd and_2/w_0_0# pfet w=8 l=2
++  ad=80 pd=36 as=152 ps=86
+M1017 and_2/vdd select0 and_2/a_15_6# and_2/w_0_0# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 and_2/a_15_n26# select1 and_2/gnd Gnd nfet w=4 l=2
++  ad=40 pd=28 as=48 ps=40
+M1019 outp4 and_2/a_15_6# and_2/gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1020 outp4 and_2/a_15_6# and_2/vdd and_2/w_0_0# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1021 and_2/a_15_6# select0 and_2/a_15_n26# Gnd nfet w=4 l=2
++  ad=28 pd=22 as=0 ps=0
+C0 and_0/a_15_6# and_0/gnd 0.08fF
+C1 outp1 and_0/a_15_6# 0.05fF
+C2 and_2/w_0_0# outp4 0.03fF
+C3 and_2/a_15_6# select1 0.03fF
+C4 and_1/in2 and_1/w_0_0# 0.06fF
+C5 and_1/in1 and_1/w_0_0# 0.06fF
+C6 and_1/vdd and_1/in1 0.02fF
+C7 and_1/in2 and_1/a_15_6# 0.21fF
+C8 and_1/in1 and_1/a_15_6# 0.03fF
+C9 and_0/w_0_0# select0_c 0.06fF
+C10 select0 select1 0.71fF
+C11 and_0/vdd outp1 0.11fF
+C12 and_0/w_0_0# select1_c 0.06fF
+C13 select0_c notg_1/w_n19_1# 0.10fF
+C14 and_2/a_15_6# and_2/w_0_0# 0.09fF
+C15 and_1/in2 and_1/in1 0.27fF
+C16 select0 and_2/w_0_0# 0.06fF
+C17 select0 notg_1/w_n19_1# 0.20fF
+C18 notg_1/vdd notg_1/w_n19_1# 0.09fF
+C19 and_0/vdd and_0/a_15_6# 0.05fF
+C20 and_2/vdd outp4 0.11fF
+C21 and_2/w_0_0# select1 0.06fF
+C22 and_1/out and_1/gnd 0.08fF
+C23 and_0/a_15_6# select0_c 0.21fF
+C24 and_0/a_15_6# select1_c 0.03fF
+C25 and_2/gnd outp4 0.08fF
+C26 and_2/vdd and_2/a_15_6# 0.05fF
+C27 and_0/w_0_0# outp1 0.03fF
+C28 and_2/a_15_6# outp4 0.05fF
+C29 and_1/gnd and_1/a_15_6# 0.08fF
+C30 select1_c notg_0/w_n19_1# 0.10fF
+C31 and_0/vdd select1_c 0.02fF
+C32 notg_0/vdd notg_0/w_n19_1# 0.09fF
+C33 and_1/out and_1/w_0_0# 0.03fF
+C34 and_1/out and_1/vdd 0.11fF
+C35 outp1 and_0/gnd 0.08fF
+C36 and_2/a_15_6# and_2/gnd 0.08fF
+C37 select1_c select0_c 2.07fF
+C38 and_1/out and_1/a_15_6# 0.05fF
+C39 and_2/vdd select1 0.02fF
+C40 and_1/vdd and_1/w_0_0# 0.14fF
+C41 and_1/w_0_0# and_1/a_15_6# 0.09fF
+C42 notg_0/w_n19_1# select1 0.20fF
+C43 and_1/vdd and_1/a_15_6# 0.05fF
+C44 and_0/w_0_0# and_0/a_15_6# 0.09fF
+C45 and_2/a_15_6# select0 0.21fF
+C46 and_0/w_0_0# and_0/vdd 0.14fF
+C47 and_2/vdd and_2/w_0_0# 0.14fF
+C48 and_2/gnd Gnd 0.23fF
+C49 outp4 Gnd 0.15fF
+C50 and_2/vdd Gnd 0.13fF
+C51 and_2/a_15_6# Gnd 0.32fF
+C52 select0 Gnd 3.55fF
+C53 select1 Gnd 4.30fF
+C54 and_2/w_0_0# Gnd 1.12fF
+C55 and_1/gnd Gnd 0.23fF
+C56 and_1/out Gnd 0.10fF
+C57 and_1/vdd Gnd 0.13fF
+C58 and_1/a_15_6# Gnd 0.32fF
+C59 and_1/in2 Gnd 0.26fF
+C60 and_1/in1 Gnd 0.23fF
+C61 and_1/w_0_0# Gnd 1.12fF
+C62 and_0/gnd Gnd 0.23fF
+C63 outp1 Gnd 0.23fF
+C64 and_0/vdd Gnd 0.13fF
+C65 and_0/a_15_6# Gnd 0.32fF
+C66 and_0/w_0_0# Gnd 1.12fF
+C67 notg_1/gnd Gnd 0.35fF
+C68 select0_c Gnd 0.51fF
+C69 notg_1/vdd Gnd 0.34fF
+C70 notg_1/w_n19_1# Gnd 2.59fF
+C71 notg_0/gnd Gnd 0.35fF
+C72 notg_0/vdd Gnd 0.34fF
+C73 notg_0/w_n19_1# Gnd 2.59fF

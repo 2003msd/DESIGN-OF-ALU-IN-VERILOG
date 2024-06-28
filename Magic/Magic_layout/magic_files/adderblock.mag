@@ -1,0 +1,69 @@
+magic
+tech scmos
+timestamp 1699892565
+<< metal1 >>
+rect 341 599 3353 683
+rect 595 432 620 599
+rect 1541 476 1566 599
+rect 2320 451 2345 599
+rect 3183 445 3208 599
+rect 898 313 925 317
+rect 898 303 902 313
+rect 849 299 902 303
+rect 897 292 940 296
+rect 1808 291 1815 344
+rect 1808 287 1885 291
+rect 2756 287 2761 318
+rect 3676 310 3727 314
+rect 2756 283 2810 287
+rect -83 272 -16 276
+rect 1817 266 1882 270
+rect 2743 262 2794 266
+rect -88 251 -24 255
+rect 1811 226 1864 230
+rect 2759 200 2817 204
+rect 3675 196 3730 200
+rect 847 185 884 189
+rect 893 136 940 140
+rect 1832 110 1890 114
+rect 2740 106 2789 110
+rect -102 94 -21 99
+rect 342 -139 384 -50
+rect 1351 -139 1393 -12
+rect 2267 -139 2309 -31
+rect 3258 -139 3300 -22
+rect -43 -256 3601 -139
+use fadd  fadd_0
+timestamp 1699861552
+transform 1 0 29 0 1 165
+box -71 -239 826 285
+use fadd  fadd_1
+timestamp 1699861552
+transform 1 0 995 0 1 206
+box -71 -239 826 285
+use fadd  fadd_2
+timestamp 1699861552
+transform 1 0 1941 0 1 180
+box -71 -239 826 285
+use fadd  fadd_3
+timestamp 1699861552
+transform 1 0 2857 0 1 176
+box -71 -239 826 285
+<< labels >>
+rlabel metal1 -81 274 -81 274 1 j0
+rlabel metal1 -84 252 -84 252 3 k0
+rlabel metal1 -99 95 -99 95 3 c0
+rlabel metal1 881 186 881 186 7 z0
+rlabel metal1 899 293 899 293 1 j1
+rlabel metal1 894 138 894 138 1 k1
+rlabel metal1 1857 228 1857 228 1 z1
+rlabel metal1 1819 268 1819 268 1 j2
+rlabel metal1 1835 111 1835 111 1 k2
+rlabel metal1 2745 264 2745 264 1 j3
+rlabel metal1 2743 108 2743 108 1 k3
+rlabel metal1 2813 202 2813 202 1 z2
+rlabel metal1 3725 312 3725 312 7 z4
+rlabel metal1 3727 198 3727 198 7 z3
+rlabel metal1 2252 627 2252 627 1 vdd
+rlabel metal1 1877 -200 1877 -200 1 gnd
+<< end >>

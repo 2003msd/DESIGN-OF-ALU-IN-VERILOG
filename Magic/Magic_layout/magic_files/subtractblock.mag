@@ -1,0 +1,128 @@
+magic
+tech scmos
+timestamp 1699895283
+<< metal1 >>
+rect 567 550 3327 704
+rect -134 536 3327 550
+rect -134 221 -128 536
+rect 567 505 3327 536
+rect 567 481 887 505
+rect 896 502 3327 505
+rect 896 481 1865 502
+rect 1877 481 2849 502
+rect 2857 481 3327 502
+rect 633 423 659 481
+rect 1751 321 1777 481
+rect 2397 324 2423 481
+rect 3110 330 3139 481
+rect -121 263 -45 267
+rect -105 243 -36 246
+rect -104 242 -36 243
+rect -103 238 -96 242
+rect -103 234 -46 238
+rect -55 161 -46 234
+rect 825 224 830 293
+rect 825 220 969 224
+rect 817 176 866 180
+rect -208 151 -141 161
+rect -63 153 -46 161
+rect 964 156 968 220
+rect 1854 171 1861 183
+rect 2776 171 2785 198
+rect 3819 194 3853 198
+rect 1854 167 1915 171
+rect 2776 167 2943 171
+rect 964 152 986 156
+rect 1857 146 1910 150
+rect 2867 146 2943 150
+rect 918 131 995 135
+rect -128 86 -50 90
+rect 2783 80 2844 84
+rect 3804 80 3892 84
+rect 1860 65 1907 69
+rect 970 -43 978 -21
+rect 1767 -32 1819 -23
+rect 1893 -31 1903 -6
+rect 792 -52 845 -43
+rect 920 -51 978 -43
+rect 451 -351 500 -55
+rect 875 -351 888 -88
+rect 1473 -351 1522 -157
+rect 1842 -351 1853 -66
+rect 2930 -84 2942 -6
+rect 2722 -93 2810 -84
+rect 2877 -93 2942 -84
+rect 2337 -351 2386 -157
+rect 2815 -351 2827 -131
+rect 3203 -351 3252 -148
+rect 158 -419 3397 -351
+rect 186 -433 3397 -419
+rect 158 -554 3397 -433
+<< metal2 >>
+rect -71 -106 -64 108
+rect 887 25 896 481
+rect 1865 45 1877 481
+rect 2849 -15 2857 481
+rect -79 -305 -61 -106
+rect -74 -419 -63 -305
+rect -74 -433 158 -419
+rect 186 -433 187 -419
+<< m2contact >>
+rect 887 481 896 505
+rect 1865 481 1877 502
+rect 2849 481 2857 502
+rect -71 108 -64 116
+rect 1865 39 1877 45
+rect 887 17 896 25
+rect 2849 -23 2857 -15
+rect 158 -433 186 -419
+use notg  notg_0
+timestamp 1698946751
+transform 1 0 -120 0 1 167
+box -37 -59 63 62
+use notg  notg_1
+timestamp 1698946751
+transform 1 0 862 0 1 -37
+box -37 -59 63 62
+use notg  notg_2
+timestamp 1698946751
+transform 1 0 1836 0 1 -17
+box -37 -59 63 62
+use notg  notg_3
+timestamp 1698946751
+transform 1 0 2827 0 1 -78
+box -37 -59 63 62
+use fadd  fadd_3
+timestamp 1699861552
+transform 1 0 3001 0 1 60
+box -71 -239 826 285
+use fadd  fadd_2
+timestamp 1699861552
+transform 1 0 1965 0 1 60
+box -71 -239 826 285
+use fadd  fadd_1
+timestamp 1699861552
+transform 1 0 1042 0 1 45
+box -71 -239 826 285
+use fadd  fadd_0
+timestamp 1699861552
+transform 1 0 10 0 1 156
+box -71 -239 826 285
+<< labels >>
+rlabel metal1 -119 265 -119 265 3 e0
+rlabel metal1 -206 155 -206 155 3 f0
+rlabel metal1 -126 88 -126 88 1 cs0
+rlabel metal1 863 178 863 178 1 g0
+rlabel metal1 920 133 920 133 1 e1
+rlabel metal1 794 -49 794 -49 1 f1
+rlabel metal1 1860 148 1860 148 1 e2
+rlabel metal1 1769 -28 1769 -28 1 f2
+rlabel metal1 1906 67 1906 67 1 g1
+rlabel metal1 2842 82 2842 82 7 g2
+rlabel metal1 2874 148 2874 148 1 e3
+rlabel metal1 2727 -89 2727 -89 1 f3
+rlabel metal1 3890 82 3890 82 7 g3
+rlabel metal1 2487 605 2487 605 1 vdd
+rlabel metal1 3850 196 3850 196 1 g4
+rlabel metal1 2389 -489 2389 -489 1 gnd
+<< end >>

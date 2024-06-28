@@ -1,0 +1,101 @@
+timestamp 1699895283
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use fadd fadd_0 1 0 10 0 1 156
+use fadd fadd_1 1 0 1042 0 1 45
+use fadd fadd_2 1 0 1965 0 1 60
+use fadd fadd_3 1 0 3001 0 1 60
+use notg notg_3 1 0 2827 0 1 -78
+use notg notg_2 1 0 1836 0 1 -17
+use notg notg_1 1 0 862 0 1 -37
+use notg notg_0 1 0 -120 0 1 167
+node "f3" 0 37224 2722 -93 m1 0 0 0 0 0 0 0 0 0 0 0 0 792 194 0 0 0 0
+node "m1_2877_n93#" 1 71487 2877 -93 m1 0 0 0 0 0 0 0 0 0 0 0 0 1521 304 0 0 0 0
+node "f1" 0 22419 792 -52 m1 0 0 0 0 0 0 0 0 0 0 0 0 477 124 0 0 0 0
+node "m1_1893_n31#" 0 11750 1893 -31 m1 0 0 0 0 0 0 0 0 0 0 0 0 250 70 0 0 0 0
+node "f2" 0 21996 1767 -32 m1 0 0 0 0 0 0 0 0 0 0 0 0 468 122 0 0 0 0
+node "m1_920_n51#" 0 30080 920 -51 m1 0 0 0 0 0 0 0 0 0 0 0 0 640 176 0 0 0 0
+node "g1" 1 8836 1860 65 m1 0 0 0 0 0 0 0 0 0 0 0 0 188 102 0 0 0 0
+node "g3" 1 16544 3804 80 m1 0 0 0 0 0 0 0 0 0 0 0 0 352 184 0 0 0 0
+node "g2" 1 11468 2783 80 m1 0 0 0 0 0 0 0 0 0 0 0 0 244 130 0 0 0 0
+node "cs0" 1 14664 -128 86 m1 0 0 0 0 0 0 0 0 0 0 0 0 312 164 0 0 0 0
+node "gnd" 3 3.35623e+07 -71 108 v 0 0 0 0 0 0 0 0 0 0 0 0 710230 10224 10044 1634 0 0
+node "e1" 1 14476 918 131 m1 0 0 0 0 0 0 0 0 0 0 0 0 308 162 0 0 0 0
+node "e3" 1 14288 2867 146 m1 0 0 0 0 0 0 0 0 0 0 0 0 304 160 0 0 0 0
+node "e2" 1 9964 1857 146 m1 0 0 0 0 0 0 0 0 0 0 0 0 212 114 0 0 0 0
+node "g4" 0 6392 3819 194 m1 0 0 0 0 0 0 0 0 0 0 0 0 136 76 0 0 0 0
+node "m1_2776_167#" 2 42817 2776 167 m1 0 0 0 0 0 0 0 0 0 0 0 0 911 396 0 0 0 0
+node "m1_1854_167#" 1 15416 1854 167 m1 0 0 0 0 0 0 0 0 0 0 0 0 328 154 0 0 0 0
+node "f0" 0 31490 -208 151 m1 0 0 0 0 0 0 0 0 0 0 0 0 670 154 0 0 0 0
+node "g0" 1 9212 817 176 m1 0 0 0 0 0 0 0 0 0 0 0 0 196 106 0 0 0 0
+node "m1_825_220#" 3 59455 825 220 m1 0 0 0 0 0 0 0 0 0 0 0 0 1265 606 0 0 0 0
+node "m1_n105_243#" 2 62228 -105 243 m1 0 0 0 0 0 0 0 0 0 0 0 0 1324 440 0 0 0 0
+node "e0" 1 14288 -121 263 m1 0 0 0 0 0 0 0 0 0 0 0 0 304 160 0 0 0 0
+node "vdd" 6 3.04002e+07 -134 221 m1 0 0 0 0 0 0 0 0 0 0 0 0 641521 9152 14148 3010 0 0
+cap "m1_1854_167#" "vdd" 2160
+cap "g1" "vdd" 2160
+cap "e2" "vdd" 2160
+cap "m1_825_220#" "vdd" 1620
+cap "gnd" "cs0" 1260
+cap "m1_2776_167#" "vdd" 1440
+subcap "f3" -7614
+subcap "m1_2877_n93#" -48410
+subcap "gnd" -3.35506e+07
+subcap "e2" -9964
+subcap "g2" -9588
+subcap "g3" -188
+subcap "vdd" -3.03929e+07
+subcap "g0" -376
+subcap "m1_825_220#" -47141
+subcap "e2" -7708
+subcap "m1_1854_167#" -8272
+subcap "m1_2776_167#" -28200
+subcap "g4" -376
+cap "fadd_1/vdd" "vdd" 3105
+merge "fadd_0/cout" "fadd_1/in1" -3525 0 0 0 0 0 0 0 0 0 0 0 0 -75 -54 0 0 0 0
+merge "fadd_1/in1" "m1_825_220#"
+merge "notg_0/gnd" "notg_3/gnd" -366835 0 0 0 0 0 0 0 0 0 0 0 0 -7805 -946 0 0 0 0
+merge "notg_3/gnd" "notg_2/gnd"
+merge "notg_2/gnd" "notg_1/gnd"
+merge "notg_1/gnd" "fadd_0/gnd"
+merge "fadd_0/gnd" "fadd_3/gnd"
+merge "fadd_3/gnd" "fadd_2/gnd"
+merge "fadd_2/gnd" "fadd_1/gnd"
+merge "fadd_1/gnd" "gnd"
+merge "fadd_0/vdd" "fadd_3/vdd" -151054 0 0 0 0 0 0 0 0 0 0 0 0 -2462 -621 -1940 -574 0 0
+merge "fadd_3/vdd" "fadd_2/vdd"
+merge "fadd_2/vdd" "fadd_1/vdd"
+merge "fadd_1/vdd" "notg_0/vdd"
+merge "notg_0/vdd" "notg_3/vdd"
+merge "notg_3/vdd" "notg_2/vdd"
+merge "notg_2/vdd" "notg_1/vdd"
+merge "notg_1/vdd" "vdd"
+merge "fadd_0/in1" "e0" -3008 0 0 0 0 0 0 0 0 0 0 0 0 -64 -40 0 0 0 0
+merge "fadd_0/sum" "g0" -2068 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "notg_0/out" "fadd_0/in2" -5452 0 0 0 0 0 0 0 0 0 0 0 0 -116 -103 0 0 0 0
+merge "fadd_0/in2" "m1_n105_243#"
+merge "fadd_0/in3" "cs0" -2068 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0 0 0
+merge "fadd_3/cout" "g4" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "fadd_3/in1" "fadd_2/cout" -4136 0 0 0 0 0 0 0 0 0 0 0 0 -88 -60 0 0 0 0
+merge "fadd_2/cout" "m1_2776_167#"
+merge "notg_1/out" "fadd_1/in3" -1692 0 0 0 0 0 0 0 0 0 0 0 0 -36 -40 0 0 0 0
+merge "fadd_1/in3" "m1_920_n51#"
+merge "fadd_3/sum" "g3" -2820 0 0 0 0 0 0 0 0 0 0 0 0 -60 -38 0 0 0 0
+merge "fadd_3/in2" "e3" -2444 0 0 0 0 0 0 0 0 0 0 0 0 -52 -47 0 0 0 0
+merge "notg_2/in" "f2" -4653 0 0 0 0 0 0 0 0 0 0 0 0 -99 -40 0 0 0 0
+merge "fadd_3/in3" "notg_3/out" -5640 0 0 0 0 0 0 0 0 0 0 0 0 -120 -66 0 0 0 0
+merge "notg_3/out" "m1_2877_n93#"
+merge "fadd_2/in1" "fadd_1/cout" -5264 0 0 0 0 0 0 0 0 0 0 0 0 -112 -72 0 0 0 0
+merge "fadd_1/cout" "m1_1854_167#"
+merge "notg_0/in" "f0" -2961 0 0 0 0 0 0 0 0 0 0 0 0 -63 -32 0 0 0 0
+merge "fadd_2/sum" "g2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "fadd_2/in2" "e2" -5264 0 0 0 0 0 0 0 0 0 0 0 0 -112 -88 0 0 0 0
+merge "notg_2/out" "fadd_2/in3" -2444 0 0 0 0 0 0 0 0 0 0 0 0 -52 -46 0 0 0 0
+merge "fadd_2/in3" "m1_1893_n31#"
+merge "notg_3/in" "f3" -4653 0 0 0 0 0 0 0 0 0 0 0 0 -99 -40 0 0 0 0
+merge "fadd_1/sum" "g1" -2632 0 0 0 0 0 0 0 0 0 0 0 0 -56 -44 0 0 0 0
+merge "fadd_1/in2" "e1" -4512 0 0 0 0 0 0 0 0 0 0 0 0 -96 -56 0 0 0 0
+merge "notg_1/in" "f1" -4653 0 0 0 0 0 0 0 0 0 0 0 0 -99 -40 0 0 0 0
